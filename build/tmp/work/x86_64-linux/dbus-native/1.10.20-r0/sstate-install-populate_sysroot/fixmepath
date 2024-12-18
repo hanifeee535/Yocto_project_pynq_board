@@ -1,0 +1,6 @@
+recipe-sysroot-native/usr/share/dbus-1/session.conf
+recipe-sysroot-native/usr/share/dbus-1/system.conf
+recipe-sysroot-native/usr/share/dbus/session.conf
+recipe-sysroot-native/etc/dbus-1/session.conf
+recipe-sysroot-native/etc/dbus-1/system.conf
+recipe-sysroot-native/etc/rc.d/init.d/messagebus

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546321.68 
+e2fsprogs-1.43.5-r0: do_packagedata_setscene
+Elapsed time: 0.08 seconds
+utime: 7
+stime: 2
+cutime: 1
+cstime: 1
+IO rchar: 534307
+IO wchar: 538890
+IO syscr: 601
+IO syscw: 518
+IO read_bytes: 24576
+IO write_bytes: 348160
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07349599999999999
+rusage ru_stime: 0.023209
+rusage ru_maxrss: 63100
+rusage ru_minflt: 6120
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 176
+rusage ru_nvcsw: 196
+rusage ru_nivcsw: 41
+Child rusage ru_utime: 0.01569
+Child rusage ru_stime: 0.010797
+Child rusage ru_maxrss: 60824
+Child rusage ru_minflt: 1787
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 504
+Child rusage ru_nvcsw: 37
+Child rusage ru_nivcsw: 208
+Status: PASSED 
+Ended: 1734546321.76 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546305.94 
+python3-3.5.3-r1.0: do_package_write_rpm_setscene
+Elapsed time: 0.30 seconds
+utime: 10
+stime: 0
+cutime: 9
+cstime: 4
+IO rchar: 45053162
+IO wchar: 45897469
+IO syscr: 3780
+IO syscw: 3209
+IO read_bytes: 21884928
+IO write_bytes: 23089152
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.101336
+rusage ru_stime: 0.007795
+rusage ru_maxrss: 63928
+rusage ru_minflt: 6584
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 68
+rusage ru_nivcsw: 93
+Child rusage ru_utime: 0.095011
+Child rusage ru_stime: 0.045996999999999996
+Child rusage ru_maxrss: 61684
+Child rusage ru_minflt: 1762
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 42744
+Child rusage ru_oublock: 44952
+Child rusage ru_nvcsw: 722
+Child rusage ru_nivcsw: 766
+Status: PASSED 
+Ended: 1734546306.24 

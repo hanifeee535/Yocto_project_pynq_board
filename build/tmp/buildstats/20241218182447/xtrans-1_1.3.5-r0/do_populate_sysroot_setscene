@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546337.15 
+xtrans-1_1.3.5-r0: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 494408
+IO wchar: 520699
+IO syscr: 225
+IO syscw: 129
+IO read_bytes: 45056
+IO write_bytes: 286720
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.06795799999999999
+rusage ru_stime: 0.017883
+rusage ru_maxrss: 62788
+rusage ru_minflt: 5935
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.012582
+Child rusage ru_stime: 0.00212
+Child rusage ru_maxrss: 60508
+Child rusage ru_minflt: 1760
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 88
+Child rusage ru_oublock: 448
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1734546337.20 

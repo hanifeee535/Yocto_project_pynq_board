@@ -1,0 +1,90 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz for ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz;downloadfilename=ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/ea/sstate%3Atzdata%3Aall-poky-linux%3A2018c%3Ar0%3Aallarch%3A3%3Aea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz;downloadfilename=ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz
+DEBUG: Searching for ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz.siginfo for ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz.siginfo;downloadfilename=ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/ea/sstate%3Atzdata%3Aall-poky-linux%3A2018c%3Ar0%3Aallarch%3A3%3Aea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz.siginfo;downloadfilename=ea/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:ea1da79c2b192ee97b67a787da7d42c0_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/tzdata-pacific
+pkgdata/runtime/tzdata-africa
+pkgdata/runtime/tzdata.packaged
+pkgdata/runtime/tzdata-americas.packaged
+pkgdata/runtime/tzdata-arctic.packaged
+pkgdata/runtime/tzdata-atlantic
+pkgdata/runtime/tzdata-asia.packaged
+pkgdata/runtime/tzdata-australia.packaged
+pkgdata/runtime/tzdata-atlantic.packaged
+pkgdata/runtime/tzdata-antarctica
+pkgdata/runtime/tzdata-americas
+pkgdata/runtime/tzdata-asia
+pkgdata/runtime/tzdata-europe
+pkgdata/runtime/tzdata-antarctica.packaged
+pkgdata/runtime/tzdata-arctic
+pkgdata/runtime/tzdata-posix
+pkgdata/runtime/tzdata-misc.packaged
+pkgdata/runtime/tzdata-europe.packaged
+pkgdata/runtime/tzdata-posix.packaged
+pkgdata/runtime/tzdata-africa.packaged
+pkgdata/runtime/tzdata-right
+pkgdata/runtime/tzdata-right.packaged
+pkgdata/runtime/tzdata
+pkgdata/runtime/tzdata-misc
+pkgdata/runtime/tzdata-pacific.packaged
+pkgdata/runtime/tzdata-australia
+pkgdata/shlibs2/
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/tzdata-pacific/
+pkgdata/runtime-rprovides/tzdata-pacific/tzdata-pacific
+pkgdata/runtime-rprovides/tzdata-africa/
+pkgdata/runtime-rprovides/tzdata-africa/tzdata-africa
+pkgdata/runtime-rprovides/tzdata-atlantic/
+pkgdata/runtime-rprovides/tzdata-atlantic/tzdata-atlantic
+pkgdata/runtime-rprovides/tzdata-antarctica/
+pkgdata/runtime-rprovides/tzdata-antarctica/tzdata-antarctica
+pkgdata/runtime-rprovides/tzdata-americas/
+pkgdata/runtime-rprovides/tzdata-americas/tzdata-americas
+pkgdata/runtime-rprovides/tzdata-asia/
+pkgdata/runtime-rprovides/tzdata-asia/tzdata-asia
+pkgdata/runtime-rprovides/tzdata-europe/
+pkgdata/runtime-rprovides/tzdata-europe/tzdata-europe
+pkgdata/runtime-rprovides/tzdata-arctic/
+pkgdata/runtime-rprovides/tzdata-arctic/tzdata-arctic
+pkgdata/runtime-rprovides/tzdata-posix/
+pkgdata/runtime-rprovides/tzdata-posix/tzdata-posix
+pkgdata/runtime-rprovides/tzdata-right/
+pkgdata/runtime-rprovides/tzdata-right/tzdata-right
+pkgdata/runtime-rprovides/tzdata-misc/
+pkgdata/runtime-rprovides/tzdata-misc/tzdata-misc
+pkgdata/runtime-rprovides/tzdata-australia/
+pkgdata/runtime-rprovides/tzdata-australia/tzdata-australia
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/tzdata-pacific
+pkgdata/runtime-reverse/tzdata-africa
+pkgdata/runtime-reverse/tzdata-atlantic
+pkgdata/runtime-reverse/tzdata-antarctica
+pkgdata/runtime-reverse/tzdata-americas
+pkgdata/runtime-reverse/tzdata-asia
+pkgdata/runtime-reverse/tzdata-europe
+pkgdata/runtime-reverse/tzdata-arctic
+pkgdata/runtime-reverse/tzdata-posix
+pkgdata/runtime-reverse/tzdata-right
+pkgdata/runtime-reverse/tzdata
+pkgdata/runtime-reverse/tzdata-misc
+pkgdata/runtime-reverse/tzdata-australia
+pkgdata/tzdata
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/all-poky-linux/tzdata/2018c-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

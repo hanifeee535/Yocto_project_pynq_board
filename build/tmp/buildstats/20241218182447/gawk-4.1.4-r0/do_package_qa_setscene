@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546332.71 
+gawk-4.1.4-r0: do_package_qa_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 0
+cutime: 0
+cstime: 0
+IO rchar: 171500
+IO wchar: 76330
+IO syscr: 92
+IO syscw: 64
+IO read_bytes: 4096
+IO write_bytes: 49152
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.076848
+rusage ru_stime: 0.008088999999999999
+rusage ru_maxrss: 62904
+rusage ru_minflt: 4882
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 41
+Child rusage ru_utime: 0.004716
+Child rusage ru_stime: 0.001171
+Child rusage ru_maxrss: 60668
+Child rusage ru_minflt: 880
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 12
+Child rusage ru_nivcsw: 8
+Status: PASSED 
+Ended: 1734546332.76 

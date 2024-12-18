@@ -1,0 +1,32 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz for universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz;downloadfilename=universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/76/sstate%3Autil-macros-native%3Ax86_64-linux%3A1.19.1%3Ar0%3Ax86_64%3A3%3A766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz;downloadfilename=universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz
+DEBUG: Searching for universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz.siginfo for universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz.siginfo;downloadfilename=universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/76/sstate%3Autil-macros-native%3Ax86_64-linux%3A1.19.1%3Ar0%3Ax86_64%3A3%3A766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz.siginfo;downloadfilename=universal/76/sstate:util-macros-native:x86_64-linux:1.19.1:r0:x86_64:3:766e9796d08bcb0a9d457e063766d025_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/util-macros-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/share/util-macros/
+recipe-sysroot-native/usr/share/util-macros/INSTALL
+recipe-sysroot-native/usr/share/pkgconfig/
+recipe-sysroot-native/usr/share/pkgconfig/xorg-macros.pc
+recipe-sysroot-native/usr/share/aclocal/
+recipe-sysroot-native/usr/share/aclocal/xorg-macros.m4
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/util-macros-native/1_1.19.1-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/util-macros-native/1_1.19.1-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/util-macros-native
+DEBUG: Python function do_populate_sysroot_setscene finished

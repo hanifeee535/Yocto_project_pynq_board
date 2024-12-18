@@ -1,0 +1,27 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz for 37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz;downloadfilename=37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/37/sstate%3Apython3%3A%3A3.5.3%3Ar1.0%3A%3A3%3A3706210b58789d4a6b196b729306410c_populate_lic.tgz;downloadfilename=37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz
+DEBUG: Searching for 37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz.siginfo for 37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz.siginfo;downloadfilename=37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/37/sstate%3Apython3%3A%3A3.5.3%3Ar1.0%3A%3A3%3A3706210b58789d4a6b196b729306410c_populate_lic.tgz.siginfo;downloadfilename=37/sstate:python3::3.5.3:r1.0::3:3706210b58789d4a6b196b729306410c_populate_lic.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/python3/
+license-destdir/python3/LICENSE
+license-destdir/python3/generic_PSFv2
+license-destdir/python3/recipeinfo
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/python3/3.5.3-r1.0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

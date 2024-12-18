@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546314.35 
+btrfs-tools-4.12-r0: do_package_write_rpm_setscene
+Elapsed time: 0.08 seconds
+utime: 5
+stime: 4
+cutime: 1
+cstime: 1
+IO rchar: 5967420
+IO wchar: 5882558
+IO syscr: 633
+IO syscw: 452
+IO read_bytes: 2863104
+IO write_bytes: 2965504
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.053716
+rusage ru_stime: 0.042206
+rusage ru_maxrss: 62748
+rusage ru_minflt: 5892
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 61
+Child rusage ru_utime: 0.017832
+Child rusage ru_stime: 0.014267
+Child rusage ru_maxrss: 60464
+Child rusage ru_minflt: 1730
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 5592
+Child rusage ru_oublock: 5680
+Child rusage ru_nvcsw: 113
+Child rusage ru_nivcsw: 113
+Status: PASSED 
+Ended: 1734546314.44 

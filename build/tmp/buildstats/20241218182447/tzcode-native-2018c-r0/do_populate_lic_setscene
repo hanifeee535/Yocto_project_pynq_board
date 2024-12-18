@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546322.28 
+tzcode-native-2018c-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 5
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 216481
+IO wchar: 83549
+IO syscr: 183
+IO syscw: 73
+IO read_bytes: 4096
+IO write_bytes: 73728
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.050627
+rusage ru_stime: 0.020250999999999998
+rusage ru_maxrss: 62484
+rusage ru_minflt: 5644
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 37
+Child rusage ru_utime: 0.014001
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 60172
+Child rusage ru_minflt: 1742
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1734546322.33 

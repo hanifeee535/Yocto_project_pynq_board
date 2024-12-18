@@ -1,0 +1,225 @@
+18:29:59 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11)
+18:29:59 Current date: 2024-12-18T18:29:59+0000
+18:29:59 lr_download: Target: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (-)
+18:29:59 select_next_target: Selecting mirror for: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:29:59 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:29:59 lr_download: Downloading started
+18:29:59 check_transfer_statuses: Transfer finished: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf)
+18:29:59 lr_handle_perform: Using dir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d
+18:29:59 lr_handle_perform: Using own SIGINT handler
+18:29:59 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:29:59 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:29:59 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:29:59 lr_handle_perform: Downloading/Locating yum repo
+18:29:59 lr_yum_use_local: Locating repo..
+18:29:59 lr_yum_use_local_load_base: open(/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/repomd.xml): No such file or directory
+18:29:59 lr_handle_perform: Restoring an old SIGINT handler
+18:29:59 lr_handle_perform: Using dir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d
+18:29:59 lr_handle_perform: Using own SIGINT handler
+18:29:59 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:29:59 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:29:59 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:29:59 lr_handle_perform: Downloading/Locating yum repo
+18:29:59 lr_yum_use_local: Locating repo..
+18:29:59 lr_yum_use_local_load_base: open(/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/repomd.xml): No such file or directory
+18:29:59 lr_handle_perform: Restoring an old SIGINT handler
+18:29:59 lr_handle_perform: Using dir: /tmp/dnf-yxi9s8wx
+18:29:59 lr_handle_perform: Using own SIGINT handler
+18:29:59 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:29:59 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:29:59 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:29:59 lr_handle_perform: Downloading/Locating yum repo
+18:29:59 lr_yum_download_remote: Downloading/Copying repo..
+18:29:59 lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+18:29:59 lr_download: Target: repodata/repomd.xml (-)
+18:29:59 lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x5647c80431d0
+18:29:59 lr_prepare_lrmirrors: Mirror: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+18:29:59 select_next_target: Selecting mirror for: repodata/repomd.xml
+18:29:59 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo/repodata/repomd.xml
+18:29:59 lr_download: Downloading started
+18:29:59 check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo/repodata/repomd.xml)
+18:29:59 lr_yum_download_remote: Parsing repomd.xml
+18:29:59 1734546598: Repomd revision: lr_yum_download_remote
+18:29:59 lr_download: Target: repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz (-)
+18:29:59 lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x5647c80431d0
+18:29:59 lr_prepare_lrmirrors: Mirror: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+18:29:59 lr_download: Target: repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz (-)
+18:29:59 select_next_target: Selecting mirror for: repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz
+18:29:59 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo/repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz
+18:29:59 select_next_target: Selecting mirror for: repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz
+18:29:59 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo/repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz
+18:29:59 lr_download: Downloading started
+18:29:59 check_transfer_statuses: Transfer finished: repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo/repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz)
+18:29:59 check_finished_trasfer_checksum: Checksum (sha256) 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6 is OK
+18:29:59 check_transfer_statuses: Transfer finished: repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo/repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz)
+18:29:59 check_finished_trasfer_checksum: Checksum (sha256) fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8 is OK
+18:29:59 lr_handle_perform: Restoring an old SIGINT handler
+18:29:59 lr_handle_perform: Using dir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d
+18:29:59 lr_handle_perform: Using own SIGINT handler
+18:29:59 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:29:59 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:29:59 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:29:59 lr_handle_perform: Downloading/Locating yum repo
+18:29:59 lr_yum_use_local: Locating repo..
+18:29:59 lr_yum_use_local_load_base: Parsing repomd.xml
+18:29:59 lr_yum_use_local_load_base: Repomd revision: 1734546598
+18:29:59 lr_yum_use_local: Repository was successfully located
+18:29:59 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz (expected: 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6 [sha256])
+18:29:59 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6
+18:29:59 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:29:59 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz (expected: fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8 [sha256])
+18:29:59 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8
+18:29:59 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:29:59 lr_handle_perform: Restoring an old SIGINT handler
+18:30:00 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11)
+18:30:00 Current date: 2024-12-18T18:30:00+0000
+18:30:00 lr_download: Target: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (-)
+18:30:00 select_next_target: Selecting mirror for: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:00 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:00 lr_download: Downloading started
+18:30:00 check_transfer_statuses: Transfer finished: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf)
+18:30:00 lr_handle_perform: Using dir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d
+18:30:00 lr_handle_perform: Using own SIGINT handler
+18:30:00 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:30:00 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:30:00 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:30:00 lr_handle_perform: Downloading/Locating yum repo
+18:30:00 lr_yum_use_local: Locating repo..
+18:30:00 lr_yum_use_local_load_base: Parsing repomd.xml
+18:30:00 lr_yum_use_local_load_base: Repomd revision: 1734546598
+18:30:00 lr_yum_use_local: Repository was successfully located
+18:30:00 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz (expected: 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6 [sha256])
+18:30:00 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6
+18:30:00 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:30:00 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz (expected: fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8 [sha256])
+18:30:00 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8
+18:30:00 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:30:00 lr_handle_perform: Restoring an old SIGINT handler
+18:30:06 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11)
+18:30:06 Current date: 2024-12-18T18:30:06+0000
+18:30:06 lr_download: Target: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (-)
+18:30:06 select_next_target: Selecting mirror for: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:06 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:06 lr_download: Downloading started
+18:30:06 check_transfer_statuses: Transfer finished: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf)
+18:30:06 lr_handle_perform: Using dir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d
+18:30:06 lr_handle_perform: Using own SIGINT handler
+18:30:06 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:30:06 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:30:06 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:30:06 lr_handle_perform: Downloading/Locating yum repo
+18:30:06 lr_yum_use_local: Locating repo..
+18:30:06 lr_yum_use_local_load_base: Parsing repomd.xml
+18:30:06 lr_yum_use_local_load_base: Repomd revision: 1734546598
+18:30:06 lr_yum_use_local: Repository was successfully located
+18:30:06 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz (expected: 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6 [sha256])
+18:30:06 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6
+18:30:06 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:30:06 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz (expected: fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8 [sha256])
+18:30:06 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8
+18:30:06 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:30:06 lr_handle_perform: Restoring an old SIGINT handler
+18:30:07 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11)
+18:30:07 Current date: 2024-12-18T18:30:07+0000
+18:30:07 lr_download: Target: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (-)
+18:30:07 select_next_target: Selecting mirror for: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:07 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:07 lr_download: Downloading started
+18:30:07 check_transfer_statuses: Transfer finished: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf)
+18:30:07 lr_handle_perform: Using dir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d
+18:30:07 lr_handle_perform: Using own SIGINT handler
+18:30:07 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:30:07 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:30:07 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:30:07 lr_handle_perform: Downloading/Locating yum repo
+18:30:07 lr_yum_use_local: Locating repo..
+18:30:07 lr_yum_use_local_load_base: Parsing repomd.xml
+18:30:07 lr_yum_use_local_load_base: Repomd revision: 1734546598
+18:30:07 lr_yum_use_local: Repository was successfully located
+18:30:07 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz (expected: 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6 [sha256])
+18:30:07 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6
+18:30:07 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:30:07 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz (expected: fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8 [sha256])
+18:30:07 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8
+18:30:07 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:30:07 lr_handle_perform: Restoring an old SIGINT handler
+18:30:07 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11)
+18:30:07 Current date: 2024-12-18T18:30:07+0000
+18:30:07 lr_download: Target: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (-)
+18:30:07 select_next_target: Selecting mirror for: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:07 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:07 lr_download: Downloading started
+18:30:07 check_transfer_statuses: Transfer finished: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf)
+18:30:07 lr_handle_perform: Using dir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d
+18:30:07 lr_handle_perform: Using own SIGINT handler
+18:30:07 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:30:07 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:30:07 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:30:07 lr_handle_perform: Downloading/Locating yum repo
+18:30:07 lr_yum_use_local: Locating repo..
+18:30:07 lr_yum_use_local_load_base: Parsing repomd.xml
+18:30:07 lr_yum_use_local_load_base: Repomd revision: 1734546598
+18:30:07 lr_yum_use_local: Repository was successfully located
+18:30:07 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz (expected: 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6 [sha256])
+18:30:07 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6
+18:30:07 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:30:07 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz (expected: fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8 [sha256])
+18:30:07 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8
+18:30:07 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:30:07 lr_handle_perform: Restoring an old SIGINT handler
+18:30:08 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11)
+18:30:08 Current date: 2024-12-18T18:30:08+0000
+18:30:08 lr_download: Target: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (-)
+18:30:08 select_next_target: Selecting mirror for: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:08 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:08 lr_download: Downloading started
+18:30:08 check_transfer_statuses: Transfer finished: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf)
+18:30:08 lr_handle_perform: Using dir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d
+18:30:08 lr_handle_perform: Using own SIGINT handler
+18:30:08 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:30:08 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:30:08 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:30:08 lr_handle_perform: Downloading/Locating yum repo
+18:30:08 lr_yum_use_local: Locating repo..
+18:30:08 lr_yum_use_local_load_base: Parsing repomd.xml
+18:30:08 lr_yum_use_local_load_base: Repomd revision: 1734546598
+18:30:08 lr_yum_use_local: Repository was successfully located
+18:30:08 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz (expected: 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6 [sha256])
+18:30:08 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] 6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6
+18:30:08 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:30:08 lr_yum_check_checksum_of_md_record: Checking checksum of /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz (expected: fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8 [sha256])
+18:30:08 lr_checksum_fd_compare: Using checksum cached in xattr: [user.Zif.MdChecksum[1734546599]] fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8
+18:30:08 lr_yum_check_checksum_of_md_record: Checksum check - Passed
+18:30:08 lr_handle_perform: Restoring an old SIGINT handler
+18:30:08 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11)
+18:30:08 Current date: 2024-12-18T18:30:08+0000
+18:30:08 lr_download: Target: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (-)
+18:30:08 select_next_target: Selecting mirror for: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:08 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:08 lr_download: Downloading started
+18:30:08 check_transfer_statuses: Transfer finished: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf)
+18:30:08 lr_handle_perform: Using dir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d
+18:30:08 lr_handle_perform: Using own SIGINT handler
+18:30:08 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:30:08 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:30:08 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:30:08 lr_handle_perform: Downloading/Locating yum repo
+18:30:08 lr_yum_use_local: Locating repo..
+18:30:08 lr_yum_use_local_load_base: open(/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/repomd.xml): No such file or directory
+18:30:08 lr_handle_perform: Restoring an old SIGINT handler
+18:30:09 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11)
+18:30:09 Current date: 2024-12-18T18:30:09+0000
+18:30:09 lr_download: Target: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (-)
+18:30:09 select_next_target: Selecting mirror for: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:09 prepare_next_transfer: URL: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf
+18:30:09 lr_download: Downloading started
+18:30:09 check_transfer_statuses: Transfer finished: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf (Effective url: file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf)
+18:30:09 lr_handle_perform: Using dir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d
+18:30:09 lr_handle_perform: Using own SIGINT handler
+18:30:09 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+18:30:09 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+18:30:09 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+18:30:09 lr_handle_perform: Downloading/Locating yum repo
+18:30:09 lr_yum_use_local: Locating repo..
+18:30:09 lr_yum_use_local_load_base: open(/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/repomd.xml): No such file or directory
+18:30:09 lr_handle_perform: Restoring an old SIGINT handler

@@ -1,0 +1,28 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz for 51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz;downloadfilename=51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/51/sstate%3Aautoconf-native%3A%3A2.69%3Ar11%3A%3A3%3A519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz;downloadfilename=51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz
+DEBUG: Searching for 51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz.siginfo for 51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz.siginfo;downloadfilename=51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/51/sstate%3Aautoconf-native%3A%3A2.69%3Ar11%3A%3A3%3A519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz.siginfo;downloadfilename=51/sstate:autoconf-native::2.69:r11::3:519c21b59b89b19b2d8ec627d3758f7c_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/autoconf-native/
+license-destdir/autoconf-native/COPYING
+license-destdir/autoconf-native/generic_GPLv3
+license-destdir/autoconf-native/recipeinfo
+license-destdir/autoconf-native/generic_GPLv2
+license-destdir/autoconf-native/COPYINGv3
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/autoconf-native/2.69-r11/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

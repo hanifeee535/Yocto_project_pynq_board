@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546338.65 
+libpthread-stubs-0.4-r0: do_package_write_rpm_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 243091
+IO wchar: 126019
+IO syscr: 185
+IO syscw: 77
+IO read_bytes: 4096
+IO write_bytes: 81920
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.075193
+rusage ru_stime: 0.003957
+rusage ru_maxrss: 62760
+rusage ru_minflt: 5903
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 67
+Child rusage ru_utime: 0.010145999999999999
+Child rusage ru_stime: 0.001099
+Child rusage ru_maxrss: 60476
+Child rusage ru_minflt: 1749
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 10
+Status: PASSED 
+Ended: 1734546338.70 

@@ -1,0 +1,174 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz for a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz;downloadfilename=a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/a7/sstate%3Alinux-xlnx%3Apynq-poky-linux-gnueabi%3A4.9-xilinx-v2017.3%2BgitAUTOINC%2Bf1b1e077d6%3Ar0%3Apynq%3A3%3Aa70ca301027d00344225020098e8adfa_packagedata.tgz;downloadfilename=a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz
+DEBUG: Searching for a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz.siginfo for a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz.siginfo;downloadfilename=a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/a7/sstate%3Alinux-xlnx%3Apynq-poky-linux-gnueabi%3A4.9-xilinx-v2017.3%2BgitAUTOINC%2Bf1b1e077d6%3Ar0%3Apynq%3A3%3Aa70ca301027d00344225020098e8adfa_packagedata.tgz.siginfo;downloadfilename=a7/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:a70ca301027d00344225020098e8adfa_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/kernel-module-p8022-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-jitterentropy-rng-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-psnap-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-remoteproc-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-llc-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-dev.packaged
+pkgdata/runtime/kernel-module-g-zero-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel
+pkgdata/runtime/kernel-module-bridge-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-image
+pkgdata/runtime/kernel-base.packaged
+pkgdata/runtime/kernel-module-stp-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-dev
+pkgdata/runtime/kernel-module-sha256-generic-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-usb-f-ss-lb-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-echainiv-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-echainiv-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-sha256-generic-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-zynq-remoteproc-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-virtio-ring-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-virtio-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-8021q-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-usb-f-mass-storage-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-remoteproc-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-base
+pkgdata/runtime/kernel-modules
+pkgdata/runtime/kernel.packaged
+pkgdata/runtime/kernel-module-bridge-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-rpmsg-core-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-virtio-rpmsg-bus-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-modules.packaged
+pkgdata/runtime/kernel-module-libcomposite-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-ipip-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-image-uimage.packaged
+pkgdata/runtime/kernel-module-virtio-ring-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-usb-f-mass-storage-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-llc-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-vmlinux
+pkgdata/runtime/kernel-module-hmac-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-vmlinux.packaged
+pkgdata/runtime/kernel-module-psnap-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-g-zero-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-hmac-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-image.packaged
+pkgdata/runtime/kernel-module-rpmsg-core-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-stp-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-image-uimage
+pkgdata/runtime/kernel-module-ipip-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-p8022-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-drbg-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-libcomposite-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-8021q-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-jitterentropy-rng-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-usb-f-ss-lb-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-module-virtio-rpmsg-bus-4.9.0-xilinx-v2017.3
+pkgdata/runtime/kernel-devicetree
+pkgdata/runtime/kernel-module-virtio-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-drbg-4.9.0-xilinx-v2017.3.packaged
+pkgdata/runtime/kernel-module-zynq-remoteproc-4.9.0-xilinx-v2017.3
+pkgdata/shlibs2/
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/kernel-module-virtio-ring/
+pkgdata/runtime-rprovides/kernel-module-virtio-ring/kernel-module-virtio-ring-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-virtio-rpmsg-bus/
+pkgdata/runtime-rprovides/kernel-module-virtio-rpmsg-bus/kernel-module-virtio-rpmsg-bus-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-8021q/
+pkgdata/runtime-rprovides/kernel-module-8021q/kernel-module-8021q-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-image/
+pkgdata/runtime-rprovides/kernel-image/kernel-image
+pkgdata/runtime-rprovides/kernel-4.9.0-xilinx-v2017.3/
+pkgdata/runtime-rprovides/kernel-4.9.0-xilinx-v2017.3/kernel-base
+pkgdata/runtime-rprovides/(=4.9-xilinx-v2017.3+git0+f1b1e077d6)/
+pkgdata/runtime-rprovides/(=4.9-xilinx-v2017.3+git0+f1b1e077d6)/kernel-image
+pkgdata/runtime-rprovides/(=4.9-xilinx-v2017.3+git0+f1b1e077d6)/kernel-base
+pkgdata/runtime-rprovides/(=4.9-xilinx-v2017.3+git0+f1b1e077d6)/kernel-image-uimage
+pkgdata/runtime-rprovides/kernel-module-virtio/
+pkgdata/runtime-rprovides/kernel-module-virtio/kernel-module-virtio-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-remoteproc/
+pkgdata/runtime-rprovides/kernel-module-remoteproc/kernel-module-remoteproc-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-ipip/
+pkgdata/runtime-rprovides/kernel-module-ipip/kernel-module-ipip-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-libcomposite/
+pkgdata/runtime-rprovides/kernel-module-libcomposite/kernel-module-libcomposite-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-base/
+pkgdata/runtime-rprovides/kernel-base/kernel-base
+pkgdata/runtime-rprovides/kernel-module-g-zero/
+pkgdata/runtime-rprovides/kernel-module-g-zero/kernel-module-g-zero-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-llc/
+pkgdata/runtime-rprovides/kernel-module-llc/kernel-module-llc-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-bridge/
+pkgdata/runtime-rprovides/kernel-module-bridge/kernel-module-bridge-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-jitterentropy-rng/
+pkgdata/runtime-rprovides/kernel-module-jitterentropy-rng/kernel-module-jitterentropy-rng-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-p8022/
+pkgdata/runtime-rprovides/kernel-module-p8022/kernel-module-p8022-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-zynq-remoteproc/
+pkgdata/runtime-rprovides/kernel-module-zynq-remoteproc/kernel-module-zynq-remoteproc-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-rpmsg-core/
+pkgdata/runtime-rprovides/kernel-module-rpmsg-core/kernel-module-rpmsg-core-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-hmac/
+pkgdata/runtime-rprovides/kernel-module-hmac/kernel-module-hmac-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-psnap/
+pkgdata/runtime-rprovides/kernel-module-psnap/kernel-module-psnap-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-stp/
+pkgdata/runtime-rprovides/kernel-module-stp/kernel-module-stp-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-drbg/
+pkgdata/runtime-rprovides/kernel-module-drbg/kernel-module-drbg-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-image-uimage/
+pkgdata/runtime-rprovides/kernel-image-uimage/kernel-image-uimage
+pkgdata/runtime-rprovides/kernel-module-usb-f-ss-lb/
+pkgdata/runtime-rprovides/kernel-module-usb-f-ss-lb/kernel-module-usb-f-ss-lb-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-sha256-generic/
+pkgdata/runtime-rprovides/kernel-module-sha256-generic/kernel-module-sha256-generic-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-usb-f-mass-storage/
+pkgdata/runtime-rprovides/kernel-module-usb-f-mass-storage/kernel-module-usb-f-mass-storage-4.9.0-xilinx-v2017.3
+pkgdata/runtime-rprovides/kernel-module-echainiv/
+pkgdata/runtime-rprovides/kernel-module-echainiv/kernel-module-echainiv-4.9.0-xilinx-v2017.3
+pkgdata/linux-xlnx
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/kernel-module-psnap-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-remoteproc-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-image-uimage-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-g-zero-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel
+pkgdata/runtime-reverse/kernel-module-bridge-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-stp-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-dev
+pkgdata/runtime-reverse/kernel-image-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-echainiv-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-sha256-generic-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-virtio-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-8021q-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-usb-f-mass-storage-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-modules
+pkgdata/runtime-reverse/kernel-module-ipip-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-virtio-ring-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-llc-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-vmlinux
+pkgdata/runtime-reverse/kernel-module-hmac-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-rpmsg-core-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-p8022-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-drbg-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-libcomposite-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-jitterentropy-rng-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-usb-f-ss-lb-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-virtio-rpmsg-bus-4.9.0-xilinx-v2017.3
+pkgdata/runtime-reverse/kernel-module-zynq-remoteproc-4.9.0-xilinx-v2017.3
+pkgdata/kernel-depmod/
+pkgdata/kernel-depmod/System.map-4.9.0-xilinx-v2017.3
+pkgdata/kernel-depmod/kernel-abiversion
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

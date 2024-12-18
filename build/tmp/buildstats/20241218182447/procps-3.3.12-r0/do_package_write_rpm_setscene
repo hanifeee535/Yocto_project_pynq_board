@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546331.70 
+procps-3.3.12-r0: do_package_write_rpm_setscene
+Elapsed time: 0.06 seconds
+utime: 6
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 1956760
+IO wchar: 1885381
+IO syscr: 329
+IO syscw: 209
+IO read_bytes: 827392
+IO write_bytes: 978944
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.06519
+rusage ru_stime: 0.013968999999999999
+rusage ru_maxrss: 62872
+rusage ru_minflt: 5974
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 75
+Child rusage ru_utime: 0.012303999999999999
+Child rusage ru_stime: 0.007613
+Child rusage ru_maxrss: 60596
+Child rusage ru_minflt: 1754
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1616
+Child rusage ru_oublock: 1800
+Child rusage ru_nvcsw: 48
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1734546331.76 

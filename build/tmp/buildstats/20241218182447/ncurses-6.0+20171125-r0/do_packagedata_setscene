@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546333.54 
+ncurses-6.0+20171125-r0: do_packagedata_setscene
+Elapsed time: 0.07 seconds
+utime: 7
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 559701
+IO wchar: 585976
+IO syscr: 241
+IO syscw: 252
+IO read_bytes: 36864
+IO write_bytes: 376832
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.073631
+rusage ru_stime: 0.021655999999999998
+rusage ru_maxrss: 62916
+rusage ru_minflt: 6043
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 152
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 44
+Child rusage ru_utime: 0.015982
+Child rusage ru_stime: 0.002296
+Child rusage ru_maxrss: 60648
+Child rusage ru_minflt: 1792
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 72
+Child rusage ru_oublock: 584
+Child rusage ru_nvcsw: 36
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1734546333.61 

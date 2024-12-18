@@ -1,0 +1,101 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz for b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz;downloadfilename=b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/b5/sstate%3Aattr%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.4.47%3Ar0%3Acortexa9hf-neon%3A3%3Ab5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz;downloadfilename=b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz
+DEBUG: Searching for b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz.siginfo for b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz.siginfo;downloadfilename=b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/b5/sstate%3Aattr%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.4.47%3Ar0%3Acortexa9hf-neon%3A3%3Ab5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz.siginfo;downloadfilename=b5/sstate:attr:cortexa9hf-neon-poky-linux-gnueabi:2.4.47:r0:cortexa9hf-neon:3:b5a013a4eb1e42d321bae22312e16e9c_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/attr-staticdev
+pkgdata/runtime/attr-dev.packaged
+pkgdata/runtime/attr-locale-sv
+pkgdata/runtime/attr-locale-es.packaged
+pkgdata/runtime/attr-locale-de.packaged
+pkgdata/runtime/libattr
+pkgdata/runtime/attr-locale-sv.packaged
+pkgdata/runtime/attr-locale-gl
+pkgdata/runtime/attr-locale-cs
+pkgdata/runtime/attr-locale-nl.packaged
+pkgdata/runtime/attr-ptest.packaged
+pkgdata/runtime/attr-locale-fr.packaged
+pkgdata/runtime/libattr.packaged
+pkgdata/runtime/attr-dev
+pkgdata/runtime/attr-locale-fr
+pkgdata/runtime/attr-dbg.packaged
+pkgdata/runtime/attr-ptest
+pkgdata/runtime/attr
+pkgdata/runtime/attr-locale-cs.packaged
+pkgdata/runtime/attr-locale-es
+pkgdata/runtime/attr.packaged
+pkgdata/runtime/attr-locale-nl
+pkgdata/runtime/attr-locale-de
+pkgdata/runtime/attr-locale-pl
+pkgdata/runtime/attr-doc
+pkgdata/runtime/attr-locale-gl.packaged
+pkgdata/runtime/attr-locale-pl.packaged
+pkgdata/runtime/attr-dbg
+pkgdata/runtime/attr-doc.packaged
+pkgdata/shlibs2/
+pkgdata/shlibs2/libattr.list
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/es-translation/
+pkgdata/runtime-rprovides/es-translation/attr-locale-es
+pkgdata/runtime-rprovides/sv-translation/
+pkgdata/runtime-rprovides/sv-translation/attr-locale-sv
+pkgdata/runtime-rprovides/pl-translation/
+pkgdata/runtime-rprovides/pl-translation/attr-locale-pl
+pkgdata/runtime-rprovides/libattr/
+pkgdata/runtime-rprovides/libattr/libattr
+pkgdata/runtime-rprovides/fr-translation/
+pkgdata/runtime-rprovides/fr-translation/attr-locale-fr
+pkgdata/runtime-rprovides/cs-translation/
+pkgdata/runtime-rprovides/cs-translation/attr-locale-cs
+pkgdata/runtime-rprovides/nl-translation/
+pkgdata/runtime-rprovides/nl-translation/attr-locale-nl
+pkgdata/runtime-rprovides/(=2.4.47)/
+pkgdata/runtime-rprovides/(=2.4.47)/libattr
+pkgdata/runtime-rprovides/de-translation/
+pkgdata/runtime-rprovides/de-translation/attr-locale-de
+pkgdata/runtime-rprovides/gl-translation/
+pkgdata/runtime-rprovides/gl-translation/attr-locale-gl
+pkgdata/runtime-rprovides/attr-locale/
+pkgdata/runtime-rprovides/attr-locale/attr-locale-sv
+pkgdata/runtime-rprovides/attr-locale/attr-locale-gl
+pkgdata/runtime-rprovides/attr-locale/attr-locale-cs
+pkgdata/runtime-rprovides/attr-locale/attr-locale-fr
+pkgdata/runtime-rprovides/attr-locale/attr-locale-es
+pkgdata/runtime-rprovides/attr-locale/attr-locale-nl
+pkgdata/runtime-rprovides/attr-locale/attr-locale-de
+pkgdata/runtime-rprovides/attr-locale/attr-locale-pl
+pkgdata/attr
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/attr-locale-sv
+pkgdata/runtime-reverse/attr-locale-gl
+pkgdata/runtime-reverse/attr-locale-cs
+pkgdata/runtime-reverse/attr-dev
+pkgdata/runtime-reverse/attr-locale-fr
+pkgdata/runtime-reverse/attr-ptest
+pkgdata/runtime-reverse/libattr1
+pkgdata/runtime-reverse/attr
+pkgdata/runtime-reverse/attr-locale-es
+pkgdata/runtime-reverse/attr-locale-nl
+pkgdata/runtime-reverse/attr-locale-de
+pkgdata/runtime-reverse/attr-locale-pl
+pkgdata/runtime-reverse/attr-doc
+pkgdata/runtime-reverse/attr-dbg
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/attr/2.4.47-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

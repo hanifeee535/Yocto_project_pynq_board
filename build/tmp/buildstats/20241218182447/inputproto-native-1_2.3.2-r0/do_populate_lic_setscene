@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546334.37 
+inputproto-native-1_2.3.2-r0: do_populate_lic_setscene
+Elapsed time: 0.08 seconds
+utime: 9
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 251007
+IO wchar: 108103
+IO syscr: 198
+IO syscw: 86
+IO read_bytes: 4096
+IO write_bytes: 73728
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.09025799999999999
+rusage ru_stime: 0.015697
+rusage ru_maxrss: 62932
+rusage ru_minflt: 6062
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 96
+Child rusage ru_utime: 0.013777999999999999
+Child rusage ru_stime: 0.003679
+Child rusage ru_maxrss: 60656
+Child rusage ru_minflt: 1783
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1734546334.45 

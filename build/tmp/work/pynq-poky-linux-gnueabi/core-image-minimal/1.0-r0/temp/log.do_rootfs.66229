@@ -1,0 +1,420 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/opkg/opkg_0.3.5.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/createrepo-c/createrepo-c_git.bb:do_populate_sysroot', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-kernel/kmod/depmodwrapper-cross_1.0.bb:do_populate_sysroot', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/mklibs/mklibs-native_0.1.43.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/makedevs/makedevs_1.0.1.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-bsp/u-boot/u-boot-mkimage_2017.09.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/prelink/prelink_git.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-extended/pigz/pigz_2.3.4.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/rpm/rpm_git.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/pseudo/pseudo_1.8.2.bb:do_populate_sysroot', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-core/glibc/ldconfig-native_2.12.1.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/opkg-utils/opkg-utils_0.3.5.bb:do_populate_sysroot', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/qemu/qemuwrapper-cross_1.0.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/dnf/dnf_2.6.3.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-core/update-rc.d/update-rc.d_0.7.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['opkg-native', 'createrepo-c-native', 'mklibs-native', 'makedevs-native', 'u-boot-mkimage-native', 'prelink-native', 'pigz-native', 'rpm-native', 'ldconfig-native', 'opkg-utils-native', 'dnf-native', 'update-rc.d-native', 'libarchive-native', 'libsolv-native', 'shadow-native', 'kmod-native', 'curl-native', 'file-native', 'libxml2-native', 'cmake-native', 'expat-native', 'elfutils-native', 'binutils-native', 'popt-native', 'nss-native', 'dbus-native', 'db-native', 'librepo-native', 'python3-iniparse-native', 'libcomps-native', 'libdnf-native', 'e2fsprogs-native', 'nspr-native', 'gpgme-native', 'libcheck-native', 'attr-native', 'python3-six-native', 'gobject-introspection-native', 'swig-native', 'libgpg-error-native', 'libassuan-native', 'python3-setuptools-native', 'unzip-native']
+NOTE: Skipping as already exists in sysroot: ['depmodwrapper-cross', 'pseudo-native', 'qemuwrapper-cross', 'quilt-native', 'pkgconfig-native', 'gnu-config-native', 'automake-native', 'libtool-native', 'autoconf-native', 'qemu-native', 'python3-native', 'glib-2.0-native', 'xz-native', 'zlib-native', 'openssl-native', 'sqlite3-native', 'gettext-minimal-native', 'bzip2-native', 'lzo-native', 'texinfo-dummy-native', 'm4-native', 'alsa-lib-native', 'dtc-native', 'libsdl-native', 'pixman-native', 'gtk-doc-native', 'readline-native', 'libffi-native', 'gettext-native', 'libpcre-native', 'util-linux-native', 'cryptodev-linux-native', 'makedepend-native', 'flex-native', 'bison-native', 'libx11-native', 'libxrandr-native', 'libxext-native', 'libxrender-native', 'util-macros-native', 'libpng-native', 'ncurses-native', 'xproto-native', 'kbproto-native', 'inputproto-native', 'xtrans-native', 'libxcb-native', 'xextproto-native', 'randrproto-native', 'renderproto-native', 'libxdmcp-native', 'libxau-native', 'libpthread-stubs-native', 'xcb-proto-native']
+DEBUG: sed -e 's:^[^/]*/:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/:g' /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/rpm-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/curl-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/libxml2-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/elfutils-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/dbus-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/e2fsprogs-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/nspr-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/gpgme-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/libcheck-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/gobject-introspection-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/libgpg-error-native/fixmepath /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/libassuan-native/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIRTARGET:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot:g; s:FIXMESTAGINGDIRHOST:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native:g' -e 's:FIXME_COMPONENTS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components:g' -e 's:FIXME_HOSTTOOLS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools:g' -e 's:FIXME_PKGDATA_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq:g' -e 's:FIXME_PSEUDO_LOCALSTATEDIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/pseudo/:g' -e 's:FIXME_LOGFIFO:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp/fifo.66229:g'
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_rootfs
+NOTE: ###### Generate rootfs #######
+NOTE: Executing '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/bin/createrepo_c --update -q /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo' ...
+NOTE: Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+oe-repo                                         315 MB/s | 947 kB     00:00    
+Last metadata expiration check: 0:00:00 ago on Wed 18 Dec 2024 06:29:59 PM UTC.
+Metadata cache created.
+
+NOTE: Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+Last metadata expiration check: 0:00:00 ago on Wed 18 Dec 2024 06:29:59 PM UTC.
+Dependencies resolved.
+================================================================================
+ Package                  Arch            Version                 Repository
+                                                                           Size
+================================================================================
+Installing:
+ dropbear                 cortexa9hf_neon 2017.75-r0              oe-repo 101 k
+ packagegroup-core-boot   pynq            1.0-r17                 oe-repo 5.5 k
+ rt-tests                 cortexa9hf_neon 1:1.1-r0                oe-repo  63 k
+ run-postinsts            noarch          1.0-r9                  oe-repo 8.3 k
+Installing dependencies:
+ base-files               pynq            3.0.14-r89              oe-repo  12 k
+ base-passwd              cortexa9hf_neon 3.5.29-r0               oe-repo 6.9 k
+ busybox                  cortexa9hf_neon 1.24.1-r0               oe-repo 285 k
+ device-tree              pynq            1.0-r0                  oe-repo 8.3 k
+ eudev                    cortexa9hf_neon 3.2.2-r0                oe-repo 179 k
+ init-ifupdown            cortexa9hf_neon 1.0-r7                  oe-repo 9.4 k
+ initscripts              cortexa9hf_neon 1.0-r155                oe-repo  21 k
+ initscripts-functions    cortexa9hf_neon 1.0-r155                oe-repo 7.3 k
+ libblkid1                cortexa9hf_neon 2.30-r0                 oe-repo  98 k
+ libc6                    cortexa9hf_neon 2.26-r0                 oe-repo 930 k
+ libkmod2                 cortexa9hf_neon 24+git0+ef4257b59c-r0   oe-repo  30 k
+ libuuid1                 cortexa9hf_neon 2.30-r0                 oe-repo  12 k
+ libz1                    cortexa9hf_neon 1.2.11-r0               oe-repo  43 k
+ modutils-initscripts     cortexa9hf_neon 1.0-r7                  oe-repo 7.9 k
+ netbase                  cortexa9hf_neon 1:5.4-r0                oe-repo  15 k
+ sysvinit                 cortexa9hf_neon 2.88dsf-r14             oe-repo  53 k
+ sysvinit-inittab         pynq            2.88dsf-r10             oe-repo 8.0 k
+ sysvinit-pidof           cortexa9hf_neon 2.88dsf-r14             oe-repo  13 k
+ update-alternatives-opkg cortexa9hf_neon 0.3.5-r0                oe-repo 8.2 k
+Installing weak dependencies:
+ busybox-syslog           cortexa9hf_neon 1.24.1-r0               oe-repo 9.2 k
+ busybox-udhcpc           cortexa9hf_neon 1.24.1-r0               oe-repo 7.7 k
+ update-rc.d              noarch          0.7-r5                  oe-repo 8.0 k
+
+Transaction Summary
+================================================================================
+Install  26 Packages
+
+Total size: 1.9 M
+Installed size: 5.1 M
+Downloading Packages:
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : update-alternatives-opkg-0.3.5-r0.cortexa9hf_neon     1/26 
+  Installing       : busybox-1.24.1-r0.cortexa9hf_neon                     2/26 
+  Running scriptlet: busybox-1.24.1-r0.cortexa9hf_neon                     2/26 
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/gunzip to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/zcat to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/bunzip2 to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/bzcat to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/cpio to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/gzip to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/tar to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/unzip to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/date to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/groups to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/id to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/shuf to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/sync to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/touch to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/unlink to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/users to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/who to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/awk to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/cmp to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/diff to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/patch to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/sed to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/vi to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/find to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/grep to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/egrep to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/fgrep to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/xargs to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/halt to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/poweroff to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/reboot to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/mesg to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/sbin/rfkill to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/depmod to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/insmod to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/lsmod to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/modinfo to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/modprobe to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/rmmod to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/wget to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/ash to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/sh to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/fstrim to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/[ to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/[[ to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/sbin/addgroup to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/sbin/adduser to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/basename to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/blkid to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/cat to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/chattr to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/chgrp to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/chmod to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/chown to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/sbin/chroot to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/chrt to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/chvt to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/clear to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/cp to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/cut to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/dc to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/dd to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/deallocvt to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/sbin/delgroup to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/sbin/deluser to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/df to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/dirname to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/dmesg to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/dnsdomainname to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/du to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/dumpkmap to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/dumpleases to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/echo to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/env to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/expr to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/false to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/sbin/fbset to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/fdisk to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/flock to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/free to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/fsck to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/fuser to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/getopt to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/getty to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/head to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/hexdump to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/hostname to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/hwclock to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/ifconfig to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/ifdown to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/ifup to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/ip to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/kill to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/killall to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/klogd to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/less to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/ln to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/sbin/loadfont to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/loadkmap to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/logger to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/logname to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/logread to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/losetup to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/ls to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/md5sum to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/microcom to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/mkdir to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/mkfifo to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/mknod to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/mkswap to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/mktemp to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/more to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/mount to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/mv to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/nc to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/netstat to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/nohup to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/nslookup to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/od to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/openvt to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/pidof to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/pivot_root to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/printf to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/ps to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/pwd to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/sbin/rdate to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/readlink to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/realpath to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/renice to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/reset to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/resize to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/rm to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/rmdir to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/route to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/run-parts to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/seq to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/setconsole to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/sha1sum to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/sha256sum to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/sleep to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/sort to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/start-stop-daemon to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/stat to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/strings to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/stty to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/sulogin to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/swapoff to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/swapon to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/switch_root to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/sysctl to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/syslogd to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/tail to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/tee to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/telnet to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/test to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/tftp to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/time to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/top to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/tr to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/true to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/tty to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/udhcpc to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/sbin/udhcpd to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/umount to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/uname to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/uniq to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/uptime to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/usleep to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/watch to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/wc to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/which to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/whoami to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/yes to /bin/busybox.nosuid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/ping to /bin/busybox.suid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/ping6 to /bin/busybox.suid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/login to /bin/busybox.suid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/passwd to /bin/busybox.suid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/su to /bin/busybox.suid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/traceroute to /bin/busybox.suid
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/vlock to /bin/busybox.suid
+  Installing       : libc6-2.26-r0.cortexa9hf_neon                         3/26 
+  Running scriptlet: libc6-2.26-r0.cortexa9hf_neon                         3/26 
+  Installing       : libz1-1.2.11-r0.cortexa9hf_neon                       4/26 
+  Running scriptlet: libz1-1.2.11-r0.cortexa9hf_neon                       4/26 
+  Installing       : initscripts-functions-1.0-r155.cortexa9hf_neon        5/26 
+  Installing       : netbase-1:5.4-r0.cortexa9hf_neon                      6/26 
+  Running scriptlet: init-ifupdown-1.0-r7.cortexa9hf_neon                  7/26 
+ Removing any system startup links for networking ...
+  Installing       : init-ifupdown-1.0-r7.cortexa9hf_neon                  7/26 
+  Running scriptlet: init-ifupdown-1.0-r7.cortexa9hf_neon                  7/26 
+ Adding system startup for /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/init.d/networking.
+  Installing       : initscripts-1.0-r155.cortexa9hf_neon                  8/26 
+  Running scriptlet: initscripts-1.0-r155.cortexa9hf_neon                  8/26 
+  Installing       : libkmod2-24+git0+ef4257b59c-r0.cortexa9hf_neon        9/26 
+  Running scriptlet: libkmod2-24+git0+ef4257b59c-r0.cortexa9hf_neon        9/26 
+  Installing       : sysvinit-pidof-2.88dsf-r14.cortexa9hf_neon           10/26 
+  Running scriptlet: sysvinit-pidof-2.88dsf-r14.cortexa9hf_neon           10/26 
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/pidof to /bin/pidof.sysvinit
+  Installing       : libuuid1-2.30-r0.cortexa9hf_neon                     11/26 
+  Running scriptlet: libuuid1-2.30-r0.cortexa9hf_neon                     11/26 
+  Installing       : libblkid1-2.30-r0.cortexa9hf_neon                    12/26 
+  Running scriptlet: libblkid1-2.30-r0.cortexa9hf_neon                    12/26 
+  Running scriptlet: eudev-3.2.2-r0.cortexa9hf_neon                       13/26 
+ Removing any system startup links for udev ...
+  Installing       : eudev-3.2.2-r0.cortexa9hf_neon                       13/26 
+  Running scriptlet: eudev-3.2.2-r0.cortexa9hf_neon                       13/26 
+ Adding system startup for /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/init.d/udev.
+  Running scriptlet: base-files-3.0.14-r89.pynq                           14/26 
+  Installing       : base-files-3.0.14-r89.pynq                           14/26 
+  Running scriptlet: base-passwd-3.5.29-r0.cortexa9hf_neon                15/26 
+  Installing       : base-passwd-3.5.29-r0.cortexa9hf_neon                15/26 
+  Running scriptlet: modutils-initscripts-1.0-r7.cortexa9hf_neon          16/26 
+ Removing any system startup links for modutils.sh ...
+  Installing       : modutils-initscripts-1.0-r7.cortexa9hf_neon          16/26 
+  Running scriptlet: modutils-initscripts-1.0-r7.cortexa9hf_neon          16/26 
+ Adding system startup for /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/init.d/modutils.sh.
+  Installing       : sysvinit-inittab-2.88dsf-r10.pynq                    17/26 
+  Running scriptlet: sysvinit-inittab-2.88dsf-r10.pynq                    17/26 
+  Installing       : sysvinit-2.88dsf-r14.cortexa9hf_neon                 18/26 
+  Running scriptlet: sysvinit-2.88dsf-r14.cortexa9hf_neon                 18/26 
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/init to /sbin/init.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/bin/mountpoint to /bin/mountpoint.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/halt to /sbin/halt.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/reboot to /sbin/reboot.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/runlevel to /sbin/runlevel.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/shutdown to /sbin/shutdown.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/sbin/poweroff to /sbin/poweroff.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/last to /usr/bin/last.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/lastb to /usr/bin/lastb.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/mesg to /usr/bin/mesg.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/utmpdump to /usr/bin/utmpdump.sysvinit
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/wall to /usr/bin/wall.sysvinit
+  Installing       : device-tree-1.0-r0.pynq                              19/26 
+  Installing       : packagegroup-core-boot-1.0-r17.pynq                  20/26 
+  Running scriptlet: dropbear-2017.75-r0.cortexa9hf_neon                  21/26 
+ Removing any system startup links for dropbear ...
+  Installing       : dropbear-2017.75-r0.cortexa9hf_neon                  21/26 
+  Running scriptlet: dropbear-2017.75-r0.cortexa9hf_neon                  21/26 
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/scp to /usr/sbin/dropbearmulti
+update-alternatives: Linking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/usr/bin/ssh to /usr/sbin/dropbearmulti
+ Adding system startup for /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/init.d/dropbear.
+  Installing       : rt-tests-1:1.1-r0.cortexa9hf_neon                    22/26 
+  Running scriptlet: run-postinsts-1.0-r9.noarch                          23/26 
+ Removing any system startup links for run-postinsts ...
+  Installing       : run-postinsts-1.0-r9.noarch                          23/26 
+  Running scriptlet: run-postinsts-1.0-r9.noarch                          23/26 
+ Adding system startup for /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/init.d/run-postinsts.
+  Installing       : update-rc.d-0.7-r5.noarch                            24/26 
+  Running scriptlet: busybox-syslog-1.24.1-r0.cortexa9hf_neon             25/26 
+ Removing any system startup links for syslog ...
+  Installing       : busybox-syslog-1.24.1-r0.cortexa9hf_neon             25/26 
+  Running scriptlet: busybox-syslog-1.24.1-r0.cortexa9hf_neon             25/26 
+ Adding system startup for /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/init.d/syslog.
+  Installing       : busybox-udhcpc-1.24.1-r0.cortexa9hf_neon             26/26 
+  Verifying        : dropbear-2017.75-r0.cortexa9hf_neon                   1/26 
+  Verifying        : packagegroup-core-boot-1.0-r17.pynq                   2/26 
+  Verifying        : rt-tests-1:1.1-r0.cortexa9hf_neon                     3/26 
+  Verifying        : run-postinsts-1.0-r9.noarch                           4/26 
+  Verifying        : libc6-2.26-r0.cortexa9hf_neon                         5/26 
+  Verifying        : libz1-1.2.11-r0.cortexa9hf_neon                       6/26 
+  Verifying        : update-alternatives-opkg-0.3.5-r0.cortexa9hf_neon     7/26 
+  Verifying        : base-files-3.0.14-r89.pynq                            8/26 
+  Verifying        : base-passwd-3.5.29-r0.cortexa9hf_neon                 9/26 
+  Verifying        : busybox-1.24.1-r0.cortexa9hf_neon                    10/26 
+  Verifying        : device-tree-1.0-r0.pynq                              11/26 
+  Verifying        : eudev-3.2.2-r0.cortexa9hf_neon                       12/26 
+  Verifying        : init-ifupdown-1.0-r7.cortexa9hf_neon                 13/26 
+  Verifying        : initscripts-1.0-r155.cortexa9hf_neon                 14/26 
+  Verifying        : modutils-initscripts-1.0-r7.cortexa9hf_neon          15/26 
+  Verifying        : netbase-1:5.4-r0.cortexa9hf_neon                     16/26 
+  Verifying        : sysvinit-2.88dsf-r14.cortexa9hf_neon                 17/26 
+  Verifying        : libblkid1-2.30-r0.cortexa9hf_neon                    18/26 
+  Verifying        : libkmod2-24+git0+ef4257b59c-r0.cortexa9hf_neon       19/26 
+  Verifying        : initscripts-functions-1.0-r155.cortexa9hf_neon       20/26 
+  Verifying        : sysvinit-inittab-2.88dsf-r10.pynq                    21/26 
+  Verifying        : sysvinit-pidof-2.88dsf-r14.cortexa9hf_neon           22/26 
+  Verifying        : libuuid1-2.30-r0.cortexa9hf_neon                     23/26 
+  Verifying        : update-rc.d-0.7-r5.noarch                            24/26 
+  Verifying        : busybox-syslog-1.24.1-r0.cortexa9hf_neon             25/26 
+  Verifying        : busybox-udhcpc-1.24.1-r0.cortexa9hf_neon             26/26 
+
+Installed:
+  dropbear.cortexa9hf_neon 2017.75-r0                                           
+  packagegroup-core-boot.pynq 1.0-r17                                           
+  rt-tests.cortexa9hf_neon 1:1.1-r0                                             
+  run-postinsts.noarch 1.0-r9                                                   
+  busybox-syslog.cortexa9hf_neon 1.24.1-r0                                      
+  busybox-udhcpc.cortexa9hf_neon 1.24.1-r0                                      
+  update-rc.d.noarch 0.7-r5                                                     
+  base-files.pynq 3.0.14-r89                                                    
+  base-passwd.cortexa9hf_neon 3.5.29-r0                                         
+  busybox.cortexa9hf_neon 1.24.1-r0                                             
+  device-tree.pynq 1.0-r0                                                       
+  eudev.cortexa9hf_neon 3.2.2-r0                                                
+  init-ifupdown.cortexa9hf_neon 1.0-r7                                          
+  initscripts.cortexa9hf_neon 1.0-r155                                          
+  initscripts-functions.cortexa9hf_neon 1.0-r155                                
+  libblkid1.cortexa9hf_neon 2.30-r0                                             
+  libc6.cortexa9hf_neon 2.26-r0                                                 
+  libkmod2.cortexa9hf_neon 24+git0+ef4257b59c-r0                                
+  libuuid1.cortexa9hf_neon 2.30-r0                                              
+  libz1.cortexa9hf_neon 1.2.11-r0                                               
+  modutils-initscripts.cortexa9hf_neon 1.0-r7                                   
+  netbase.cortexa9hf_neon 1:5.4-r0                                              
+  sysvinit.cortexa9hf_neon 2.88dsf-r14                                          
+  sysvinit-inittab.pynq 2.88dsf-r10                                             
+  sysvinit-pidof.cortexa9hf_neon 2.88dsf-r14                                    
+  update-alternatives-opkg.cortexa9hf_neon 0.3.5-r0                             
+
+Complete!
+
+NOTE: Installing complementary packages ...
+NOTE: Running ['oe-pkgdata-util', '-p', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq', 'glob', '/tmp/installed-pkgsk7nd3wlb', '']
+NOTE: Running intercept scripts:
+NOTE: Executing write_package_manifest ...
+DEBUG: Executing python function write_package_manifest
+DEBUG: Python function write_package_manifest finished
+NOTE: Executing license_create_manifest ...
+DEBUG: Executing python function license_create_manifest
+DEBUG: Python function license_create_manifest finished
+NOTE: Executing ssh_allow_empty_password ...
+DEBUG: Executing shell function ssh_allow_empty_password
+DEBUG: Shell function ssh_allow_empty_password finished
+NOTE: Executing postinst_enable_logging ...
+DEBUG: Executing shell function postinst_enable_logging
+DEBUG: Shell function postinst_enable_logging finished
+NOTE: Executing rootfs_update_timestamp ...
+DEBUG: Executing shell function rootfs_update_timestamp
+DEBUG: Shell function rootfs_update_timestamp finished
+NOTE: Executing write_image_test_data ...
+DEBUG: Executing python function write_image_test_data
+DEBUG: Python function write_image_test_data finished
+NOTE: Executing empty_var_volatile ...
+DEBUG: Executing shell function empty_var_volatile
+DEBUG: Shell function empty_var_volatile finished
+NOTE: Executing configure_dropbear ...
+DEBUG: Executing shell function configure_dropbear
+DEBUG: Shell function configure_dropbear finished
+NOTE: Executing sort_passwd ...
+DEBUG: Executing python function sort_passwd
+DEBUG: Python function sort_passwd finished
+NOTE: Executing write_image_manifest ...
+DEBUG: Executing python function write_image_manifest
+DEBUG: Python function write_image_manifest finished
+NOTE: Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+5 files removed
+
+NOTE: Executing: ldconfig -r/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs-c new -v
+NOTE: No Kernel Modules found, not running depmod
+NOTE: Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+0 files removed
+
+DEBUG: Python function do_rootfs finished

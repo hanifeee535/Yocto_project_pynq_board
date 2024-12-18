@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546300.98 
+update-rc.d-0.7-r5: do_package_write_rpm_setscene
+Elapsed time: 0.04 seconds
+utime: 5
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 193857
+IO wchar: 113644
+IO syscr: 175
+IO syscw: 69
+IO read_bytes: 8192
+IO write_bytes: 77824
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.051805
+rusage ru_stime: 0.006907
+rusage ru_maxrss: 62560
+rusage ru_minflt: 5653
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.010877
+Child rusage ru_stime: 0.001414
+Child rusage ru_maxrss: 60244
+Child rusage ru_minflt: 1709
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 7
+Status: PASSED 
+Ended: 1734546301.03 

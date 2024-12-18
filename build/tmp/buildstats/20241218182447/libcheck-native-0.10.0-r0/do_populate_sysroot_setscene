@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546308.32 
+libcheck-native-0.10.0-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 372091
+IO wchar: 304782
+IO syscr: 217
+IO syscw: 119
+IO read_bytes: 40960
+IO write_bytes: 196608
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07533
+rusage ru_stime: 0.004431
+rusage ru_maxrss: 62920
+rusage ru_minflt: 6038
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 144
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 84
+Child rusage ru_utime: 0.010662999999999999
+Child rusage ru_stime: 0.00231
+Child rusage ru_maxrss: 60672
+Child rusage ru_minflt: 1779
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 64
+Child rusage ru_oublock: 240
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1734546308.37 

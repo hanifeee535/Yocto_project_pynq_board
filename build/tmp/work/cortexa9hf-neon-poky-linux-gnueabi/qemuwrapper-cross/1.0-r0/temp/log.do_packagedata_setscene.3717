@@ -1,0 +1,39 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz for ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz;downloadfilename=ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/ab/sstate%3Aqemuwrapper-cross%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0%3Ar0%3Acortexa9hf-neon%3A3%3Aab979351b0725baf535a5737f7fe85c5_packagedata.tgz;downloadfilename=ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz
+DEBUG: Searching for ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz.siginfo for ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz.siginfo;downloadfilename=ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/ab/sstate%3Aqemuwrapper-cross%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0%3Ar0%3Acortexa9hf-neon%3A3%3Aab979351b0725baf535a5737f7fe85c5_packagedata.tgz.siginfo;downloadfilename=ab/sstate:qemuwrapper-cross:cortexa9hf-neon-poky-linux-gnueabi:1.0:r0:cortexa9hf-neon:3:ab979351b0725baf535a5737f7fe85c5_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/qemuwrapper-cross-locale
+pkgdata/runtime/qemuwrapper-cross-doc
+pkgdata/runtime/qemuwrapper-cross-dev.packaged
+pkgdata/runtime/qemuwrapper-cross
+pkgdata/runtime/qemuwrapper-cross.packaged
+pkgdata/runtime/qemuwrapper-cross-dbg.packaged
+pkgdata/runtime/qemuwrapper-cross-dev
+pkgdata/runtime/qemuwrapper-cross-staticdev
+pkgdata/runtime/qemuwrapper-cross-dbg
+pkgdata/shlibs2/
+pkgdata/runtime-rprovides/
+pkgdata/qemuwrapper-cross
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/qemuwrapper-cross
+pkgdata/runtime-reverse/qemuwrapper-cross-dev
+pkgdata/runtime-reverse/qemuwrapper-cross-dbg
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/qemuwrapper-cross/1.0-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

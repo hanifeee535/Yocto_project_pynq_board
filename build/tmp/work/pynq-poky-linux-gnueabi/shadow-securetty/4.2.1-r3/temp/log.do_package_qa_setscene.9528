@@ -1,0 +1,20 @@
+DEBUG: Executing python function do_package_qa_setscene
+DEBUG: Searching for 47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz for 47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz', '', '', OrderedDict([('downloadfilename', '47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz;downloadfilename=47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz returning file:///home/student/poky_cache/sstate-cache/47/sstate%3Ashadow-securetty%3Apynq-poky-linux-gnueabi%3A4.2.1%3Ar3%3Apynq%3A3%3A472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz;downloadfilename=47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz
+DEBUG: Searching for 47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz.siginfo for 47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz.siginfo;downloadfilename=47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/47/sstate%3Ashadow-securetty%3Apynq-poky-linux-gnueabi%3A4.2.1%3Ar3%3Apynq%3A3%3A472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz.siginfo;downloadfilename=47/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:472a0ebfbe91c73cf992482dc4bb27c2_package_qa.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function do_package_qa_setscene finished

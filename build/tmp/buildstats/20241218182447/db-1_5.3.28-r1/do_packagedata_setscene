@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546323.41 
+db-1_5.3.28-r1: do_packagedata_setscene
+Elapsed time: 0.06 seconds
+utime: 5
+stime: 5
+cutime: 1
+cstime: 0
+IO rchar: 687415
+IO wchar: 910819
+IO syscr: 243
+IO syscw: 161
+IO read_bytes: 143360
+IO write_bytes: 499712
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.053855
+rusage ru_stime: 0.057446
+rusage ru_maxrss: 62804
+rusage ru_minflt: 5916
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 71
+Child rusage ru_utime: 0.01735
+Child rusage ru_stime: 0.001055
+Child rusage ru_maxrss: 60524
+Child rusage ru_minflt: 1756
+Child rusage ru_majflt: 1
+Child rusage ru_inblock: 280
+Child rusage ru_oublock: 856
+Child rusage ru_nvcsw: 46
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1734546323.47 

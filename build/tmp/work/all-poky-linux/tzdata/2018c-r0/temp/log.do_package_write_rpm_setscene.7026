@@ -1,0 +1,36 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for 96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz for 96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', '96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz;downloadfilename=96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/96/sstate%3Atzdata%3Aall-poky-linux%3A2018c%3Ar0%3Aallarch%3A3%3A963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz;downloadfilename=96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz
+DEBUG: Searching for 96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz.siginfo for 96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz.siginfo;downloadfilename=96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/96/sstate%3Atzdata%3Aall-poky-linux%3A2018c%3Ar0%3Aallarch%3A3%3A963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz.siginfo;downloadfilename=96/sstate:tzdata:all-poky-linux:2018c:r0:allarch:3:963748ae693aa7afe9907ee49ae77102_package_write_rpm.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/noarch/
+deploy-rpms/noarch/tzdata-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-pacific-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-right-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-misc-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-australia-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-europe-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-antarctica-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-arctic-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-americas-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-asia-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-posix-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-atlantic-2018c-r0.noarch.rpm
+deploy-rpms/noarch/tzdata-africa-2018c-r0.noarch.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/all-poky-linux/tzdata/2018c-r0/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

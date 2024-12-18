@@ -1,0 +1,19 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-crypt: Python basic cryptographic and hashing support
+RDEPENDS_python3-crypt: python3-core libcrypto (>= 1.0.2o) libpython3 (>= 3.5.3) glibc (>= 2.26)
+RRECOMMENDS_python3-crypt: openssl
+SECTION: devel/python
+PKG_python3-crypt: python3-crypt
+FILES_python3-crypt: /usr/lib/python3.5/hashlib.* /usr/lib/python3.5/__pycache__/hashlib.* /usr/lib/python3.5/md5.* /usr/lib/python3.5/__pycache__/md5.* /usr/lib/python3.5/sha.* /usr/lib/python3.5/__pycache__/sha.* /usr/lib/python3.5/lib-dynload/crypt.*.so /usr/lib/python3.5/lib-dynload/__pycache__/crypt.*.so /usr/lib/python3.5/lib-dynload/_hashlib.*.so /usr/lib/python3.5/lib-dynload/__pycache__/_hashlib.*.so /usr/lib/python3.5/lib-dynload/_sha256.*.so /usr/lib/python3.5/lib-dynload/__pycache__/_sha256.*.so /usr/lib/python3.5/lib-dynload/_sha512.*.so /usr/lib/python3.5/lib-dynload/__pycache__/_sha512.*.so 
+FILES_INFO: {"/usr/lib/python3.5/hashlib.py": 7979, "/usr/lib/python3.5/lib-dynload/_hashlib.cpython-35m-arm-linux-gnueabihf.so": 19576, "/usr/lib/python3.5/lib-dynload/_sha512.cpython-35m-arm-linux-gnueabihf.so": 47680, "/usr/lib/python3.5/lib-dynload/_sha256.cpython-35m-arm-linux-gnueabihf.so": 19008, "/usr/lib/python3.5/__pycache__/hashlib.cpython-35.opt-1.pyc": 6261, "/usr/lib/python3.5/__pycache__/hashlib.cpython-35.pyc": 6261, "/usr/lib/python3.5/__pycache__/hashlib.cpython-35.opt-2.pyc": 5731}
+FILERDEPENDSFLIST_python3-crypt: /usr/lib/python3.5/lib-dynload/@underscore@hashlib.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/lib-dynload/@underscore@sha256.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/lib-dynload/@underscore@sha512.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@hashlib.cpython-35m-arm-linux-gnueabihf.so_python3-crypt: libc.so.6(GLIBC_2.4) libcrypto.so.1.0.2(OPENSSL_1.0.2d) libcrypto.so.1.0.2 libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@sha256.cpython-35m-arm-linux-gnueabihf.so_python3-crypt: libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@sha512.cpython-35m-arm-linux-gnueabihf.so_python3-crypt: libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_python3-crypt: 112496

@@ -1,0 +1,50 @@
+DEBUG: Executing python function do_image
+NOTE: Executing mklibs_optimize_image ...
+DEBUG: Executing shell function mklibs_optimize_image
+DEBUG: Shell function mklibs_optimize_image finished
+NOTE: Executing prelink_setup ...
+DEBUG: Executing python function prelink_setup
+DEBUG: Python function prelink_setup finished
+NOTE: Executing prelink_image ...
+DEBUG: Executing shell function prelink_image
+Size before prelinking 6880.
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /sbin/fstab-decode: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /sbin/runlevel.sysvinit: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /sbin/halt.sysvinit: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /sbin/init.sysvinit: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /sbin/bootlogd: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /sbin/killall5: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /sbin/shutdown.sysvinit: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /sbin/udevd: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/sbin/dropbearmulti: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /bin/busybox.suid: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /bin/busybox.nosuid: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /bin/mountpoint.sysvinit: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/cyclictest: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/ptsematest: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/sigwaittest: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/pip_stress: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/last.sysvinit: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/sendme: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/pmqtest: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/mesg.sysvinit: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/utmpdump.sysvinit: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/svsematest: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/hackbench: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/pi_stress: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/rt-migrate-test: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/wall.sysvinit: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/udevadm: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /usr/bin/signaltest: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /lib/udev/cdrom_id: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /lib/udev/v4l_id: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /lib/udev/scsi_id: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /lib/udev/mtd_probe: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /lib/udev/ata_id: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/recipe-sysroot-native/usr/sbin/prelink: /lib/udev/collect: Using /lib/ld-linux-armhf.so.3, not /lib/ld-linux.so.3 as dynamic linker
+Size after prelinking 6880.
+DEBUG: Shell function prelink_image finished
+NOTE: Executing reproducible_final_image_task ...
+DEBUG: Executing shell function reproducible_final_image_task
+DEBUG: Shell function reproducible_final_image_task finished
+DEBUG: Python function do_image finished

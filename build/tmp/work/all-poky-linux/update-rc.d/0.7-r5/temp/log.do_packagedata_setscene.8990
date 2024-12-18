@@ -1,0 +1,39 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz for 12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz;downloadfilename=12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/12/sstate%3Aupdate-rc.d%3Aall-poky-linux%3A0.7%3Ar5%3Aallarch%3A3%3A12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz;downloadfilename=12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz
+DEBUG: Searching for 12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz.siginfo for 12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz.siginfo;downloadfilename=12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/12/sstate%3Aupdate-rc.d%3Aall-poky-linux%3A0.7%3Ar5%3Aallarch%3A3%3A12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz.siginfo;downloadfilename=12/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:12d21374f7b93c0a1766aeeb8234b0c6_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/update-rc.d-dbg
+pkgdata/runtime/update-rc.d-doc
+pkgdata/runtime/update-rc.d-dbg.packaged
+pkgdata/runtime/update-rc.d-dev.packaged
+pkgdata/runtime/update-rc.d-staticdev
+pkgdata/runtime/update-rc.d.packaged
+pkgdata/runtime/update-rc.d-dev
+pkgdata/runtime/update-rc.d
+pkgdata/runtime/update-rc.d-locale
+pkgdata/shlibs2/
+pkgdata/runtime-rprovides/
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/update-rc.d-dbg
+pkgdata/runtime-reverse/update-rc.d-dev
+pkgdata/runtime-reverse/update-rc.d
+pkgdata/update-rc.d
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/all-poky-linux/update-rc.d/0.7-r5/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546294.34 
+u-boot-pynq-uenv-1.0-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 172563
+IO wchar: 77127
+IO syscr: 175
+IO syscw: 63
+IO read_bytes: 8192
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.071565
+rusage ru_stime: 0.010733999999999999
+rusage ru_maxrss: 62604
+rusage ru_minflt: 5781
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 120
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 64
+Child rusage ru_utime: 0.011217
+Child rusage ru_stime: 0.002043
+Child rusage ru_maxrss: 60308
+Child rusage ru_minflt: 1731
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1734546294.40 

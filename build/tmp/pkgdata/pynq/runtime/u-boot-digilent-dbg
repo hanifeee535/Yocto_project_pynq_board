@@ -1,0 +1,16 @@
+PN: u-boot-digilent
+PE: 1
+PV: 2016.07
+PR: r0
+PKGE: 1
+PKGV: 2016.07
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-digilent-dbg: Universal Boot Loader for embedded devices.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_u-boot-digilent-dbg: Universal Boot Loader for embedded devices - Debugging files
+SECTION_u-boot-digilent-dbg: devel
+PKG_u-boot-digilent-dbg: u-boot-digilent-dbg
+ALLOW_EMPTY_u-boot-digilent-dbg: 1
+FILES_u-boot-digilent-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_u-boot-digilent-dbg: 0

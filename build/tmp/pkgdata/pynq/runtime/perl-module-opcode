@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.1
+PR: r0
+PKGV: 5.24.1
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-opcode: perl module opcode
+SUMMARY_perl-module-opcode: perl module opcode
+RDEPENDS_perl-module-opcode: perl perl-module-carp perl-module-exporter perl-module-strict perl-module-subs perl-module-xsloader glibc (>= 2.26)
+SECTION: devel
+PKG_perl-module-opcode: perl-module-opcode
+FILES_perl-module-opcode: /usr/lib/perl/5.24.1/auto/Opcode/Opcode.so /usr/lib/perl/5.24.1/Opcode.pm
+FILERPROVIDESFLIST_perl-module-opcode: /usr/lib/perl/5.24.1/Opcode.pm
+FILES_INFO: {"/usr/lib/perl/5.24.1/Opcode.pm": 15860, "/usr/lib/perl/5.24.1/auto/Opcode/Opcode.so": 17864}
+FILERPROVIDES_/usr/lib/perl/5.24.1/Opcode.pm_perl-module-opcode: perl(Opcode)
+FILERDEPENDSFLIST_perl-module-opcode: /usr/lib/perl/5.24.1/auto/Opcode/Opcode.so
+FILERDEPENDS_/usr/lib/perl/5.24.1/auto/Opcode/Opcode.so_perl-module-opcode: libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+PKGSIZE_perl-module-opcode: 33724

@@ -1,0 +1,16 @@
+recipe-sysroot-native/usr/bin/execstack
+recipe-sysroot-native/usr/sbin/prelink-rtld
+recipe-sysroot-native/usr/sbin/prelink
+recipe-sysroot-native/sysroot-providers/prelink-native
+recipe-sysroot-native/etc/prelink.conf
+recipe-sysroot-native/etc/default/prelink
+recipe-sysroot-native/etc/cron.daily/prelink
+recipe-sysroot-native/etc/rpm/macros.prelink
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/etc/cron.daily/
+recipe-sysroot-native/etc/default/
+recipe-sysroot-native/usr/sbin/
+recipe-sysroot-native/etc/rpm/
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/etc/
+recipe-sysroot-native/usr/

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546586.80 
+device-tree-1.0-r0: do_populate_sysroot
+Elapsed time: 3.17 seconds
+utime: 8
+stime: 2
+cutime: 3
+cstime: 0
+IO rchar: 353541
+IO wchar: 194593
+IO syscr: 415
+IO syscw: 112
+IO read_bytes: 4096
+IO write_bytes: 163840
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.084628
+rusage ru_stime: 0.020149
+rusage ru_maxrss: 63484
+rusage ru_minflt: 12624
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 312
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 180
+Child rusage ru_utime: 0.033915
+Child rusage ru_stime: 0.002758
+Child rusage ru_maxrss: 60764
+Child rusage ru_minflt: 4651
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 76
+Child rusage ru_nivcsw: 44
+Status: PASSED 
+Ended: 1734546589.97 

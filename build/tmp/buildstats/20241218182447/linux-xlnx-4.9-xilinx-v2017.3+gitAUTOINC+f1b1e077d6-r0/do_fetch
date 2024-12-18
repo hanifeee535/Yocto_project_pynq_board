@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546346.96 
+linux-xlnx-4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0: do_fetch
+Elapsed time: 0.06 seconds
+utime: 8
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 156180
+IO wchar: 58808
+IO syscr: 104
+IO syscw: 56
+IO read_bytes: 3469312
+IO write_bytes: 49152
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.087527
+rusage ru_stime: 0.011935
+rusage ru_maxrss: 63940
+rusage ru_minflt: 6770
+rusage ru_majflt: 0
+rusage ru_inblock: 264
+rusage ru_oublock: 96
+rusage ru_nvcsw: 25
+rusage ru_nivcsw: 111
+Child rusage ru_utime: 0.005502
+Child rusage ru_stime: 0.009633
+Child rusage ru_maxrss: 61180
+Child rusage ru_minflt: 764
+Child rusage ru_majflt: 26
+Child rusage ru_inblock: 6512
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 51
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1734546347.03 

@@ -1,0 +1,8 @@
+sysroot-destdir/usr/lib/perl/config.sh
+sysroot-destdir/usr/lib/perl/5.24.1/Config_heavy.pl
+sysroot-destdir/usr/lib/perl/5.24.1/ExtUtils/Liblist/Kid.pm
+sysroot-destdir/usr/lib/perl/5.24.1/FileCache.pm
+sysroot-destdir/usr/lib/perl/5.24.1/CORE/pp.h
+sysroot-destdir/usr/lib/perl/5.24.1/CORE/config.h
+sysroot-destdir/usr/lib/perl/5.24.1/CORE/perl.h
+sysroot-destdir/usr/lib/perl/5.24.1/Config.pm

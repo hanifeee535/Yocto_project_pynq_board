@@ -1,0 +1,14 @@
+PN: stress
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_stress-staticdev: Deliberately simple workload generator for POSIX systems. It imposes a configurable amount of CPU, memory, I/O, and disk stress on the system.  This package contains static libraries for software development.
+SUMMARY_stress-staticdev: System load testing utility - Development files (Static Libraries)
+RDEPENDS_stress-staticdev: stress-dev (= 1.0.4-r0)
+SECTION_stress-staticdev: devel
+PKG_stress-staticdev: stress-staticdev
+FILES_stress-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/stress/*.a
+FILES_INFO: {}
+PKGSIZE_stress-staticdev: 0

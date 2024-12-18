@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546325.92 
+dbus-test-1.10.20-r0: do_package_qa_setscene
+Elapsed time: 0.07 seconds
+utime: 7
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 158164
+IO wchar: 77095
+IO syscr: 90
+IO syscw: 64
+IO read_bytes: 4096
+IO write_bytes: 53248
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.073737
+rusage ru_stime: 0.015522999999999999
+rusage ru_maxrss: 62860
+rusage ru_minflt: 4840
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 52
+Child rusage ru_utime: 0.006247
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 60576
+Child rusage ru_minflt: 886
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 8
+Status: PASSED 
+Ended: 1734546326.00 

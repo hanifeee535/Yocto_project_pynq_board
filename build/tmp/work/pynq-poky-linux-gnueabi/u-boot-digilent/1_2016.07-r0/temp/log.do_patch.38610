@@ -1,0 +1,62 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['quilt-native']
+NOTE: Skipping as already exists in sysroot: []
+DEBUG: sed -e 's:^[^/]*/:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/u-boot-digilent/1_2016.07-r0/recipe-sysroot-native/:g' /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/quilt-native/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIRTARGET:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/u-boot-digilent/1_2016.07-r0/recipe-sysroot:g; s:FIXMESTAGINGDIRHOST:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/u-boot-digilent/1_2016.07-r0/recipe-sysroot-native:g' -e 's:FIXME_COMPONENTS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components:g' -e 's:FIXME_HOSTTOOLS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools:g' -e 's:FIXME_PKGDATA_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq:g' -e 's:FIXME_PSEUDO_LOCALSTATEDIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/u-boot-digilent/1_2016.07-r0/pseudo/:g' -e 's:FIXME_LOGFIFO:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/u-boot-digilent/1_2016.07-r0/temp/fifo.38610:g'
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for 0001-Embed-device-tree-for-ArtyZ7-board.patch in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/
+DEBUG: Searching for 0001-usb_storage-Change-the-USB_MAX_XFER_BLK-value.patch in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent-2016.07/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/u-boot-digilent/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/u-boot/files/
+NOTE: Applying patch '0001-Embed-device-tree-for-ArtyZ7-board.patch' (../meta-pynq/recipes-bsp/u-boot/u-boot/0001-Embed-device-tree-for-ArtyZ7-board.patch)
+NOTE: Applying patch '0001-usb_storage-Change-the-USB_MAX_XFER_BLK-value.patch' (../meta-pynq/recipes-bsp/u-boot/u-boot/0001-usb_storage-Change-the-USB_MAX_XFER_BLK-value.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

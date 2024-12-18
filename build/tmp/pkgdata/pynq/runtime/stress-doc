@@ -1,0 +1,13 @@
+PN: stress
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_stress-doc: Deliberately simple workload generator for POSIX systems. It imposes a configurable amount of CPU, memory, I/O, and disk stress on the system.  This package contains documentation.
+SUMMARY_stress-doc: System load testing utility - Documentation files
+SECTION_stress-doc: doc
+PKG_stress-doc: stress-doc
+FILES_stress-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/info/stress.info": 4663, "/usr/share/man/man1/stress.1": 1781}
+PKGSIZE_stress-doc: 6444

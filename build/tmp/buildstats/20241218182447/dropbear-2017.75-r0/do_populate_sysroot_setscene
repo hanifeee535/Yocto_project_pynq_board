@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546295.84 
+dropbear-2017.75-r0: do_populate_sysroot_setscene
+Elapsed time: 0.07 seconds
+utime: 6
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 222256
+IO wchar: 88944
+IO syscr: 190
+IO syscw: 74
+IO read_bytes: 12288
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.063731
+rusage ru_stime: 0.023899
+rusage ru_maxrss: 62972
+rusage ru_minflt: 6019
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 120
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 60
+Child rusage ru_utime: 0.010903999999999999
+Child rusage ru_stime: 0.0057929999999999995
+Child rusage ru_maxrss: 60708
+Child rusage ru_minflt: 1749
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 38
+Status: PASSED 
+Ended: 1734546295.91 

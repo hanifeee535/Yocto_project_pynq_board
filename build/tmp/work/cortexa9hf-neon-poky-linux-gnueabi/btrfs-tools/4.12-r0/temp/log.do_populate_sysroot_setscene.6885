@@ -1,0 +1,54 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz for d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'd6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'd6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz;downloadfilename=d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/d6/sstate%3Abtrfs-tools%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.12%3Ar0%3Acortexa9hf-neon%3A3%3Ad6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz;downloadfilename=d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz
+DEBUG: Searching for d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz.siginfo for d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'd6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'd6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz.siginfo;downloadfilename=d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/d6/sstate%3Abtrfs-tools%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.12%3Ar0%3Acortexa9hf-neon%3A3%3Ad6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz.siginfo;downloadfilename=d6/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:d6cce1e570f2923b19cba5bcf6163161_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/lib/
+sysroot-destdir/lib/udev/
+sysroot-destdir/lib/udev/rules.d/
+sysroot-destdir/lib/udev/rules.d/64-btrfs-dm.rules
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/btrfs-tools
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/libbtrfs.so.0.1
+sysroot-destdir/usr/lib/libbtrfs.a
+sysroot-destdir/usr/lib/libbtrfs.so
+sysroot-destdir/usr/lib/libbtrfs.so.0
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/btrfs/
+sysroot-destdir/usr/include/btrfs/btrfs-list.h
+sysroot-destdir/usr/include/btrfs/list.h
+sysroot-destdir/usr/include/btrfs/send.h
+sysroot-destdir/usr/include/btrfs/ctree.h
+sysroot-destdir/usr/include/btrfs/send-utils.h
+sysroot-destdir/usr/include/btrfs/extent_io.h
+sysroot-destdir/usr/include/btrfs/btrfsck.h
+sysroot-destdir/usr/include/btrfs/rbtree.h
+sysroot-destdir/usr/include/btrfs/extent-cache.h
+sysroot-destdir/usr/include/btrfs/radix-tree.h
+sysroot-destdir/usr/include/btrfs/raid56.h
+sysroot-destdir/usr/include/btrfs/send-stream.h
+sysroot-destdir/usr/include/btrfs/ioctl.h
+sysroot-destdir/usr/include/btrfs/kerncompat.h
+sysroot-destdir/usr/include/btrfs/crc32c.h
+sysroot-destdir/usr/include/btrfs/sizes.h
+sysroot-destdir/usr/include/btrfs/version.h
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/btrfs-tools/4.12-r0/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/btrfs-tools
+DEBUG: Python function do_populate_sysroot_setscene finished

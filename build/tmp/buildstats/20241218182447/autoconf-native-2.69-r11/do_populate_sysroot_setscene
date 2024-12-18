@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546346.37 
+autoconf-native-2.69-r11: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 1
+cutime: 2
+cstime: 1
+IO rchar: 2583780
+IO wchar: 3705082
+IO syscr: 515
+IO syscw: 464
+IO read_bytes: 528384
+IO write_bytes: 1966080
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.065985
+rusage ru_stime: 0.015524999999999999
+rusage ru_maxrss: 62916
+rusage ru_minflt: 6061
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 160
+rusage ru_nvcsw: 56
+rusage ru_nivcsw: 20
+Child rusage ru_utime: 0.020812
+Child rusage ru_stime: 0.010343999999999999
+Child rusage ru_maxrss: 60640
+Child rusage ru_minflt: 1786
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1008
+Child rusage ru_oublock: 3680
+Child rusage ru_nvcsw: 74
+Child rusage ru_nivcsw: 53
+Status: PASSED 
+Ended: 1734546346.42 

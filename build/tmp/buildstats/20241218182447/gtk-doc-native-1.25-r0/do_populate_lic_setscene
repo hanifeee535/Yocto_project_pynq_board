@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546307.68 
+gtk-doc-native-1.25-r0: do_populate_lic_setscene
+Elapsed time: 0.04 seconds
+utime: 7
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 264997
+IO wchar: 156001
+IO syscr: 196
+IO syscw: 85
+IO read_bytes: 20480
+IO write_bytes: 106496
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07550799999999999
+rusage ru_stime: 0.011326
+rusage ru_maxrss: 62904
+rusage ru_minflt: 6029
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 120
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 50
+Child rusage ru_utime: 0.01192
+Child rusage ru_stime: 0.002253
+Child rusage ru_maxrss: 60656
+Child rusage ru_minflt: 1765
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1734546307.73 

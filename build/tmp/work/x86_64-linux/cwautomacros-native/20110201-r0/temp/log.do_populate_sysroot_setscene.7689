@@ -1,0 +1,81 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz for universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz;downloadfilename=universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/1f/sstate%3Acwautomacros-native%3Ax86_64-linux%3A20110201%3Ar0%3Ax86_64%3A3%3A1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz;downloadfilename=universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz
+DEBUG: Searching for universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz.siginfo for universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz.siginfo;downloadfilename=universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/1f/sstate%3Acwautomacros-native%3Ax86_64-linux%3A20110201%3Ar0%3Ax86_64%3A3%3A1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz.siginfo;downloadfilename=universal/1f/sstate:cwautomacros-native:x86_64-linux:20110201:r0:x86_64:3:1f91d96a20f483ab1d68a60eb0ebe304_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/cwautomacros-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/share/cwautomacros/
+recipe-sysroot-native/usr/share/cwautomacros/m4/
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_LIB_LIBCWD.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_TYPE_EXTRACT_FROM.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_BUG_REDEFINES.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_LIB_LIBXML2.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_TYPE_GETGROUPS.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_LIB_LIBCW.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_ENVIRONMENT.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_TYPE_SIGHANDLER_PARAM_T.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_DEFINE_TYPE.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_PROG_CXX_FINGER_PRINTS.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_MAKEFILEIN_PREFIX.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_TYPE_SOCKLEN_T.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_SYS_RECURSIVE_BUILTIN_RETURN_ADDRESS.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_RPATH_OPTION.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_OPG_FLAGS.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_DOXYGEN.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_AUTOMACROS.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_BOOST.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_SETUP_RPM_DIRS.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_BUG_G_CONFIG_H.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_LIB_LIBXMLWRAPP.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_PIPE_EXTRAOPTS.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_LIB_LIBCAIRO.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_CONFIG_FILE.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_BOOST_TOOLSET.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_PCHFLAGS.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_TYPE_OPTVAL_T.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_CLEAN_CACHE.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_SYS_PCH.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_NBLOCK.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_BOOST_ROOT.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_BOOST_VERSION.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_LIB_LIBGTKMM.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_LIB_LIBGLIB2.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_LIB_LIBGTK2.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_OPG_CFLAGS.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_SYS_MALLOC_OVERHEAD.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_NEED_WORD_ALIGNMENT.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_LIB_LIBGSTREAMERMM.m4
+recipe-sysroot-native/usr/share/cwautomacros/m4/CW_SOCKET.m4
+recipe-sysroot-native/usr/share/cwautomacros/scripts/
+recipe-sysroot-native/usr/share/cwautomacros/scripts/autogen.sh
+recipe-sysroot-native/usr/share/cwautomacros/scripts/depcomp.sh
+recipe-sysroot-native/usr/share/cwautomacros/version
+recipe-sysroot-native/usr/share/cwautomacros/templates/
+recipe-sysroot-native/usr/share/cwautomacros/templates/doxygen/
+recipe-sysroot-native/usr/share/cwautomacros/templates/doxygen/mainpage.dox
+recipe-sysroot-native/usr/share/cwautomacros/templates/doxygen/Makefile.am
+recipe-sysroot-native/usr/share/cwautomacros/templates/doxygen/html.footer.in
+recipe-sysroot-native/usr/share/cwautomacros/templates/doxygen/main.css
+recipe-sysroot-native/usr/share/cwautomacros/templates/doxygen/html.header.in
+recipe-sysroot-native/usr/share/cwautomacros/templates/autogen.sh
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/cwautomacros-native/20110201-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/cwautomacros-native/20110201-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/cwautomacros-native
+DEBUG: Python function do_populate_sysroot_setscene finished

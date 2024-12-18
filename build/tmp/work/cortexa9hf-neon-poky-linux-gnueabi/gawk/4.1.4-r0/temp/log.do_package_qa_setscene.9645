@@ -1,0 +1,21 @@
+DEBUG: Executing python function do_package_qa_setscene
+DEBUG: Searching for 99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz for 99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz', '', '', OrderedDict([('downloadfilename', '99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz;downloadfilename=99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz returning file:///home/student/poky_cache/sstate-cache/99/sstate%3Agawk%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.1.4%3Ar0%3Acortexa9hf-neon%3A3%3A99199d0601df2477fc997d5b13bea7c2_package_qa.tgz;downloadfilename=99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz
+DEBUG: Searching for 99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz.siginfo for 99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz.siginfo;downloadfilename=99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/99/sstate%3Agawk%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.1.4%3Ar0%3Acortexa9hf-neon%3A3%3A99199d0601df2477fc997d5b13bea7c2_package_qa.tgz.siginfo;downloadfilename=99/sstate:gawk:cortexa9hf-neon-poky-linux-gnueabi:4.1.4:r0:cortexa9hf-neon:3:99199d0601df2477fc997d5b13bea7c2_package_qa.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function do_package_qa_setscene finished

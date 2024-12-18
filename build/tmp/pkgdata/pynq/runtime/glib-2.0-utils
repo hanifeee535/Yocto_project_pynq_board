@@ -1,0 +1,27 @@
+PN: glib-2.0
+PE: 1
+PV: 2.52.3
+PR: r0
+PKGE: 1
+PKGV: 2.52.3
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.
+SUMMARY: A general-purpose utility library
+RDEPENDS_glib-2.0-utils: glib-2.0 (>= 2.52.3) glibc (>= 2.26)
+RPROVIDES_glib-2.0-utils:  glib-2.0-utils (=2.52.3)
+SECTION: libs
+PKG_glib-2.0-utils: libglib-2.0-utils
+FILES_glib-2.0-utils: /usr/bin/*
+FILES_INFO: {"/usr/bin/gobject-query": 9700, "/usr/bin/gsettings": 18144, "/usr/bin/gresource": 9764, "/usr/bin/gio": 59624, "/usr/bin/glib-compile-schemas": 38848, "/usr/bin/gdbus": 30564, "/usr/bin/gtester-report": 18762, "/usr/bin/gtester": 18084, "/usr/bin/gapplication": 13940}
+FILERDEPENDSFLIST_glib-2.0-utils: /usr/bin/gapplication /usr/bin/gdbus /usr/bin/gio /usr/bin/glib-compile-schemas /usr/bin/gobject-query /usr/bin/gresource /usr/bin/gsettings /usr/bin/gtester /usr/bin/gtester-report
+FILERDEPENDS_/usr/bin/gapplication_glib-2.0-utils: libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libgobject-2.0.so.0 libglib-2.0.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gdbus_glib-2.0-utils: libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libgobject-2.0.so.0 libglib-2.0.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gio_glib-2.0-utils: libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libgobject-2.0.so.0 libglib-2.0.so.0 libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/glib-compile-schemas_glib-2.0-utils: libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gobject-query_glib-2.0-utils: libc.so.6(GLIBC_2.4) libgobject-2.0.so.0 libglib-2.0.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gresource_glib-2.0-utils: libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libglib-2.0.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gsettings_glib-2.0-utils: libc.so.6(GLIBC_2.4) libgio-2.0.so.0 libgobject-2.0.so.0 libglib-2.0.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gtester_glib-2.0-utils: libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/gtester-report_glib-2.0-utils: /usr/bin/env
+PKGSIZE_glib-2.0-utils: 217430

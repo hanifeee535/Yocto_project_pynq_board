@@ -1,0 +1,15 @@
+PN: bc
+PV: 1.06
+PR: r3
+PKGV: 1.06
+PKGR: r3
+LICENSE: GPLv2+ & LGPLv2.1
+DESCRIPTION_bc-dbg: Arbitrary precision calculator language.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_bc-dbg: Arbitrary precision calculator language - Debugging files
+RRECOMMENDS_bc-dbg: glibc-dbg
+SECTION_bc-dbg: devel
+PKG_bc-dbg: bc-dbg
+ALLOW_EMPTY_bc-dbg: 1
+FILES_bc-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/dc.bc": 105732, "/usr/bin/.debug/bc": 145160, "/usr/src/debug/bc/1.06-r3/bc-1.06/lib/number.c": 41550, "/usr/src/debug/bc/1.06-r3/bc-1.06/dc/misc.c": 4383, "/usr/src/debug/bc/1.06-r3/bc-1.06/dc/dc.h": 2270, "/usr/src/debug/bc/1.06-r3/bc-1.06/dc/dc.c": 4315, "/usr/src/debug/bc/1.06-r3/bc-1.06/dc/stack.c": 11382, "/usr/src/debug/bc/1.06-r3/bc-1.06/dc/array.c": 3104, "/usr/src/debug/bc/1.06-r3/bc-1.06/dc/numeric.c": 13855, "/usr/src/debug/bc/1.06-r3/bc-1.06/dc/eval.c": 18652, "/usr/src/debug/bc/1.06-r3/bc-1.06/dc/string.c": 5257, "/usr/src/debug/bc/1.06-r3/bc-1.06/dc/dc-proto.h": 4170, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/bc.h": 739, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/main.c": 7966, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/global.h": 4283, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/bcdefs.h": 5022, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/util.c": 17819, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/proto.h": 5265, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/storage.c": 22784, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/global.c": 1469, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/load.c": 7647, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/scan.c": 59905, "/usr/src/debug/bc/1.06-r3/bc-1.06/bc/execute.c": 17898, "/usr/src/debug/bc/1.06-r3/bc-1.06/h/number.h": 4310, "/usr/src/debug/bc/1.06-r3/bc-1.06/h/getopt.h": 4632}
+PKGSIZE_bc-dbg: 519569

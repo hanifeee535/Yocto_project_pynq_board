@@ -1,0 +1,30 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz for 06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz;downloadfilename=06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/06/sstate%3Anss-native%3A%3A3.31.1%3Ar0%3A%3A3%3A067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz;downloadfilename=06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz
+DEBUG: Searching for 06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz.siginfo for 06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz.siginfo;downloadfilename=06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/06/sstate%3Anss-native%3A%3A3.31.1%3Ar0%3A%3A3%3A067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz.siginfo;downloadfilename=06/sstate:nss-native::3.31.1:r0::3:067b8b8919d11e599cc93a4fd9bc8a72_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/nss-native/
+license-destdir/nss-native/COPYING
+license-destdir/nss-native/generic_MPL-2.0
+license-destdir/nss-native/LICENSE
+license-destdir/nss-native/generic_GPL-2.0
+license-destdir/nss-native/generic_LGPL-2.1
+license-destdir/nss-native/LICENSE-MPL
+license-destdir/nss-native/recipeinfo
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/nss-native/3.31.1-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

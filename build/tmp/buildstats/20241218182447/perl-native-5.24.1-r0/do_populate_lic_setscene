@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546296.54 
+perl-native-5.24.1-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 4
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 239802
+IO wchar: 159503
+IO syscr: 199
+IO syscw: 86
+IO read_bytes: 24576
+IO write_bytes: 110592
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.049592
+rusage ru_stime: 0.011444
+rusage ru_maxrss: 62500
+rusage ru_minflt: 5705
+rusage ru_majflt: 0
+rusage ru_inblock: 32
+rusage ru_oublock: 112
+rusage ru_nvcsw: 16
+rusage ru_nivcsw: 22
+Child rusage ru_utime: 0.012149
+Child rusage ru_stime: 0.000569
+Child rusage ru_maxrss: 60188
+Child rusage ru_minflt: 1742
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 104
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1734546296.59 

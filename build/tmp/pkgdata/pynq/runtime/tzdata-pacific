@@ -1,0 +1,14 @@
+PN: tzdata
+PV: 2018c
+PR: r0
+PKGV: 2018c
+PKGR: r0
+LICENSE: PD & BSD & BSD-3-Clause
+DESCRIPTION: Timezone data.
+SUMMARY: Timezone data
+RPROVIDES_tzdata-pacific: tzdata-pacific
+SECTION: base
+PKG_tzdata-pacific: tzdata-pacific
+FILES_tzdata-pacific:  /usr/share/zoneinfo/Pacific/*
+FILES_INFO: {"/usr/share/zoneinfo/Pacific/Efate": 492, "/usr/share/zoneinfo/Pacific/Chatham": 2087, "/usr/share/zoneinfo/Pacific/Pohnpei": 183, "/usr/share/zoneinfo/Pacific/Saipan": 225, "/usr/share/zoneinfo/Pacific/Kwajalein": 259, "/usr/share/zoneinfo/Pacific/Ponape": 183, "/usr/share/zoneinfo/Pacific/Chuuk": 183, "/usr/share/zoneinfo/Pacific/Tongatapu": 393, "/usr/share/zoneinfo/Pacific/Tarawa": 183, "/usr/share/zoneinfo/Pacific/Pitcairn": 223, "/usr/share/zoneinfo/Pacific/Wake": 183, "/usr/share/zoneinfo/Pacific/Auckland": 2460, "/usr/share/zoneinfo/Pacific/Marquesas": 195, "/usr/share/zoneinfo/Pacific/Funafuti": 183, "/usr/share/zoneinfo/Pacific/Niue": 266, "/usr/share/zoneinfo/Pacific/Kosrae": 251, "/usr/share/zoneinfo/Pacific/Rarotonga": 602, "/usr/share/zoneinfo/Pacific/Guam": 225, "/usr/share/zoneinfo/Pacific/Majuro": 221, "/usr/share/zoneinfo/Pacific/Gambier": 186, "/usr/share/zoneinfo/Pacific/Fiji": 1104, "/usr/share/zoneinfo/Pacific/Easter": 2242, "/usr/share/zoneinfo/Pacific/Yap": 183, "/usr/share/zoneinfo/Pacific/Tahiti": 187, "/usr/share/zoneinfo/Pacific/Samoa": 196, "/usr/share/zoneinfo/Pacific/Fakaofo": 221, "/usr/share/zoneinfo/Pacific/Nauru": 282, "/usr/share/zoneinfo/Pacific/Johnston": 276, "/usr/share/zoneinfo/Pacific/Bougainville": 296, "/usr/share/zoneinfo/Pacific/Kiritimati": 263, "/usr/share/zoneinfo/Pacific/Midway": 196, "/usr/share/zoneinfo/Pacific/Norfolk": 323, "/usr/share/zoneinfo/Pacific/Guadalcanal": 188, "/usr/share/zoneinfo/Pacific/Galapagos": 268, "/usr/share/zoneinfo/Pacific/Palau": 182, "/usr/share/zoneinfo/Pacific/Apia": 1134, "/usr/share/zoneinfo/Pacific/Pago_Pago": 196, "/usr/share/zoneinfo/Pacific/Truk": 183, "/usr/share/zoneinfo/Pacific/Port_Moresby": 206, "/usr/share/zoneinfo/Pacific/Wallis": 183, "/usr/share/zoneinfo/Pacific/Enderbury": 259}
+PKGSIZE_tzdata-pacific: 17751

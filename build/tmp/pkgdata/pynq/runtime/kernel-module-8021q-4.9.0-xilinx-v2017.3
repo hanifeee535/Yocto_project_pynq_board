@@ -1,0 +1,17 @@
+PN: linux-xlnx
+PV: 4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6
+PR: r0
+PKGV: 4.9-xilinx-v2017.3+git0+f1b1e077d6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-8021q-4.9.0-xilinx-v2017.3: 8021q kernel module
+SUMMARY_kernel-module-8021q-4.9.0-xilinx-v2017.3: 8021q kernel module
+RDEPENDS_kernel-module-8021q-4.9.0-xilinx-v2017.3: kernel-4.9.0-xilinx-v2017.3
+RPROVIDES_kernel-module-8021q-4.9.0-xilinx-v2017.3: kernel-module-8021q
+SECTION: kernel
+PKG_kernel-module-8021q-4.9.0-xilinx-v2017.3: kernel-module-8021q-4.9.0-xilinx-v2017.3
+FILES_kernel-module-8021q-4.9.0-xilinx-v2017.3: /lib/modules/4.9.0-xilinx-v2017.3/kernel/net/8021q/8021q.ko /etc/modules-load.d/8021q.conf /etc/modprobe.d/8021q.conf
+pkg_postinst_kernel-module-8021q-4.9.0-xilinx-v2017.3: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.9.0-xilinx-v2017.3\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-8021q-4.9.0-xilinx-v2017.3: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 4.9.0-xilinx-v2017.3\nelse\n\tdepmodwrapper -a -b $D 4.9.0-xilinx-v2017.3\nfi\n\n
+FILES_INFO: {"/lib/modules/4.9.0-xilinx-v2017.3/kernel/net/8021q/8021q.ko": 33752}
+PKGSIZE_kernel-module-8021q-4.9.0-xilinx-v2017.3: 33752

@@ -1,0 +1,31 @@
+def do_kernel_configcheck(d):
+    import re, string, sys
+
+    # if KMETA isn't set globally by a recipe using this routine, we need to
+    # set the default to 'meta'. Otherwise, kconf_check is not passed a valid
+    # meta-series for processing
+    kmeta = d.getVar("KMETA") or "meta"
+    if not os.path.exists(kmeta):
+        kmeta = "." + kmeta
+
+    pathprefix = "export PATH=%s:%s; " % (d.getVar('PATH'), "${S}/scripts/util/")
+
+    cmd = d.expand("scc --configs -o ${S}/.kernel-meta")
+    ret, configs = oe.utils.getstatusoutput("%s%s" % (pathprefix, cmd))
+
+    cmd = d.expand("cd ${S}; kconf_check --report -o ${S}/%s/cfg/ ${B}/.config ${S} %s" % (kmeta,configs))
+    ret, result = oe.utils.getstatusoutput("%s%s" % (pathprefix, cmd))
+
+    config_check_visibility = int(d.getVar("KCONF_AUDIT_LEVEL") or 0)
+    bsp_check_visibility = int(d.getVar("KCONF_BSP_AUDIT_LEVEL") or 0)
+
+    # if config check visibility is non-zero, report dropped configuration values
+    mismatch_file = d.expand("${S}/%s/cfg/mismatch.txt" % kmeta)
+    if os.path.exists(mismatch_file):
+        if config_check_visibility:
+            with open (mismatch_file, "r") as myfile:
+                results = myfile.read()
+                bb.warn( "[kernel config]: specified values did not make it into the kernel's final configuration:\n\n%s" % results)
+
+do_kernel_configcheck(d)
+

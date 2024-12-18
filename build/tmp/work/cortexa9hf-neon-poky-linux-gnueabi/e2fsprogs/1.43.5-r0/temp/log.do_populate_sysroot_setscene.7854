@@ -1,0 +1,79 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz for a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz;downloadfilename=a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/a9/sstate%3Ae2fsprogs%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.43.5%3Ar0%3Acortexa9hf-neon%3A3%3Aa936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz;downloadfilename=a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz
+DEBUG: Searching for a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz.siginfo for a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz.siginfo;downloadfilename=a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/a9/sstate%3Ae2fsprogs%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.43.5%3Ar0%3Acortexa9hf-neon%3A3%3Aa936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz.siginfo;downloadfilename=a9/sstate:e2fsprogs:cortexa9hf-neon-poky-linux-gnueabi:1.43.5:r0:cortexa9hf-neon:3:a936769f3fcea4f1fc5a5fb291936ff6_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/lib/
+sysroot-destdir/lib/libe2p.so.2
+sysroot-destdir/lib/libss.so.2
+sysroot-destdir/lib/libss.so
+sysroot-destdir/lib/libext2fs.a
+sysroot-destdir/lib/libext2fs.so.2.4
+sysroot-destdir/lib/libext2fs.so
+sysroot-destdir/lib/libcom_err.so.2
+sysroot-destdir/lib/libcom_err.so.2.1
+sysroot-destdir/lib/libe2p.a
+sysroot-destdir/lib/libext2fs.so.2
+sysroot-destdir/lib/libcom_err.a
+sysroot-destdir/lib/libss.so.2.0
+sysroot-destdir/lib/libe2p.so.2.3
+sysroot-destdir/lib/libss.a
+sysroot-destdir/lib/libe2p.so
+sysroot-destdir/lib/libcom_err.so
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/e2fsprogs
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/e2fsprogs/
+sysroot-destdir/usr/lib/pkgconfig/
+sysroot-destdir/usr/lib/pkgconfig/com_err.pc
+sysroot-destdir/usr/lib/pkgconfig/ss.pc
+sysroot-destdir/usr/lib/pkgconfig/e2p.pc
+sysroot-destdir/usr/lib/pkgconfig/ext2fs.pc
+sysroot-destdir/usr/lib/e2initrd_helper
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/et/
+sysroot-destdir/usr/include/et/com_err.h
+sysroot-destdir/usr/include/com_err.h
+sysroot-destdir/usr/include/e2p/
+sysroot-destdir/usr/include/e2p/e2p.h
+sysroot-destdir/usr/include/ext2fs/
+sysroot-destdir/usr/include/ext2fs/ext2_io.h
+sysroot-destdir/usr/include/ext2fs/ext2_ext_attr.h
+sysroot-destdir/usr/include/ext2fs/bitops.h
+sysroot-destdir/usr/include/ext2fs/ext2_fs.h
+sysroot-destdir/usr/include/ext2fs/qcow2.h
+sysroot-destdir/usr/include/ext2fs/ext2_err.h
+sysroot-destdir/usr/include/ext2fs/tdb.h
+sysroot-destdir/usr/include/ext2fs/ext3_extents.h
+sysroot-destdir/usr/include/ext2fs/ext2fs.h
+sysroot-destdir/usr/include/ext2fs/ext2_types.h
+sysroot-destdir/usr/include/ext2fs/ext2_types-32.h
+sysroot-destdir/usr/include/ss/
+sysroot-destdir/usr/include/ss/ss.h
+sysroot-destdir/usr/include/ss/ss_err.h
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/et/
+sysroot-destdir/usr/share/et/et_c.awk
+sysroot-destdir/usr/share/et/et_h.awk
+sysroot-destdir/usr/share/ss/
+sysroot-destdir/usr/share/ss/ct_c.sed
+sysroot-destdir/usr/share/ss/ct_c.awk
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/e2fsprogs/1.43.5-r0/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/e2fsprogs
+DEBUG: Python function do_populate_sysroot_setscene finished

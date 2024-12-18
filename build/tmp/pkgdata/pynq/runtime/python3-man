@@ -1,0 +1,13 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY: The Python Programming Language
+SECTION: devel/python
+PKG_python3-man: python3-man
+FILES_python3-man: /usr/share/man
+FILES_INFO: {"/usr/share/man/man1/python3.1": 11, "/usr/share/man/man1/python3.5.1": 13420}
+PKGSIZE_python3-man: 13431

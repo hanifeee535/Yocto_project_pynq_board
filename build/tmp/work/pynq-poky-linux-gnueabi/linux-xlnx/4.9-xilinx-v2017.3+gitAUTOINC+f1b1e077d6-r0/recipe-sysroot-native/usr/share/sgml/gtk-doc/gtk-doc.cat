@@ -1,0 +1,6 @@
+  -- ...................................................................... --
+  -- DSSL stylesheet ...................................................... --
+  -- ...................................................................... --
+
+PUBLIC "-//Gtk//DOCUMENT Gtk-doc HTML Stylesheet//EN"
+  "/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/share/gtk-doc/data/gtk-doc.dsl"

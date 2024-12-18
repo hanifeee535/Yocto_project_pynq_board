@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546327.26 
+util-linux-2.30-r0: do_packagedata_setscene
+Elapsed time: 0.17 seconds
+utime: 8
+stime: 3
+cutime: 1
+cstime: 2
+IO rchar: 805128
+IO wchar: 922900
+IO syscr: 370
+IO syscw: 568
+IO read_bytes: 40960
+IO write_bytes: 598016
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.080136
+rusage ru_stime: 0.036060999999999996
+rusage ru_maxrss: 63580
+rusage ru_minflt: 6372
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 62
+rusage ru_nivcsw: 32
+Child rusage ru_utime: 0.010128999999999999
+Child rusage ru_stime: 0.024492
+Child rusage ru_maxrss: 61284
+Child rusage ru_minflt: 1795
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 80
+Child rusage ru_oublock: 960
+Child rusage ru_nvcsw: 40
+Child rusage ru_nivcsw: 75
+Status: PASSED 
+Ended: 1734546327.43 

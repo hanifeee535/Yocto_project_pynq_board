@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546325.21 
+shadow-4.2.1-r0: do_package_write_rpm_setscene
+Elapsed time: 0.07 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 1
+IO rchar: 3882294
+IO wchar: 4061966
+IO syscr: 537
+IO syscw: 453
+IO read_bytes: 1650688
+IO write_bytes: 2113536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.074651
+rusage ru_stime: 0.007464999999999999
+rusage ru_maxrss: 62916
+rusage ru_minflt: 6017
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 48
+rusage ru_nivcsw: 59
+Child rusage ru_utime: 0.014972
+Child rusage ru_stime: 0.011791
+Child rusage ru_maxrss: 60632
+Child rusage ru_minflt: 1745
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3224
+Child rusage ru_oublock: 4008
+Child rusage ru_nvcsw: 70
+Child rusage ru_nivcsw: 49
+Status: PASSED 
+Ended: 1734546325.28 

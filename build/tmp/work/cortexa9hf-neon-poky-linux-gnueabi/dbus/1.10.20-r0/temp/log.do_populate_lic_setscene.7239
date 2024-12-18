@@ -1,0 +1,31 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz for f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', 'f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz;downloadfilename=f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/f0/sstate%3Adbus%3A%3A1.10.20%3Ar0%3A%3A3%3Af0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz;downloadfilename=f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz
+DEBUG: Searching for f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz.siginfo for f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz.siginfo;downloadfilename=f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/f0/sstate%3Adbus%3A%3A1.10.20%3Ar0%3A%3A3%3Af0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz.siginfo;downloadfilename=f0/sstate:dbus::1.10.20:r0::3:f0277b31f47c2e7316feb6c48177ebca_populate_lic.tgz.siginfo
+DEBUG: Executing python function useradd_sysroot_sstate
+DEBUG: Python function useradd_sysroot_sstate finished
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/dbus/
+license-destdir/dbus/COPYING
+license-destdir/dbus/dbus.h
+license-destdir/dbus/recipeinfo
+license-destdir/dbus/generic_GPLv2
+license-destdir/dbus/generic_AFL-2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

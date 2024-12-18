@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546415.01 
+u-boot-digilent-1_2016.07-r0: do_compile
+Elapsed time: 30.97 seconds
+utime: 10
+stime: 3
+cutime: 2447
+cstime: 379
+IO rchar: 645989937
+IO wchar: 101871971
+IO syscr: 171936
+IO syscw: 36897
+IO read_bytes: 8269824
+IO write_bytes: 72237056
+IO cancelled_write_bytes: 6373376
+rusage ru_utime: 0.10561
+rusage ru_stime: 0.036962999999999996
+rusage ru_maxrss: 62976
+rusage ru_minflt: 4355
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1936
+rusage ru_nvcsw: 832
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 24.475231
+Child rusage ru_stime: 3.790211
+Child rusage ru_maxrss: 61136
+Child rusage ru_minflt: 2999623
+Child rusage ru_majflt: 55
+Child rusage ru_inblock: 16152
+Child rusage ru_oublock: 139152
+Child rusage ru_nvcsw: 20462
+Child rusage ru_nivcsw: 19572
+Status: PASSED 
+Ended: 1734546445.98 

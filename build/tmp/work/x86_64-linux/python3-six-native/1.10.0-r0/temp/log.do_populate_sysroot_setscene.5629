@@ -1,0 +1,36 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz for universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz;downloadfilename=universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/c5/sstate%3Apython3-six-native%3Ax86_64-linux%3A1.10.0%3Ar0%3Ax86_64%3A3%3Ac55577ecffd543b2920369484110cc66_populate_sysroot.tgz;downloadfilename=universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz
+DEBUG: Searching for universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz.siginfo for universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz.siginfo;downloadfilename=universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/c5/sstate%3Apython3-six-native%3Ax86_64-linux%3A1.10.0%3Ar0%3Ax86_64%3A3%3Ac55577ecffd543b2920369484110cc66_populate_sysroot.tgz.siginfo;downloadfilename=universal/c5/sstate:python3-six-native:x86_64-linux:1.10.0:r0:x86_64:3:c55577ecffd543b2920369484110cc66_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/python3-six-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/python3.5/
+recipe-sysroot-native/usr/lib/python3.5/site-packages/
+recipe-sysroot-native/usr/lib/python3.5/site-packages/six-1.10.0-py3.5.egg-info/
+recipe-sysroot-native/usr/lib/python3.5/site-packages/six-1.10.0-py3.5.egg-info/PKG-INFO
+recipe-sysroot-native/usr/lib/python3.5/site-packages/six-1.10.0-py3.5.egg-info/top_level.txt
+recipe-sysroot-native/usr/lib/python3.5/site-packages/six-1.10.0-py3.5.egg-info/dependency_links.txt
+recipe-sysroot-native/usr/lib/python3.5/site-packages/six-1.10.0-py3.5.egg-info/SOURCES.txt
+recipe-sysroot-native/usr/lib/python3.5/site-packages/six.py
+recipe-sysroot-native/usr/lib/python3.5/site-packages/__pycache__/
+recipe-sysroot-native/usr/lib/python3.5/site-packages/__pycache__/six.cpython-35.pyc
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/python3-six-native/1.10.0-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/python3-six-native/1.10.0-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/python3-six-native
+DEBUG: Python function do_populate_sysroot_setscene finished

@@ -1,0 +1,1 @@
+arch/arm/dts/zynq-zc770-xm010.dtb: arch/arm/dts/.zynq-zc770-xm010.dtb.dts.tmp /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/u-boot-digilent/1_2016.07-r0/git/arch/arm/dts/skeleton.dtsi

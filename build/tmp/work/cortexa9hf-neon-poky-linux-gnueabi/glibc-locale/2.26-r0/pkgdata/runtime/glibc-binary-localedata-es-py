@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-es-py: binary locale definition for es-py
+SUMMARY_glibc-binary-localedata-es-py: binary locale definition for es-py
+SECTION: base
+PKG_glibc-binary-localedata-es-py: glibc-binary-localedata-es-py
+FILES_glibc-binary-localedata-es-py: /usr/lib/locale/es_PY
+FILES_INFO: {"/usr/lib/locale/es_PY/LC_TELEPHONE": 52, "/usr/lib/locale/es_PY/LC_NAME": 62, "/usr/lib/locale/es_PY/LC_ADDRESS": 155, "/usr/lib/locale/es_PY/LC_MEASUREMENT": 23, "/usr/lib/locale/es_PY/LC_TIME": 2378, "/usr/lib/locale/es_PY/LC_IDENTIFICATION": 347, "/usr/lib/locale/es_PY/LC_COLLATE": 1244054, "/usr/lib/locale/es_PY/LC_NUMERIC": 54, "/usr/lib/locale/es_PY/LC_MONETARY": 294, "/usr/lib/locale/es_PY/LC_CTYPE": 330604, "/usr/lib/locale/es_PY/LC_PAPER": 34, "/usr/lib/locale/es_PY/LC_MESSAGES/SYS_LC_MESSAGES": 59}
+PKGSIZE_glibc-binary-localedata-es-py: 1578116

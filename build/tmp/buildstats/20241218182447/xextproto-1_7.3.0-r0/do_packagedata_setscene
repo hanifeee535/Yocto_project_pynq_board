@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546336.68 
+xextproto-1_7.3.0-r0: do_packagedata_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 0
+cutime: 0
+cstime: 0
+IO rchar: 233294
+IO wchar: 107619
+IO syscr: 222
+IO syscw: 111
+IO read_bytes: 4096
+IO write_bytes: 90112
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07027499999999999
+rusage ru_stime: 0.007808
+rusage ru_maxrss: 62796
+rusage ru_minflt: 5917
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 23
+rusage ru_nivcsw: 49
+Child rusage ru_utime: 0.009718
+Child rusage ru_stime: 0.004284
+Child rusage ru_maxrss: 60504
+Child rusage ru_minflt: 1767
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1734546336.74 

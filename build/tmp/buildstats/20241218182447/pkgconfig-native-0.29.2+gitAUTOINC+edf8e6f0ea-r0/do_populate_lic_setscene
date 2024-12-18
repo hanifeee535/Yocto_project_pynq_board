@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546298.16 
+pkgconfig-native-0.29.2+gitAUTOINC+edf8e6f0ea-r0: do_populate_lic_setscene
+Elapsed time: 0.09 seconds
+utime: 10
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 276733
+IO wchar: 176368
+IO syscr: 3717
+IO syscw: 90
+IO read_bytes: 16384
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.10802099999999999
+rusage ru_stime: 0.019289
+rusage ru_maxrss: 62920
+rusage ru_minflt: 7870
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 168
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 57
+Child rusage ru_utime: 0.013559
+Child rusage ru_stime: 0.005425999999999999
+Child rusage ru_maxrss: 60676
+Child rusage ru_minflt: 2088
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 31
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1734546298.25 

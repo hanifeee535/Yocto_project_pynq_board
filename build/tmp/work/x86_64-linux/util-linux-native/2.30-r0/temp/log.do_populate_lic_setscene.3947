@@ -1,0 +1,35 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz for d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'd6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', 'd6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz;downloadfilename=d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/d6/sstate%3Autil-linux-native%3A%3A2.30%3Ar0%3A%3A3%3Ad6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz;downloadfilename=d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz
+DEBUG: Searching for d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz.siginfo for d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'd6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'd6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz.siginfo;downloadfilename=d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/d6/sstate%3Autil-linux-native%3A%3A2.30%3Ar0%3A%3A3%3Ad6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz.siginfo;downloadfilename=d6/sstate:util-linux-native::2.30:r0::3:d6bea83870390d6723a90a38f1ce3b40_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/util-linux-native/
+license-destdir/util-linux-native/COPYING.BSD-3
+license-destdir/util-linux-native/COPYING.2
+license-destdir/util-linux-native/COPYING.1
+license-destdir/util-linux-native/COPYING.GPLv2
+license-destdir/util-linux-native/COPYING.UCB
+license-destdir/util-linux-native/generic_LGPLv2.1
+license-destdir/util-linux-native/README.licensing
+license-destdir/util-linux-native/COPYING.LGPLv2.1
+license-destdir/util-linux-native/recipeinfo
+license-destdir/util-linux-native/generic_GPLv2
+license-destdir/util-linux-native/COPYING.0
+license-destdir/util-linux-native/generic_BSD
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/util-linux-native/2.30-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

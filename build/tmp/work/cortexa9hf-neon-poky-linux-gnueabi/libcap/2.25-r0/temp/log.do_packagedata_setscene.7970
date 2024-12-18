@@ -1,0 +1,52 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz for 5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz;downloadfilename=5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/5f/sstate%3Alibcap%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.25%3Ar0%3Acortexa9hf-neon%3A3%3A5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz;downloadfilename=5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz
+DEBUG: Searching for 5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz.siginfo for 5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz.siginfo;downloadfilename=5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/5f/sstate%3Alibcap%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.25%3Ar0%3Acortexa9hf-neon%3A3%3A5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz.siginfo;downloadfilename=5f/sstate:libcap:cortexa9hf-neon-poky-linux-gnueabi:2.25:r0:cortexa9hf-neon:3:5fc7cc7c25e3efb01d66ccc622619fe2_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/libcap
+pkgdata/runtime/libcap-dev
+pkgdata/runtime/libcap-dbg
+pkgdata/runtime/libcap-staticdev.packaged
+pkgdata/runtime/libcap-bin.packaged
+pkgdata/runtime/libcap.packaged
+pkgdata/runtime/libcap-doc.packaged
+pkgdata/runtime/libcap-staticdev
+pkgdata/runtime/libcap-bin
+pkgdata/runtime/libcap-dev.packaged
+pkgdata/runtime/libcap-locale
+pkgdata/runtime/libcap-dbg.packaged
+pkgdata/runtime/libcap-doc
+pkgdata/shlibs2/
+pkgdata/shlibs2/libcap-dev.pclist
+pkgdata/shlibs2/libcap.list
+pkgdata/libcap
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/libcap/
+pkgdata/runtime-rprovides/libcap/libcap
+pkgdata/runtime-rprovides/(=2.25)/
+pkgdata/runtime-rprovides/(=2.25)/libcap
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/libcap-dev
+pkgdata/runtime-reverse/libcap2
+pkgdata/runtime-reverse/libcap-dbg
+pkgdata/runtime-reverse/libcap-staticdev
+pkgdata/runtime-reverse/libcap-bin
+pkgdata/runtime-reverse/libcap-doc
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/libcap/2.25-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

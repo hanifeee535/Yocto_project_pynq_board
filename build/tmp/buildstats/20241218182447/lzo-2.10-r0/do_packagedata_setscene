@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546322.14 
+lzo-2.10-r0: do_packagedata_setscene
+Elapsed time: 0.08 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 261724
+IO wchar: 154454
+IO syscr: 191
+IO syscw: 130
+IO read_bytes: 4096
+IO write_bytes: 106496
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.087633
+rusage ru_stime: 0.011949999999999999
+rusage ru_maxrss: 62848
+rusage ru_minflt: 5977
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 70
+Child rusage ru_utime: 0.013264
+Child rusage ru_stime: 0.004373999999999999
+Child rusage ru_maxrss: 60564
+Child rusage ru_minflt: 1749
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 21
+Status: PASSED 
+Ended: 1734546322.22 

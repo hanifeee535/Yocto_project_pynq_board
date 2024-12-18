@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-re: Python Regular Expression APIs
+RDEPENDS_python3-re: python3-core
+SECTION: devel/python
+PKG_python3-re: python3-re
+FILES_python3-re: /usr/lib/python3.5/re.* /usr/lib/python3.5/__pycache__/re.* /usr/lib/python3.5/sre.* /usr/lib/python3.5/__pycache__/sre.* /usr/lib/python3.5/sre_compile.* /usr/lib/python3.5/__pycache__/sre_compile.* /usr/lib/python3.5/sre_constants* /usr/lib/python3.5/sre_constants*/__pycache__ /usr/lib/python3.5/sre_parse.* /usr/lib/python3.5/__pycache__/sre_parse.* 
+FILES_INFO: {"/usr/lib/python3.5/sre_compile.py": 18410, "/usr/lib/python3.5/sre_constants.py": 6448, "/usr/lib/python3.5/sre_parse.py": 34964, "/usr/lib/python3.5/re.py": 15501, "/usr/lib/python3.5/__pycache__/sre_compile.cpython-35.opt-1.pyc": 10737, "/usr/lib/python3.5/__pycache__/sre_parse.cpython-35.opt-2.pyc": 22237, "/usr/lib/python3.5/__pycache__/re.cpython-35.opt-1.pyc": 14437, "/usr/lib/python3.5/__pycache__/re.cpython-35.pyc": 14437, "/usr/lib/python3.5/__pycache__/sre_compile.cpython-35.pyc": 10905, "/usr/lib/python3.5/__pycache__/sre_parse.cpython-35.pyc": 22320, "/usr/lib/python3.5/__pycache__/sre_compile.cpython-35.opt-2.pyc": 10321, "/usr/lib/python3.5/__pycache__/sre_parse.cpython-35.opt-1.pyc": 22287, "/usr/lib/python3.5/__pycache__/re.cpython-35.opt-2.pyc": 6155}
+PKGSIZE_python3-re: 209159

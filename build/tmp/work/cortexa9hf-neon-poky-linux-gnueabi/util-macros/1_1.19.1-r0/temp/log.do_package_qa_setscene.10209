@@ -1,0 +1,21 @@
+DEBUG: Executing python function do_package_qa_setscene
+DEBUG: Searching for e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz for e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz', '', '', OrderedDict([('downloadfilename', 'e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz;downloadfilename=e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz returning file:///home/student/poky_cache/sstate-cache/e9/sstate%3Autil-macros%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.19.1%3Ar0%3Acortexa9hf-neon%3A3%3Ae9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz;downloadfilename=e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz
+DEBUG: Searching for e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz.siginfo for e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz.siginfo;downloadfilename=e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/e9/sstate%3Autil-macros%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.19.1%3Ar0%3Acortexa9hf-neon%3A3%3Ae9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz.siginfo;downloadfilename=e9/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:e9a41d1d4bf9340f4bbafd02fcb3fca0_package_qa.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function do_package_qa_setscene finished

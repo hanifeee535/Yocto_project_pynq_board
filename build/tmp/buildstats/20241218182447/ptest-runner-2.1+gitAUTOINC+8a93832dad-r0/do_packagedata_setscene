@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546332.95 
+ptest-runner-2.1+gitAUTOINC+8a93832dad-r0: do_packagedata_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 208850
+IO wchar: 96926
+IO syscr: 176
+IO syscw: 85
+IO read_bytes: 12288
+IO write_bytes: 90112
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.060563
+rusage ru_stime: 0.007124999999999999
+rusage ru_maxrss: 62580
+rusage ru_minflt: 5841
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 120
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.012627
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 60288
+Child rusage ru_minflt: 1741
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1734546332.99 

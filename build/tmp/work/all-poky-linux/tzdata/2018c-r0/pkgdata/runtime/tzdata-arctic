@@ -1,0 +1,14 @@
+PN: tzdata
+PV: 2018c
+PR: r0
+PKGV: 2018c
+PKGR: r0
+LICENSE: PD & BSD & BSD-3-Clause
+DESCRIPTION: Timezone data.
+SUMMARY: Timezone data
+RPROVIDES_tzdata-arctic: tzdata-arctic
+SECTION: base
+PKG_tzdata-arctic: tzdata-arctic
+FILES_tzdata-arctic:  /usr/share/zoneinfo/Arctic/*
+FILES_INFO: {"/usr/share/zoneinfo/Arctic/Longyearbyen": 2251}
+PKGSIZE_tzdata-arctic: 2251

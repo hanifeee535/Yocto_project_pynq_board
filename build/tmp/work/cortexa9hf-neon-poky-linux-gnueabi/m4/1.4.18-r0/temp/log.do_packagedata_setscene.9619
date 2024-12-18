@@ -1,0 +1,42 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz for 6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz;downloadfilename=6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/6b/sstate%3Am4%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.4.18%3Ar0%3Acortexa9hf-neon%3A3%3A6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz;downloadfilename=6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz
+DEBUG: Searching for 6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz.siginfo for 6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz.siginfo;downloadfilename=6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/6b/sstate%3Am4%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.4.18%3Ar0%3Acortexa9hf-neon%3A3%3A6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz.siginfo;downloadfilename=6b/sstate:m4:cortexa9hf-neon-poky-linux-gnueabi:1.4.18:r0:cortexa9hf-neon:3:6b431e58bf369489a95ce432f7fe56a7_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/m4
+pkgdata/runtime/
+pkgdata/runtime/m4
+pkgdata/runtime/m4-dbg
+pkgdata/runtime/m4-doc.packaged
+pkgdata/runtime/m4-staticdev
+pkgdata/runtime/m4.packaged
+pkgdata/runtime/m4-locale
+pkgdata/runtime/m4-dbg.packaged
+pkgdata/runtime/m4-dev
+pkgdata/runtime/m4-doc
+pkgdata/runtime/m4-dev.packaged
+pkgdata/shlibs2/
+pkgdata/runtime-rprovides/
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/m4
+pkgdata/runtime-reverse/m4-dbg
+pkgdata/runtime-reverse/m4-dev
+pkgdata/runtime-reverse/m4-doc
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/m4/1.4.18-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

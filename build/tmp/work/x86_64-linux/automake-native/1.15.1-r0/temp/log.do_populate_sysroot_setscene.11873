@@ -1,0 +1,148 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz for universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz;downloadfilename=universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/fc/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15.1%3Ar0%3Ax86_64%3A3%3Afc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz;downloadfilename=universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz
+DEBUG: Searching for universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz.siginfo for universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz.siginfo;downloadfilename=universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/fc/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15.1%3Ar0%3Ax86_64%3A3%3Afc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz.siginfo;downloadfilename=universal/fc/sstate:automake-native:x86_64-linux:1.15.1:r0:x86_64:3:fc628651c6b9116eb6f7c9891a33ba10_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/automake-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/aclocal-1.15
+recipe-sysroot-native/usr/bin/automake
+recipe-sysroot-native/usr/bin/automake-1.15
+recipe-sysroot-native/usr/bin/aclocal
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/share/aclocal-1.15/
+recipe-sysroot-native/usr/share/aclocal-1.15/internal/
+recipe-sysroot-native/usr/share/aclocal-1.15/internal/ac-config-macro-dirs.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/lex.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/lead-dot.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/runlog.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/vala.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/prog-cc-c-o.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/gcj.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/lispdir.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/missing.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/depout.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/ar-lib.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/init.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/maintainer.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/cond.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/extra-recurs.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/tar.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/options.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/substnot.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/auxdir.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/make.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/depend.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/mkdirp.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/as.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/silent.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/python.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/dmalloc.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/amversion.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/strip.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/install-sh.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/upc.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/sanity.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/obsolete.m4
+recipe-sysroot-native/usr/share/aclocal-1.15/cond-if.m4
+recipe-sysroot-native/usr/share/automake-1.15/
+recipe-sysroot-native/usr/share/automake-1.15/COPYING
+recipe-sysroot-native/usr/share/automake-1.15/Automake/
+recipe-sysroot-native/usr/share/automake-1.15/Automake/ChannelDefs.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Options.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Configure_ac.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Condition.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/FileUtils.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/ItemDef.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Channels.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Variable.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/XFile.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Language.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Location.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Item.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Version.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Wrap.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Getopt.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Rule.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/RuleDef.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/General.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/VarDef.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/Config.pm
+recipe-sysroot-native/usr/share/automake-1.15/Automake/DisjConditions.pm
+recipe-sysroot-native/usr/share/automake-1.15/mkinstalldirs
+recipe-sysroot-native/usr/share/automake-1.15/install-sh
+recipe-sysroot-native/usr/share/automake-1.15/tap-driver.sh
+recipe-sysroot-native/usr/share/automake-1.15/ar-lib
+recipe-sysroot-native/usr/share/automake-1.15/texinfo.tex
+recipe-sysroot-native/usr/share/automake-1.15/am/
+recipe-sysroot-native/usr/share/automake-1.15/am/check2.am
+recipe-sysroot-native/usr/share/automake-1.15/am/lex.am
+recipe-sysroot-native/usr/share/automake-1.15/am/configure.am
+recipe-sysroot-native/usr/share/automake-1.15/am/vala.am
+recipe-sysroot-native/usr/share/automake-1.15/am/lang-compile.am
+recipe-sysroot-native/usr/share/automake-1.15/am/libtool.am
+recipe-sysroot-native/usr/share/automake-1.15/am/libs.am
+recipe-sysroot-native/usr/share/automake-1.15/am/clean-hdr.am
+recipe-sysroot-native/usr/share/automake-1.15/am/clean.am
+recipe-sysroot-native/usr/share/automake-1.15/am/java.am
+recipe-sysroot-native/usr/share/automake-1.15/am/footer.am
+recipe-sysroot-native/usr/share/automake-1.15/am/texibuild.am
+recipe-sysroot-native/usr/share/automake-1.15/am/data.am
+recipe-sysroot-native/usr/share/automake-1.15/am/mans.am
+recipe-sysroot-native/usr/share/automake-1.15/am/library.am
+recipe-sysroot-native/usr/share/automake-1.15/am/dejagnu.am
+recipe-sysroot-native/usr/share/automake-1.15/am/yacc.am
+recipe-sysroot-native/usr/share/automake-1.15/am/inst-vars.am
+recipe-sysroot-native/usr/share/automake-1.15/am/mans-vars.am
+recipe-sysroot-native/usr/share/automake-1.15/am/python.am
+recipe-sysroot-native/usr/share/automake-1.15/am/header-vars.am
+recipe-sysroot-native/usr/share/automake-1.15/am/remake-hdr.am
+recipe-sysroot-native/usr/share/automake-1.15/am/distdir.am
+recipe-sysroot-native/usr/share/automake-1.15/am/tags.am
+recipe-sysroot-native/usr/share/automake-1.15/am/subdirs.am
+recipe-sysroot-native/usr/share/automake-1.15/am/depend.am
+recipe-sysroot-native/usr/share/automake-1.15/am/header.am
+recipe-sysroot-native/usr/share/automake-1.15/am/ltlibrary.am
+recipe-sysroot-native/usr/share/automake-1.15/am/check.am
+recipe-sysroot-native/usr/share/automake-1.15/am/compile.am
+recipe-sysroot-native/usr/share/automake-1.15/am/program.am
+recipe-sysroot-native/usr/share/automake-1.15/am/depend2.am
+recipe-sysroot-native/usr/share/automake-1.15/am/texinfos.am
+recipe-sysroot-native/usr/share/automake-1.15/am/ltlib.am
+recipe-sysroot-native/usr/share/automake-1.15/am/lisp.am
+recipe-sysroot-native/usr/share/automake-1.15/am/scripts.am
+recipe-sysroot-native/usr/share/automake-1.15/am/texi-vers.am
+recipe-sysroot-native/usr/share/automake-1.15/am/install.am
+recipe-sysroot-native/usr/share/automake-1.15/am/progs.am
+recipe-sysroot-native/usr/share/automake-1.15/ylwrap
+recipe-sysroot-native/usr/share/automake-1.15/INSTALL
+recipe-sysroot-native/usr/share/automake-1.15/missing
+recipe-sysroot-native/usr/share/automake-1.15/py-compile
+recipe-sysroot-native/usr/share/automake-1.15/depcomp
+recipe-sysroot-native/usr/share/automake-1.15/mdate-sh
+recipe-sysroot-native/usr/share/automake-1.15/compile
+recipe-sysroot-native/usr/share/automake-1.15/config.sub
+recipe-sysroot-native/usr/share/automake-1.15/config.guess
+recipe-sysroot-native/usr/share/automake-1.15/test-driver
+recipe-sysroot-native/usr/share/aclocal/
+recipe-sysroot-native/usr/share/aclocal/README
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/automake-native/1.15.1-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/automake-native/1.15.1-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/automake-native
+DEBUG: Python function do_populate_sysroot_setscene finished

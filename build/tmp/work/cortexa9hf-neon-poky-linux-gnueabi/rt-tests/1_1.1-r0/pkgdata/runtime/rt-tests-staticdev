@@ -1,0 +1,16 @@
+PN: rt-tests
+PE: 1
+PV: 1.1
+PR: r0
+PKGE: 1
+PKGV: 1.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv2+
+DESCRIPTION_rt-tests-staticdev: Real-Time preemption testcases.  This package contains static libraries for software development.
+SUMMARY_rt-tests-staticdev: Real-Time preemption testcases - Development files (Static Libraries)
+RDEPENDS_rt-tests-staticdev: rt-tests-dev (= 1:1.1-r0)
+SECTION_rt-tests-staticdev: devel
+PKG_rt-tests-staticdev: rt-tests-staticdev
+FILES_rt-tests-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/rt-tests/*.a
+FILES_INFO: {}
+PKGSIZE_rt-tests-staticdev: 0

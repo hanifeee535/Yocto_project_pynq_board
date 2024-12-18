@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546308.70 
+libffi-native-3.2.1-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 229675
+IO wchar: 91071
+IO syscr: 192
+IO syscw: 81
+IO read_bytes: 8192
+IO write_bytes: 73728
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.089594
+rusage ru_stime: 0.011686
+rusage ru_maxrss: 62900
+rusage ru_minflt: 6003
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 120
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.013758999999999999
+Child rusage ru_stime: 0.001467
+Child rusage ru_maxrss: 60636
+Child rusage ru_minflt: 1759
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 27
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1734546308.75 

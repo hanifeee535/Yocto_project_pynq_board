@@ -1,0 +1,158 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz for d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'd9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'd9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz;downloadfilename=d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/d9/sstate%3Aglibc%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.26%3Ar0%3Acortexa9hf-neon%3A3%3Ad92f9fb665defbb2db5b3dffdb416664_packagedata.tgz;downloadfilename=d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz
+DEBUG: Searching for d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz.siginfo for d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'd9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'd9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz.siginfo;downloadfilename=d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/d9/sstate%3Aglibc%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.26%3Ar0%3Acortexa9hf-neon%3A3%3Ad92f9fb665defbb2db5b3dffdb416664_packagedata.tgz.siginfo;downloadfilename=d9/sstate:glibc:cortexa9hf-neon-poky-linux-gnueabi:2.26:r0:cortexa9hf-neon:3:d92f9fb665defbb2db5b3dffdb416664_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/glibc-dev
+pkgdata/runtime/glibc-pcprofile
+pkgdata/runtime/libcidn.packaged
+pkgdata/runtime/glibc.packaged
+pkgdata/runtime/glibc-pic
+pkgdata/runtime/glibc-pcprofile.packaged
+pkgdata/runtime/glibc-dev.packaged
+pkgdata/runtime/libcidn
+pkgdata/runtime/glibc-doc.packaged
+pkgdata/runtime/ldd.packaged
+pkgdata/runtime/libsegfault.packaged
+pkgdata/runtime/tzcode.packaged
+pkgdata/runtime/glibc
+pkgdata/runtime/glibc-staticdev
+pkgdata/runtime/catchsegv
+pkgdata/runtime/glibc-pic.packaged
+pkgdata/runtime/libmemusage
+pkgdata/runtime/glibc-extra-nss.packaged
+pkgdata/runtime/libsegfault
+pkgdata/runtime/libsotruss.packaged
+pkgdata/runtime/glibc-thread-db
+pkgdata/runtime/glibc-staticdev.packaged
+pkgdata/runtime/nscd.packaged
+pkgdata/runtime/glibc-thread-db.packaged
+pkgdata/runtime/libmemusage.packaged
+pkgdata/runtime/glibc-extra-nss
+pkgdata/runtime/libsotruss
+pkgdata/runtime/sln
+pkgdata/runtime/glibc-utils
+pkgdata/runtime/nscd
+pkgdata/runtime/glibc-dbg.packaged
+pkgdata/runtime/glibc-doc
+pkgdata/runtime/ldd
+pkgdata/runtime/tzcode
+pkgdata/runtime/glibc-utils.packaged
+pkgdata/runtime/catchsegv.packaged
+pkgdata/runtime/sln.packaged
+pkgdata/runtime/glibc-dbg
+pkgdata/shlibs2/
+pkgdata/shlibs2/libmemusage.list
+pkgdata/shlibs2/libcidn.list
+pkgdata/shlibs2/libsegfault.list
+pkgdata/shlibs2/glibc-pcprofile.list
+pkgdata/shlibs2/glibc-thread-db.list
+pkgdata/shlibs2/glibc-extra-nss.list
+pkgdata/shlibs2/glibc.list
+pkgdata/glibc
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/glibc-dev/
+pkgdata/runtime-rprovides/glibc-dev/glibc-dev
+pkgdata/runtime-rprovides/glibc-pcprofile/
+pkgdata/runtime-rprovides/glibc-pcprofile/glibc-pcprofile
+pkgdata/runtime-rprovides/glibc-pic/
+pkgdata/runtime-rprovides/glibc-pic/glibc-pic
+pkgdata/runtime-rprovides/libcidn/
+pkgdata/runtime-rprovides/libcidn/libcidn
+pkgdata/runtime-rprovides/libc-dbg/
+pkgdata/runtime-rprovides/libc-dbg/glibc-dbg
+pkgdata/runtime-rprovides/glibc/
+pkgdata/runtime-rprovides/glibc/glibc
+pkgdata/runtime-rprovides/glibc-staticdev/
+pkgdata/runtime-rprovides/glibc-staticdev/glibc-staticdev
+pkgdata/runtime-rprovides/libc6-dev/
+pkgdata/runtime-rprovides/libc6-dev/glibc-dev
+pkgdata/runtime-rprovides/eglibc-utils/
+pkgdata/runtime-rprovides/eglibc-utils/glibc-utils
+pkgdata/runtime-rprovides/eglibc-pic/
+pkgdata/runtime-rprovides/eglibc-pic/glibc-pic
+pkgdata/runtime-rprovides/eglibc/
+pkgdata/runtime-rprovides/eglibc/glibc
+pkgdata/runtime-rprovides/eglibc-doc/
+pkgdata/runtime-rprovides/eglibc-doc/glibc-doc
+pkgdata/runtime-rprovides/eglibc-dbg/
+pkgdata/runtime-rprovides/eglibc-dbg/glibc-dbg
+pkgdata/runtime-rprovides/glibc-thread-db/
+pkgdata/runtime-rprovides/glibc-thread-db/glibc-thread-db
+pkgdata/runtime-rprovides/libc-staticdev/
+pkgdata/runtime-rprovides/libc-staticdev/glibc-staticdev
+pkgdata/runtime-rprovides/(=2.26)/
+pkgdata/runtime-rprovides/(=2.26)/glibc-dev
+pkgdata/runtime-rprovides/(=2.26)/glibc-pcprofile
+pkgdata/runtime-rprovides/(=2.26)/glibc-pic
+pkgdata/runtime-rprovides/(=2.26)/libcidn
+pkgdata/runtime-rprovides/(=2.26)/glibc
+pkgdata/runtime-rprovides/(=2.26)/glibc-staticdev
+pkgdata/runtime-rprovides/(=2.26)/glibc-thread-db
+pkgdata/runtime-rprovides/(=2.26)/glibc-extra-nss
+pkgdata/runtime-rprovides/(=2.26)/glibc-utils
+pkgdata/runtime-rprovides/(=2.26)/glibc-doc
+pkgdata/runtime-rprovides/(=2.26)/glibc-dbg
+pkgdata/runtime-rprovides/glibc-extra-nss/
+pkgdata/runtime-rprovides/glibc-extra-nss/glibc-extra-nss
+pkgdata/runtime-rprovides/eglibc-thread-db/
+pkgdata/runtime-rprovides/eglibc-thread-db/glibc-thread-db
+pkgdata/runtime-rprovides/glibc-utils/
+pkgdata/runtime-rprovides/glibc-utils/glibc-utils
+pkgdata/runtime-rprovides/rtld(GNU_HASH)/
+pkgdata/runtime-rprovides/rtld(GNU_HASH)/glibc
+pkgdata/runtime-rprovides/eglibc-staticdev/
+pkgdata/runtime-rprovides/eglibc-staticdev/glibc-staticdev
+pkgdata/runtime-rprovides/glibc-doc/
+pkgdata/runtime-rprovides/glibc-doc/glibc-doc
+pkgdata/runtime-rprovides/eglibc-pcprofile/
+pkgdata/runtime-rprovides/eglibc-pcprofile/glibc-pcprofile
+pkgdata/runtime-rprovides/libc-dev/
+pkgdata/runtime-rprovides/libc-dev/glibc-dev
+pkgdata/runtime-rprovides/virtual-libc-dev/
+pkgdata/runtime-rprovides/virtual-libc-dev/glibc-dev
+pkgdata/runtime-rprovides/eglibc-dev/
+pkgdata/runtime-rprovides/eglibc-dev/glibc-dev
+pkgdata/runtime-rprovides/glibc-dbg/
+pkgdata/runtime-rprovides/glibc-dbg/glibc-dbg
+pkgdata/runtime-rprovides/eglibc-extra-nss/
+pkgdata/runtime-rprovides/eglibc-extra-nss/glibc-extra-nss
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/libc6-pic
+pkgdata/runtime-reverse/libcidn1
+pkgdata/runtime-reverse/libc6-staticdev
+pkgdata/runtime-reverse/libc6-pcprofile
+pkgdata/runtime-reverse/libc6-dev
+pkgdata/runtime-reverse/libc6-utils
+pkgdata/runtime-reverse/catchsegv
+pkgdata/runtime-reverse/libmemusage
+pkgdata/runtime-reverse/libc6-dbg
+pkgdata/runtime-reverse/libc6-thread-db
+pkgdata/runtime-reverse/libc6
+pkgdata/runtime-reverse/libsegfault
+pkgdata/runtime-reverse/libsotruss
+pkgdata/runtime-reverse/libc6-doc
+pkgdata/runtime-reverse/sln
+pkgdata/runtime-reverse/nscd
+pkgdata/runtime-reverse/ldd
+pkgdata/runtime-reverse/tzcode
+pkgdata/runtime-reverse/libc6-extra-nss
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/glibc/2.26-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

@@ -1,0 +1,37 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz for universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz;downloadfilename=universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/76/sstate%3Aintltool-native%3Ax86_64-linux%3A0.51.0%3Ar0%3Ax86_64%3A3%3A7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz;downloadfilename=universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz
+DEBUG: Searching for universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz.siginfo for universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz.siginfo;downloadfilename=universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/76/sstate%3Aintltool-native%3Ax86_64-linux%3A0.51.0%3Ar0%3Ax86_64%3A3%3A7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz.siginfo;downloadfilename=universal/76/sstate:intltool-native:x86_64-linux:0.51.0:r0:x86_64:3:7666a7e2402e81bf8884c052b41c85e3_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/intltool-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/intltool-update
+recipe-sysroot-native/usr/bin/intltoolize
+recipe-sysroot-native/usr/bin/intltool-prepare
+recipe-sysroot-native/usr/bin/intltool-extract
+recipe-sysroot-native/usr/bin/intltool-merge
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/share/intltool/
+recipe-sysroot-native/usr/share/intltool/Makefile.in.in
+recipe-sysroot-native/usr/share/aclocal/
+recipe-sysroot-native/usr/share/aclocal/intltool.m4
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/intltool-native/0.51.0-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/intltool-native/0.51.0-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/intltool-native
+DEBUG: Python function do_populate_sysroot_setscene finished

@@ -1,0 +1,21 @@
+PN: openssl
+PV: 1.0.2o
+PR: r0
+PKGV: 1.0.2o
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+RDEPENDS_libcrypto: glibc (>= 2.26)
+RPROVIDES_libcrypto:  libcrypto (=1.0.2o)
+RRECOMMENDS_libcrypto:  openssl-conf
+SECTION: libs/network
+PKG_libcrypto: libcrypto1.0.2
+FILES_libcrypto: /usr/lib/libcrypto.so.*
+pkg_postinst_libcrypto: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libcrypto: /usr/lib/libcrypto.so.1.0.2
+FILES_INFO: {"/usr/lib/libcrypto.so.1.0.2": 1464724}
+FILERPROVIDES_/usr/lib/libcrypto.so.1.0.2_libcrypto: libcrypto.so.1.0.2(OPENSSL_1.0.2d) libcrypto.so.1.0.2(OPENSSL_1.0.2g) libcrypto.so.1.0.2(OPENSSL_1.0.2g) libcrypto.so.1.0.2
+FILERDEPENDSFLIST_libcrypto: /usr/lib/libcrypto.so.1.0.2
+FILERDEPENDS_/usr/lib/libcrypto.so.1.0.2_libcrypto: libdl.so.2(GLIBC_2.4) libc.so.6(GLIBC_2.16) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libdl.so.2 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_libcrypto: 1464724

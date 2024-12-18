@@ -1,0 +1,16 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-readline: Python readline support
+RDEPENDS_python3-readline: python3-core readline (>= 7.0) libpython3 (>= 3.5.3) glibc (>= 2.26)
+SECTION: devel/python
+PKG_python3-readline: python3-readline
+FILES_python3-readline: /usr/lib/python3.5/lib-dynload/readline.*.so /usr/lib/python3.5/lib-dynload/__pycache__/readline.*.so /usr/lib/python3.5/rlcompleter.* /usr/lib/python3.5/__pycache__/rlcompleter.* 
+FILES_INFO: {"/usr/lib/python3.5/rlcompleter.py": 6307, "/usr/lib/python3.5/lib-dynload/readline.cpython-35m-arm-linux-gnueabihf.so": 21632, "/usr/lib/python3.5/__pycache__/rlcompleter.cpython-35.opt-1.pyc": 5767, "/usr/lib/python3.5/__pycache__/rlcompleter.cpython-35.pyc": 5767, "/usr/lib/python3.5/__pycache__/rlcompleter.cpython-35.opt-2.pyc": 3102}
+FILERDEPENDSFLIST_python3-readline: /usr/lib/python3.5/lib-dynload/readline.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/readline.cpython-35m-arm-linux-gnueabihf.so_python3-readline: libc.so.6(GLIBC_2.4) libreadline.so.7 libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_python3-readline: 42575

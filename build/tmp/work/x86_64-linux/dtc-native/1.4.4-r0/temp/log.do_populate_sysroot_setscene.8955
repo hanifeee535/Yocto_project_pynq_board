@@ -1,0 +1,41 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz for universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz;downloadfilename=universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/06/sstate%3Adtc-native%3Ax86_64-linux%3A1.4.4%3Ar0%3Ax86_64%3A3%3A06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz;downloadfilename=universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz
+DEBUG: Searching for universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz.siginfo for universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz.siginfo;downloadfilename=universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/06/sstate%3Adtc-native%3Ax86_64-linux%3A1.4.4%3Ar0%3Ax86_64%3A3%3A06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz.siginfo;downloadfilename=universal/06/sstate:dtc-native:x86_64-linux:1.4.4:r0:x86_64:3:06b16ceeb1c621ab31992da66fc58fa4_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/dtc-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/libfdt.a
+recipe-sysroot-native/usr/lib/libfdt.so.1
+recipe-sysroot-native/usr/lib/libfdt-1.4.4.so
+recipe-sysroot-native/usr/lib/libfdt.so
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/libfdt.h
+recipe-sysroot-native/usr/include/libfdt_env.h
+recipe-sysroot-native/usr/include/fdt.h
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/fdtget
+recipe-sysroot-native/usr/bin/dtdiff
+recipe-sysroot-native/usr/bin/convert-dtsv0
+recipe-sysroot-native/usr/bin/dtc
+recipe-sysroot-native/usr/bin/fdtdump
+recipe-sysroot-native/usr/bin/fdtput
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/dtc-native/1.4.4-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/dtc-native/1.4.4-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/dtc-native
+DEBUG: Python function do_populate_sysroot_setscene finished

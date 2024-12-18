@@ -1,0 +1,13 @@
+PN: stress
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Deliberately simple workload generator for POSIX systems. It imposes a configurable amount of CPU, memory, I/O, and disk stress on the system.
+SUMMARY: System load testing utility
+SECTION: base
+PKG_stress-locale: stress-locale
+FILES_stress-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_stress-locale: 0

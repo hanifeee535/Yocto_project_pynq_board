@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546315.95 
+shared-mime-info-1.8-r0: do_package_write_rpm_setscene
+Elapsed time: 0.08 seconds
+utime: 7
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 1480012
+IO wchar: 1439675
+IO syscr: 293
+IO syscw: 171
+IO read_bytes: 598016
+IO write_bytes: 741376
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.077581
+rusage ru_stime: 0.014105
+rusage ru_maxrss: 62800
+rusage ru_minflt: 5921
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 85
+Child rusage ru_utime: 0.015477999999999999
+Child rusage ru_stime: 0.002317
+Child rusage ru_maxrss: 60512
+Child rusage ru_minflt: 1755
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1168
+Child rusage ru_oublock: 1328
+Child rusage ru_nvcsw: 47
+Child rusage ru_nivcsw: 33
+Status: PASSED 
+Ended: 1734546316.03 

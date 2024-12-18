@@ -1,0 +1,16 @@
+PN: expat
+PV: 2.2.3
+PR: r0
+PKGV: 2.2.3
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_expat-dbg: Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_expat-dbg: A stream-oriented XML parser library - Debugging files
+RPROVIDES_expat-dbg:  expat-dbg (=2.2.3)
+RRECOMMENDS_expat-dbg: libgcc-dbg glibc-dbg
+SECTION_expat-dbg: devel
+PKG_expat-dbg: libexpat-dbg
+ALLOW_EMPTY_expat-dbg: 1
+FILES_expat-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libexpat.so.1.6.5": 289176, "/usr/bin/.debug/xmlwf": 53056, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/xmltok.c": 45262, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/expat.h": 42051, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/xmlparse.c": 226028, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/xmltok_impl.h": 661, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/xmlrole.h": 3023, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/expat_external.h": 4009, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/xmltok_impl.c": 46274, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/siphash.h": 11905, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/xmltok.h": 11409, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/xmlrole.c": 34692, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/nametab.h": 7050, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/lib/xmltok_ns.c": 3144, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/xmlwf/xmlfile.h": 509, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/xmlwf/xmlwf.c": 21475, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/xmlwf/unixfilemap.c": 1392, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/xmlwf/codepage.h": 196, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/xmlwf/xmlfile.c": 6371, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/xmlwf/filemap.h": 806, "/usr/src/debug/expat/2.2.3-r0/expat-2.2.3/xmlwf/codepage.c": 1398}
+PKGSIZE_expat-dbg: 809887

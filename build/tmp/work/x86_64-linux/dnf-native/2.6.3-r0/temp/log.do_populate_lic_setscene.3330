@@ -1,0 +1,27 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz for 0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz;downloadfilename=0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/0b/sstate%3Adnf-native%3A%3A2.6.3%3Ar0%3A%3A3%3A0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz;downloadfilename=0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz
+DEBUG: Searching for 0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz.siginfo for 0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz.siginfo;downloadfilename=0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/0b/sstate%3Adnf-native%3A%3A2.6.3%3Ar0%3A%3A3%3A0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz.siginfo;downloadfilename=0b/sstate:dnf-native::2.6.3:r0::3:0bc4f7c8763ba0f2768ba62f405c85a4_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/dnf-native/
+license-destdir/dnf-native/COPYING
+license-destdir/dnf-native/PACKAGE-LICENSING
+license-destdir/dnf-native/recipeinfo
+license-destdir/dnf-native/generic_GPLv2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/dnf-native/2.6.3-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

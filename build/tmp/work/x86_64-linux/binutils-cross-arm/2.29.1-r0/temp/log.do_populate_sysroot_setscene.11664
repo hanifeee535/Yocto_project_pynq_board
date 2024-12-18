@@ -1,0 +1,76 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz for universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz;downloadfilename=universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/29/sstate%3Abinutils-cross-arm%3Ax86_64-poky-linux-gnueabi%3A2.29.1%3Ar0%3Ax86_64_arm%3A3%3A29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz;downloadfilename=universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz
+DEBUG: Searching for universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz.siginfo for universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz.siginfo;downloadfilename=universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/29/sstate%3Abinutils-cross-arm%3Ax86_64-poky-linux-gnueabi%3A2.29.1%3Ar0%3Ax86_64_arm%3A3%3A29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz.siginfo;downloadfilename=universal/29/sstate:binutils-cross-arm:x86_64-poky-linux-gnueabi:2.29.1:r0:x86_64_arm:3:29b8ff92bbbb9a8ba13ab8b5ba67486e_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'common-linux', 'common-glibc', 'bit-64', 'x86_64-linux', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/binutils-cross-arm
+recipe-sysroot-native/sysroot-providers/virtual_arm-poky-linux-gnueabi-binutils
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xdw
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xc
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xdc
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xs
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xw
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xsw
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xn
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.x
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xr
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xbn
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xd
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xu
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xsw
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xsc
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xw
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xsc
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xdc
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xr
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xs
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xu
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xbn
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xdw
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xc
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelf_linux_eabi.xd
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.xn
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/ldscripts/armelfb_linux_eabi.x
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-objcopy
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-addr2line
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-objdump
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-nm
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gprof
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-c++filt
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-as
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-strip
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-dwp
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ld
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-size
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ld.gold
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ld.bfd
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ar
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-elfedit
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ranlib
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-strings
+recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-readelf
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/binutils-cross-arm/2.29.1-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/binutils-cross-arm/2.29.1-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/binutils-cross-arm
+DEBUG: Python function do_populate_sysroot_setscene finished

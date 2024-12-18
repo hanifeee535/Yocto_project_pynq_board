@@ -1,0 +1,16 @@
+PN: u-boot-digilent
+PE: 1
+PV: 2016.07
+PR: r0
+PKGE: 1
+PKGV: 2016.07
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-digilent-staticdev: Universal Boot Loader for embedded devices.  This package contains static libraries for software development.
+SUMMARY_u-boot-digilent-staticdev: Universal Boot Loader for embedded devices - Development files (Static Libraries)
+RDEPENDS_u-boot-digilent-staticdev: u-boot-digilent-dev (= 1:2016.07-r0)
+SECTION_u-boot-digilent-staticdev: devel
+PKG_u-boot-digilent-staticdev: u-boot-digilent-staticdev
+FILES_u-boot-digilent-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/u-boot-digilent/*.a
+FILES_INFO: {}
+PKGSIZE_u-boot-digilent-staticdev: 0

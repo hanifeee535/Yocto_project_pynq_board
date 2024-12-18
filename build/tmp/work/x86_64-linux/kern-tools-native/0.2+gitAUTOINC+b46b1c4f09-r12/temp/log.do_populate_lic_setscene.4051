@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz for 49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz;downloadfilename=49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/49/sstate%3Akern-tools-native%3A%3A0.2%2BgitAUTOINC%2Bb46b1c4f09%3Ar12%3A%3A3%3A49da975f69a36062d761f788d7481b46_populate_lic.tgz;downloadfilename=49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz
+DEBUG: Searching for 49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz.siginfo for 49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz.siginfo;downloadfilename=49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/49/sstate%3Akern-tools-native%3A%3A0.2%2BgitAUTOINC%2Bb46b1c4f09%3Ar12%3A%3A3%3A49da975f69a36062d761f788d7481b46_populate_lic.tgz.siginfo;downloadfilename=49/sstate:kern-tools-native::0.2+gitAUTOINC+b46b1c4f09:r12::3:49da975f69a36062d761f788d7481b46_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/kern-tools-native/
+license-destdir/kern-tools-native/kgit
+license-destdir/kern-tools-native/recipeinfo
+license-destdir/kern-tools-native/generic_GPLv2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/kern-tools-native/0.2+gitAUTOINC+b46b1c4f09-r12/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

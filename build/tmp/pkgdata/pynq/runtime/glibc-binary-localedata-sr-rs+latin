@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-sr-rs+latin: binary locale definition for sr-rs+latin
+SUMMARY_glibc-binary-localedata-sr-rs+latin: binary locale definition for sr-rs+latin
+SECTION: base
+PKG_glibc-binary-localedata-sr-rs+latin: glibc-binary-localedata-sr-rs+latin
+FILES_glibc-binary-localedata-sr-rs+latin: /usr/lib/locale/sr_RS@latin
+FILES_INFO: {"/usr/lib/locale/sr_RS@latin/LC_TELEPHONE": 57, "/usr/lib/locale/sr_RS@latin/LC_NAME": 84, "/usr/lib/locale/sr_RS@latin/LC_ADDRESS": 155, "/usr/lib/locale/sr_RS@latin/LC_MEASUREMENT": 23, "/usr/lib/locale/sr_RS@latin/LC_TIME": 2390, "/usr/lib/locale/sr_RS@latin/LC_IDENTIFICATION": 325, "/usr/lib/locale/sr_RS@latin/LC_COLLATE": 1245270, "/usr/lib/locale/sr_RS@latin/LC_NUMERIC": 54, "/usr/lib/locale/sr_RS@latin/LC_MONETARY": 294, "/usr/lib/locale/sr_RS@latin/LC_CTYPE": 290044, "/usr/lib/locale/sr_RS@latin/LC_PAPER": 34, "/usr/lib/locale/sr_RS@latin/LC_MESSAGES/SYS_LC_MESSAGES": 58}
+PKGSIZE_glibc-binary-localedata-sr-rs+latin: 1538788

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546321.61 
+acl-2.2.52-r0: do_packagedata_setscene
+Elapsed time: 0.06 seconds
+utime: 8
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 287910
+IO wchar: 189661
+IO syscr: 196
+IO syscw: 157
+IO read_bytes: 8192
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.085742
+rusage ru_stime: 0.021435
+rusage ru_maxrss: 62876
+rusage ru_minflt: 5963
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 72
+Child rusage ru_utime: 0.011406
+Child rusage ru_stime: 0.002813
+Child rusage ru_maxrss: 60580
+Child rusage ru_minflt: 1763
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 27
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1734546321.67 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546312.12 
+sysvinit-inittab-2.88dsf-r10: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 0
+cutime: 0
+cstime: 0
+IO rchar: 205667
+IO wchar: 113623
+IO syscr: 175
+IO syscw: 66
+IO read_bytes: 8192
+IO write_bytes: 77824
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.064909
+rusage ru_stime: 0.0038179999999999998
+rusage ru_maxrss: 62600
+rusage ru_minflt: 6039
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.009828
+Child rusage ru_stime: 0.0018299999999999998
+Child rusage ru_maxrss: 60288
+Child rusage ru_minflt: 1749
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1734546312.16 

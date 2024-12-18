@@ -1,0 +1,13 @@
+PN: dbus-test
+PV: 1.10.20
+PR: r0
+PKGV: 1.10.20
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION_dbus-test-doc: D-Bus test package (for D-bus functionality testing only).  This package contains documentation.
+SUMMARY_dbus-test-doc: D-Bus test package (for D-bus functionality testing only) - Documentation files
+SECTION_dbus-test-doc: doc
+PKG_dbus-test-doc: dbus-test-doc
+FILES_dbus-test-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_dbus-test-doc: 0

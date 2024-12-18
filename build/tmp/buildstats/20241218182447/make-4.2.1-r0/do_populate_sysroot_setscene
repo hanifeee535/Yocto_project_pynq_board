@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546306.63 
+make-4.2.1-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 204053
+IO wchar: 92651
+IO syscr: 203
+IO syscw: 89
+IO read_bytes: 16384
+IO write_bytes: 77824
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.077556
+rusage ru_stime: 0.007755
+rusage ru_maxrss: 62788
+rusage ru_minflt: 5929
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 128
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 41
+Child rusage ru_utime: 0.011954
+Child rusage ru_stime: 0.0039959999999999996
+Child rusage ru_maxrss: 60488
+Child rusage ru_minflt: 1748
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1734546306.69 

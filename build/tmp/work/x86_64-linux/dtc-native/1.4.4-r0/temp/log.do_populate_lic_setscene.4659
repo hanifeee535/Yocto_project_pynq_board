@@ -1,0 +1,28 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz for 72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz;downloadfilename=72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/72/sstate%3Adtc-native%3A%3A1.4.4%3Ar0%3A%3A3%3A72cddd593b95954772315d95369d0f50_populate_lic.tgz;downloadfilename=72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz
+DEBUG: Searching for 72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz.siginfo for 72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz.siginfo;downloadfilename=72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/72/sstate%3Adtc-native%3A%3A1.4.4%3Ar0%3A%3A3%3A72cddd593b95954772315d95369d0f50_populate_lic.tgz.siginfo;downloadfilename=72/sstate:dtc-native::1.4.4:r0::3:72cddd593b95954772315d95369d0f50_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/dtc-native/
+license-destdir/dtc-native/libfdt.h
+license-destdir/dtc-native/GPL
+license-destdir/dtc-native/recipeinfo
+license-destdir/dtc-native/generic_GPLv2
+license-destdir/dtc-native/generic_BSD
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/dtc-native/1.4.4-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

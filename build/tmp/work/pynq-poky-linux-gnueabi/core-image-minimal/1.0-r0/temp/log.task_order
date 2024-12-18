@@ -1,0 +1,8 @@
+do_populate_lic_setscene (3185): log.do_populate_lic_setscene.3185
+do_prepare_recipe_sysroot (38337): log.do_prepare_recipe_sysroot.38337
+do_rootfs (66229): log.do_rootfs.66229
+do_image_qa (72261): log.do_image_qa.72261
+do_image (72266): log.do_image.72266
+do_image_cpio (72285): log.do_image_cpio.72285
+do_image_tar (72286): log.do_image_tar.72286
+do_image_complete (72315): log.do_image_complete.72315

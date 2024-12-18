@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546338.76 
+libpthread-stubs-0.4-r0: do_packagedata_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 233251
+IO wchar: 104373
+IO syscr: 186
+IO syscw: 95
+IO read_bytes: 4096
+IO write_bytes: 90112
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.06364299999999999
+rusage ru_stime: 0.016971
+rusage ru_maxrss: 62760
+rusage ru_minflt: 5907
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 52
+Child rusage ru_utime: 0.013434
+Child rusage ru_stime: 0.0023699999999999997
+Child rusage ru_maxrss: 60476
+Child rusage ru_minflt: 1775
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1734546338.82 

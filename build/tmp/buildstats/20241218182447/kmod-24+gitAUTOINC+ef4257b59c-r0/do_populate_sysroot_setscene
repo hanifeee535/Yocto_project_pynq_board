@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546314.90 
+kmod-24+gitAUTOINC+ef4257b59c-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 6
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 369226
+IO wchar: 275844
+IO syscr: 212
+IO syscw: 118
+IO read_bytes: 36864
+IO write_bytes: 172032
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.065742
+rusage ru_stime: 0.016434999999999998
+rusage ru_maxrss: 62968
+rusage ru_minflt: 6059
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 44
+Child rusage ru_utime: 0.012655999999999999
+Child rusage ru_stime: 0.0018579999999999998
+Child rusage ru_maxrss: 60684
+Child rusage ru_minflt: 1785
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 72
+Child rusage ru_oublock: 208
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1734546314.95 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546314.76 
+eudev-3.2.2-r0: do_packagedata_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 265604
+IO wchar: 163942
+IO syscr: 191
+IO syscw: 121
+IO read_bytes: 8192
+IO write_bytes: 114688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07843599999999999
+rusage ru_stime: 0.011765
+rusage ru_maxrss: 62896
+rusage ru_minflt: 5976
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 60
+Child rusage ru_utime: 0.010530999999999999
+Child rusage ru_stime: 0.002019
+Child rusage ru_maxrss: 60616
+Child rusage ru_minflt: 1756
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 112
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1734546314.82 

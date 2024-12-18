@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546302.40 
+gettext-native-0.19.8.1-r0: do_populate_lic_setscene
+Elapsed time: 0.06 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 348690
+IO wchar: 277530
+IO syscr: 201
+IO syscw: 95
+IO read_bytes: 32768
+IO write_bytes: 167936
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.088361
+rusage ru_stime: 0.012048999999999999
+rusage ru_maxrss: 62984
+rusage ru_minflt: 6050
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 85
+Child rusage ru_utime: 0.01181
+Child rusage ru_stime: 0.003456
+Child rusage ru_maxrss: 60700
+Child rusage ru_minflt: 1758
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 64
+Child rusage ru_oublock: 208
+Child rusage ru_nvcsw: 27
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1734546302.46 

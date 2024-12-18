@@ -1,0 +1,18 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-profile: Python basic performance profiling support
+RDEPENDS_python3-profile: python3-core python3-textutils libpython3 (>= 3.5.3) glibc (>= 2.26)
+SECTION: devel/python
+PKG_python3-profile: python3-profile
+FILES_python3-profile: /usr/lib/python3.5/profile.* /usr/lib/python3.5/__pycache__/profile.* /usr/lib/python3.5/pstats.* /usr/lib/python3.5/__pycache__/pstats.* /usr/lib/python3.5/cProfile.* /usr/lib/python3.5/__pycache__/cProfile.* /usr/lib/python3.5/lib-dynload/_lsprof.*.so /usr/lib/python3.5/lib-dynload/__pycache__/_lsprof.*.so 
+FILES_INFO: {"/usr/lib/python3.5/pstats.py": 26474, "/usr/lib/python3.5/profile.py": 22021, "/usr/lib/python3.5/cProfile.py": 5313, "/usr/lib/python3.5/lib-dynload/_lsprof.cpython-35m-arm-linux-gnueabihf.so": 15812, "/usr/lib/python3.5/__pycache__/cProfile.cpython-35.pyc": 4591, "/usr/lib/python3.5/__pycache__/pstats.cpython-35.opt-1.pyc": 23681, "/usr/lib/python3.5/__pycache__/pstats.cpython-35.opt-2.pyc": 21311, "/usr/lib/python3.5/__pycache__/profile.cpython-35.pyc": 15071, "/usr/lib/python3.5/__pycache__/cProfile.cpython-35.opt-2.pyc": 4117, "/usr/lib/python3.5/__pycache__/profile.cpython-35.opt-2.pyc": 11828, "/usr/lib/python3.5/__pycache__/cProfile.cpython-35.opt-1.pyc": 4591, "/usr/lib/python3.5/__pycache__/profile.cpython-35.opt-1.pyc": 14816, "/usr/lib/python3.5/__pycache__/pstats.cpython-35.pyc": 23681}
+FILERDEPENDSFLIST_python3-profile: /usr/lib/python3.5/cProfile.py /usr/lib/python3.5/lib-dynload/@underscore@lsprof.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/profile.py
+FILERDEPENDS_/usr/lib/python3.5/cProfile.py_python3-profile: /usr/bin/env
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@lsprof.cpython-35m-arm-linux-gnueabihf.so_python3-profile: libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/profile.py_python3-profile: /usr/bin/env
+PKGSIZE_python3-profile: 193307

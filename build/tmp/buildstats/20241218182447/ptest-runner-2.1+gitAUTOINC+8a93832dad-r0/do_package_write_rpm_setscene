@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546305.75 
+ptest-runner-2.1+gitAUTOINC+8a93832dad-r0: do_package_write_rpm_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 0
+cutime: 0
+cstime: 0
+IO rchar: 245104
+IO wchar: 162717
+IO syscr: 178
+IO syscw: 72
+IO read_bytes: 28672
+IO write_bytes: 106496
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.061106999999999995
+rusage ru_stime: 0.007189
+rusage ru_maxrss: 62576
+rusage ru_minflt: 5821
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 0.008045
+Child rusage ru_stime: 0.004496
+Child rusage ru_maxrss: 60292
+Child rusage ru_minflt: 1733
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 56
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1734546305.80 

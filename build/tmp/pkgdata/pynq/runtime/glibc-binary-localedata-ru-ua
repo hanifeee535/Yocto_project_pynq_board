@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ru-ua: binary locale definition for ru-ua
+SUMMARY_glibc-binary-localedata-ru-ua: binary locale definition for ru-ua
+SECTION: base
+PKG_glibc-binary-localedata-ru-ua: glibc-binary-localedata-ru-ua
+FILES_glibc-binary-localedata-ru-ua: /usr/lib/locale/ru_UA
+FILES_INFO: {"/usr/lib/locale/ru_UA/LC_TELEPHONE": 52, "/usr/lib/locale/ru_UA/LC_NAME": 62, "/usr/lib/locale/ru_UA/LC_ADDRESS": 165, "/usr/lib/locale/ru_UA/LC_MEASUREMENT": 23, "/usr/lib/locale/ru_UA/LC_TIME": 2538, "/usr/lib/locale/ru_UA/LC_IDENTIFICATION": 298, "/usr/lib/locale/ru_UA/LC_COLLATE": 1244058, "/usr/lib/locale/ru_UA/LC_NUMERIC": 54, "/usr/lib/locale/ru_UA/LC_MONETARY": 294, "/usr/lib/locale/ru_UA/LC_CTYPE": 330604, "/usr/lib/locale/ru_UA/LC_PAPER": 34, "/usr/lib/locale/ru_UA/LC_MESSAGES/SYS_LC_MESSAGES": 70}
+PKGSIZE_glibc-binary-localedata-ru-ua: 1578252

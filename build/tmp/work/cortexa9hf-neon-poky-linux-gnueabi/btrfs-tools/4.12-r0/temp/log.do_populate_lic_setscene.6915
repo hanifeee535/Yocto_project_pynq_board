@@ -1,0 +1,27 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz for ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', 'ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz;downloadfilename=ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/ca/sstate%3Abtrfs-tools%3A%3A4.12%3Ar0%3A%3A3%3Aca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz;downloadfilename=ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz
+DEBUG: Searching for ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz.siginfo for ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz.siginfo;downloadfilename=ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/ca/sstate%3Abtrfs-tools%3A%3A4.12%3Ar0%3A%3A3%3Aca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz.siginfo;downloadfilename=ca/sstate:btrfs-tools::4.12:r0::3:ca909fdde7eb32af145e36d131a00ef6_populate_lic.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/btrfs-tools/
+license-destdir/btrfs-tools/COPYING
+license-destdir/btrfs-tools/recipeinfo
+license-destdir/btrfs-tools/generic_GPLv2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/btrfs-tools/4.12-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

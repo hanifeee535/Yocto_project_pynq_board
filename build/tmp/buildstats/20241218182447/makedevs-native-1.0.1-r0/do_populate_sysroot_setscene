@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546293.83 
+makedevs-native-1.0.1-r0: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 235558
+IO wchar: 143288
+IO syscr: 201
+IO syscw: 78
+IO read_bytes: 12288
+IO write_bytes: 110592
+IO cancelled_write_bytes: 20480
+rusage ru_utime: 0.06530999999999999
+rusage ru_stime: 0.016326999999999998
+rusage ru_maxrss: 62764
+rusage ru_minflt: 6780
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 120
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 74
+Child rusage ru_utime: 0.014173999999999999
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 60440
+Child rusage ru_minflt: 1894
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 31
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1734546293.89 

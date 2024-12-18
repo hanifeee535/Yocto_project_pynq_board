@@ -1,0 +1,32 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz for universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz;downloadfilename=universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/40/sstate%3Alibmpc-native%3Ax86_64-linux%3A1.0.3%3Ar0%3Ax86_64%3A3%3A40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz;downloadfilename=universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz
+DEBUG: Searching for universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz.siginfo for universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz.siginfo;downloadfilename=universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/40/sstate%3Alibmpc-native%3Ax86_64-linux%3A1.0.3%3Ar0%3Ax86_64%3A3%3A40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz.siginfo;downloadfilename=universal/40/sstate:libmpc-native:x86_64-linux:1.0.3:r0:x86_64:3:40f2b8368c278aa9e8455dda02806ec0_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/libmpc-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/libmpc.so.3.0.0
+recipe-sysroot-native/usr/lib/libmpc.so.3
+recipe-sysroot-native/usr/lib/libmpc.so
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/mpc.h
+recipe-sysroot-native/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libmpc-native/1.0.3-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libmpc-native/1.0.3-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/libmpc-native
+DEBUG: Python function do_populate_sysroot_setscene finished

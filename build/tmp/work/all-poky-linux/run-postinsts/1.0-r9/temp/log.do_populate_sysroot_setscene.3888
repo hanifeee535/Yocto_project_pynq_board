@@ -1,0 +1,24 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz for b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz;downloadfilename=b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/b2/sstate%3Arun-postinsts%3Aall-poky-linux%3A1.0%3Ar9%3Aallarch%3A3%3Ab246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz;downloadfilename=b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz
+DEBUG: Searching for b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz.siginfo for b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz.siginfo;downloadfilename=b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/b2/sstate%3Arun-postinsts%3Aall-poky-linux%3A1.0%3Ar9%3Aallarch%3A3%3Ab246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz.siginfo;downloadfilename=b2/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:b246dcfad840db68cd10b162f5c425b0_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/run-postinsts
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/all-poky-linux/run-postinsts/1.0-r9/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/all/run-postinsts
+DEBUG: Python function do_populate_sysroot_setscene finished

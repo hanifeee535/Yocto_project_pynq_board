@@ -1,0 +1,1 @@
+cmd_miscutils/lib.a := rm -f miscutils/lib.a; arm-poky-linux-gnueabi-ar  rcs miscutils/lib.a miscutils/chrt.o miscutils/dc.o miscutils/less.o miscutils/microcom.o miscutils/rfkill.o miscutils/strings.o miscutils/time.o

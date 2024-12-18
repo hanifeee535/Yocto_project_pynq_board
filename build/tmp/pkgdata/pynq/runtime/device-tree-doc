@@ -1,0 +1,13 @@
+PN: device-tree
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT & GPLv2
+DESCRIPTION_device-tree-doc: Device Tree generation and packaging for BSP Device Trees.  This package contains documentation.
+SUMMARY_device-tree-doc: Device Trees for BSPs - Documentation files
+SECTION_device-tree-doc: doc
+PKG_device-tree-doc: device-tree-doc
+FILES_device-tree-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_device-tree-doc: 0

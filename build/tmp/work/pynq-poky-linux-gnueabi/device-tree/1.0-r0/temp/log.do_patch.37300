@@ -1,0 +1,72 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['quilt-native']
+NOTE: Skipping as already exists in sysroot: []
+DEBUG: sed -e 's:^[^/]*/:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/device-tree/1.0-r0/recipe-sysroot-native/:g' /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/quilt-native/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIRTARGET:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/device-tree/1.0-r0/recipe-sysroot:g; s:FIXMESTAGINGDIRHOST:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/device-tree/1.0-r0/recipe-sysroot-native:g' -e 's:FIXME_COMPONENTS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components:g' -e 's:FIXME_HOSTTOOLS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools:g' -e 's:FIXME_PKGDATA_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq:g' -e 's:FIXME_PSEUDO_LOCALSTATEDIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/device-tree/1.0-r0/pseudo/:g' -e 's:FIXME_LOGFIFO:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/device-tree/1.0-r0/temp/fifo.37300:g'
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for zynq-7000-qspi-dummy.dtsi in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+DEBUG: Searching for devicetree.dts in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

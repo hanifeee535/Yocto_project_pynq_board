@@ -1,0 +1,52 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz for b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', 'b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz;downloadfilename=b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/b4/sstate%3Alinux-xlnx%3Apynq-poky-linux-gnueabi%3A4.9-xilinx-v2017.3%2BgitAUTOINC%2Bf1b1e077d6%3Ar0%3Apynq%3A3%3Ab4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz;downloadfilename=b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz
+DEBUG: Searching for b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz.siginfo for b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz.siginfo;downloadfilename=b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/b4/sstate%3Alinux-xlnx%3Apynq-poky-linux-gnueabi%3A4.9-xilinx-v2017.3%2BgitAUTOINC%2Bf1b1e077d6%3Ar0%3Apynq%3A3%3Ab4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz.siginfo;downloadfilename=b4/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b4855dfcb64fd999cdec4efd0a2d94d3_package_write_rpm.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/pynq/
+deploy-rpms/pynq/kernel-module-jitterentropy-rng-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-rpmsg-core-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-virtio-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-dev-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-modules-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-stp-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-p8022-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-usb-f-mass-storage-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-hmac-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-virtio-rpmsg-bus-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-psnap-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-ipip-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-usb-f-ss-lb-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-llc-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-echainiv-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-vmlinux-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-drbg-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-image-uimage-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-8021q-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-virtio-ring-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-g-zero-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-zynq-remoteproc-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-image-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-libcomposite-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-sha256-generic-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-bridge-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+deploy-rpms/pynq/kernel-module-remoteproc-4.9.0-xilinx-v2017.3-4.9+xilinx+v2017.3+git0+f1b1e077d6-r0.pynq.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

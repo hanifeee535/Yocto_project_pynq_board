@@ -1,0 +1,70 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+DEBUG: Searching for zynq-7000-qspi-dummy.dtsi in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+NOTE: Unpacking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq-7000-qspi-dummy.dtsi to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/device-tree/1.0-r0/
+DEBUG: Searching for devicetree.dts in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/poky
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/pynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/armv7a
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/zynq
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/arm
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree-1.0/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/device-tree/
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-xilinx/meta-xilinx-bsp/recipes-bsp/device-tree/files/
+NOTE: Unpacking /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-bsp/device-tree/files/devicetree.dts to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/device-tree/1.0-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished
+DEBUG: Executing python function do_qa_unpack
+DEBUG: Python function do_qa_unpack finished

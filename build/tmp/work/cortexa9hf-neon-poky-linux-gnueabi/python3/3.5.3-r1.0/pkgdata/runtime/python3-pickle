@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-pickle: Python serialisation/persistence support
+RDEPENDS_python3-pickle: python3-codecs python3-core python3-io python3-re
+SECTION: devel/python
+PKG_python3-pickle: python3-pickle
+FILES_python3-pickle: /usr/lib/python3.5/_compat_pickle.* /usr/lib/python3.5/__pycache__/_compat_pickle.* /usr/lib/python3.5/pickle.* /usr/lib/python3.5/__pycache__/pickle.* /usr/lib/python3.5/shelve.* /usr/lib/python3.5/__pycache__/shelve.* /usr/lib/python3.5/lib-dynload/cPickle.*.so /usr/lib/python3.5/lib-dynload/__pycache__/cPickle.*.so /usr/lib/python3.5/pickletools.* /usr/lib/python3.5/__pycache__/pickletools.* 
+FILES_INFO: {"/usr/lib/python3.5/shelve.py": 8528, "/usr/lib/python3.5/pickle.py": 56176, "/usr/lib/python3.5/pickletools.py": 91761, "/usr/lib/python3.5/_compat_pickle.py": 8556, "/usr/lib/python3.5/__pycache__/pickle.cpython-35.opt-2.pyc": 41994, "/usr/lib/python3.5/__pycache__/shelve.cpython-35.opt-1.pyc": 9925, "/usr/lib/python3.5/__pycache__/_compat_pickle.cpython-35.opt-2.pyc": 6628, "/usr/lib/python3.5/__pycache__/pickle.cpython-35.pyc": 46936, "/usr/lib/python3.5/__pycache__/pickletools.cpython-35.pyc": 70052, "/usr/lib/python3.5/__pycache__/_compat_pickle.cpython-35.opt-1.pyc": 6628, "/usr/lib/python3.5/__pycache__/shelve.cpython-35.pyc": 9925, "/usr/lib/python3.5/__pycache__/pickletools.cpython-35.opt-2.pyc": 60228, "/usr/lib/python3.5/__pycache__/_compat_pickle.cpython-35.pyc": 6702, "/usr/lib/python3.5/__pycache__/pickletools.cpython-35.opt-1.pyc": 68968, "/usr/lib/python3.5/__pycache__/pickle.cpython-35.opt-1.pyc": 46790, "/usr/lib/python3.5/__pycache__/shelve.cpython-35.opt-2.pyc": 5749}
+PKGSIZE_python3-pickle: 545546

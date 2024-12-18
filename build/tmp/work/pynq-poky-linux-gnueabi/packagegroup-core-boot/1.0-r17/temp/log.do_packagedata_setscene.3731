@@ -1,0 +1,39 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz for e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz;downloadfilename=e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/e9/sstate%3Apackagegroup-core-boot%3Apynq-poky-linux-gnueabi%3A1.0%3Ar17%3Apynq%3A3%3Ae96da241d70af7930a9d4881638ee699_packagedata.tgz;downloadfilename=e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz
+DEBUG: Searching for e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz.siginfo for e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz.siginfo;downloadfilename=e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/e9/sstate%3Apackagegroup-core-boot%3Apynq-poky-linux-gnueabi%3A1.0%3Ar17%3Apynq%3A3%3Ae96da241d70af7930a9d4881638ee699_packagedata.tgz.siginfo;downloadfilename=e9/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:e96da241d70af7930a9d4881638ee699_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/packagegroup-core-boot-ptest.packaged
+pkgdata/runtime/packagegroup-core-boot-ptest
+pkgdata/runtime/packagegroup-core-boot-dev.packaged
+pkgdata/runtime/packagegroup-core-boot.packaged
+pkgdata/runtime/packagegroup-core-boot
+pkgdata/runtime/packagegroup-core-boot-dbg
+pkgdata/runtime/packagegroup-core-boot-dev
+pkgdata/runtime/packagegroup-core-boot-dbg.packaged
+pkgdata/shlibs2/
+pkgdata/runtime-rprovides/
+pkgdata/packagegroup-core-boot
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/packagegroup-core-boot-ptest
+pkgdata/runtime-reverse/packagegroup-core-boot
+pkgdata/runtime-reverse/packagegroup-core-boot-dbg
+pkgdata/runtime-reverse/packagegroup-core-boot-dev
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

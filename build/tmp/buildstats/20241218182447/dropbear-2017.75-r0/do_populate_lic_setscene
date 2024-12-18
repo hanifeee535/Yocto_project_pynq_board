@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546295.99 
+dropbear-2017.75-r0: do_populate_lic_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 235029
+IO wchar: 107400
+IO syscr: 205
+IO syscw: 92
+IO read_bytes: 4096
+IO write_bytes: 81920
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.071759
+rusage ru_stime: 0.008442
+rusage ru_maxrss: 62908
+rusage ru_minflt: 6040
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 40
+Child rusage ru_utime: 0.010962999999999999
+Child rusage ru_stime: 0.0026669999999999997
+Child rusage ru_maxrss: 60668
+Child rusage ru_minflt: 1754
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1734546296.06 

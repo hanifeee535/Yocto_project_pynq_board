@@ -1,0 +1,18 @@
+prefix=${pcfiledir}/../../../usr
+exec_prefix=${pcfiledir}/../../../usr
+libdir=${pcfiledir}/../../../usr/lib
+includedir=${pcfiledir}/../../../usr/include
+
+giomoduledir=${libdir}/gio/modules
+glib_compile_schemas=glib-compile-schemas
+glib_compile_resources=glib-compile-resources
+gdbus_codegen=gdbus-codegen
+
+Name: GIO
+Description: glib I/O library
+Version: 2.52.3
+Requires: glib-2.0 gobject-2.0
+Requires.private: gmodule-no-export-2.0
+Libs: -L${libdir} -lgio-2.0
+Libs.private: -L${pcfiledir}/../../../usr/lib/pkgconfig/../../../usr/lib -lz -lresolv     -L${pcfiledir}/../../../usr/lib/pkgconfig/../../../usr/lib -lmount
+Cflags:

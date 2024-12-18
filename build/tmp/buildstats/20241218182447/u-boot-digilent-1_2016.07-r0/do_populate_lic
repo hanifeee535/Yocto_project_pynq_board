@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546452.07 
+u-boot-digilent-1_2016.07-r0: do_populate_lic
+Elapsed time: 0.10 seconds
+utime: 6
+stime: 1
+cutime: 2
+cstime: 0
+IO rchar: 329435
+IO wchar: 162981
+IO syscr: 324
+IO syscw: 85
+IO read_bytes: 8192
+IO write_bytes: 131072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.068641
+rusage ru_stime: 0.018063
+rusage ru_maxrss: 62820
+rusage ru_minflt: 11130
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 240
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 35
+Child rusage ru_utime: 0.022269
+Child rusage ru_stime: 0.004019
+Child rusage ru_maxrss: 60404
+Child rusage ru_minflt: 3193
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 56
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1734546452.17 

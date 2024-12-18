@@ -1,0 +1,13 @@
+PN: u-boot-pynq-uenv
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_u-boot-pynq-uenv-doc: U-Boot uEnv.txt SD boot environment generation for Zynq targets.  This package contains documentation.
+SUMMARY_u-boot-pynq-uenv-doc: U-Boot uEnv.txt SD boot environment generation for Zynq targets - Documentation files
+SECTION_u-boot-pynq-uenv-doc: doc
+PKG_u-boot-pynq-uenv-doc: u-boot-pynq-uenv-doc
+FILES_u-boot-pynq-uenv-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_u-boot-pynq-uenv-doc: 0

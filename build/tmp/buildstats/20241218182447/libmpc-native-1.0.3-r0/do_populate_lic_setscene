@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546307.92 
+libmpc-native-1.0.3-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 0
+cutime: 0
+cstime: 0
+IO rchar: 238839
+IO wchar: 115020
+IO syscr: 194
+IO syscw: 82
+IO read_bytes: 16384
+IO write_bytes: 81920
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.078515
+rusage ru_stime: 0.008263999999999999
+rusage ru_maxrss: 62896
+rusage ru_minflt: 6004
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 120
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 61
+Child rusage ru_utime: 0.009112
+Child rusage ru_stime: 0.0035489999999999996
+Child rusage ru_maxrss: 60632
+Child rusage ru_minflt: 1771
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 27
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1734546307.96 

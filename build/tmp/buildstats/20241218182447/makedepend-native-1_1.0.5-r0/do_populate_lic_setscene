@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546308.60 
+makedepend-native-1_1.0.5-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 228758
+IO wchar: 94027
+IO syscr: 194
+IO syscw: 82
+IO read_bytes: 16384
+IO write_bytes: 73728
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07911699999999999
+rusage ru_stime: 0.007911
+rusage ru_maxrss: 62900
+rusage ru_minflt: 6000
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 120
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 84
+Child rusage ru_utime: 0.011405
+Child rusage ru_stime: 0.0012079999999999999
+Child rusage ru_maxrss: 60624
+Child rusage ru_minflt: 1761
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1734546308.65 

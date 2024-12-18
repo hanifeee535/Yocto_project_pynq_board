@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-logging: Python logging support
+RDEPENDS_python3-logging: python3-core python3-io python3-lang python3-pickle python3-stringold
+SECTION: devel/python
+PKG_python3-logging: python3-logging
+FILES_python3-logging: /usr/lib/python3.5/logging /usr/lib/python3.5/logging/__pycache__ 
+FILES_INFO: {"/usr/lib/python3.5/logging/config.py": 35944, "/usr/lib/python3.5/logging/__init__.py": 69417, "/usr/lib/python3.5/logging/handlers.py": 56125, "/usr/lib/python3.5/logging/__pycache__/config.cpython-35.pyc": 25390, "/usr/lib/python3.5/logging/__pycache__/config.cpython-35.opt-2.pyc": 21238, "/usr/lib/python3.5/logging/__pycache__/__init__.cpython-35.opt-1.pyc": 61339, "/usr/lib/python3.5/logging/__pycache__/config.cpython-35.opt-1.pyc": 25341, "/usr/lib/python3.5/logging/__pycache__/handlers.cpython-35.opt-1.pyc": 44849, "/usr/lib/python3.5/logging/__pycache__/handlers.cpython-35.pyc": 44849, "/usr/lib/python3.5/logging/__pycache__/handlers.cpython-35.opt-2.pyc": 26330, "/usr/lib/python3.5/logging/__pycache__/__init__.cpython-35.opt-2.pyc": 33667, "/usr/lib/python3.5/logging/__pycache__/__init__.cpython-35.pyc": 61378}
+PKGSIZE_python3-logging: 505867

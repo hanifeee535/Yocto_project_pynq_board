@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546585.22 
+linux-xlnx-4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0: do_shared_workdir
+Elapsed time: 0.03 seconds
+utime: 9
+stime: 0
+cutime: 0
+cstime: 0
+IO rchar: 3346626
+IO wchar: 3158821
+IO syscr: 318
+IO syscw: 102
+IO read_bytes: 663552
+IO write_bytes: 3342336
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.09507199999999999
+rusage ru_stime: 0.008267
+rusage ru_maxrss: 63760
+rusage ru_minflt: 4540
+rusage ru_majflt: 0
+rusage ru_inblock: 456
+rusage ru_oublock: 56
+rusage ru_nvcsw: 27
+rusage ru_nivcsw: 17
+Child rusage ru_utime: 0.009356
+Child rusage ru_stime: 0.005932
+Child rusage ru_maxrss: 61388
+Child rusage ru_minflt: 1753
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 840
+Child rusage ru_oublock: 6472
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 4
+Status: PASSED 
+Ended: 1734546585.25 

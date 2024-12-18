@@ -1,0 +1,15 @@
+PN: linux-xlnx
+PV: 4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6
+PR: r0
+PKGV: 4.9-xilinx-v2017.3+git0+f1b1e077d6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Xilinx Kernel
+SUMMARY: Linux kernel
+RPROVIDES_kernel-image-uimage:  kernel-image-uimage (=4.9-xilinx-v2017.3+git0+f1b1e077d6)
+SECTION: kernel
+PKG_kernel-image-uimage: kernel-image-uimage-4.9.0-xilinx-v2017.3
+ALLOW_EMPTY_kernel-image-uimage: 1
+FILES_kernel-image-uimage: /boot/uImage-4.9.0-xilinx-v2017.3 /boot/uImage
+FILES_INFO: {"/boot/uImage-4.9.0-xilinx-v2017.3": 3751400, "/boot/uImage": 27}
+PKGSIZE_kernel-image-uimage: 3751427

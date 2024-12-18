@@ -1,0 +1,21 @@
+PN: rt-tests
+PE: 1
+PV: 1.1
+PR: r0
+PKGE: 1
+PKGV: 1.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv2+
+DESCRIPTION_rt-tests-ptest: Real-Time preemption testcases.  This package contains a test directory /usr/lib/rt-tests/ptest for package test purposes.
+SUMMARY_rt-tests-ptest: Real-Time preemption testcases - Package test files
+RDEPENDS_rt-tests-ptest: python3 python3-datetime python3-lang python3-misc python3-multiprocessing python3-re python3-subprocess stress
+RRECOMMENDS_rt-tests-ptest:  ptest-runner
+SECTION_rt-tests-ptest: devel
+PKG_rt-tests-ptest: rt-tests-ptest
+ALLOW_EMPTY_rt-tests-ptest: 1
+FILES_rt-tests-ptest: /usr/lib/rt-tests/ptest
+FILES_INFO: {"/usr/lib/rt-tests/ptest/run-ptest": 33, "/usr/lib/rt-tests/ptest/rt_bmark.py": 14400}
+FILERDEPENDSFLIST_rt-tests-ptest: /usr/lib/rt-tests/ptest/rt@underscore@bmark.py /usr/lib/rt-tests/ptest/run-ptest
+FILERDEPENDS_/usr/lib/rt-tests/ptest/rt@underscore@bmark.py_rt-tests-ptest: /usr/bin/env
+FILERDEPENDS_/usr/lib/rt-tests/ptest/run-ptest_rt-tests-ptest: /bin/sh
+PKGSIZE_rt-tests-ptest: 14433

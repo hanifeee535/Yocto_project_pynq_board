@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546334.59 
+kbproto-native-1_1.0.7-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 10
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 238905
+IO wchar: 93303
+IO syscr: 195
+IO syscw: 83
+IO read_bytes: 4096
+IO write_bytes: 73728
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.101462
+rusage ru_stime: 0.019511999999999998
+rusage ru_maxrss: 62904
+rusage ru_minflt: 6032
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 66
+Child rusage ru_utime: 0.010232999999999999
+Child rusage ru_stime: 0.002601
+Child rusage ru_maxrss: 60652
+Child rusage ru_minflt: 1766
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1734546334.64 

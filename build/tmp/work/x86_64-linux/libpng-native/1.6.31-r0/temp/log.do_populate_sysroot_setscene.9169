@@ -1,0 +1,51 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz for universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz;downloadfilename=universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/c3/sstate%3Alibpng-native%3Ax86_64-linux%3A1.6.31%3Ar0%3Ax86_64%3A3%3Ac3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz;downloadfilename=universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz
+DEBUG: Searching for universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz.siginfo for universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz.siginfo;downloadfilename=universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/c3/sstate%3Alibpng-native%3Ax86_64-linux%3A1.6.31%3Ar0%3Ax86_64%3A3%3Ac3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz.siginfo;downloadfilename=universal/c3/sstate:libpng-native:x86_64-linux:1.6.31:r0:x86_64:3:c3ef59b2db9b88319c5c52226c0e5fa3_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/libpng-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/libpng16.so
+recipe-sysroot-native/usr/lib/libpng16.so.16
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/usr/lib/pkgconfig/libpng.pc
+recipe-sysroot-native/usr/lib/pkgconfig/libpng16.pc
+recipe-sysroot-native/usr/lib/libpng16.so.16.31.0
+recipe-sysroot-native/usr/lib/libpng.so
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/pngconf.h
+recipe-sysroot-native/usr/include/libpng16/
+recipe-sysroot-native/usr/include/libpng16/pngconf.h
+recipe-sysroot-native/usr/include/libpng16/png.h
+recipe-sysroot-native/usr/include/libpng16/pnglibconf.h
+recipe-sysroot-native/usr/include/png.h
+recipe-sysroot-native/usr/include/pnglibconf.h
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/crossscripts/
+recipe-sysroot-native/usr/bin/crossscripts/libpng16-config
+recipe-sysroot-native/usr/bin/crossscripts/libpng-config
+recipe-sysroot-native/usr/bin/pngfix
+recipe-sysroot-native/usr/bin/libpng16-config
+recipe-sysroot-native/usr/bin/libpng-config
+recipe-sysroot-native/usr/bin/png-fix-itxt
+recipe-sysroot-native/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libpng-native/1.6.31-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libpng-native/1.6.31-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/libpng-native
+DEBUG: Python function do_populate_sysroot_setscene finished

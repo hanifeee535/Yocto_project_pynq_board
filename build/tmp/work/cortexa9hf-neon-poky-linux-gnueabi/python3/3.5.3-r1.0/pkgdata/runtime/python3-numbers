@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-numbers: Python number APIs
+RDEPENDS_python3-numbers: python3-core python3-lang python3-re
+SECTION: devel/python
+PKG_python3-numbers: python3-numbers
+FILES_python3-numbers: /usr/lib/python3.5/decimal.* /usr/lib/python3.5/__pycache__/decimal.* /usr/lib/python3.5/fractions.* /usr/lib/python3.5/__pycache__/fractions.* /usr/lib/python3.5/numbers.* /usr/lib/python3.5/__pycache__/numbers.* 
+FILES_INFO: {"/usr/lib/python3.5/decimal.py": 320, "/usr/lib/python3.5/numbers.py": 10243, "/usr/lib/python3.5/fractions.py": 24612, "/usr/lib/python3.5/__pycache__/fractions.cpython-35.opt-1.pyc": 20040, "/usr/lib/python3.5/__pycache__/decimal.cpython-35.pyc": 378, "/usr/lib/python3.5/__pycache__/numbers.cpython-35.pyc": 12652, "/usr/lib/python3.5/__pycache__/decimal.cpython-35.opt-2.pyc": 378, "/usr/lib/python3.5/__pycache__/fractions.cpython-35.pyc": 20040, "/usr/lib/python3.5/__pycache__/decimal.cpython-35.opt-1.pyc": 378, "/usr/lib/python3.5/__pycache__/fractions.cpython-35.opt-2.pyc": 12749, "/usr/lib/python3.5/__pycache__/numbers.cpython-35.opt-1.pyc": 12652, "/usr/lib/python3.5/__pycache__/numbers.cpython-35.opt-2.pyc": 8679}
+PKGSIZE_python3-numbers: 123121

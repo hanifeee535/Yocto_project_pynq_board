@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546344.92 
+libmpc-native-1.0.3-r0: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 399740
+IO wchar: 319551
+IO syscr: 210
+IO syscw: 102
+IO read_bytes: 61440
+IO write_bytes: 188416
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.079327
+rusage ru_stime: 0.013796
+rusage ru_maxrss: 62904
+rusage ru_minflt: 6026
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 128
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 88
+Child rusage ru_utime: 0.011902999999999999
+Child rusage ru_stime: 0.002286
+Child rusage ru_maxrss: 60656
+Child rusage ru_minflt: 1786
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 96
+Child rusage ru_oublock: 240
+Child rusage ru_nvcsw: 33
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1734546344.97 

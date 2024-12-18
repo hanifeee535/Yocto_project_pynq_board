@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546312.31 
+sed-4.2.2-r0: do_package_qa_setscene
+Elapsed time: 0.04 seconds
+utime: 7
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 160499
+IO wchar: 76206
+IO syscr: 90
+IO syscw: 64
+IO read_bytes: 4096
+IO write_bytes: 49152
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07278799999999999
+rusage ru_stime: 0.011491999999999999
+rusage ru_maxrss: 62904
+rusage ru_minflt: 4877
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 52
+Child rusage ru_utime: 0.004797
+Child rusage ru_stime: 0.000895
+Child rusage ru_maxrss: 60668
+Child rusage ru_minflt: 875
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 13
+Child rusage ru_nivcsw: 2
+Status: PASSED 
+Ended: 1734546312.34 

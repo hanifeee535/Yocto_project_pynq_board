@@ -1,0 +1,41 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz for ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz;downloadfilename=ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/ae/sstate%3Autil-macros%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.19.1%3Ar0%3Acortexa9hf-neon%3A3%3Aae0a3ce58756ad3b1060643904fc838e_packagedata.tgz;downloadfilename=ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz
+DEBUG: Searching for ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz.siginfo for ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz.siginfo;downloadfilename=ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/ae/sstate%3Autil-macros%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.19.1%3Ar0%3Acortexa9hf-neon%3A3%3Aae0a3ce58756ad3b1060643904fc838e_packagedata.tgz.siginfo;downloadfilename=ae/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:ae0a3ce58756ad3b1060643904fc838e_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/util-macros-dev
+pkgdata/runtime/util-macros-locale
+pkgdata/runtime/util-macros
+pkgdata/runtime/util-macros-staticdev
+pkgdata/runtime/util-macros-dev.packaged
+pkgdata/runtime/util-macros-doc
+pkgdata/runtime/util-macros-dbg.packaged
+pkgdata/runtime/util-macros.packaged
+pkgdata/runtime/util-macros-dbg
+pkgdata/shlibs2/
+pkgdata/shlibs2/util-macros-dev.pclist
+pkgdata/util-macros
+pkgdata/runtime-rprovides/
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/util-macros-dev
+pkgdata/runtime-reverse/util-macros
+pkgdata/runtime-reverse/util-macros-dbg
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/util-macros/1_1.19.1-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

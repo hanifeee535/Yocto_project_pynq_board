@@ -1,0 +1,37 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz for 6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz;downloadfilename=6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/6b/sstate%3Abase-files%3Apynq-poky-linux-gnueabi%3A3.0.14%3Ar89%3Apynq%3A3%3A6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz;downloadfilename=6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz
+DEBUG: Searching for 6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz.siginfo for 6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz.siginfo;downloadfilename=6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/6b/sstate%3Abase-files%3Apynq-poky-linux-gnueabi%3A3.0.14%3Ar89%3Apynq%3A3%3A6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz.siginfo;downloadfilename=6b/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:6b021c2c4321259c98afaa752216e2db_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/lib/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/base-files
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/doc/
+sysroot-destdir/usr/share/dict/
+sysroot-destdir/usr/share/misc/
+sysroot-destdir/usr/share/common-licenses/
+sysroot-destdir/etc/
+sysroot-destdir/etc/skel/
+sysroot-destdir/etc/skel/.profile
+sysroot-destdir/etc/skel/.bashrc
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/base-files/3.0.14-r89/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/pynq/base-files
+DEBUG: Python function do_populate_sysroot_setscene finished

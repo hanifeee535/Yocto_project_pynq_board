@@ -1,0 +1,18 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-math: Python math support
+RDEPENDS_python3-math: python3-core python3-crypt glibc (>= 2.26) libpython3 (>= 3.5.3)
+SECTION: devel/python
+PKG_python3-math: python3-math
+FILES_python3-math: /usr/lib/python3.5/lib-dynload/cmath.*.so /usr/lib/python3.5/lib-dynload/__pycache__/cmath.*.so /usr/lib/python3.5/lib-dynload/math.*.so /usr/lib/python3.5/lib-dynload/__pycache__/math.*.so /usr/lib/python3.5/lib-dynload/_random.*.so /usr/lib/python3.5/lib-dynload/__pycache__/_random.*.so /usr/lib/python3.5/random.* /usr/lib/python3.5/__pycache__/random.* /usr/lib/python3.5/sets.* /usr/lib/python3.5/__pycache__/sets.* 
+FILES_INFO: {"/usr/lib/python3.5/random.py": 26463, "/usr/lib/python3.5/lib-dynload/math.cpython-35m-arm-linux-gnueabihf.so": 31064, "/usr/lib/python3.5/lib-dynload/_random.cpython-35m-arm-linux-gnueabihf.so": 10124, "/usr/lib/python3.5/lib-dynload/cmath.cpython-35m-arm-linux-gnueabihf.so": 28916, "/usr/lib/python3.5/__pycache__/random.cpython-35.pyc": 19312, "/usr/lib/python3.5/__pycache__/random.cpython-35.opt-1.pyc": 19312, "/usr/lib/python3.5/__pycache__/random.cpython-35.opt-2.pyc": 13016}
+FILERDEPENDSFLIST_python3-math: /usr/lib/python3.5/lib-dynload/@underscore@random.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/lib-dynload/cmath.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/lib-dynload/math.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@random.cpython-35m-arm-linux-gnueabihf.so_python3-math: libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/cmath.cpython-35m-arm-linux-gnueabihf.so_python3-math: libc.so.6(GLIBC_2.4) libm.so.6(GLIBC_2.4) libm.so.6 libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/math.cpython-35m-arm-linux-gnueabihf.so_python3-math: libc.so.6(GLIBC_2.4) libm.so.6(GLIBC_2.4) libm.so.6 libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_python3-math: 148207

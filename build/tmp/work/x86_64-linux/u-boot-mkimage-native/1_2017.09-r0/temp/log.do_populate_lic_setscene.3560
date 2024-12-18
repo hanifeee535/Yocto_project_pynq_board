@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz for 1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz;downloadfilename=1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/1f/sstate%3Au-boot-mkimage-native%3A%3A2017.09%3Ar0%3A%3A3%3A1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz;downloadfilename=1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz
+DEBUG: Searching for 1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz.siginfo for 1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz.siginfo;downloadfilename=1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/1f/sstate%3Au-boot-mkimage-native%3A%3A2017.09%3Ar0%3A%3A3%3A1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz.siginfo;downloadfilename=1f/sstate:u-boot-mkimage-native::2017.09:r0::3:1fa5a847690764892bf6d6a732ef868e_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/u-boot-mkimage-native/
+license-destdir/u-boot-mkimage-native/README
+license-destdir/u-boot-mkimage-native/recipeinfo
+license-destdir/u-boot-mkimage-native/generic_GPLv2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/u-boot-mkimage-native/1_2017.09-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

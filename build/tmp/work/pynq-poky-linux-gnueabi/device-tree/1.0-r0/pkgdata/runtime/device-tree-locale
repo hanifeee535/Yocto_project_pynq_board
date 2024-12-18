@@ -1,0 +1,13 @@
+PN: device-tree
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT & GPLv2
+DESCRIPTION: Device Tree generation and packaging for BSP Device Trees.
+SUMMARY: Device Trees for BSPs
+SECTION: bsp
+PKG_device-tree-locale: device-tree-locale
+FILES_device-tree-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_device-tree-locale: 0

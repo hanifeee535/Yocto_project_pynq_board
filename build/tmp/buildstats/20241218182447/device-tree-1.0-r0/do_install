@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546585.40 
+device-tree-1.0-r0: do_install
+Elapsed time: 1.19 seconds
+utime: 45
+stime: 38
+cutime: 2
+cstime: 3
+IO rchar: 1656140
+IO wchar: 2422866
+IO syscr: 8114
+IO syscw: 29774
+IO read_bytes: 1429504
+IO write_bytes: 643072
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.45263
+rusage ru_stime: 0.38020899999999996
+rusage ru_maxrss: 64608
+rusage ru_minflt: 8745
+rusage ru_majflt: 0
+rusage ru_inblock: 1752
+rusage ru_oublock: 128
+rusage ru_nvcsw: 7661
+rusage ru_nivcsw: 45
+Child rusage ru_utime: 0.022348
+Child rusage ru_stime: 0.031797
+Child rusage ru_maxrss: 61756
+Child rusage ru_minflt: 2858
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1040
+Child rusage ru_oublock: 1128
+Child rusage ru_nvcsw: 235
+Child rusage ru_nivcsw: 5
+Status: PASSED 
+Ended: 1734546586.59 

@@ -1,0 +1,43 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz for b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz;downloadfilename=b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/b2/sstate%3Abtrfs-tools%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.12%3Ar0%3Acortexa9hf-neon%3A3%3Ab24a0a424015147a603d5b54189e06fc_packagedata.tgz;downloadfilename=b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz
+DEBUG: Searching for b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz.siginfo for b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz.siginfo;downloadfilename=b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/b2/sstate%3Abtrfs-tools%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.12%3Ar0%3Acortexa9hf-neon%3A3%3Ab24a0a424015147a603d5b54189e06fc_packagedata.tgz.siginfo;downloadfilename=b2/sstate:btrfs-tools:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:b24a0a424015147a603d5b54189e06fc_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/btrfs-tools-staticdev
+pkgdata/runtime/btrfs-tools-locale
+pkgdata/runtime/btrfs-tools-dev.packaged
+pkgdata/runtime/btrfs-tools-dbg.packaged
+pkgdata/runtime/btrfs-tools-dev
+pkgdata/runtime/btrfs-tools-dbg
+pkgdata/runtime/btrfs-tools-staticdev.packaged
+pkgdata/runtime/btrfs-tools.packaged
+pkgdata/runtime/btrfs-tools
+pkgdata/runtime/btrfs-tools-doc
+pkgdata/shlibs2/
+pkgdata/shlibs2/btrfs-tools.list
+pkgdata/runtime-rprovides/
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/btrfs-tools-staticdev
+pkgdata/runtime-reverse/btrfs-tools-dev
+pkgdata/runtime-reverse/btrfs-tools-dbg
+pkgdata/runtime-reverse/btrfs-tools
+pkgdata/btrfs-tools
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/btrfs-tools/4.12-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

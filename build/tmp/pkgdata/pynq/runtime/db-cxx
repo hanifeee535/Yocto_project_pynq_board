@@ -1,0 +1,21 @@
+PN: db
+PE: 1
+PV: 5.3.28
+PR: r1
+PKGE: 1
+PKGV: 5.3.28
+PKGR: r1
+LICENSE: Sleepycat
+DESCRIPTION: Berkeley Database v5.
+SUMMARY: Berkeley Database v5
+RDEPENDS_db-cxx: glibc (>= 2.26) libstdc++ (>= 7.3.0) libgcc (>= 7.3.0)
+SECTION: libs
+PKG_db-cxx: db-cxx
+FILES_db-cxx: /usr/lib/*cxx*so
+pkg_postinst_db-cxx: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_db-cxx: /usr/lib/libdb@underscore@cxx-5.3.so
+FILES_INFO: {"/usr/lib/libdb_cxx.so": 16, "/usr/lib/libdb_cxx-5.so": 16, "/usr/lib/libdb_cxx-5.3.so": 1129976}
+FILERPROVIDES_/usr/lib/libdb@underscore@cxx-5.3.so_db-cxx: libdb_cxx-5.3.so
+FILERDEPENDSFLIST_db-cxx: /usr/lib/libdb@underscore@cxx-5.3.so
+FILERDEPENDS_/usr/lib/libdb@underscore@cxx-5.3.so_db-cxx: libpthread.so.0(GLIBC_2.4) libgcc_s.so.1(GCC_3.5) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libstdc++.so.6(GLIBCXX_3.4.9) libstdc++.so.6(CXXABI_1.3.9) libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) libpthread.so.0 libstdc++.so.6 libm.so.6 libc.so.6 libgcc_s.so.1 rtld(GNU_HASH)
+PKGSIZE_db-cxx: 1130008

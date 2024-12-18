@@ -1,0 +1,15 @@
+PN: bash
+PV: 4.4
+PR: r0
+PKGV: 4.4
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION: An sh-compatible command language interpreter.
+SUMMARY: An sh-compatible command language interpreter
+SECTION: base/shell
+PKG_bash-bashbug: bash-bashbug
+FILES_bash-bashbug: /usr/bin/bashbug
+FILES_INFO: {"/usr/bin/bashbug": 7112}
+FILERDEPENDSFLIST_bash-bashbug: /usr/bin/bashbug
+FILERDEPENDS_/usr/bin/bashbug_bash-bashbug: /bin/sh
+PKGSIZE_bash-bashbug: 7112

@@ -1,0 +1,48 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz for 28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz;downloadfilename=28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/28/sstate%3Alibffi%3Acortexa9hf-neon-poky-linux-gnueabi%3A3.2.1%3Ar0%3Acortexa9hf-neon%3A3%3A28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz;downloadfilename=28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz
+DEBUG: Searching for 28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz.siginfo for 28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz.siginfo;downloadfilename=28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/28/sstate%3Alibffi%3Acortexa9hf-neon-poky-linux-gnueabi%3A3.2.1%3Ar0%3Acortexa9hf-neon%3A3%3A28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz.siginfo;downloadfilename=28/sstate:libffi:cortexa9hf-neon-poky-linux-gnueabi:3.2.1:r0:cortexa9hf-neon:3:28c9cf1a3a7e7212d8ba86091489af35_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/libffi
+pkgdata/runtime/libffi.packaged
+pkgdata/runtime/libffi-doc.packaged
+pkgdata/runtime/libffi-doc
+pkgdata/runtime/libffi-dbg.packaged
+pkgdata/runtime/libffi-locale
+pkgdata/runtime/libffi-dbg
+pkgdata/runtime/libffi-staticdev
+pkgdata/runtime/libffi-dev.packaged
+pkgdata/runtime/libffi-dev
+pkgdata/shlibs2/
+pkgdata/shlibs2/libffi-dev.pclist
+pkgdata/shlibs2/libffi.list
+pkgdata/libffi
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/libffi/
+pkgdata/runtime-rprovides/libffi/libffi
+pkgdata/runtime-rprovides/(=3.2.1)/
+pkgdata/runtime-rprovides/(=3.2.1)/libffi
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/libffi-doc
+pkgdata/runtime-reverse/libffi6
+pkgdata/runtime-reverse/libffi-dbg
+pkgdata/runtime-reverse/libffi-dev
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/libffi/3.2.1-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

@@ -1,0 +1,20 @@
+DEBUG: Executing python function do_package_qa_setscene
+DEBUG: Searching for f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz for f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz', '', '', OrderedDict([('downloadfilename', 'f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz;downloadfilename=f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz returning file:///home/student/poky_cache/sstate-cache/f4/sstate%3Aopenssl%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0.2o%3Ar0%3Acortexa9hf-neon%3A3%3Af4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz;downloadfilename=f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz
+DEBUG: Searching for f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz.siginfo for f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz.siginfo;downloadfilename=f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/f4/sstate%3Aopenssl%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0.2o%3Ar0%3Acortexa9hf-neon%3A3%3Af4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz.siginfo;downloadfilename=f4/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:f4bfbf6ca442a9e39e08be8bd2832770_package_qa.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function do_package_qa_setscene finished

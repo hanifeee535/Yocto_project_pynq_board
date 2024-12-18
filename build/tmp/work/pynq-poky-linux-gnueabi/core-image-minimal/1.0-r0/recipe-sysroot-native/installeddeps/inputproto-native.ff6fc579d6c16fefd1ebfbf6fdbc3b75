@@ -1,0 +1,13 @@
+recipe-sysroot-native/usr/lib/pkgconfig/inputproto.pc
+recipe-sysroot-native/usr/include/X11/extensions/XI2.h
+recipe-sysroot-native/usr/include/X11/extensions/XIproto.h
+recipe-sysroot-native/usr/include/X11/extensions/XI.h
+recipe-sysroot-native/usr/include/X11/extensions/XI2proto.h
+recipe-sysroot-native/sysroot-providers/inputproto-native
+recipe-sysroot-native/usr/include/X11/extensions/
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/usr/include/X11/
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/

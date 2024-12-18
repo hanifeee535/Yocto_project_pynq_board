@@ -1,0 +1,15 @@
+do_fetch (37311): log.do_fetch.37311
+do_unpack (38444): log.do_unpack.38444
+do_patch (38610): log.do_patch.38610
+do_prepare_recipe_sysroot (38762): log.do_prepare_recipe_sysroot.38762
+do_configure (38781): log.do_configure.38781
+do_compile (38785): log.do_compile.38785
+do_create_extlinux_config (46322): log.do_create_extlinux_config.46322
+do_install (46545): log.do_install.46545
+do_package (46567): log.do_package.46567
+do_populate_lic (46681): log.do_populate_lic.46681
+do_packagedata (46714): log.do_packagedata.46714
+do_populate_sysroot (46742): log.do_populate_sysroot.46742
+do_deploy (46922): log.do_deploy.46922
+do_package_write_rpm (46978): log.do_package_write_rpm.46978
+do_package_qa (47084): log.do_package_qa.47084

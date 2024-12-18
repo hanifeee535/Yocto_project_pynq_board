@@ -1,0 +1,36 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz for universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz;downloadfilename=universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/d1/sstate%3Apkgconfig-native%3Ax86_64-linux%3A0.29.2%2BgitAUTOINC%2Bedf8e6f0ea%3Ar0%3Ax86_64%3A3%3Ad1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz;downloadfilename=universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz
+DEBUG: Searching for universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz.siginfo for universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz.siginfo;downloadfilename=universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/d1/sstate%3Apkgconfig-native%3Ax86_64-linux%3A0.29.2%2BgitAUTOINC%2Bedf8e6f0ea%3Ar0%3Ax86_64%3A3%3Ad1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz.siginfo;downloadfilename=universal/d1/sstate:pkgconfig-native:x86_64-linux:0.29.2+gitAUTOINC+edf8e6f0ea:r0:x86_64:3:d1d13f3b5bc107ebc13a25135081a3c3_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/pkgconfig-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/pkg-config-esdk
+recipe-sysroot-native/usr/bin/pkg-config-native
+recipe-sysroot-native/usr/bin/x86_64-pc-linux-gnu-pkg-config
+recipe-sysroot-native/usr/bin/pkg-config
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/share/aclocal/
+recipe-sysroot-native/usr/share/aclocal/pkg.m4
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Executing shell function pkgconfig_sstate_fixup_esdk
+DEBUG: Shell function pkgconfig_sstate_fixup_esdk finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/pkgconfig-native/0.29.2+gitAUTOINC+edf8e6f0ea-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/pkgconfig-native/0.29.2+gitAUTOINC+edf8e6f0ea-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/pkgconfig-native
+DEBUG: Python function do_populate_sysroot_setscene finished

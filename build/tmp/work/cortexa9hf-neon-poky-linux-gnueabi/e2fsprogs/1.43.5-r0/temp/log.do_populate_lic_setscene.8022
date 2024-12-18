@@ -1,0 +1,36 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz for 5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz;downloadfilename=5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/5b/sstate%3Ae2fsprogs%3A%3A1.43.5%3Ar0%3A%3A3%3A5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz;downloadfilename=5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz
+DEBUG: Searching for 5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz.siginfo for 5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz.siginfo;downloadfilename=5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/5b/sstate%3Ae2fsprogs%3A%3A1.43.5%3Ar0%3A%3A3%3A5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz.siginfo;downloadfilename=5b/sstate:e2fsprogs::1.43.5:r0::3:5be94ef3dd270ac0559ad2066a46ea59_populate_lic.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/e2fsprogs/
+license-destdir/e2fsprogs/COPYING
+license-destdir/e2fsprogs/e2p.h
+license-destdir/e2fsprogs/NOTICE
+license-destdir/e2fsprogs/generic_MIT
+license-destdir/e2fsprogs/ss.h
+license-destdir/e2fsprogs/uuid.h.in
+license-destdir/e2fsprogs/recipeinfo
+license-destdir/e2fsprogs/generic_GPLv2
+license-destdir/e2fsprogs/generic_LGPLv2
+license-destdir/e2fsprogs/generic_BSD
+license-destdir/e2fsprogs/ext2fs.h
+license-destdir/e2fsprogs/et_name.c
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/e2fsprogs/1.43.5-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

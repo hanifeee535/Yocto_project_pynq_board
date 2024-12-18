@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546590.38 
+device-tree-1.0-r0: do_package_write_rpm
+Elapsed time: 0.24 seconds
+utime: 10
+stime: 3
+cutime: 6
+cstime: 2
+IO rchar: 948694
+IO wchar: 507723
+IO syscr: 1728
+IO syscw: 1961
+IO read_bytes: 4096
+IO write_bytes: 319488
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.109025
+rusage ru_stime: 0.038686
+rusage ru_maxrss: 64500
+rusage ru_minflt: 13558
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 544
+rusage ru_nvcsw: 83
+rusage ru_nivcsw: 1036
+Child rusage ru_utime: 0.063495
+Child rusage ru_stime: 0.021405
+Child rusage ru_maxrss: 62160
+Child rusage ru_minflt: 13804
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 180
+Child rusage ru_nivcsw: 1033
+Status: PASSED 
+Ended: 1734546590.62 

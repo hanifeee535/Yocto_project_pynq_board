@@ -1,0 +1,11 @@
+recipe-sysroot-native/usr/lib/cmake/GtkDoc/GtkDocConfig.cmake
+recipe-sysroot-native/usr/bin/gtkdoc-mkpdf
+recipe-sysroot-native/usr/bin/gtkdoc-scangobj
+recipe-sysroot-native/usr/bin/gtkdoc-mkman
+recipe-sysroot-native/usr/bin/gtkdoc-mkdb
+recipe-sysroot-native/usr/bin/gtkdoc-mkhtml
+recipe-sysroot-native/usr/bin/gtkdoc-mktmpl
+recipe-sysroot-native/usr/bin/gtkdoc-scan
+recipe-sysroot-native/usr/bin/gtkdoc-fixxref
+recipe-sysroot-native/usr/bin/gtkdocize
+recipe-sysroot-native/usr/share/sgml/gtk-doc/gtk-doc.cat

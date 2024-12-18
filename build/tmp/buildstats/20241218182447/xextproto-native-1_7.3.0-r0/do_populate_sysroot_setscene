@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546333.08 
+xextproto-native-1_7.3.0-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 8
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 449408
+IO wchar: 434377
+IO syscr: 225
+IO syscw: 177
+IO read_bytes: 36864
+IO write_bytes: 294912
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.089129
+rusage ru_stime: 0.00713
+rusage ru_maxrss: 62944
+rusage ru_minflt: 6087
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 144
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 71
+Child rusage ru_utime: 0.014473
+Child rusage ru_stime: 0.001547
+Child rusage ru_maxrss: 60660
+Child rusage ru_minflt: 1799
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 56
+Child rusage ru_oublock: 432
+Child rusage ru_nvcsw: 35
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1734546333.13 

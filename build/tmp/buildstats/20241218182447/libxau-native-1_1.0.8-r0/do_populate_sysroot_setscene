@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546337.51 
+libxau-native-1_1.0.8-r0: do_populate_sysroot_setscene
+Elapsed time: 0.07 seconds
+utime: 10
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 279603
+IO wchar: 144825
+IO syscr: 202
+IO syscw: 99
+IO read_bytes: 12288
+IO write_bytes: 98304
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.104395
+rusage ru_stime: 0.014913
+rusage ru_maxrss: 62964
+rusage ru_minflt: 6059
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 128
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 84
+Child rusage ru_utime: 0.010863
+Child rusage ru_stime: 0.007022
+Child rusage ru_maxrss: 60684
+Child rusage ru_minflt: 1781
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1734546337.58 

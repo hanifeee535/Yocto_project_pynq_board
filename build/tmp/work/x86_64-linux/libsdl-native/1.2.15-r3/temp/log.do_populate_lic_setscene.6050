@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz for 91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz;downloadfilename=91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/91/sstate%3Alibsdl-native%3A%3A1.2.15%3Ar3%3A%3A3%3A91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz;downloadfilename=91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz
+DEBUG: Searching for 91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz.siginfo for 91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz.siginfo;downloadfilename=91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/91/sstate%3Alibsdl-native%3A%3A1.2.15%3Ar3%3A%3A3%3A91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz.siginfo;downloadfilename=91/sstate:libsdl-native::1.2.15:r3::3:91612f1e53a0007deb8a1807fdee784a_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/libsdl-native/
+license-destdir/libsdl-native/COPYING
+license-destdir/libsdl-native/generic_LGPLv2.1
+license-destdir/libsdl-native/recipeinfo
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libsdl-native/1.2.15-r3/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

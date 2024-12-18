@@ -1,0 +1,13 @@
+PN: linux-xlnx
+PV: 4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6
+PR: r0
+PKGV: 4.9-xilinx-v2017.3+git0+f1b1e077d6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Xilinx Kernel
+SUMMARY: Linux kernel
+SECTION: kernel
+PKG_kernel-devicetree: kernel-devicetree
+FILES_kernel-devicetree: /boot/*.dtb /boot/*.dtbo
+FILES_INFO: {}
+PKGSIZE_kernel-devicetree: 0

@@ -1,0 +1,16 @@
+do_fetch (11953): log.do_fetch.11953
+do_unpack (11961): log.do_unpack.11961
+do_patch (12099): log.do_patch.12099
+do_prepare_recipe_sysroot (13727): log.do_prepare_recipe_sysroot.13727
+do_configure (13732): log.do_configure.13732
+do_configure_ptest_base (14658): log.do_configure_ptest_base.14658
+do_compile (14660): log.do_compile.14660
+do_compile_ptest_base (37215): log.do_compile_ptest_base.37215
+do_install (37227): log.do_install.37227
+do_install_ptest_base (37444): log.do_install_ptest_base.37444
+do_package (37482): log.do_package.37482
+do_packagedata (38397): log.do_packagedata.38397
+do_populate_lic (46207): log.do_populate_lic.46207
+do_package_write_rpm (46332): log.do_package_write_rpm.46332
+do_package_qa (46789): log.do_package_qa.46789
+do_populate_sysroot (46856): log.do_populate_sysroot.46856

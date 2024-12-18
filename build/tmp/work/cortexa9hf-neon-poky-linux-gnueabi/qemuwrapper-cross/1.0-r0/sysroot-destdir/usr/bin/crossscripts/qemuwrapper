@@ -1,0 +1,2 @@
+#!/bin/sh
+qemu-arm -r 3.2.0  "$@"

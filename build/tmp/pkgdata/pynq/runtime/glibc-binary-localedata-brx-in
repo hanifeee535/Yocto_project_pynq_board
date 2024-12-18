@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-brx-in: binary locale definition for brx-in
+SUMMARY_glibc-binary-localedata-brx-in: binary locale definition for brx-in
+SECTION: base
+PKG_glibc-binary-localedata-brx-in: glibc-binary-localedata-brx-in
+FILES_glibc-binary-localedata-brx-in: /usr/lib/locale/brx_IN
+FILES_INFO: {"/usr/lib/locale/brx_IN/LC_TELEPHONE": 53, "/usr/lib/locale/brx_IN/LC_NAME": 73, "/usr/lib/locale/brx_IN/LC_ADDRESS": 133, "/usr/lib/locale/brx_IN/LC_MEASUREMENT": 23, "/usr/lib/locale/brx_IN/LC_TIME": 3302, "/usr/lib/locale/brx_IN/LC_IDENTIFICATION": 369, "/usr/lib/locale/brx_IN/LC_COLLATE": 1244054, "/usr/lib/locale/brx_IN/LC_NUMERIC": 54, "/usr/lib/locale/brx_IN/LC_MONETARY": 290, "/usr/lib/locale/brx_IN/LC_CTYPE": 333220, "/usr/lib/locale/brx_IN/LC_PAPER": 34, "/usr/lib/locale/brx_IN/LC_MESSAGES/SYS_LC_MESSAGES": 100}
+PKGSIZE_glibc-binary-localedata-brx-in: 1581705

@@ -1,0 +1,70 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz for universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz;downloadfilename=universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/43/sstate%3Alibxml-parser-perl-native%3Ax86_64-linux%3A2.44%3Ar0%3Ax86_64%3A3%3A4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz;downloadfilename=universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz
+DEBUG: Searching for universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz.siginfo for universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz.siginfo;downloadfilename=universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/43/sstate%3Alibxml-parser-perl-native%3Ax86_64-linux%3A2.44%3Ar0%3Ax86_64%3A3%3A4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz.siginfo;downloadfilename=universal/43/sstate:libxml-parser-perl-native:x86_64-linux:2.44:r0:x86_64:3:4341dc47bf181186d169a2fbbea78ed8_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/libxml-parser-perl-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/perl-native/
+recipe-sysroot-native/usr/lib/perl-native/perl/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/auto/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/auto/XML/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/auto/XML/Parser/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/auto/XML/Parser/Expat/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/auto/XML/Parser/Expat/Expat.so
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/iso-8859-5.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/windows-1255.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/x-euc-jp-jisx0221.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/README
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/x-sjis-jisx0221.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/x-sjis-jdk117.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/iso-8859-7.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/windows-1251.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/iso-8859-9.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/windows-1250.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/iso-8859-2.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/x-euc-jp-unicode.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/x-sjis-unicode.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/euc-kr.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/windows-1252.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/koi8-r.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/Japanese_Encodings.msg
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/iso-8859-8.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/iso-8859-4.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/iso-8859-3.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/ibm866.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/x-sjis-cp932.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Encodings/big5.enc
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Expat.pm
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/LWPExternEnt.pl
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Style/
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Style/Subs.pm
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Style/Tree.pm
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Style/Objects.pm
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Style/Debug.pm
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser/Style/Stream.pm
+recipe-sysroot-native/usr/lib/perl-native/perl/vendor_perl/5.24.1/XML/Parser.pm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libxml-parser-perl-native/2.44-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libxml-parser-perl-native/2.44-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/libxml-parser-perl-native
+DEBUG: Python function do_populate_sysroot_setscene finished

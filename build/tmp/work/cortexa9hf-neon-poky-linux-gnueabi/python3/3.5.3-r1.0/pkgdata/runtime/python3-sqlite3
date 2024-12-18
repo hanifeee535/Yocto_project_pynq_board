@@ -1,0 +1,16 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-sqlite3: Python Sqlite3 database support
+RDEPENDS_python3-sqlite3: python3-core python3-crypt python3-datetime python3-io python3-lang python3-threading libsqlite3 (>= 3.20.0) libpython3 (>= 3.5.3) glibc (>= 2.26)
+SECTION: devel/python
+PKG_python3-sqlite3: python3-sqlite3
+FILES_python3-sqlite3: /usr/lib/python3.5/lib-dynload/_sqlite3.*.so /usr/lib/python3.5/lib-dynload/__pycache__/_sqlite3.*.so /usr/lib/python3.5/sqlite3/dbapi2.* /usr/lib/python3.5/sqlite3/__pycache__/dbapi2.* /usr/lib/python3.5/sqlite3/__init__.* /usr/lib/python3.5/sqlite3/__pycache__/__init__.* /usr/lib/python3.5/sqlite3/dump.* /usr/lib/python3.5/sqlite3/__pycache__/dump.* 
+FILES_INFO: {"/usr/lib/python3.5/lib-dynload/_sqlite3.cpython-35m-arm-linux-gnueabihf.so": 63432, "/usr/lib/python3.5/sqlite3/__init__.py": 1018, "/usr/lib/python3.5/sqlite3/dump.py": 2825, "/usr/lib/python3.5/sqlite3/dbapi2.py": 2687, "/usr/lib/python3.5/sqlite3/__pycache__/dbapi2.cpython-35.opt-1.pyc": 2681, "/usr/lib/python3.5/sqlite3/__pycache__/dbapi2.cpython-35.pyc": 2681, "/usr/lib/python3.5/sqlite3/__pycache__/dump.cpython-35.pyc": 2022, "/usr/lib/python3.5/sqlite3/__pycache__/dump.cpython-35.opt-2.pyc": 1714, "/usr/lib/python3.5/sqlite3/__pycache__/__init__.cpython-35.opt-1.pyc": 146, "/usr/lib/python3.5/sqlite3/__pycache__/dbapi2.cpython-35.opt-2.pyc": 2681, "/usr/lib/python3.5/sqlite3/__pycache__/dump.cpython-35.opt-1.pyc": 2022, "/usr/lib/python3.5/sqlite3/__pycache__/__init__.cpython-35.opt-2.pyc": 146, "/usr/lib/python3.5/sqlite3/__pycache__/__init__.cpython-35.pyc": 146}
+FILERDEPENDSFLIST_python3-sqlite3: /usr/lib/python3.5/lib-dynload/@underscore@sqlite3.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@sqlite3.cpython-35m-arm-linux-gnueabihf.so_python3-sqlite3: libc.so.6(GLIBC_2.4) libsqlite3.so.0 libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_python3-sqlite3: 84201

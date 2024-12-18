@@ -1,0 +1,129 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz for ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', 'ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz;downloadfilename=ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/ef/sstate%3Aglib-2.0%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.52.3%3Ar0%3Acortexa9hf-neon%3A3%3Aefeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz;downloadfilename=ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz
+DEBUG: Searching for ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz.siginfo for ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz.siginfo;downloadfilename=ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/ef/sstate%3Aglib-2.0%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.52.3%3Ar0%3Acortexa9hf-neon%3A3%3Aefeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz.siginfo;downloadfilename=ef/sstate:glib-2.0:cortexa9hf-neon-poky-linux-gnueabi:2.52.3:r0:cortexa9hf-neon:3:efeeaa260a6233e5dc60e70e0c6d1250_package_write_rpm.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/cortexa9hf_neon/
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-zh-tw-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ka-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-eo-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-tg-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-hi-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-el-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-az-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-sr-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-tr-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-fur-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-sv-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-sk-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-tl-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ca-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-sl-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-bn-in-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ug-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ja-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-dz-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-he-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-fr-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-mai-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-nds-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-gd-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-et-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-yi-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-hr-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-hy-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-it-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-oc-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ps-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-bg-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-wa-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ku-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-or-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-es-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ru-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-gu-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-af-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-ptest-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-mr-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-fi-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-kk-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-is-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-sr+ije-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-bs-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ml-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-pa-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-be+latin-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-de-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-an-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-gl-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-pt-br-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-lt-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-hu-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-fa-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-bn-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-pt-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ko-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-am-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-en+shaw-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ms-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-xh-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-si-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-te-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-pl-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-sr+latin-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-mn-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ca+valencia-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-uk-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-mg-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-as-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-kn-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-codegen-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-0-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ro-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-nb-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-cs-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-eu-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-tt-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-lv-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-mk-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-rw-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ga-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-en-ca-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-zh-cn-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-cy-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-th-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ar-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-vi-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ast-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-da-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-id-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-zh-hk-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-nn-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-dbg-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-nl-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-sq-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-en-gb-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-utils-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ne-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-bash-completion-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-dev-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-ta-2.52.3-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libglib-2.0-locale-be-2.52.3-r0.cortexa9hf_neon.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/glib-2.0/1_2.52.3-r0/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

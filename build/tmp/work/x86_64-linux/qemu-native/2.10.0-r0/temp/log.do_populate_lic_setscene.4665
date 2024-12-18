@@ -1,0 +1,28 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz for 39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz;downloadfilename=39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/39/sstate%3Aqemu-native%3A%3A2.10.0%3Ar0%3A%3A3%3A39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz;downloadfilename=39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz
+DEBUG: Searching for 39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz.siginfo for 39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz.siginfo;downloadfilename=39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/39/sstate%3Aqemu-native%3A%3A2.10.0%3Ar0%3A%3A3%3A39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz.siginfo;downloadfilename=39/sstate:qemu-native::2.10.0:r0::3:39950f6663b967f1bd32c5cdc30cbec1_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/qemu-native/
+license-destdir/qemu-native/COPYING
+license-destdir/qemu-native/generic_LGPLv2.1
+license-destdir/qemu-native/COPYING.LIB
+license-destdir/qemu-native/recipeinfo
+license-destdir/qemu-native/generic_GPLv2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/qemu-native/2.10.0-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

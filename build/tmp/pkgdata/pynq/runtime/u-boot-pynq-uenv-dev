@@ -1,0 +1,15 @@
+PN: u-boot-pynq-uenv
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_u-boot-pynq-uenv-dev: U-Boot uEnv.txt SD boot environment generation for Zynq targets.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_u-boot-pynq-uenv-dev: U-Boot uEnv.txt SD boot environment generation for Zynq targets - Development files
+RDEPENDS_u-boot-pynq-uenv-dev: u-boot-pynq-uenv (= 1.0-r0)
+SECTION_u-boot-pynq-uenv-dev: devel
+PKG_u-boot-pynq-uenv-dev: u-boot-pynq-uenv-dev
+ALLOW_EMPTY_u-boot-pynq-uenv-dev: 1
+FILES_u-boot-pynq-uenv-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/u-boot-pynq-uenv/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_u-boot-pynq-uenv-dev: 0

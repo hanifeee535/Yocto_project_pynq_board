@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ps-af: binary locale definition for ps-af
+SUMMARY_glibc-binary-localedata-ps-af: binary locale definition for ps-af
+SECTION: base
+PKG_glibc-binary-localedata-ps-af: glibc-binary-localedata-ps-af
+FILES_glibc-binary-localedata-ps-af: /usr/lib/locale/ps_AF
+FILES_INFO: {"/usr/lib/locale/ps_AF/LC_TELEPHONE": 58, "/usr/lib/locale/ps_AF/LC_NAME": 103, "/usr/lib/locale/ps_AF/LC_ADDRESS": 171, "/usr/lib/locale/ps_AF/LC_MEASUREMENT": 23, "/usr/lib/locale/ps_AF/LC_TIME": 2694, "/usr/lib/locale/ps_AF/LC_IDENTIFICATION": 332, "/usr/lib/locale/ps_AF/LC_COLLATE": 1244630, "/usr/lib/locale/ps_AF/LC_NUMERIC": 54, "/usr/lib/locale/ps_AF/LC_MONETARY": 290, "/usr/lib/locale/ps_AF/LC_CTYPE": 292656, "/usr/lib/locale/ps_AF/LC_PAPER": 34, "/usr/lib/locale/ps_AF/LC_MESSAGES/SYS_LC_MESSAGES": 68}
+PKGSIZE_glibc-binary-localedata-ps-af: 1541113

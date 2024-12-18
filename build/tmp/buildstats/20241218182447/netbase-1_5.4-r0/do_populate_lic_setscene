@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546304.16 
+netbase-1_5.4-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 204263
+IO wchar: 113186
+IO syscr: 175
+IO syscw: 68
+IO read_bytes: 8192
+IO write_bytes: 81920
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.063521
+rusage ru_stime: 0.00794
+rusage ru_maxrss: 62584
+rusage ru_minflt: 6020
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 58
+Child rusage ru_utime: 0.011117
+Child rusage ru_stime: 0.0020399999999999997
+Child rusage ru_maxrss: 60272
+Child rusage ru_minflt: 1757
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1734546304.21 

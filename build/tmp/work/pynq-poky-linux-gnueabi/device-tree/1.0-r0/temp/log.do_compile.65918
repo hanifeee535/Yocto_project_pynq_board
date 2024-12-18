@@ -1,0 +1,4 @@
+DEBUG: Executing shell function do_compile
+devicetree.dtb: Warning (unit_address_vs_reg): Node /memory has a reg or ranges property, but no unit name
+devicetree.dtb: Warning (unit_address_vs_reg): Node /phy0 has a reg or ranges property, but no unit name
+DEBUG: Shell function do_compile finished

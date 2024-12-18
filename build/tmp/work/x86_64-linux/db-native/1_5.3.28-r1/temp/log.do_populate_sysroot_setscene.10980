@@ -1,0 +1,55 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz for universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz;downloadfilename=universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/04/sstate%3Adb-native%3Ax86_64-linux%3A5.3.28%3Ar1%3Ax86_64%3A3%3A041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz;downloadfilename=universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz
+DEBUG: Searching for universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz.siginfo for universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz.siginfo;downloadfilename=universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/04/sstate%3Adb-native%3Ax86_64-linux%3A5.3.28%3Ar1%3Ax86_64%3A3%3A041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz.siginfo;downloadfilename=universal/04/sstate:db-native:x86_64-linux:5.3.28:r1:x86_64:3:041716b93a43e415dd2756ef4375ad41_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/virtual_db-native
+recipe-sysroot-native/sysroot-providers/db-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/libdb.so
+recipe-sysroot-native/usr/lib/libdb_cxx.so
+recipe-sysroot-native/usr/lib/libdb_cxx-5.so
+recipe-sysroot-native/usr/lib/libdb-5.so
+recipe-sysroot-native/usr/lib/libdb-5.3.so
+recipe-sysroot-native/usr/lib/libdb_cxx-5.3.so
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/db51/
+recipe-sysroot-native/usr/include/db51/db_cxx.h
+recipe-sysroot-native/usr/include/db51/db.h
+recipe-sysroot-native/usr/include/db_cxx.h
+recipe-sysroot-native/usr/include/db.h
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/db_tuner
+recipe-sysroot-native/usr/bin/db_verify
+recipe-sysroot-native/usr/bin/db_deadlock
+recipe-sysroot-native/usr/bin/db_checkpoint
+recipe-sysroot-native/usr/bin/db_hotbackup
+recipe-sysroot-native/usr/bin/db_load
+recipe-sysroot-native/usr/bin/db_replicate
+recipe-sysroot-native/usr/bin/db_archive
+recipe-sysroot-native/usr/bin/db_recover
+recipe-sysroot-native/usr/bin/db_upgrade
+recipe-sysroot-native/usr/bin/db_dump
+recipe-sysroot-native/usr/bin/db_log_verify
+recipe-sysroot-native/usr/bin/db_printlog
+recipe-sysroot-native/usr/bin/db_stat
+recipe-sysroot-native/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/db-native/1_5.3.28-r1/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/db-native/1_5.3.28-r1/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/db-native
+DEBUG: Python function do_populate_sysroot_setscene finished

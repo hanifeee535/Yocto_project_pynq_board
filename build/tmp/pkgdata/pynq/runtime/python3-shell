@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-shell: Python shell-like functionality
+RDEPENDS_python3-shell: python3-compression python3-core python3-re
+SECTION: devel/python
+PKG_python3-shell: python3-shell
+FILES_python3-shell: /usr/lib/python3.5/cmd.* /usr/lib/python3.5/__pycache__/cmd.* /usr/lib/python3.5/commands.* /usr/lib/python3.5/__pycache__/commands.* /usr/lib/python3.5/dircache.* /usr/lib/python3.5/__pycache__/dircache.* /usr/lib/python3.5/fnmatch.* /usr/lib/python3.5/__pycache__/fnmatch.* /usr/lib/python3.5/glob.* /usr/lib/python3.5/__pycache__/glob.* /usr/lib/python3.5/popen2.* /usr/lib/python3.5/__pycache__/popen2.* /usr/lib/python3.5/shlex.* /usr/lib/python3.5/__pycache__/shlex.* /usr/lib/python3.5/shutil.* /usr/lib/python3.5/__pycache__/shutil.* 
+FILES_INFO: {"/usr/lib/python3.5/fnmatch.py": 3163, "/usr/lib/python3.5/shutil.py": 40096, "/usr/lib/python3.5/cmd.py": 14860, "/usr/lib/python3.5/shlex.py": 11448, "/usr/lib/python3.5/glob.py": 5072, "/usr/lib/python3.5/__pycache__/glob.cpython-35.opt-2.pyc": 3264, "/usr/lib/python3.5/__pycache__/fnmatch.cpython-35.opt-1.pyc": 3116, "/usr/lib/python3.5/__pycache__/shutil.cpython-35.opt-1.pyc": 32647, "/usr/lib/python3.5/__pycache__/shlex.cpython-35.opt-1.pyc": 7338, "/usr/lib/python3.5/__pycache__/fnmatch.cpython-35.opt-2.pyc": 1925, "/usr/lib/python3.5/__pycache__/shutil.cpython-35.pyc": 32647, "/usr/lib/python3.5/__pycache__/shutil.cpython-35.opt-2.pyc": 22172, "/usr/lib/python3.5/__pycache__/cmd.cpython-35.opt-1.pyc": 13393, "/usr/lib/python3.5/__pycache__/shlex.cpython-35.pyc": 7338, "/usr/lib/python3.5/__pycache__/glob.cpython-35.pyc": 4187, "/usr/lib/python3.5/__pycache__/cmd.cpython-35.pyc": 13393, "/usr/lib/python3.5/__pycache__/cmd.cpython-35.opt-2.pyc": 7950, "/usr/lib/python3.5/__pycache__/fnmatch.cpython-35.pyc": 3116, "/usr/lib/python3.5/__pycache__/glob.cpython-35.opt-1.pyc": 4126, "/usr/lib/python3.5/__pycache__/shlex.cpython-35.opt-2.pyc": 6822}
+PKGSIZE_python3-shell: 238073

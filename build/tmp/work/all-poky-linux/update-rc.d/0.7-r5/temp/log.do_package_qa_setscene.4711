@@ -1,0 +1,20 @@
+DEBUG: Executing python function do_package_qa_setscene
+DEBUG: Searching for 7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz for 7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz', '', '', OrderedDict([('downloadfilename', '7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz;downloadfilename=7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz returning file:///home/student/poky_cache/sstate-cache/7c/sstate%3Aupdate-rc.d%3Aall-poky-linux%3A0.7%3Ar5%3Aallarch%3A3%3A7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz;downloadfilename=7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz
+DEBUG: Searching for 7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz.siginfo for 7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz.siginfo;downloadfilename=7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/7c/sstate%3Aupdate-rc.d%3Aall-poky-linux%3A0.7%3Ar5%3Aallarch%3A3%3A7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz.siginfo;downloadfilename=7c/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:7c6922292867e246cd5ea24c4f7af7fc_package_qa.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function do_package_qa_setscene finished

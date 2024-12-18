@@ -1,0 +1,15 @@
+recipe-sysroot-native/usr/lib/pkgconfig/kbproto.pc
+recipe-sysroot-native/usr/include/X11/extensions/XKBproto.h
+recipe-sysroot-native/usr/include/X11/extensions/XKBgeom.h
+recipe-sysroot-native/usr/include/X11/extensions/XKBsrv.h
+recipe-sysroot-native/usr/include/X11/extensions/XKB.h
+recipe-sysroot-native/usr/include/X11/extensions/XKBstr.h
+recipe-sysroot-native/sysroot-providers/kbproto-native
+recipe-sysroot-native/usr/include/X11/extensions/
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/usr/include/X11/
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/

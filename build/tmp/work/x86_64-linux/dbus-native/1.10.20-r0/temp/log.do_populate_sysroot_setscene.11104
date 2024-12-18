@@ -1,0 +1,90 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz for universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz;downloadfilename=universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/4f/sstate%3Adbus-native%3Ax86_64-linux%3A1.10.20%3Ar0%3Ax86_64%3A3%3A4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz;downloadfilename=universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz
+DEBUG: Searching for universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz.siginfo for universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz.siginfo;downloadfilename=universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/4f/sstate%3Adbus-native%3Ax86_64-linux%3A1.10.20%3Ar0%3Ax86_64%3A3%3A4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz.siginfo;downloadfilename=universal/4f/sstate:dbus-native:x86_64-linux:1.10.20:r0:x86_64:3:4fe6d0ef960a760becbc350e8b31659c_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+recipe-sysroot-native/
+recipe-sysroot-native/var/
+recipe-sysroot-native/var/lib/
+recipe-sysroot-native/var/lib/dbus/
+recipe-sysroot-native/var/run/
+recipe-sysroot-native/var/run/dbus/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/dbus-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/libdbus-1.so.3.14.12
+recipe-sysroot-native/usr/lib/libdbus-1.so
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/usr/lib/pkgconfig/dbus-1.pc
+recipe-sysroot-native/usr/lib/libdbus-1.so.3
+recipe-sysroot-native/usr/lib/dbus-1.0/
+recipe-sysroot-native/usr/lib/dbus-1.0/include/
+recipe-sysroot-native/usr/lib/dbus-1.0/include/dbus/
+recipe-sysroot-native/usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/dbus-1.0/
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-address.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-connection.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-memory.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-bus.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-types.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-syntax.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-server.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-errors.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-signature.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-shared.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-misc.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-protocol.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-message.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-threads.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-macros.h
+recipe-sysroot-native/usr/include/dbus-1.0/dbus/dbus-pending-call.h
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/dbus-monitor
+recipe-sysroot-native/usr/bin/dbus-send
+recipe-sysroot-native/usr/bin/dbus-uuidgen
+recipe-sysroot-native/usr/bin/dbus-cleanup-sockets
+recipe-sysroot-native/usr/bin/dbus-test-tool
+recipe-sysroot-native/usr/bin/dbus-daemon
+recipe-sysroot-native/usr/bin/dbus-run-session
+recipe-sysroot-native/usr/bin/dbus-update-activation-environment
+recipe-sysroot-native/usr/libexec/
+recipe-sysroot-native/usr/libexec/dbus-daemon-launch-helper
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/share/dbus-1/
+recipe-sysroot-native/usr/share/dbus-1/system.d/
+recipe-sysroot-native/usr/share/dbus-1/services/
+recipe-sysroot-native/usr/share/dbus-1/system-services/
+recipe-sysroot-native/usr/share/dbus-1/session.d/
+recipe-sysroot-native/usr/share/dbus-1/session.conf
+recipe-sysroot-native/usr/share/dbus-1/system.conf
+recipe-sysroot-native/usr/share/dbus/
+recipe-sysroot-native/usr/share/dbus/dbus-bus-introspect.xml
+recipe-sysroot-native/usr/share/dbus/session.conf
+recipe-sysroot-native/etc/
+recipe-sysroot-native/etc/dbus-1/
+recipe-sysroot-native/etc/dbus-1/session.conf
+recipe-sysroot-native/etc/dbus-1/system.conf
+recipe-sysroot-native/etc/rc.d/
+recipe-sysroot-native/etc/rc.d/init.d/
+recipe-sysroot-native/etc/rc.d/init.d/messagebus
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/dbus-native/1.10.20-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/dbus-native/1.10.20-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/dbus-native
+DEBUG: Python function do_populate_sysroot_setscene finished

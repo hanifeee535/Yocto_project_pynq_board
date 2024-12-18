@@ -1,0 +1,17 @@
+PN: u-boot-digilent
+PE: 1
+PV: 2016.07
+PR: r0
+PKGE: 1
+PKGV: 2016.07
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_u-boot-digilent-dev: Universal Boot Loader for embedded devices.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_u-boot-digilent-dev: Universal Boot Loader for embedded devices - Development files
+RDEPENDS_u-boot-digilent-dev: u-boot-digilent (= 1:2016.07-r0)
+SECTION_u-boot-digilent-dev: devel
+PKG_u-boot-digilent-dev: u-boot-digilent-dev
+ALLOW_EMPTY_u-boot-digilent-dev: 1
+FILES_u-boot-digilent-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/u-boot-digilent/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_u-boot-digilent-dev: 0

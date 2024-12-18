@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz for eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', 'eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz;downloadfilename=eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/eb/sstate%3Au-boot-pynq-uenv%3Apynq-poky-linux-gnueabi%3A1.0%3Ar0%3Apynq%3A3%3Aebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz;downloadfilename=eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz
+DEBUG: Searching for eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz.siginfo for eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz.siginfo;downloadfilename=eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/eb/sstate%3Au-boot-pynq-uenv%3Apynq-poky-linux-gnueabi%3A1.0%3Ar0%3Apynq%3A3%3Aebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz.siginfo;downloadfilename=eb/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:ebda7be3dcf1a302717f6792b6d177de_package_write_rpm.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/pynq/
+deploy-rpms/pynq/u-boot-pynq-uenv-dbg-1.0-r0.pynq.rpm
+deploy-rpms/pynq/u-boot-pynq-uenv-dev-1.0-r0.pynq.rpm
+deploy-rpms/pynq/u-boot-pynq-uenv-1.0-r0.pynq.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/u-boot-pynq-uenv/1.0-r0/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

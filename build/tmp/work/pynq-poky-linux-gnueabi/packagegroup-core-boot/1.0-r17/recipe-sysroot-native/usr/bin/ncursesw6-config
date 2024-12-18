@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'ERROR: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot-native/usr/bin/ncursesw6-config should not be used, use an alternative such as pkg-config' >&2
+echo '--should-not-have-used-/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot-native/usr/bin/ncursesw6-config'
+exit 1

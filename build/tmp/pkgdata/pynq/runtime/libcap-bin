@@ -1,0 +1,19 @@
+PN: libcap
+PV: 2.25
+PR: r0
+PKGV: 2.25
+PKGR: r0
+LICENSE: BSD | GPLv2
+DESCRIPTION: Library for getting/setting POSIX.1e capabilities.
+SUMMARY: Library for getting/setting POSIX.1e capabilities
+RDEPENDS_libcap-bin: libcap (>= 2.25) glibc (>= 2.26)
+SECTION: base
+PKG_libcap-bin: libcap-bin
+FILES_libcap-bin: /usr/bin/* /usr/sbin/*
+FILES_INFO: {"/usr/sbin/getpcaps": 5584, "/usr/sbin/getcap": 5600, "/usr/sbin/setcap": 9712, "/usr/sbin/capsh": 18048}
+FILERDEPENDSFLIST_libcap-bin: /usr/sbin/capsh /usr/sbin/getcap /usr/sbin/getpcaps /usr/sbin/setcap
+FILERDEPENDS_/usr/sbin/capsh_libcap-bin: libc.so.6(GLIBC_2.4) libcap.so.2 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/getcap_libcap-bin: libc.so.6(GLIBC_2.4) libcap.so.2 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/getpcaps_libcap-bin: libc.so.6(GLIBC_2.4) libcap.so.2 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/setcap_libcap-bin: libc.so.6(GLIBC_2.4) libcap.so.2 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_libcap-bin: 38944

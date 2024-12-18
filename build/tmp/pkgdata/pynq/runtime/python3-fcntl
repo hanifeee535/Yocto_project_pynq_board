@@ -1,0 +1,16 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-fcntl: Python's fcntl interface
+RDEPENDS_python3-fcntl: python3-core libpython3 (>= 3.5.3) glibc (>= 2.26)
+SECTION: devel/python
+PKG_python3-fcntl: python3-fcntl
+FILES_python3-fcntl: /usr/lib/python3.5/lib-dynload/fcntl.*.so /usr/lib/python3.5/lib-dynload/__pycache__/fcntl.*.so 
+FILES_INFO: {"/usr/lib/python3.5/lib-dynload/fcntl.cpython-35m-arm-linux-gnueabihf.so": 17456}
+FILERDEPENDSFLIST_python3-fcntl: /usr/lib/python3.5/lib-dynload/fcntl.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/fcntl.cpython-35m-arm-linux-gnueabihf.so_python3-fcntl: libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_python3-fcntl: 17456

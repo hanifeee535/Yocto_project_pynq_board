@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-selectors: Python High-level I/O multiplexing
+RDEPENDS_python3-selectors: python3-core
+SECTION: devel/python
+PKG_python3-selectors: python3-selectors
+FILES_python3-selectors: /usr/lib/python3.5/selectors.* /usr/lib/python3.5/__pycache__/selectors.* 
+FILES_INFO: {"/usr/lib/python3.5/selectors.py": 19438, "/usr/lib/python3.5/__pycache__/selectors.cpython-35.pyc": 18947, "/usr/lib/python3.5/__pycache__/selectors.cpython-35.opt-1.pyc": 18947, "/usr/lib/python3.5/__pycache__/selectors.cpython-35.opt-2.pyc": 14953}
+PKGSIZE_python3-selectors: 72285

@@ -1,0 +1,3 @@
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/install-tools/mkheaders.conf
+recipe-sysroot-native/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/plugin/include/configargs.h
+recipe-sysroot-native/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/7.3.0/install-tools/mkheaders

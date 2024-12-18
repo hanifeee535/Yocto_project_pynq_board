@@ -1,0 +1,93 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz for universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz;downloadfilename=universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/40/sstate%3Axcb-proto-native%3Ax86_64-linux%3A1.12%3Ar0%3Ax86_64%3A3%3A4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz;downloadfilename=universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz
+DEBUG: Searching for universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz.siginfo for universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz.siginfo;downloadfilename=universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/40/sstate%3Axcb-proto-native%3Ax86_64-linux%3A1.12%3Ar0%3Ax86_64%3A3%3A4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz.siginfo;downloadfilename=universal/40/sstate:xcb-proto-native:x86_64-linux:1.12:r0:x86_64:3:4084cbd52c26d057fa3b4e8015601623_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/xcb-proto-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/usr/lib/pkgconfig/xcb-proto.pc
+recipe-sysroot-native/usr/lib/xcb-proto/
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/expr.py
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/state.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/matcher.py
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/error.py
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/xtypes.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/align.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/error.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/matcher.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__init__.py
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__init__.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/state.py
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/xtypes.py
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/xtypes.cpython-36.opt-1.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/expr.cpython-36.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/error.cpython-36.opt-1.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/__init__.cpython-36.opt-1.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/matcher.cpython-36.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/__init__.cpython-36.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/align.cpython-36.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/matcher.cpython-36.opt-1.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/align.cpython-36.opt-1.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/state.cpython-36.opt-1.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/state.cpython-36.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/error.cpython-36.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/expr.cpython-36.opt-1.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/__pycache__/xtypes.cpython-36.pyc
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/align.py
+recipe-sysroot-native/usr/lib/xcb-proto/xcbgen/expr.pyc
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/share/xcb/
+recipe-sysroot-native/usr/share/xcb/xvmc.xml
+recipe-sysroot-native/usr/share/xcb/composite.xml
+recipe-sysroot-native/usr/share/xcb/randr.xml
+recipe-sysroot-native/usr/share/xcb/record.xml
+recipe-sysroot-native/usr/share/xcb/xinput.xml
+recipe-sysroot-native/usr/share/xcb/xfixes.xml
+recipe-sysroot-native/usr/share/xcb/xf86vidmode.xml
+recipe-sysroot-native/usr/share/xcb/dri2.xml
+recipe-sysroot-native/usr/share/xcb/xf86dri.xml
+recipe-sysroot-native/usr/share/xcb/shape.xml
+recipe-sysroot-native/usr/share/xcb/xv.xml
+recipe-sysroot-native/usr/share/xcb/xkb.xml
+recipe-sysroot-native/usr/share/xcb/damage.xml
+recipe-sysroot-native/usr/share/xcb/bigreq.xml
+recipe-sysroot-native/usr/share/xcb/present.xml
+recipe-sysroot-native/usr/share/xcb/xc_misc.xml
+recipe-sysroot-native/usr/share/xcb/dri3.xml
+recipe-sysroot-native/usr/share/xcb/xtest.xml
+recipe-sysroot-native/usr/share/xcb/xcb.xsd
+recipe-sysroot-native/usr/share/xcb/ge.xml
+recipe-sysroot-native/usr/share/xcb/xevie.xml
+recipe-sysroot-native/usr/share/xcb/xprint.xml
+recipe-sysroot-native/usr/share/xcb/glx.xml
+recipe-sysroot-native/usr/share/xcb/dpms.xml
+recipe-sysroot-native/usr/share/xcb/xproto.xml
+recipe-sysroot-native/usr/share/xcb/xselinux.xml
+recipe-sysroot-native/usr/share/xcb/res.xml
+recipe-sysroot-native/usr/share/xcb/sync.xml
+recipe-sysroot-native/usr/share/xcb/shm.xml
+recipe-sysroot-native/usr/share/xcb/render.xml
+recipe-sysroot-native/usr/share/xcb/screensaver.xml
+recipe-sysroot-native/usr/share/xcb/xinerama.xml
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/xcb-proto-native/1.12-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/xcb-proto-native/1.12-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/xcb-proto-native
+DEBUG: Python function do_populate_sysroot_setscene finished

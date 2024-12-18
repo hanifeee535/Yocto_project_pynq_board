@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546294.45 
+u-boot-pynq-uenv-1.0-r0: do_populate_lic_setscene
+Elapsed time: 0.06 seconds
+utime: 6
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 173005
+IO wchar: 76932
+IO syscr: 175
+IO syscw: 66
+IO read_bytes: 4096
+IO write_bytes: 61440
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.060170999999999995
+rusage ru_stime: 0.011281999999999999
+rusage ru_maxrss: 62616
+rusage ru_minflt: 6056
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 73
+Child rusage ru_utime: 0.006567
+Child rusage ru_stime: 0.00696
+Child rusage ru_maxrss: 60296
+Child rusage ru_minflt: 1749
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1734546294.51 

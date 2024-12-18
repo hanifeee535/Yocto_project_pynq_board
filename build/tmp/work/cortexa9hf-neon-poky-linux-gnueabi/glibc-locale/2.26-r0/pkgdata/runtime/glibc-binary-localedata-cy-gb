@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-cy-gb: binary locale definition for cy-gb
+SUMMARY_glibc-binary-localedata-cy-gb: binary locale definition for cy-gb
+SECTION: base
+PKG_glibc-binary-localedata-cy-gb: glibc-binary-localedata-cy-gb
+FILES_glibc-binary-localedata-cy-gb: /usr/lib/locale/cy_GB
+FILES_INFO: {"/usr/lib/locale/cy_GB/LC_TELEPHONE": 56, "/usr/lib/locale/cy_GB/LC_NAME": 77, "/usr/lib/locale/cy_GB/LC_ADDRESS": 167, "/usr/lib/locale/cy_GB/LC_MEASUREMENT": 23, "/usr/lib/locale/cy_GB/LC_TIME": 2450, "/usr/lib/locale/cy_GB/LC_IDENTIFICATION": 357, "/usr/lib/locale/cy_GB/LC_COLLATE": 1247358, "/usr/lib/locale/cy_GB/LC_NUMERIC": 54, "/usr/lib/locale/cy_GB/LC_MONETARY": 290, "/usr/lib/locale/cy_GB/LC_CTYPE": 330604, "/usr/lib/locale/cy_GB/LC_PAPER": 34, "/usr/lib/locale/cy_GB/LC_MESSAGES/SYS_LC_MESSAGES": 60}
+PKGSIZE_glibc-binary-localedata-cy-gb: 1581530

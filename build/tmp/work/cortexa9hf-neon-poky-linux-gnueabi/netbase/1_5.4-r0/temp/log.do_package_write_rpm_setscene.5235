@@ -1,0 +1,27 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz for a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', 'a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz;downloadfilename=a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/a6/sstate%3Anetbase%3Acortexa9hf-neon-poky-linux-gnueabi%3A5.4%3Ar0%3Acortexa9hf-neon%3A3%3Aa624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz;downloadfilename=a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz
+DEBUG: Searching for a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz.siginfo for a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz.siginfo;downloadfilename=a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/a6/sstate%3Anetbase%3Acortexa9hf-neon-poky-linux-gnueabi%3A5.4%3Ar0%3Acortexa9hf-neon%3A3%3Aa624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz.siginfo;downloadfilename=a6/sstate:netbase:cortexa9hf-neon-poky-linux-gnueabi:5.4:r0:cortexa9hf-neon:3:a624de0e64247a5aafc1450d6ac7dd03_package_write_rpm.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/cortexa9hf_neon/
+deploy-rpms/cortexa9hf_neon/netbase-dev-5.4-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/netbase-5.4-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/netbase-dbg-5.4-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/netbase-doc-5.4-r0.cortexa9hf_neon.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/netbase/1_5.4-r0/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

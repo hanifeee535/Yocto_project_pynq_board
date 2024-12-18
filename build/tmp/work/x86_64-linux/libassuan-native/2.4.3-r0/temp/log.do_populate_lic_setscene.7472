@@ -1,0 +1,30 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz for f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', 'f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz;downloadfilename=f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/f2/sstate%3Alibassuan-native%3A%3A2.4.3%3Ar0%3A%3A3%3Af2ec10a7223870d7a061f783c44fa046_populate_lic.tgz;downloadfilename=f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz
+DEBUG: Searching for f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz.siginfo for f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz.siginfo;downloadfilename=f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/f2/sstate%3Alibassuan-native%3A%3A2.4.3%3Ar0%3A%3A3%3Af2ec10a7223870d7a061f783c44fa046_populate_lic.tgz.siginfo;downloadfilename=f2/sstate:libassuan-native::2.4.3:r0::3:f2ec10a7223870d7a061f783c44fa046_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/libassuan-native/
+license-destdir/libassuan-native/COPYING
+license-destdir/libassuan-native/assuan-defs.h
+license-destdir/libassuan-native/generic_LGPLv2.1
+license-destdir/libassuan-native/COPYING.LIB
+license-destdir/libassuan-native/generic_GPLv3
+license-destdir/libassuan-native/recipeinfo
+license-destdir/libassuan-native/assuan.c
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libassuan-native/2.4.3-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

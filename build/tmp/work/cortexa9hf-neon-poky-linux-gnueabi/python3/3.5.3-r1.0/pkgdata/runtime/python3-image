@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-image: Python graphical image handling
+RDEPENDS_python3-image: python3-core
+SECTION: devel/python
+PKG_python3-image: python3-image
+FILES_python3-image: /usr/lib/python3.5/colorsys.* /usr/lib/python3.5/__pycache__/colorsys.* /usr/lib/python3.5/imghdr.* /usr/lib/python3.5/__pycache__/imghdr.* /usr/lib/python3.5/lib-dynload/imageop.*.so /usr/lib/python3.5/lib-dynload/__pycache__/imageop.*.so /usr/lib/python3.5/lib-dynload/rgbimg.*.so /usr/lib/python3.5/lib-dynload/__pycache__/rgbimg.*.so 
+FILES_INFO: {"/usr/lib/python3.5/colorsys.py": 4064, "/usr/lib/python3.5/imghdr.py": 3758, "/usr/lib/python3.5/__pycache__/colorsys.cpython-35.opt-2.pyc": 3018, "/usr/lib/python3.5/__pycache__/colorsys.cpython-35.opt-1.pyc": 3626, "/usr/lib/python3.5/__pycache__/imghdr.cpython-35.pyc": 4483, "/usr/lib/python3.5/__pycache__/colorsys.cpython-35.pyc": 3626, "/usr/lib/python3.5/__pycache__/imghdr.cpython-35.opt-1.pyc": 4483, "/usr/lib/python3.5/__pycache__/imghdr.cpython-35.opt-2.pyc": 4166}
+PKGSIZE_python3-image: 31224

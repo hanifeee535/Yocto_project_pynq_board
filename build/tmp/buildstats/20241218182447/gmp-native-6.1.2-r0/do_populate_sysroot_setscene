@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546345.23 
+gmp-native-6.1.2-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 1250066
+IO wchar: 1521572
+IO syscr: 3241
+IO syscw: 192
+IO read_bytes: 307200
+IO write_bytes: 802816
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.086723
+rusage ru_stime: 0.013007999999999999
+rusage ru_maxrss: 62944
+rusage ru_minflt: 6082
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 144
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 55
+Child rusage ru_utime: 0.015101
+Child rusage ru_stime: 0.004717
+Child rusage ru_maxrss: 60680
+Child rusage ru_minflt: 1794
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 576
+Child rusage ru_oublock: 1424
+Child rusage ru_nvcsw: 45
+Child rusage ru_nivcsw: 49
+Status: PASSED 
+Ended: 1734546345.30 

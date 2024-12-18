@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546334.68 
+renderproto-native-1_0.11.1-r1: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 274169
+IO wchar: 146647
+IO syscr: 198
+IO syscw: 94
+IO read_bytes: 12288
+IO write_bytes: 102400
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.082202
+rusage ru_stime: 0.017124999999999998
+rusage ru_maxrss: 62932
+rusage ru_minflt: 6060
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 136
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 125
+Child rusage ru_utime: 0.011881
+Child rusage ru_stime: 0.002683
+Child rusage ru_maxrss: 60672
+Child rusage ru_minflt: 1770
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1734546334.74 

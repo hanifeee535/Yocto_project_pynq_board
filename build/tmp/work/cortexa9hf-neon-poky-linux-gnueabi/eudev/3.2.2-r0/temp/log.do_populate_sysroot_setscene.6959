@@ -1,0 +1,69 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz for 2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz;downloadfilename=2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/2d/sstate%3Aeudev%3Acortexa9hf-neon-poky-linux-gnueabi%3A3.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz;downloadfilename=2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz
+DEBUG: Searching for 2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz.siginfo for 2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz.siginfo;downloadfilename=2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/2d/sstate%3Aeudev%3Acortexa9hf-neon-poky-linux-gnueabi%3A3.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz.siginfo;downloadfilename=2d/sstate:eudev:cortexa9hf-neon-poky-linux-gnueabi:3.2.2:r0:cortexa9hf-neon:3:2d52ccf2a3cfe60f6d90e8a75c4d2893_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/lib/
+sysroot-destdir/lib/libudev.so.1.6.3
+sysroot-destdir/lib/libudev.so.1
+sysroot-destdir/lib/udev/
+sysroot-destdir/lib/udev/mtd_probe
+sysroot-destdir/lib/udev/cdrom_id
+sysroot-destdir/lib/udev/scsi_id
+sysroot-destdir/lib/udev/collect
+sysroot-destdir/lib/udev/rules.d/
+sysroot-destdir/lib/udev/rules.d/60-persistent-storage-tape.rules
+sysroot-destdir/lib/udev/rules.d/60-sensor.rules
+sysroot-destdir/lib/udev/rules.d/70-mouse.rules
+sysroot-destdir/lib/udev/rules.d/78-sound-card.rules
+sysroot-destdir/lib/udev/rules.d/60-cdrom_id.rules
+sysroot-destdir/lib/udev/rules.d/60-evdev.rules
+sysroot-destdir/lib/udev/rules.d/60-block.rules
+sysroot-destdir/lib/udev/rules.d/50-udev-default.rules
+sysroot-destdir/lib/udev/rules.d/70-touchpad.rules
+sysroot-destdir/lib/udev/rules.d/75-net-description.rules
+sysroot-destdir/lib/udev/rules.d/60-persistent-alsa.rules
+sysroot-destdir/lib/udev/rules.d/50-firmware.rules
+sysroot-destdir/lib/udev/rules.d/60-persistent-storage.rules
+sysroot-destdir/lib/udev/rules.d/60-drm.rules
+sysroot-destdir/lib/udev/rules.d/80-drivers.rules
+sysroot-destdir/lib/udev/rules.d/64-btrfs.rules
+sysroot-destdir/lib/udev/rules.d/60-persistent-input.rules
+sysroot-destdir/lib/udev/rules.d/60-serial.rules
+sysroot-destdir/lib/udev/rules.d/60-persistent-v4l.rules
+sysroot-destdir/lib/udev/rules.d/80-net-name-slot.rules
+sysroot-destdir/lib/udev/rules.d/75-probe_mtd.rules
+sysroot-destdir/lib/udev/ata_id
+sysroot-destdir/lib/udev/v4l_id
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/udev
+sysroot-destdir/sysroot-providers/eudev
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/pkgconfig/
+sysroot-destdir/usr/lib/pkgconfig/libudev.pc
+sysroot-destdir/usr/lib/libudev.so
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/libudev.h
+sysroot-destdir/usr/include/udev.h
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/pkgconfig/
+sysroot-destdir/usr/share/pkgconfig/udev.pc
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/eudev/3.2.2-r0/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/eudev
+DEBUG: Python function do_populate_sysroot_setscene finished

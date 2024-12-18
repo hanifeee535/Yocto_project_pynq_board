@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546337.84 
+xcb-proto-1.12-r0: do_populate_sysroot_setscene
+Elapsed time: 0.08 seconds
+utime: 9
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 1369228
+IO wchar: 2006547
+IO syscr: 343
+IO syscw: 338
+IO read_bytes: 163840
+IO write_bytes: 1130496
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.09103399999999999
+rusage ru_stime: 0.012412999999999999
+rusage ru_maxrss: 62760
+rusage ru_minflt: 5904
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 56
+Child rusage ru_utime: 0.012421999999999999
+Child rusage ru_stime: 0.009465999999999999
+Child rusage ru_maxrss: 60468
+Child rusage ru_minflt: 1759
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 320
+Child rusage ru_oublock: 2072
+Child rusage ru_nvcsw: 56
+Child rusage ru_nivcsw: 55
+Status: PASSED 
+Ended: 1734546337.92 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546294.23 
+u-boot-mkimage-native-1_2017.09-r0: do_populate_lic_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 0
+cutime: 0
+cstime: 0
+IO rchar: 215684
+IO wchar: 125633
+IO syscr: 183
+IO syscw: 76
+IO read_bytes: 8192
+IO write_bytes: 86016
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.077484
+rusage ru_stime: 0.007378999999999999
+rusage ru_maxrss: 62748
+rusage ru_minflt: 5916
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 93
+Child rusage ru_utime: 0.009708
+Child rusage ru_stime: 0.003741
+Child rusage ru_maxrss: 60448
+Child rusage ru_minflt: 1761
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1734546294.29 

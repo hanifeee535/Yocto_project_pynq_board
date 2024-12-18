@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for 6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz for 6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', '6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz;downloadfilename=6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/6c/sstate%3Arun-postinsts%3Aall-poky-linux%3A1.0%3Ar9%3Aallarch%3A3%3A6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz;downloadfilename=6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz
+DEBUG: Searching for 6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz.siginfo for 6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz.siginfo;downloadfilename=6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/6c/sstate%3Arun-postinsts%3Aall-poky-linux%3A1.0%3Ar9%3Aallarch%3A3%3A6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz.siginfo;downloadfilename=6c/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:6c19e579f34cb94e779916e7778f5ee4_package_write_rpm.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/noarch/
+deploy-rpms/noarch/run-postinsts-dev-1.0-r9.noarch.rpm
+deploy-rpms/noarch/run-postinsts-1.0-r9.noarch.rpm
+deploy-rpms/noarch/run-postinsts-dbg-1.0-r9.noarch.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/all-poky-linux/run-postinsts/1.0-r9/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

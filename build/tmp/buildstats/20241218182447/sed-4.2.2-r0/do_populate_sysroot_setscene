@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546312.24 
+sed-4.2.2-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 6
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 223322
+IO wchar: 89506
+IO syscr: 190
+IO syscw: 79
+IO read_bytes: 8192
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.06369999999999999
+rusage ru_stime: 0.023468
+rusage ru_maxrss: 62908
+rusage ru_minflt: 5987
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 120
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 70
+Child rusage ru_utime: 0.011
+Child rusage ru_stime: 0.00364
+Child rusage ru_maxrss: 60668
+Child rusage ru_minflt: 1741
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 29
+Child rusage ru_nivcsw: 10
+Status: PASSED 
+Ended: 1734546312.30 

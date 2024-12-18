@@ -1,0 +1,20 @@
+DEBUG: Executing python function do_package_qa_setscene
+DEBUG: Searching for e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz for e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz', '', '', OrderedDict([('downloadfilename', 'e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz;downloadfilename=e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz returning file:///home/student/poky_cache/sstate-cache/e3/sstate%3Abase-files%3Apynq-poky-linux-gnueabi%3A3.0.14%3Ar89%3Apynq%3A3%3Ae3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz;downloadfilename=e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz
+DEBUG: Searching for e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz.siginfo for e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz.siginfo;downloadfilename=e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/e3/sstate%3Abase-files%3Apynq-poky-linux-gnueabi%3A3.0.14%3Ar89%3Apynq%3A3%3Ae3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz.siginfo;downloadfilename=e3/sstate:base-files:pynq-poky-linux-gnueabi:3.0.14:r89:pynq:3:e3f8f4ed3302dc5d645ddf5f90ac6894_package_qa.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function do_package_qa_setscene finished

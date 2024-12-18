@@ -1,0 +1,14 @@
+PN: device-tree
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT & GPLv2
+DESCRIPTION_device-tree-staticdev: Device Tree generation and packaging for BSP Device Trees.  This package contains static libraries for software development.
+SUMMARY_device-tree-staticdev: Device Trees for BSPs - Development files (Static Libraries)
+RDEPENDS_device-tree-staticdev: device-tree-dev (= 1.0-r0)
+SECTION_device-tree-staticdev: devel
+PKG_device-tree-staticdev: device-tree-staticdev
+FILES_device-tree-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/device-tree/*.a
+FILES_INFO: {}
+PKGSIZE_device-tree-staticdev: 0

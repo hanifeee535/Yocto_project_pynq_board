@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546325.44 
+libsm-1_1.2.2-r0: do_package_write_rpm_setscene
+Elapsed time: 0.06 seconds
+utime: 5
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 417191
+IO wchar: 312333
+IO syscr: 205
+IO syscw: 96
+IO read_bytes: 90112
+IO write_bytes: 180224
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.052265
+rusage ru_stime: 0.02439
+rusage ru_maxrss: 62792
+rusage ru_minflt: 5913
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 79
+Child rusage ru_utime: 0.010808
+Child rusage ru_stime: 0.0030299999999999997
+Child rusage ru_maxrss: 60508
+Child rusage ru_minflt: 1741
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 176
+Child rusage ru_oublock: 240
+Child rusage ru_nvcsw: 29
+Child rusage ru_nivcsw: 16
+Status: PASSED 
+Ended: 1734546325.50 

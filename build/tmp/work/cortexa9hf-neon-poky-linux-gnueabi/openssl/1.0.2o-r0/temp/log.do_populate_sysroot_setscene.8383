@@ -1,0 +1,141 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz for fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz;downloadfilename=fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/fc/sstate%3Aopenssl%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0.2o%3Ar0%3Acortexa9hf-neon%3A3%3Afce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz;downloadfilename=fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz
+DEBUG: Searching for fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz.siginfo for fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz.siginfo;downloadfilename=fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/fc/sstate%3Aopenssl%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0.2o%3Ar0%3Acortexa9hf-neon%3A3%3Afce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz.siginfo;downloadfilename=fc/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:fce699ce7e1e0a35de438c6a26d07d38_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/openssl10
+sysroot-destdir/sysroot-providers/openssl
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/libcrypto.so.1.0.2
+sysroot-destdir/usr/lib/ssl/
+sysroot-destdir/usr/lib/ssl/private
+sysroot-destdir/usr/lib/ssl/engines/
+sysroot-destdir/usr/lib/ssl/engines/libcapi.so
+sysroot-destdir/usr/lib/ssl/engines/libchil.so
+sysroot-destdir/usr/lib/ssl/engines/libnuron.so
+sysroot-destdir/usr/lib/ssl/engines/libcswift.so
+sysroot-destdir/usr/lib/ssl/engines/lib4758cca.so
+sysroot-destdir/usr/lib/ssl/engines/libgost.so
+sysroot-destdir/usr/lib/ssl/engines/libatalla.so
+sysroot-destdir/usr/lib/ssl/engines/libgmp.so
+sysroot-destdir/usr/lib/ssl/engines/libaep.so
+sysroot-destdir/usr/lib/ssl/engines/libsureware.so
+sysroot-destdir/usr/lib/ssl/engines/libubsec.so
+sysroot-destdir/usr/lib/ssl/engines/libpadlock.so
+sysroot-destdir/usr/lib/ssl/misc/
+sysroot-destdir/usr/lib/ssl/misc/c_info
+sysroot-destdir/usr/lib/ssl/misc/c_hash
+sysroot-destdir/usr/lib/ssl/misc/c_name
+sysroot-destdir/usr/lib/ssl/misc/c_issuer
+sysroot-destdir/usr/lib/ssl/misc/CA.sh
+sysroot-destdir/usr/lib/ssl/certs
+sysroot-destdir/usr/lib/ssl/openssl.cnf
+sysroot-destdir/usr/lib/libcrypto.a
+sysroot-destdir/usr/lib/libssl.a
+sysroot-destdir/usr/lib/pkgconfig/
+sysroot-destdir/usr/lib/pkgconfig/libssl.pc
+sysroot-destdir/usr/lib/pkgconfig/openssl.pc
+sysroot-destdir/usr/lib/pkgconfig/libcrypto.pc
+sysroot-destdir/usr/lib/libcrypto.so
+sysroot-destdir/usr/lib/libssl.so.1.0.2
+sysroot-destdir/usr/lib/engines/
+sysroot-destdir/usr/lib/openssl/
+sysroot-destdir/usr/lib/libssl.so
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/openssl/
+sysroot-destdir/usr/include/openssl/md4.h
+sysroot-destdir/usr/include/openssl/ossl_typ.h
+sysroot-destdir/usr/include/openssl/idea.h
+sysroot-destdir/usr/include/openssl/seed.h
+sysroot-destdir/usr/include/openssl/pem.h
+sysroot-destdir/usr/include/openssl/ebcdic.h
+sysroot-destdir/usr/include/openssl/conf_api.h
+sysroot-destdir/usr/include/openssl/ssl3.h
+sysroot-destdir/usr/include/openssl/cmac.h
+sysroot-destdir/usr/include/openssl/des_old.h
+sysroot-destdir/usr/include/openssl/ssl2.h
+sysroot-destdir/usr/include/openssl/lhash.h
+sysroot-destdir/usr/include/openssl/dh.h
+sysroot-destdir/usr/include/openssl/bn.h
+sysroot-destdir/usr/include/openssl/ecdsa.h
+sysroot-destdir/usr/include/openssl/rsa.h
+sysroot-destdir/usr/include/openssl/ui_compat.h
+sysroot-destdir/usr/include/openssl/crypto.h
+sysroot-destdir/usr/include/openssl/hmac.h
+sysroot-destdir/usr/include/openssl/blowfish.h
+sysroot-destdir/usr/include/openssl/md5.h
+sysroot-destdir/usr/include/openssl/aes.h
+sysroot-destdir/usr/include/openssl/mdc2.h
+sysroot-destdir/usr/include/openssl/safestack.h
+sysroot-destdir/usr/include/openssl/x509_vfy.h
+sysroot-destdir/usr/include/openssl/modes.h
+sysroot-destdir/usr/include/openssl/symhacks.h
+sysroot-destdir/usr/include/openssl/dso.h
+sysroot-destdir/usr/include/openssl/x509v3.h
+sysroot-destdir/usr/include/openssl/sha.h
+sysroot-destdir/usr/include/openssl/opensslv.h
+sysroot-destdir/usr/include/openssl/pqueue.h
+sysroot-destdir/usr/include/openssl/ripemd.h
+sysroot-destdir/usr/include/openssl/whrlpool.h
+sysroot-destdir/usr/include/openssl/ssl.h
+sysroot-destdir/usr/include/openssl/pkcs7.h
+sysroot-destdir/usr/include/openssl/rand.h
+sysroot-destdir/usr/include/openssl/ssl23.h
+sysroot-destdir/usr/include/openssl/buffer.h
+sysroot-destdir/usr/include/openssl/ts.h
+sysroot-destdir/usr/include/openssl/krb5_asn.h
+sysroot-destdir/usr/include/openssl/cms.h
+sysroot-destdir/usr/include/openssl/opensslconf-32.h
+sysroot-destdir/usr/include/openssl/x509.h
+sysroot-destdir/usr/include/openssl/opensslconf.h
+sysroot-destdir/usr/include/openssl/conf.h
+sysroot-destdir/usr/include/openssl/dsa.h
+sysroot-destdir/usr/include/openssl/tls1.h
+sysroot-destdir/usr/include/openssl/rc2.h
+sysroot-destdir/usr/include/openssl/engine.h
+sysroot-destdir/usr/include/openssl/kssl.h
+sysroot-destdir/usr/include/openssl/comp.h
+sysroot-destdir/usr/include/openssl/srtp.h
+sysroot-destdir/usr/include/openssl/asn1t.h
+sysroot-destdir/usr/include/openssl/e_os2.h
+sysroot-destdir/usr/include/openssl/asn1.h
+sysroot-destdir/usr/include/openssl/asn1_mac.h
+sysroot-destdir/usr/include/openssl/obj_mac.h
+sysroot-destdir/usr/include/openssl/des.h
+sysroot-destdir/usr/include/openssl/pkcs12.h
+sysroot-destdir/usr/include/openssl/ui.h
+sysroot-destdir/usr/include/openssl/txt_db.h
+sysroot-destdir/usr/include/openssl/rc4.h
+sysroot-destdir/usr/include/openssl/ec.h
+sysroot-destdir/usr/include/openssl/evp.h
+sysroot-destdir/usr/include/openssl/bio.h
+sysroot-destdir/usr/include/openssl/ecdh.h
+sysroot-destdir/usr/include/openssl/stack.h
+sysroot-destdir/usr/include/openssl/srp.h
+sysroot-destdir/usr/include/openssl/dtls1.h
+sysroot-destdir/usr/include/openssl/objects.h
+sysroot-destdir/usr/include/openssl/pem2.h
+sysroot-destdir/usr/include/openssl/cast.h
+sysroot-destdir/usr/include/openssl/camellia.h
+sysroot-destdir/usr/include/openssl/err.h
+sysroot-destdir/usr/include/openssl/ocsp.h
+sysroot-destdir/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/openssl/1.0.2o-r0/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/openssl
+DEBUG: Python function do_populate_sysroot_setscene finished

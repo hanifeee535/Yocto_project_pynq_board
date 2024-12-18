@@ -1,0 +1,107 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz for universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz;downloadfilename=universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/a2/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.170%3Ar0%3Ax86_64%3A3%3Aa2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz;downloadfilename=universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz
+DEBUG: Searching for universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz.siginfo for universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz.siginfo;downloadfilename=universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/a2/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.170%3Ar0%3Ax86_64%3A3%3Aa2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz.siginfo;downloadfilename=universal/a2/sstate:elfutils-native:x86_64-linux:0.170:r0:x86_64:3:a2a4f7481b8b2ed1c38eec28c5c486c1_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/elfutils-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/libebl.a
+recipe-sysroot-native/usr/lib/libdw.so
+recipe-sysroot-native/usr/lib/libdw-0.170.so
+recipe-sysroot-native/usr/lib/libasm-0.170.so
+recipe-sysroot-native/usr/lib/libelf.a
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/usr/lib/pkgconfig/libelf.pc
+recipe-sysroot-native/usr/lib/pkgconfig/libdw.pc
+recipe-sysroot-native/usr/lib/libdw.so.1
+recipe-sysroot-native/usr/lib/libelf-0.170.so
+recipe-sysroot-native/usr/lib/libelf.so.1
+recipe-sysroot-native/usr/lib/elfutils/
+recipe-sysroot-native/usr/lib/elfutils/libebl_aarch64.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_alpha.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_s390.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_tilegx-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_bpf.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_m68k.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_x86_64.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_ia64-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_s390-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_arm-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_ia64.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_ppc.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_i386.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_sparc.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_parisc.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_m68k-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_ppc64.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_ppc-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_x86_64-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_alpha-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_sparc-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_ppc64-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_sh.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_i386-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_arm.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_parisc-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_mips.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_bpf-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_tilegx.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_sh-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_aarch64-0.170.so
+recipe-sysroot-native/usr/lib/elfutils/libebl_mips-0.170.so
+recipe-sysroot-native/usr/lib/libasm.so.1
+recipe-sysroot-native/usr/lib/libasm.a
+recipe-sysroot-native/usr/lib/libasm.so
+recipe-sysroot-native/usr/lib/libdw.a
+recipe-sysroot-native/usr/lib/libelf.so
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/gelf.h
+recipe-sysroot-native/usr/include/nlist.h
+recipe-sysroot-native/usr/include/libelf.h
+recipe-sysroot-native/usr/include/elfutils/
+recipe-sysroot-native/usr/include/elfutils/libdwfl.h
+recipe-sysroot-native/usr/include/elfutils/libdwelf.h
+recipe-sysroot-native/usr/include/elfutils/libebl.h
+recipe-sysroot-native/usr/include/elfutils/elf-knowledge.h
+recipe-sysroot-native/usr/include/elfutils/libasm.h
+recipe-sysroot-native/usr/include/elfutils/libdw.h
+recipe-sysroot-native/usr/include/elfutils/known-dwarf.h
+recipe-sysroot-native/usr/include/elfutils/version.h
+recipe-sysroot-native/usr/include/dwarf.h
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/eu-findtextrel
+recipe-sysroot-native/usr/bin/eu-size
+recipe-sysroot-native/usr/bin/eu-unstrip
+recipe-sysroot-native/usr/bin/eu-stack
+recipe-sysroot-native/usr/bin/eu-ar
+recipe-sysroot-native/usr/bin/eu-elflint
+recipe-sysroot-native/usr/bin/eu-elfcmp
+recipe-sysroot-native/usr/bin/eu-readelf
+recipe-sysroot-native/usr/bin/eu-strings
+recipe-sysroot-native/usr/bin/eu-make-debug-archive
+recipe-sysroot-native/usr/bin/eu-nm
+recipe-sysroot-native/usr/bin/eu-objdump
+recipe-sysroot-native/usr/bin/eu-strip
+recipe-sysroot-native/usr/bin/eu-addr2line
+recipe-sysroot-native/usr/bin/eu-ranlib
+recipe-sysroot-native/usr/bin/eu-elfcompress
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/elfutils-native/0.170-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/elfutils-native/0.170-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/elfutils-native
+DEBUG: Python function do_populate_sysroot_setscene finished

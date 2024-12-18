@@ -1,0 +1,3 @@
+recipe-sysroot/sysroot-providers/virtual_bootloader
+recipe-sysroot/sysroot-providers/u-boot-digilent
+recipe-sysroot/sysroot-providers/

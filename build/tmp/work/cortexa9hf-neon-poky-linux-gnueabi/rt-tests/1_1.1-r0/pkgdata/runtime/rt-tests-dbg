@@ -1,0 +1,17 @@
+PN: rt-tests
+PE: 1
+PV: 1.1
+PR: r0
+PKGE: 1
+PKGV: 1.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv2+
+DESCRIPTION_rt-tests-dbg: Real-Time preemption testcases.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_rt-tests-dbg: Real-Time preemption testcases - Debugging files
+RRECOMMENDS_rt-tests-dbg: glibc-dbg
+SECTION_rt-tests-dbg: devel
+PKG_rt-tests-dbg: rt-tests-dbg
+ALLOW_EMPTY_rt-tests-dbg: 1
+FILES_rt-tests-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/hackbench": 28068, "/usr/bin/.debug/pi_stress": 63776, "/usr/bin/.debug/cyclictest": 97376, "/usr/bin/.debug/pip_stress": 40844, "/usr/bin/.debug/rt-migrate-test": 40088, "/usr/bin/.debug/ptsematest": 43456, "/usr/bin/.debug/svsematest": 49068, "/usr/bin/.debug/pmqtest": 45880, "/usr/bin/.debug/sigwaittest": 47588, "/usr/bin/.debug/signaltest": 35604, "/usr/bin/.debug/sendme": 40024, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/hackbench/hackbench.c": 11297, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/lib/rt-sched.c": 1436, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/lib/rt-utils.c": 7046, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/lib/error.c": 1562, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/backfire/sendme.c": 7782, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/cyclictest/cyclictest.c": 66630, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/cyclictest/rt_numa.h": 6739, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/rt-migrate-test/rt-migrate-test.c": 13836, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/include/rt-sched.h": 2132, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/include/rt-get_cpu.h": 1133, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/include/error.h": 524, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/include/rt-utils.h": 558, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/ptsematest/ptsematest.c": 11714, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/svsematest/svsematest.c": 17653, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/pmqtest/pmqtest.c": 15536, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/sigwaittest/sigwaittest.c": 15730, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/signaltest/signaltest.c": 9807, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/pi_tests/pi_stress.c": 38846, "/usr/src/debug/rt-tests/1_1.1-r0/git/src/pi_tests/pip_stress.c": 10264}
+PKGSIZE_rt-tests-dbg: 771997

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546293.69 
+prelink-native-1.0+gitAUTOINC+ef20628dd7-r0: do_populate_sysroot_setscene
+Elapsed time: 0.07 seconds
+utime: 9
+stime: 0
+cutime: 1
+cstime: 1
+IO rchar: 1747839
+IO wchar: 1963847
+IO syscr: 315
+IO syscw: 183
+IO read_bytes: 282624
+IO write_bytes: 1335296
+IO cancelled_write_bytes: 618496
+rusage ru_utime: 0.093234
+rusage ru_stime: 0.007170999999999999
+rusage ru_maxrss: 63036
+rusage ru_minflt: 7706
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 128
+rusage ru_nvcsw: 20
+rusage ru_nivcsw: 99
+Child rusage ru_utime: 0.014062
+Child rusage ru_stime: 0.01
+Child rusage ru_maxrss: 60696
+Child rusage ru_minflt: 2348
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 536
+Child rusage ru_oublock: 2480
+Child rusage ru_nvcsw: 47
+Child rusage ru_nivcsw: 54
+Status: PASSED 
+Ended: 1734546293.76 

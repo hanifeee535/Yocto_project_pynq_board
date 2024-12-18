@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546317.86 
+libassuan-native-2.4.3-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 6
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 401012
+IO wchar: 325594
+IO syscr: 219
+IO syscw: 121
+IO read_bytes: 49152
+IO write_bytes: 204800
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.06274199999999999
+rusage ru_stime: 0.025834
+rusage ru_maxrss: 62956
+rusage ru_minflt: 6039
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 144
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 84
+Child rusage ru_utime: 0.010924999999999999
+Child rusage ru_stime: 0.004238
+Child rusage ru_maxrss: 60696
+Child rusage ru_minflt: 1778
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 88
+Child rusage ru_oublock: 256
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1734546317.92 

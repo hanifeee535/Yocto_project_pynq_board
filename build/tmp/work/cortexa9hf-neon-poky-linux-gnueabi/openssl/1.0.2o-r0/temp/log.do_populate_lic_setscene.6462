@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz for 68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz;downloadfilename=68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/68/sstate%3Aopenssl%3A%3A1.0.2o%3Ar0%3A%3A3%3A681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz;downloadfilename=68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz
+DEBUG: Searching for 68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz.siginfo for 68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz.siginfo;downloadfilename=68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/68/sstate%3Aopenssl%3A%3A1.0.2o%3Ar0%3A%3A3%3A681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz.siginfo;downloadfilename=68/sstate:openssl::1.0.2o:r0::3:681152cbc4a586849fd33a6d8ed991ca_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/openssl/
+license-destdir/openssl/LICENSE
+license-destdir/openssl/recipeinfo
+license-destdir/openssl/generic_openssl
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/openssl/1.0.2o-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

@@ -1,0 +1,45 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz for ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz;downloadfilename=ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/ad/sstate%3Ainitscripts%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0%3Ar155%3Acortexa9hf-neon%3A3%3Aadabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz;downloadfilename=ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz
+DEBUG: Searching for ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz.siginfo for ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz.siginfo;downloadfilename=ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/ad/sstate%3Ainitscripts%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0%3Ar155%3Acortexa9hf-neon%3A3%3Aadabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz.siginfo;downloadfilename=ad/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:adabb6d9823cf0eb6d4d7e9bca69e58a_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/initscripts-dev
+pkgdata/runtime/initscripts-doc
+pkgdata/runtime/initscripts
+pkgdata/runtime/initscripts-sushell
+pkgdata/runtime/initscripts-functions.packaged
+pkgdata/runtime/initscripts-locale
+pkgdata/runtime/initscripts-functions
+pkgdata/runtime/initscripts-dbg.packaged
+pkgdata/runtime/initscripts-dbg
+pkgdata/runtime/initscripts-dev.packaged
+pkgdata/runtime/initscripts.packaged
+pkgdata/runtime/initscripts-staticdev
+pkgdata/shlibs2/
+pkgdata/initscripts
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/initd-functions/
+pkgdata/runtime-rprovides/initd-functions/initscripts-functions
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/initscripts-dev
+pkgdata/runtime-reverse/initscripts
+pkgdata/runtime-reverse/initscripts-functions
+pkgdata/runtime-reverse/initscripts-dbg
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/initscripts/1.0-r155/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished
