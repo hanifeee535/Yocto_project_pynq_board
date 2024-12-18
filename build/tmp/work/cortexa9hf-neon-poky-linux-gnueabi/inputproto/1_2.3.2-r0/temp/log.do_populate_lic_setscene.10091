@@ -1,0 +1,29 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz for ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', 'ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz;downloadfilename=ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/ac/sstate%3Ainputproto%3A%3A2.3.2%3Ar0%3A%3A3%3Aacae137a634db7d211b0ce9240af9263_populate_lic.tgz;downloadfilename=ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz
+DEBUG: Searching for ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz.siginfo for ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz.siginfo;downloadfilename=ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/ac/sstate%3Ainputproto%3A%3A2.3.2%3Ar0%3A%3A3%3Aacae137a634db7d211b0ce9240af9263_populate_lic.tgz.siginfo;downloadfilename=ac/sstate:inputproto::2.3.2:r0::3:acae137a634db7d211b0ce9240af9263_populate_lic.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/inputproto/
+license-destdir/inputproto/COPYING
+license-destdir/inputproto/generic_MIT
+license-destdir/inputproto/generic_MIT-style
+license-destdir/inputproto/recipeinfo
+license-destdir/inputproto/XI2proto.h
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/inputproto/1_2.3.2-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

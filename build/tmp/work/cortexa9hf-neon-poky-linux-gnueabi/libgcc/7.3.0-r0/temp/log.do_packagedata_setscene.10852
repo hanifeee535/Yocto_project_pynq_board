@@ -1,0 +1,48 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz for 4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz;downloadfilename=4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/4d/sstate%3Alibgcc%3Acortexa9hf-neon-poky-linux-gnueabi%3A7.3.0%3Ar0%3Acortexa9hf-neon%3A3%3A4d4a884881730d92e46dafd1d091fef4_packagedata.tgz;downloadfilename=4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz
+DEBUG: Searching for 4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz.siginfo for 4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz.siginfo;downloadfilename=4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/4d/sstate%3Alibgcc%3Acortexa9hf-neon-poky-linux-gnueabi%3A7.3.0%3Ar0%3Acortexa9hf-neon%3A3%3A4d4a884881730d92e46dafd1d091fef4_packagedata.tgz.siginfo;downloadfilename=4d/sstate:libgcc:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:4d4a884881730d92e46dafd1d091fef4_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/libgcc-dev.packaged
+pkgdata/runtime/libgcc-dev
+pkgdata/runtime/libgcc-dbg
+pkgdata/runtime/libgcc
+pkgdata/runtime/libgcc.packaged
+pkgdata/runtime/libgcc-dbg.packaged
+pkgdata/shlibs2/
+pkgdata/shlibs2/libgcc.list
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/libgcc-dev/
+pkgdata/runtime-rprovides/libgcc-dev/libgcc-dev
+pkgdata/runtime-rprovides/(=7.3.0)/
+pkgdata/runtime-rprovides/(=7.3.0)/libgcc-dev
+pkgdata/runtime-rprovides/(=7.3.0)/libgcc-dbg
+pkgdata/runtime-rprovides/(=7.3.0)/libgcc
+pkgdata/runtime-rprovides/libgcc-dbg/
+pkgdata/runtime-rprovides/libgcc-dbg/libgcc-dbg
+pkgdata/runtime-rprovides/libgcc/
+pkgdata/runtime-rprovides/libgcc/libgcc
+pkgdata/libgcc
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/libgcc-s-dbg
+pkgdata/runtime-reverse/libgcc1
+pkgdata/runtime-reverse/libgcc-s-dev
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/libgcc/7.3.0-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

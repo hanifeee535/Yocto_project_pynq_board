@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546331.81 
+shadow-securetty-4.2.1-r3: do_populate_sysroot_setscene
+Elapsed time: 0.08 seconds
+utime: 4
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 194880
+IO wchar: 76856
+IO syscr: 175
+IO syscw: 63
+IO read_bytes: 8192
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.048936999999999994
+rusage ru_stime: 0.024468
+rusage ru_maxrss: 62580
+rusage ru_minflt: 5815
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 120
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 55
+Child rusage ru_utime: 0.014662
+Child rusage ru_stime: 0.0007999999999999999
+Child rusage ru_maxrss: 60304
+Child rusage ru_minflt: 1725
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1734546331.89 

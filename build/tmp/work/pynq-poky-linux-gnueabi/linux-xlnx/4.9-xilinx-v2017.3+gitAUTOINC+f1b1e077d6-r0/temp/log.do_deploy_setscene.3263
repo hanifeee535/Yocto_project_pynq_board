@@ -1,0 +1,27 @@
+DEBUG: Executing python function do_deploy_setscene
+DEBUG: Searching for b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz for b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz', '', '', OrderedDict([('downloadfilename', 'b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz;downloadfilename=b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz returning file:///home/student/poky_cache/sstate-cache/b8/sstate%3Alinux-xlnx%3Apynq-poky-linux-gnueabi%3A4.9-xilinx-v2017.3%2BgitAUTOINC%2Bf1b1e077d6%3Ar0%3Apynq%3A3%3Ab81252f736b8c7543392dd9a26c23acd_deploy.tgz;downloadfilename=b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz
+DEBUG: Searching for b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz.siginfo for b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz.siginfo;downloadfilename=b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/b8/sstate%3Alinux-xlnx%3Apynq-poky-linux-gnueabi%3A4.9-xilinx-v2017.3%2BgitAUTOINC%2Bf1b1e077d6%3Ar0%3Apynq%3A3%3Ab81252f736b8c7543392dd9a26c23acd_deploy.tgz.siginfo;downloadfilename=b8/sstate:linux-xlnx:pynq-poky-linux-gnueabi:4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0:pynq:3:b81252f736b8c7543392dd9a26c23acd_deploy.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-linux-xlnx/
+deploy-linux-xlnx/uImage-pynq.bin
+deploy-linux-xlnx/modules-pynq.tgz
+deploy-linux-xlnx/uImage
+deploy-linux-xlnx/uImage--4.9-xilinx-v2017.3+git0+f1b1e077d6-r0-pynq-20180809145848.bin
+deploy-linux-xlnx/modules--4.9-xilinx-v2017.3+git0+f1b1e077d6-r0-pynq-20180809145848.tgz
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/deploy-linux-xlnx to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/images/pynq
+DEBUG: Python function do_deploy_setscene finished

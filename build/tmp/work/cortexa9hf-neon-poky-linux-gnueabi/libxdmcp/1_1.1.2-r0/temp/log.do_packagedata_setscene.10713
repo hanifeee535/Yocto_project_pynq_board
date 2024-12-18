@@ -1,0 +1,48 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz for 2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz;downloadfilename=2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/2e/sstate%3Alibxdmcp%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.1.2%3Ar0%3Acortexa9hf-neon%3A3%3A2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz;downloadfilename=2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz
+DEBUG: Searching for 2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz.siginfo for 2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz.siginfo;downloadfilename=2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/2e/sstate%3Alibxdmcp%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.1.2%3Ar0%3Acortexa9hf-neon%3A3%3A2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz.siginfo;downloadfilename=2e/sstate:libxdmcp:cortexa9hf-neon-poky-linux-gnueabi:1.1.2:r0:cortexa9hf-neon:3:2eadba0d97074cdf346a311ac08ef2db_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/libxdmcp-doc.packaged
+pkgdata/runtime/libxdmcp-dev.packaged
+pkgdata/runtime/libxdmcp-locale
+pkgdata/runtime/libxdmcp-staticdev
+pkgdata/runtime/libxdmcp-doc
+pkgdata/runtime/libxdmcp-dev
+pkgdata/runtime/libxdmcp-dbg
+pkgdata/runtime/libxdmcp.packaged
+pkgdata/runtime/libxdmcp-dbg.packaged
+pkgdata/runtime/libxdmcp
+pkgdata/shlibs2/
+pkgdata/shlibs2/libxdmcp-dev.pclist
+pkgdata/shlibs2/libxdmcp.list
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/(=1.1.2)/
+pkgdata/runtime-rprovides/(=1.1.2)/libxdmcp
+pkgdata/runtime-rprovides/libxdmcp/
+pkgdata/runtime-rprovides/libxdmcp/libxdmcp
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/libxdmcp6
+pkgdata/runtime-reverse/libxdmcp-doc
+pkgdata/runtime-reverse/libxdmcp-dev
+pkgdata/runtime-reverse/libxdmcp-dbg
+pkgdata/libxdmcp
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/libxdmcp/1_1.1.2-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546317.99 
+libgpg-error-native-1.27-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 8
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 629589
+IO wchar: 656958
+IO syscr: 258
+IO syscw: 151
+IO read_bytes: 86016
+IO write_bytes: 385024
+IO cancelled_write_bytes: 28672
+rusage ru_utime: 0.08485899999999999
+rusage ru_stime: 0.004991
+rusage ru_maxrss: 62984
+rusage ru_minflt: 6959
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 16
+rusage ru_nivcsw: 66
+Child rusage ru_utime: 0.013189999999999999
+Child rusage ru_stime: 0.005363
+Child rusage ru_maxrss: 60692
+Child rusage ru_minflt: 1923
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 168
+Child rusage ru_oublock: 616
+Child rusage ru_nvcsw: 36
+Child rusage ru_nivcsw: 44
+Status: PASSED 
+Ended: 1734546318.05 

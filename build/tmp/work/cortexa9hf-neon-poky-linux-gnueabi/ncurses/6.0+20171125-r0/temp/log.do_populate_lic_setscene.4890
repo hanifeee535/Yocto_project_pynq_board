@@ -1,0 +1,27 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz for 0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz;downloadfilename=0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/0d/sstate%3Ancurses%3A%3A6.0%2B20171125%3Ar0%3A%3A3%3A0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz;downloadfilename=0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz
+DEBUG: Searching for 0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz.siginfo for 0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz.siginfo;downloadfilename=0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/0d/sstate%3Ancurses%3A%3A6.0%2B20171125%3Ar0%3A%3A3%3A0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz.siginfo;downloadfilename=0d/sstate:ncurses::6.0+20171125:r0::3:0de25e4632d6f74c38c7341b48e37556_populate_lic.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/ncurses/
+license-destdir/ncurses/version.c
+license-destdir/ncurses/generic_MIT
+license-destdir/ncurses/recipeinfo
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/ncurses/6.0+20171125-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

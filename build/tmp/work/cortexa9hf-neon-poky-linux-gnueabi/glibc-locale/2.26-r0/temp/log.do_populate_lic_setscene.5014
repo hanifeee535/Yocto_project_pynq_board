@@ -1,0 +1,28 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz for 3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz;downloadfilename=3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/3a/sstate%3Aglibc-locale%3A%3A2.26%3Ar0%3A%3A3%3A3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz;downloadfilename=3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz
+DEBUG: Searching for 3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz.siginfo for 3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz.siginfo;downloadfilename=3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/3a/sstate%3Aglibc-locale%3A%3A2.26%3Ar0%3A%3A3%3A3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz.siginfo;downloadfilename=3a/sstate:glibc-locale::2.26:r0::3:3a37242ac234752a27dbd4b8f8a4dee2_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/glibc-locale/
+license-destdir/glibc-locale/LGPL-2.1
+license-destdir/glibc-locale/GPL-2.0
+license-destdir/glibc-locale/generic_LGPLv2.1
+license-destdir/glibc-locale/recipeinfo
+license-destdir/glibc-locale/generic_GPLv2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/glibc-locale/2.26-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

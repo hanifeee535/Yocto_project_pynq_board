@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546358.94 
+linux-xlnx-4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0: do_validate_branches
+Elapsed time: 0.26 seconds
+utime: 9
+stime: 1
+cutime: 14
+cstime: 8
+IO rchar: 192239
+IO wchar: 5845452
+IO syscr: 139
+IO syscw: 752
+IO read_bytes: 757760
+IO write_bytes: 5832704
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.09636199999999999
+rusage ru_stime: 0.012568999999999999
+rusage ru_maxrss: 63820
+rusage ru_minflt: 4681
+rusage ru_majflt: 0
+rusage ru_inblock: 1480
+rusage ru_oublock: 104
+rusage ru_nvcsw: 61
+rusage ru_nivcsw: 60
+Child rusage ru_utime: 0.147332
+Child rusage ru_stime: 0.08048999999999999
+Child rusage ru_maxrss: 247052
+Child rusage ru_minflt: 9794
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 11288
+Child rusage ru_nvcsw: 10
+Child rusage ru_nivcsw: 113
+Status: PASSED 
+Ended: 1734546359.21 

@@ -1,0 +1,2 @@
+recipe-sysroot-native/usr/include/openssl/opensslconf.h
+recipe-sysroot-native/usr/bin/c_rehash

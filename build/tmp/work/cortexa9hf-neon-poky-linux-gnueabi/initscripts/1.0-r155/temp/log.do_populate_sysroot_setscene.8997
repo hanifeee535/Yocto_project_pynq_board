@@ -1,0 +1,24 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz for 2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz;downloadfilename=2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/2f/sstate%3Ainitscripts%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0%3Ar155%3Acortexa9hf-neon%3A3%3A2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz;downloadfilename=2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz
+DEBUG: Searching for 2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz.siginfo for 2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz.siginfo;downloadfilename=2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/2f/sstate%3Ainitscripts%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0%3Ar155%3Acortexa9hf-neon%3A3%3A2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz.siginfo;downloadfilename=2f/sstate:initscripts:cortexa9hf-neon-poky-linux-gnueabi:1.0:r155:cortexa9hf-neon:3:2fabe1e03e1299cc158149796cd8590d_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/initscripts
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/initscripts/1.0-r155/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/initscripts
+DEBUG: Python function do_populate_sysroot_setscene finished

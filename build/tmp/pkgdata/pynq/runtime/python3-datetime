@@ -1,0 +1,16 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-datetime: Python calendar and time support
+RDEPENDS_python3-datetime: python3-codecs python3-core glibc (>= 2.26) libpython3 (>= 3.5.3)
+SECTION: devel/python
+PKG_python3-datetime: python3-datetime
+FILES_python3-datetime: /usr/lib/python3.5/_strptime.* /usr/lib/python3.5/__pycache__/_strptime.* /usr/lib/python3.5/calendar.* /usr/lib/python3.5/__pycache__/calendar.* /usr/lib/python3.5/datetime.* /usr/lib/python3.5/__pycache__/datetime.* /usr/lib/python3.5/lib-dynload/_datetime.*.so /usr/lib/python3.5/lib-dynload/__pycache__/_datetime.*.so 
+FILES_INFO: {"/usr/lib/python3.5/calendar.py": 22998, "/usr/lib/python3.5/_strptime.py": 22185, "/usr/lib/python3.5/datetime.py": 75899, "/usr/lib/python3.5/lib-dynload/_datetime.cpython-35m-arm-linux-gnueabihf.so": 59168, "/usr/lib/python3.5/__pycache__/calendar.cpython-35.opt-1.pyc": 27634, "/usr/lib/python3.5/__pycache__/datetime.cpython-35.opt-2.pyc": 45212, "/usr/lib/python3.5/__pycache__/calendar.cpython-35.opt-2.pyc": 23095, "/usr/lib/python3.5/__pycache__/_strptime.cpython-35.opt-2.pyc": 12252, "/usr/lib/python3.5/__pycache__/datetime.cpython-35.opt-1.pyc": 53697, "/usr/lib/python3.5/__pycache__/_strptime.cpython-35.opt-1.pyc": 15778, "/usr/lib/python3.5/__pycache__/_strptime.cpython-35.pyc": 15778, "/usr/lib/python3.5/__pycache__/calendar.cpython-35.pyc": 27634, "/usr/lib/python3.5/__pycache__/datetime.cpython-35.pyc": 55413}
+FILERDEPENDSFLIST_python3-datetime: /usr/lib/python3.5/lib-dynload/@underscore@datetime.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@datetime.cpython-35m-arm-linux-gnueabihf.so_python3-datetime: libm.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.4) libm.so.6 libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_python3-datetime: 456743

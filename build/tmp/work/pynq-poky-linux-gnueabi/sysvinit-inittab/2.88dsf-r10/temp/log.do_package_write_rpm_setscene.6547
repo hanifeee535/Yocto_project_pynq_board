@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz for aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', 'aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz;downloadfilename=aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/aa/sstate%3Asysvinit-inittab%3Apynq-poky-linux-gnueabi%3A2.88dsf%3Ar10%3Apynq%3A3%3Aaa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz;downloadfilename=aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz
+DEBUG: Searching for aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz.siginfo for aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz.siginfo;downloadfilename=aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/aa/sstate%3Asysvinit-inittab%3Apynq-poky-linux-gnueabi%3A2.88dsf%3Ar10%3Apynq%3A3%3Aaa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz.siginfo;downloadfilename=aa/sstate:sysvinit-inittab:pynq-poky-linux-gnueabi:2.88dsf:r10:pynq:3:aa2d814985a48a08ce6d7908ea99574a_package_write_rpm.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/pynq/
+deploy-rpms/pynq/sysvinit-inittab-2.88dsf-r10.pynq.rpm
+deploy-rpms/pynq/sysvinit-inittab-dev-2.88dsf-r10.pynq.rpm
+deploy-rpms/pynq/sysvinit-inittab-dbg-2.88dsf-r10.pynq.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/sysvinit-inittab/2.88dsf-r10/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

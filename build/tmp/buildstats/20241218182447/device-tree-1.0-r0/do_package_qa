@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546590.69 
+device-tree-1.0-r0: do_package_qa
+Elapsed time: 0.12 seconds
+utime: 8
+stime: 1
+cutime: 2
+cstime: 0
+IO rchar: 304133
+IO wchar: 250431
+IO syscr: 788
+IO syscw: 1029
+IO read_bytes: 4096
+IO write_bytes: 159744
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.08394499999999999
+rusage ru_stime: 0.015262
+rusage ru_maxrss: 63976
+rusage ru_minflt: 11547
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 304
+rusage ru_nvcsw: 32
+rusage ru_nivcsw: 874
+Child rusage ru_utime: 0.026104
+Child rusage ru_stime: 0.002313
+Child rusage ru_maxrss: 61904
+Child rusage ru_minflt: 4822
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 62
+Child rusage ru_nivcsw: 313
+Status: PASSED 
+Ended: 1734546590.81 

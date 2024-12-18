@@ -1,0 +1,22 @@
+PN: ncurses
+PV: 6.0+20171125
+PR: r0
+PKGV: 6.0+20171125
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_ncurses-libtinfo: ncurses tinfo library
+SUMMARY_ncurses-libtinfo: ncurses tinfo library
+RDEPENDS_ncurses-libtinfo: glibc (>= 2.26)
+RPROVIDES_ncurses-libtinfo:  ncurses-libtinfo (=6.0+20171125)
+RRECOMMENDS_ncurses-libtinfo: ncurses-terminfo-base
+RSUGGESTS_ncurses-libtinfo: ncurses-terminfo
+SECTION: libs
+PKG_ncurses-libtinfo: libtinfo5
+FILES_ncurses-libtinfo: /lib/libtinfo.so.5 /lib/libtinfo.so.5.9
+pkg_postinst_ncurses-libtinfo: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_ncurses-libtinfo: /lib/libtinfo.so.5.9
+FILES_INFO: {"/lib/libtinfo.so.5": 15, "/lib/libtinfo.so.5.9": 121208}
+FILERPROVIDES_/lib/libtinfo.so.5.9_ncurses-libtinfo: libtinfo.so.5
+FILERDEPENDSFLIST_ncurses-libtinfo: /lib/libtinfo.so.5.9
+FILERDEPENDS_/lib/libtinfo.so.5.9_ncurses-libtinfo: libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+PKGSIZE_ncurses-libtinfo: 121223

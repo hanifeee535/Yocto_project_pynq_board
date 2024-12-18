@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546328.53 
+dbus-1.10.20-r0: do_packagedata_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 2
+cutime: 0
+cstime: 0
+IO rchar: 307375
+IO wchar: 191907
+IO syscr: 201
+IO syscw: 131
+IO read_bytes: 8192
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07629699999999999
+rusage ru_stime: 0.024093999999999997
+rusage ru_maxrss: 62992
+rusage ru_minflt: 6050
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 38
+Child rusage ru_utime: 0.009736
+Child rusage ru_stime: 0.005058
+Child rusage ru_maxrss: 60704
+Child rusage ru_minflt: 1751
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 25
+Status: PASSED 
+Ended: 1734546328.59 

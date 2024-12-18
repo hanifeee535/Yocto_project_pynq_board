@@ -1,0 +1,17 @@
+PN: linux-xlnx
+PV: 4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6
+PR: r0
+PKGV: 4.9-xilinx-v2017.3+git0+f1b1e077d6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Xilinx Kernel
+SUMMARY: Linux kernel
+RDEPENDS_kernel-base: kernel-image
+RPROVIDES_kernel-base:  kernel-4.9.0-xilinx-v2017.3 kernel-base (=4.9-xilinx-v2017.3+git0+f1b1e077d6)
+SECTION: kernel
+PKG_kernel-base: kernel-4.9.0-xilinx-v2017.3
+ALLOW_EMPTY_kernel-base: 1
+FILES_kernel-base: /lib/modules/4.9.0-xilinx-v2017.3/modules.order /lib/modules/4.9.0-xilinx-v2017.3/modules.builtin
+pkg_postinst_kernel-base: \tif [ ! -e "$D/lib/modules/4.9.0-xilinx-v2017.3" ]; then\n\t\tmkdir -p $D/lib/modules/4.9.0-xilinx-v2017.3\n\tfi\n\tif [ -n "$D" ]; then\n\t\tdepmodwrapper -a -b $D 4.9.0-xilinx-v2017.3\n\telse\n\t\tdepmod -a 4.9.0-xilinx-v2017.3\n\tfi\n
+FILES_INFO: {"/lib/modules/4.9.0-xilinx-v2017.3/modules.order": 729, "/lib/modules/4.9.0-xilinx-v2017.3/modules.builtin": 9397}
+PKGSIZE_kernel-base: 10126

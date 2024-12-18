@@ -1,0 +1,16 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-subprocess: Python subprocess support
+RDEPENDS_python3-subprocess: python3-core python3-fcntl python3-io python3-pickle python3-re python3-selectors python3-signal python3-threading libpython3 (>= 3.5.3) glibc (>= 2.26)
+SECTION: devel/python
+PKG_python3-subprocess: python3-subprocess
+FILES_python3-subprocess: /usr/lib/python3.5/subprocess.* /usr/lib/python3.5/__pycache__/subprocess.* /usr/lib/python3.5/lib-dynload/_posixsubprocess.*.so /usr/lib/python3.5/lib-dynload/__pycache__/_posixsubprocess.*.so 
+FILES_INFO: {"/usr/lib/python3.5/subprocess.py": 58493, "/usr/lib/python3.5/lib-dynload/_posixsubprocess.cpython-35m-arm-linux-gnueabihf.so": 14764, "/usr/lib/python3.5/__pycache__/subprocess.cpython-35.pyc": 36840, "/usr/lib/python3.5/__pycache__/subprocess.cpython-35.opt-1.pyc": 36727, "/usr/lib/python3.5/__pycache__/subprocess.cpython-35.opt-2.pyc": 26296}
+FILERDEPENDSFLIST_python3-subprocess: /usr/lib/python3.5/lib-dynload/@underscore@posixsubprocess.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@posixsubprocess.cpython-35m-arm-linux-gnueabihf.so_python3-subprocess: libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_python3-subprocess: 173120

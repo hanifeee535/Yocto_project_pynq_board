@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-signal: Python set handlers for asynchronous events support
+RDEPENDS_python3-signal: python3-core python3-enum
+SECTION: devel/python
+PKG_python3-signal: python3-signal
+FILES_python3-signal: /usr/lib/python3.5/signal.* /usr/lib/python3.5/__pycache__/signal.* 
+FILES_INFO: {"/usr/lib/python3.5/signal.py": 2123, "/usr/lib/python3.5/__pycache__/signal.cpython-35.pyc": 2732, "/usr/lib/python3.5/__pycache__/signal.cpython-35.opt-1.pyc": 2732, "/usr/lib/python3.5/__pycache__/signal.cpython-35.opt-2.pyc": 2504}
+PKGSIZE_python3-signal: 10091

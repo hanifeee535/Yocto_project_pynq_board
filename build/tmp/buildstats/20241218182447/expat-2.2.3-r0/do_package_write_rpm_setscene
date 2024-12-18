@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546318.98 
+expat-2.2.3-r0: do_package_write_rpm_setscene
+Elapsed time: 0.06 seconds
+utime: 8
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 753947
+IO wchar: 660170
+IO syscr: 220
+IO syscw: 117
+IO read_bytes: 258048
+IO write_bytes: 356352
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.086251
+rusage ru_stime: 0.007840999999999999
+rusage ru_maxrss: 62768
+rusage ru_minflt: 5897
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 34
+Child rusage ru_utime: 0.010863
+Child rusage ru_stime: 0.008102
+Child rusage ru_maxrss: 60480
+Child rusage ru_minflt: 1722
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 504
+Child rusage ru_oublock: 584
+Child rusage ru_nvcsw: 32
+Child rusage ru_nivcsw: 18
+Status: PASSED 
+Ended: 1734546319.04 

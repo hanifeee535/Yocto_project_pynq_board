@@ -1,0 +1,18 @@
+PN: rt-tests
+PE: 1
+PV: 1.1
+PR: r0
+PKGE: 1
+PKGV: 1.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv2+
+DESCRIPTION_rt-tests-dev: Real-Time preemption testcases.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_rt-tests-dev: Real-Time preemption testcases - Development files
+RDEPENDS_rt-tests-dev: rt-tests (= 1:1.1-r0)
+RRECOMMENDS_rt-tests-dev: linux-libc-headers-dev python3-dev python3-datetime-dev python3-lang-dev python3-misc-dev python3-multiprocessing-dev python3-re-dev python3-subprocess-dev stress-dev glibc-dev
+SECTION_rt-tests-dev: devel
+PKG_rt-tests-dev: rt-tests-dev
+ALLOW_EMPTY_rt-tests-dev: 1
+FILES_rt-tests-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rt-tests/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_rt-tests-dev: 0

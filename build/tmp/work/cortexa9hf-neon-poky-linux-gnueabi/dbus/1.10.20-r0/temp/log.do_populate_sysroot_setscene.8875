@@ -1,0 +1,75 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-extended/shadow/shadow-sysroot_4.2.1.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/pseudo/pseudo_1.8.2.bb:do_populate_sysroot', 'virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-extended/shadow/shadow_4.2.1.bb:do_populate_sysroot', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-core/base-passwd/base-passwd_3.5.29.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['shadow-sysroot', 'pseudo-native', 'shadow-native', 'base-passwd']
+NOTE: Skipping as already exists in sysroot: []
+DEBUG: sed -e 's:^[^/]*/:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/recipe-sysroot/:g' /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/base-passwd/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIRTARGET:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/recipe-sysroot:g; s:FIXMESTAGINGDIRHOST:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/recipe-sysroot-native:g' -e 's:FIXME_COMPONENTS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components:g' -e 's:FIXME_HOSTTOOLS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools:g' -e 's:FIXME_PKGDATA_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq:g' -e 's:FIXME_PSEUDO_LOCALSTATEDIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/pseudo/:g' -e 's:FIXME_LOGFIFO:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/temp/fifo.8875:g'
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz for b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz;downloadfilename=b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/b5/sstate%3Adbus%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.10.20%3Ar0%3Acortexa9hf-neon%3A3%3Ab57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz;downloadfilename=b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz
+DEBUG: Searching for b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz.siginfo for b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz.siginfo;downloadfilename=b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/b5/sstate%3Adbus%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.10.20%3Ar0%3Acortexa9hf-neon%3A3%3Ab57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz.siginfo;downloadfilename=b5/sstate:dbus:cortexa9hf-neon-poky-linux-gnueabi:1.10.20:r0:cortexa9hf-neon:3:b57457f57b8f8c805fe43bb459ccacfc_populate_sysroot.tgz.siginfo
+DEBUG: Executing python function useradd_sysroot_sstate
+DEBUG: Python function useradd_sysroot_sstate finished
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/dbus
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/libdbus-1.so.3.14.12
+sysroot-destdir/usr/lib/libdbus-1.so
+sysroot-destdir/usr/lib/pkgconfig/
+sysroot-destdir/usr/lib/pkgconfig/dbus-1.pc
+sysroot-destdir/usr/lib/libdbus-1.so.3
+sysroot-destdir/usr/lib/dbus-1.0/
+sysroot-destdir/usr/lib/dbus-1.0/include/
+sysroot-destdir/usr/lib/dbus-1.0/include/dbus/
+sysroot-destdir/usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/dbus-1.0/
+sysroot-destdir/usr/include/dbus-1.0/dbus/
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-address.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-connection.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-memory.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-bus.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-types.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-syntax.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-server.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-errors.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-signature.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-shared.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-misc.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-protocol.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-message.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-threads.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-macros.h
+sysroot-destdir/usr/include/dbus-1.0/dbus/dbus-pending-call.h
+sysroot-destdir/usr/bin/
+sysroot-destdir/usr/bin/postinst-useradd-dbus
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/dbus-1/
+sysroot-destdir/usr/share/dbus-1/system.d/
+sysroot-destdir/usr/share/dbus-1/services/
+sysroot-destdir/usr/share/dbus-1/system-services/
+sysroot-destdir/usr/share/dbus-1/session.d/
+sysroot-destdir/usr/share/dbus-1/session.conf
+sysroot-destdir/usr/share/dbus-1/system.conf
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/dbus
+DEBUG: Python function do_populate_sysroot_setscene finished

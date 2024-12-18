@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546320.97 
+coreutils-8.27-r0: do_packagedata_setscene
+Elapsed time: 0.09 seconds
+utime: 7
+stime: 2
+cutime: 1
+cstime: 1
+IO rchar: 605528
+IO wchar: 625763
+IO syscr: 239
+IO syscw: 432
+IO read_bytes: 24576
+IO write_bytes: 397312
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.076834
+rusage ru_stime: 0.028307
+rusage ru_maxrss: 62944
+rusage ru_minflt: 6089
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 216
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 51
+Child rusage ru_utime: 0.011113999999999999
+Child rusage ru_stime: 0.012992
+Child rusage ru_maxrss: 60656
+Child rusage ru_minflt: 1793
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 560
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1734546321.06 

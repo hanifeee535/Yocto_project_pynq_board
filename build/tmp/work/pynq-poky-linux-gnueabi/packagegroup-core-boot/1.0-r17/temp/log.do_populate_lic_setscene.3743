@@ -1,0 +1,25 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz for 32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz;downloadfilename=32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/32/sstate%3Apackagegroup-core-boot%3A%3A1.0%3Ar17%3A%3A3%3A32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz;downloadfilename=32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz
+DEBUG: Searching for 32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz.siginfo for 32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz.siginfo;downloadfilename=32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/32/sstate%3Apackagegroup-core-boot%3A%3A1.0%3Ar17%3A%3A3%3A32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz.siginfo;downloadfilename=32/sstate:packagegroup-core-boot::1.0:r17::3:32c0700c10f0420a5b68080a2dbd0ae4_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/packagegroup-core-boot/
+license-destdir/packagegroup-core-boot/generic_MIT
+license-destdir/packagegroup-core-boot/recipeinfo
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

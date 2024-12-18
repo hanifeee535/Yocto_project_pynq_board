@@ -1,0 +1,264 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "") echo "WARNING: exit code $ret from a shell command.";;
+        *)  echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from '$BASH_COMMAND'";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export AR="arm-poky-linux-gnueabi-ar"
+export ARCH="arm"
+export AS="arm-poky-linux-gnueabi-as "
+export BUILD_AR="ar"
+export BUILD_AS="as "
+export BUILD_CC="gcc "
+export BUILD_CCLD="gcc "
+export BUILD_CFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_CPP="gcc  -E"
+export BUILD_CPPFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/include"
+export BUILD_CXX="g++ "
+export BUILD_CXXFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_FC="gfortran "
+export BUILD_LD="ld "
+export BUILD_LDFLAGS="-L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/lib -L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export BUILD_NM="nm"
+export BUILD_RANLIB="ranlib"
+export BUILD_STRIP="strip"
+export CC="arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot"
+export CCACHE_DIR="/home/student/.ccache"
+export CCLD="arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot"
+export CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0=/usr/src/debug/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot= "
+export CMDLINE_CONSOLE="console=ttyS0"
+export CPP="arm-poky-linux-gnueabi-gcc -E --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9"
+export CPPFLAGS=""
+export CROSS_COMPILE="arm-poky-linux-gnueabi-"
+export CXX="arm-poky-linux-gnueabi-g++  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot"
+export CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0=/usr/src/debug/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot=  -fvisibility-inlines-hidden"
+unset DISTRO
+export FC="arm-poky-linux-gnueabi-gfortran  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot"
+export HOME="/home/student"
+export KBUILD_BUILD_HOST="oe-host"
+export KBUILD_BUILD_USER="oe-user"
+export LC_ALL="en_US.UTF-8"
+export LD="arm-poky-linux-gnueabi-ld --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot "
+export LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export LOGNAME="student"
+unset MACHINE
+export MAKE="make"
+export NM="arm-poky-linux-gnueabi-nm"
+export OBJCOPY="arm-poky-linux-gnueabi-objcopy"
+export OBJDUMP="arm-poky-linux-gnueabi-objdump"
+export OS="linux-gnueabi"
+export PATH="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/scripts:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot/usr/bin/crossscripts:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/sbin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/sbin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/bitbake/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools"
+export PKG_CONFIG_DIR="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot/usr/lib/pkgconfig"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export PKG_CONFIG_LIBDIR="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot/usr/lib/pkgconfig"
+export PKG_CONFIG_PATH="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot/usr/lib/pkgconfig:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot/usr/share/pkgconfig"
+export PKG_CONFIG_SYSROOT_DIR="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot"
+export PKG_CONFIG_SYSTEM_INCLUDE_PATH="/usr/include"
+export PKG_CONFIG_SYSTEM_LIBRARY_PATH="/lib:/usr/lib"
+export PSEUDO_DISABLED="1"
+export PSEUDO_UNLOAD="1"
+export RANLIB="arm-poky-linux-gnueabi-ranlib"
+export READELF="arm-poky-linux-gnueabi-readelf"
+unset SHELL
+export STRINGS="arm-poky-linux-gnueabi-strings"
+export STRIP="arm-poky-linux-gnueabi-strip"
+unset TARGET_ARCH
+export TARGET_CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0=/usr/src/debug/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot= "
+export TARGET_CPPFLAGS=""
+export TARGET_CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0=/usr/src/debug/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot= "
+export TARGET_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export TERM="xterm-256color"
+export TZ="UTC"
+export UBOOT_ARCH="arm"
+export USER="student"
+export base_bindir="/bin"
+export base_libdir="/lib"
+export base_prefix=""
+export base_sbindir="/sbin"
+export bindir="/usr/bin"
+export datadir="/usr/share"
+export docdir="/usr/share/doc"
+export exec_prefix="/usr"
+export includedir="/usr/include"
+export infodir="/usr/share/info"
+export libdir="/usr/lib"
+export libexecdir="/usr/libexec"
+export localstatedir="/var"
+export mandir="/usr/share/man"
+export nonarch_base_libdir="/lib"
+export nonarch_libdir="/usr/lib"
+export oldincludedir="/usr/include"
+export prefix="/usr"
+export sbindir="/usr/sbin"
+export servicedir="/srv"
+export sharedstatedir="/com"
+export sysconfdir="/etc"
+export systemd_system_unitdir="/lib/systemd/system"
+export systemd_unitdir="/lib/systemd"
+export systemd_user_unitdir="/usr/lib/systemd/user"
+
+do_kernel_metadata() {
+	[ -n "xilinx_zynq_defconfig" ] && [ -e /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/defconfig ] && rm /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/defconfig
+	set +e
+	cd /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source
+	export KMETA=${KMETA}
+
+	# if kernel tools are available in-tree, they are preferred
+	# and are placed on the path before any external tools. Unless
+	# the external tools flag is set, in that case we do nothing.
+	if [ -f "/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/scripts/util/configme" ]; then
+		if [ -z "${EXTERNAL_KERNEL_TOOLS}" ]; then
+			PATH=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/scripts/util:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/scripts:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot/usr/bin/crossscripts:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/sbin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/sbin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/bitbake/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools
+		fi
+	fi
+
+	machine_branch=""
+	machine_srcrev="f1b1e077d641fc83b54c1b8f168cbb58044fbd4e"
+	if [ -z "${machine_srcrev}" ]; then
+		# fallback to SRCREV if a non machine_meta tree is being built
+		machine_srcrev="f1b1e077d641fc83b54c1b8f168cbb58044fbd4e"
+	fi
+
+	# In a similar manner to the kernel itself:
+	#
+	#   defconfig: $(obj)/conf
+	#   ifeq ($(KBUILD_DEFCONFIG),)
+	#	$< --defconfig $(Kconfig)
+	#   else
+	#	@echo "*** Default configuration is based on '$(KBUILD_DEFCONFIG)'"
+	#	$(Q)$< --defconfig=arch/$(SRCARCH)/configs/$(KBUILD_DEFCONFIG) $(Kconfig)
+	#   endif
+	#
+	# If a defconfig is specified via the KBUILD_DEFCONFIG variable, we copy it
+	# from the source tree, into a common location and normalized "defconfig" name,
+	# where the rest of the process will include and incoroporate it into the build
+	#
+	# If the fetcher has already placed a defconfig in WORKDIR (from the SRC_URI),
+	# we don't overwrite it, but instead warn the user that SRC_URI defconfigs take
+	# precendence.
+	#
+	if [ -n "xilinx_zynq_defconfig" ]; then
+		if [ -f "/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/arch/arm/configs/xilinx_zynq_defconfig" ]; then
+			if [ -f "/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/defconfig" ]; then
+				# If the two defconfig's are different, warn that we didn't overwrite the
+				# one already placed in WORKDIR by the fetcher.
+				cmp "/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/defconfig" "/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/arch/arm/configs/xilinx_zynq_defconfig"
+				if [ $? -ne 0 ]; then
+					bbwarn "defconfig detected in WORKDIR. xilinx_zynq_defconfig skipped"
+				else
+					cp -f /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/arch/arm/configs/xilinx_zynq_defconfig /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/defconfig
+				fi
+			else
+				cp -f /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/arch/arm/configs/xilinx_zynq_defconfig /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/defconfig
+			fi
+			sccs="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/defconfig"
+		else
+			bbfatal "A KBUILD_DEFCONFIG 'xilinx_zynq_defconfig' was specified, but not present in the source tree"
+		fi
+	fi
+
+	sccs_from_src_uri=""
+	patches=""
+	feat_dirs="xilinx-kmeta"
+
+	# a quick check to make sure we don't have duplicate defconfigs
+	# If there's a defconfig in the SRC_URI, did we also have one from
+	# the KBUILD_DEFCONFIG processing above ?
+	if [ -n "$sccs" ]; then
+	    # we did have a defconfig from above. remove any that might be in the src_uri
+	    sccs_from_src_uri=$(echo $sccs_from_src_uri | awk '{ if ($0!="defconfig") { print $0 } }' RS=' ')
+	fi
+	sccs="$sccs $sccs_from_src_uri"
+
+	# check for feature directories/repos/branches that were part of the
+	# SRC_URI. If they were supplied, we convert them into include directives
+	# for the update part of the process
+	for f in ${feat_dirs}; do
+		if [ -d "/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/$f/meta" ]; then
+			includes="$includes -I/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/$f/kernel-meta"
+	        elif [ -d "/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/$f" ]; then
+			includes="$includes -I/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/$f"
+		fi
+	done
+	for s in ${sccs} ${patches}; do
+		sdir=$(dirname $s)
+		includes="$includes -I${sdir}"
+                # if a SRC_URI passed patch or .scc has a subdir of "kernel-meta",
+                # then we add it to the search path
+                if [ -d "${sdir}/kernel-meta" ]; then
+			includes="$includes -I${sdir}/kernel-meta"
+                fi
+	done
+
+	# expand kernel features into their full path equivalents
+	bsp_definition=$(spp ${includes} --find -DKMACHINE=pynq -DKTYPE=standard)
+	if [ -z "$bsp_definition" ]; then
+		echo "$sccs" | grep -q defconfig
+		if [ $? -ne 0 ]; then
+			bbfatal_log "Could not locate BSP definition for pynq/standard and no defconfig was provided"
+		fi
+	fi
+	meta_dir=$(kgit --meta)
+
+	# run1: pull all the configuration fragments, no matter where they come from
+	elements="`echo -n ${bsp_definition} ${sccs} ${patches} `"
+	if [ -n "${elements}" ]; then
+		echo "${bsp_definition}" > /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/${meta_dir}/bsp_definition
+		scc --force -o /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/${meta_dir}:cfg,merge,meta ${includes} ${bsp_definition} ${sccs} ${patches} 
+		if [ $? -ne 0 ]; then
+			bbfatal_log "Could not generate configuration queue for pynq."
+		fi
+	fi
+
+	# run2: only generate patches for elements that have been passed on the SRC_URI
+	elements="`echo -n ${sccs} ${patches} `"
+	if [ -n "${elements}" ]; then
+		scc --force -o /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/${meta_dir}:patch --cmds patch ${includes} ${sccs} ${patches} 
+		if [ $? -ne 0 ]; then
+			bbfatal_log "Could not generate configuration queue for pynq."
+		fi
+	fi
+}
+
+bbfatal() {
+	if [ -p /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/temp/fifo.16182 ] ; then
+		printf "%b\0" "bbfatal $*" > /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/temp/fifo.16182
+	else
+		echo "ERROR: $*"
+	fi
+	exit 1
+}
+
+bbwarn() {
+	if [ -p /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/temp/fifo.16182 ] ; then
+		printf "%b\0" "bbwarn $*" > /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/temp/fifo.16182
+	else
+		echo "WARNING: $*"
+	fi
+}
+
+bbfatal_log() {
+	if [ -p /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/temp/fifo.16182 ] ; then
+		printf "%b\0" "bbfatal_log $*" > /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/temp/fifo.16182
+	else
+		echo "ERROR: $*"
+	fi
+	exit 1
+}
+
+do_kernel_metadata
+
+# cleanup
+ret=$?
+trap '' 0
+exit $ret

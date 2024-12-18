@@ -1,0 +1,20 @@
+DEBUG: Executing python function do_package_qa_setscene
+DEBUG: Searching for 5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz for 5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz', '', '', OrderedDict([('downloadfilename', '5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz;downloadfilename=5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz returning file:///home/student/poky_cache/sstate-cache/5d/sstate%3Arun-postinsts%3Aall-poky-linux%3A1.0%3Ar9%3Aallarch%3A3%3A5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz;downloadfilename=5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz
+DEBUG: Searching for 5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz.siginfo for 5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz.siginfo;downloadfilename=5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/5d/sstate%3Arun-postinsts%3Aall-poky-linux%3A1.0%3Ar9%3Aallarch%3A3%3A5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz.siginfo;downloadfilename=5d/sstate:run-postinsts:all-poky-linux:1.0:r9:allarch:3:5dd8e20c15c0dd7502ee829cec65eb92_package_qa.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function do_package_qa_setscene finished

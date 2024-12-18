@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546320.69 
+e2fsprogs-1.43.5-r0: do_package_write_rpm_setscene
+Elapsed time: 0.16 seconds
+utime: 8
+stime: 1
+cutime: 2
+cstime: 2
+IO rchar: 14550903
+IO wchar: 14744116
+IO syscr: 1368
+IO syscw: 1113
+IO read_bytes: 6983680
+IO write_bytes: 7446528
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.09002299999999999
+rusage ru_stime: 0.015002999999999999
+rusage ru_maxrss: 63100
+rusage ru_minflt: 6112
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 39
+rusage ru_nivcsw: 49
+Child rusage ru_utime: 0.027035
+Child rusage ru_stime: 0.029172999999999998
+Child rusage ru_maxrss: 60824
+Child rusage ru_minflt: 1736
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 13640
+Child rusage ru_oublock: 14424
+Child rusage ru_nvcsw: 249
+Child rusage ru_nivcsw: 242
+Status: PASSED 
+Ended: 1734546320.85 

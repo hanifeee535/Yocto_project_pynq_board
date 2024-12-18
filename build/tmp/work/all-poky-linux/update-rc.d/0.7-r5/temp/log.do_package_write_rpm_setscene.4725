@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz for b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', 'b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz;downloadfilename=b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/b5/sstate%3Aupdate-rc.d%3Aall-poky-linux%3A0.7%3Ar5%3Aallarch%3A3%3Ab5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz;downloadfilename=b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz
+DEBUG: Searching for b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz.siginfo for b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz.siginfo;downloadfilename=b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/b5/sstate%3Aupdate-rc.d%3Aall-poky-linux%3A0.7%3Ar5%3Aallarch%3A3%3Ab5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz.siginfo;downloadfilename=b5/sstate:update-rc.d:all-poky-linux:0.7:r5:allarch:3:b5709d1ff0d89fcf9d9b9a916b8c7be3_package_write_rpm.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/noarch/
+deploy-rpms/noarch/update-rc.d-dev-0.7-r5.noarch.rpm
+deploy-rpms/noarch/update-rc.d-dbg-0.7-r5.noarch.rpm
+deploy-rpms/noarch/update-rc.d-0.7-r5.noarch.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/all-poky-linux/update-rc.d/0.7-r5/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

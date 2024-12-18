@@ -1,0 +1,72 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz for 42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz;downloadfilename=42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/42/sstate%3Aopenssl%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0.2o%3Ar0%3Acortexa9hf-neon%3A3%3A421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz;downloadfilename=42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz
+DEBUG: Searching for 42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz.siginfo for 42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz.siginfo;downloadfilename=42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/42/sstate%3Aopenssl%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.0.2o%3Ar0%3Acortexa9hf-neon%3A3%3A421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz.siginfo;downloadfilename=42/sstate:openssl:cortexa9hf-neon-poky-linux-gnueabi:1.0.2o:r0:cortexa9hf-neon:3:421255c2a9f0f1a6eebc6fbd95f0834c_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/libssl.packaged
+pkgdata/runtime/libcrypto.packaged
+pkgdata/runtime/openssl-dbg.packaged
+pkgdata/runtime/libcrypto
+pkgdata/runtime/openssl-doc.packaged
+pkgdata/runtime/openssl-staticdev
+pkgdata/runtime/openssl-engines.packaged
+pkgdata/runtime/openssl-dev
+pkgdata/runtime/openssl-conf.packaged
+pkgdata/runtime/libssl
+pkgdata/runtime/openssl-dbg
+pkgdata/runtime/openssl-dev.packaged
+pkgdata/runtime/openssl-engines
+pkgdata/runtime/openssl-ptest.packaged
+pkgdata/runtime/openssl.packaged
+pkgdata/runtime/openssl
+pkgdata/runtime/openssl-misc
+pkgdata/runtime/openssl-locale
+pkgdata/runtime/openssl-misc.packaged
+pkgdata/runtime/openssl-staticdev.packaged
+pkgdata/runtime/openssl-conf
+pkgdata/runtime/openssl-ptest
+pkgdata/runtime/openssl-doc
+pkgdata/shlibs2/
+pkgdata/shlibs2/libssl.list
+pkgdata/shlibs2/openssl-dev.pclist
+pkgdata/shlibs2/libcrypto.list
+pkgdata/shlibs2/openssl-engines.list
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/(=1.0.2o)/
+pkgdata/runtime-rprovides/(=1.0.2o)/libcrypto
+pkgdata/runtime-rprovides/(=1.0.2o)/libssl
+pkgdata/runtime-rprovides/libcrypto/
+pkgdata/runtime-rprovides/libcrypto/libcrypto
+pkgdata/runtime-rprovides/libssl/
+pkgdata/runtime-rprovides/libssl/libssl
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/openssl-staticdev
+pkgdata/runtime-reverse/openssl-dev
+pkgdata/runtime-reverse/libssl1.0.2
+pkgdata/runtime-reverse/openssl-dbg
+pkgdata/runtime-reverse/libcrypto1.0.2
+pkgdata/runtime-reverse/openssl-engines
+pkgdata/runtime-reverse/openssl
+pkgdata/runtime-reverse/openssl-misc
+pkgdata/runtime-reverse/openssl-conf
+pkgdata/runtime-reverse/openssl-ptest
+pkgdata/runtime-reverse/openssl-doc
+pkgdata/openssl
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/openssl/1.0.2o-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

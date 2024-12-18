@@ -1,0 +1,97 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for 1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz for 1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', '1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz;downloadfilename=1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/1f/sstate%3Apython3%3Acortexa9hf-neon-poky-linux-gnueabi%3A3.5.3%3Ar1.0%3Acortexa9hf-neon%3A3%3A1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz;downloadfilename=1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz
+DEBUG: Searching for 1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz.siginfo for 1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz.siginfo;downloadfilename=1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/1f/sstate%3Apython3%3Acortexa9hf-neon-poky-linux-gnueabi%3A3.5.3%3Ar1.0%3Acortexa9hf-neon%3A3%3A1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz.siginfo;downloadfilename=1f/sstate:python3:cortexa9hf-neon-poky-linux-gnueabi:3.5.3:r1.0:cortexa9hf-neon:3:1f5b7ffeb2cf5176c8f437fd3b344163_package_write_rpm.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/cortexa9hf_neon/
+deploy-rpms/cortexa9hf_neon/python3-datetime-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-2to3-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-man-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-smtpd-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libpython3.5m-staticdev-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-selectors-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-terminal-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-numbers-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-dbg-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-netserver-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-tkinter-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-crypt-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-codecs-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-multiprocessing-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-typing-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-reprlib-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-mmap-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-mailbox-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-debugger-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-gdbm-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-xmlrpc-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-importlib-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-io-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-math-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-ctypes-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-resource-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-audio-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-html-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-logging-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-asyncio-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-syslog-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-fcntl-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-sqlite3-tests-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-email-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-stringold-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-profile-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-textutils-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-threading-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-mime-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-misc-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-difflib-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-pydoc-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-unittest-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-distutils-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-pickle-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-modules-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-readline-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-signal-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-json-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-netclient-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-image-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-curses-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-dev-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-db-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-sqlite3-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-compression-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-lang-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-pyvenv-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-pkgutil-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-subprocess-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-pprint-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-argparse-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-shell-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-core-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-doctest-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-idle-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libpython3.5m1.0-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-xml-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-compile-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-re-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-unixadmin-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-tests-3.5.3-r1.0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/python3-enum-3.5.3-r1.0.cortexa9hf_neon.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/python3/3.5.3-r1.0/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546314.19 
+btrfs-tools-4.12-r0: do_populate_sysroot_setscene
+Elapsed time: 0.09 seconds
+utime: 7
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 887383
+IO wchar: 1089330
+IO syscr: 254
+IO syscw: 186
+IO read_bytes: 176128
+IO write_bytes: 598016
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.071897
+rusage ru_stime: 0.022704
+rusage ru_maxrss: 62752
+rusage ru_minflt: 5884
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 136
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 83
+Child rusage ru_utime: 0.014513999999999999
+Child rusage ru_stime: 0.008029999999999999
+Child rusage ru_maxrss: 60464
+Child rusage ru_minflt: 1765
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 328
+Child rusage ru_oublock: 1032
+Child rusage ru_nvcsw: 48
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1734546314.28 

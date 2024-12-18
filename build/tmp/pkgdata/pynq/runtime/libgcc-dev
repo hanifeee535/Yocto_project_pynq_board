@@ -1,0 +1,17 @@
+PN: libgcc
+PV: 7.3.0
+PR: r0
+PKGV: 7.3.0
+PKGR: r0
+LICENSE_libgcc-dev: GPL-3.0-with-GCC-exception
+DESCRIPTION_libgcc-dev: GNU cc and gcc C compilers.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libgcc-dev: GNU cc and gcc C compilers - Development files
+RDEPENDS_libgcc-dev: libgcc (= 7.3.0-r0)
+RPROVIDES_libgcc-dev:  libgcc-dev (=7.3.0)
+RRECOMMENDS_libgcc-dev: glibc-dev
+SECTION_libgcc-dev: devel
+PKG_libgcc-dev: libgcc-s-dev
+ALLOW_EMPTY_libgcc-dev: 1
+FILES_libgcc-dev:     /lib/libgcc*.so          /usr/lib/arm-poky-linux-gnueabi/7.3.0*     /usr/lib/arm-poky* 
+FILES_INFO: {"/lib/libgcc_s.so": 132, "/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtbegin.o": 1900, "/usr/lib/arm-poky-linux-gnueabi/7.3.0/libgcc.a": 25228022, "/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtendS.o": 980, "/usr/lib/arm-poky-linux-gnueabi/7.3.0/libgcov.a": 527102, "/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtbeginS.o": 2300, "/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtfastmath.o": 2904, "/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtbeginT.o": 2276, "/usr/lib/arm-poky-linux-gnueabi/7.3.0/libgcc_eh.a": 92776, "/usr/lib/arm-poky-linux-gnueabi/7.3.0/crtend.o": 980}
+PKGSIZE_libgcc-dev: 25859372

@@ -1,0 +1,1 @@
+cmd_applets/built-in.o :=  arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot  -r -nostdlib -o applets/built-in.o applets/applets.o

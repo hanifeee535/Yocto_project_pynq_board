@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546593.29 
+core-image-minimal-1.0-r0: do_rootfs
+Elapsed time: 15.81 seconds
+utime: 146
+stime: 57
+cutime: 929
+cstime: 374
+IO rchar: 425403757
+IO wchar: 38866511
+IO syscr: 238444
+IO syscw: 148426
+IO read_bytes: 323313664
+IO write_bytes: 28872704
+IO cancelled_write_bytes: 13307904
+rusage ru_utime: 1.467052
+rusage ru_stime: 0.572848
+rusage ru_maxrss: 69364
+rusage ru_minflt: 39850
+rusage ru_majflt: 0
+rusage ru_inblock: 13576
+rusage ru_oublock: 1480
+rusage ru_nvcsw: 17017
+rusage ru_nivcsw: 867
+Child rusage ru_utime: 9.296
+Child rusage ru_stime: 3.744061
+Child rusage ru_maxrss: 65840
+Child rusage ru_minflt: 1073388
+Child rusage ru_majflt: 225
+Child rusage ru_inblock: 617896
+Child rusage ru_oublock: 54912
+Child rusage ru_nvcsw: 77689
+Child rusage ru_nivcsw: 23442
+Status: PASSED 
+Ended: 1734546609.09 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546318.32 
+libxrandr-native-1_1.5.1-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 236677
+IO wchar: 95766
+IO syscr: 196
+IO syscw: 83
+IO read_bytes: 8192
+IO write_bytes: 73728
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.087117
+rusage ru_stime: 0.010889
+rusage ru_maxrss: 62904
+rusage ru_minflt: 6026
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 120
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.010945
+Child rusage ru_stime: 0.003858
+Child rusage ru_maxrss: 60660
+Child rusage ru_minflt: 1763
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1734546318.38 

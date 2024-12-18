@@ -1,0 +1,14 @@
+PN: u-boot-pynq-uenv
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_u-boot-pynq-uenv-staticdev: U-Boot uEnv.txt SD boot environment generation for Zynq targets.  This package contains static libraries for software development.
+SUMMARY_u-boot-pynq-uenv-staticdev: U-Boot uEnv.txt SD boot environment generation for Zynq targets - Development files (Static Libraries)
+RDEPENDS_u-boot-pynq-uenv-staticdev: u-boot-pynq-uenv-dev (= 1.0-r0)
+SECTION_u-boot-pynq-uenv-staticdev: devel
+PKG_u-boot-pynq-uenv-staticdev: u-boot-pynq-uenv-staticdev
+FILES_u-boot-pynq-uenv-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/u-boot-pynq-uenv/*.a
+FILES_INFO: {}
+PKGSIZE_u-boot-pynq-uenv-staticdev: 0

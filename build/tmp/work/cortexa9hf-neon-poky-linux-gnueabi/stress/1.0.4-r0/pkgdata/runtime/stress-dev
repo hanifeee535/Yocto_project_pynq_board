@@ -1,0 +1,16 @@
+PN: stress
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_stress-dev: Deliberately simple workload generator for POSIX systems. It imposes a configurable amount of CPU, memory, I/O, and disk stress on the system.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_stress-dev: System load testing utility - Development files
+RDEPENDS_stress-dev: stress (= 1.0.4-r0)
+RRECOMMENDS_stress-dev: glibc-dev
+SECTION_stress-dev: devel
+PKG_stress-dev: stress-dev
+ALLOW_EMPTY_stress-dev: 1
+FILES_stress-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/stress/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_stress-dev: 0

@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-argparse: Python command line argument parser
+RDEPENDS_python3-argparse: python3-codecs python3-core python3-textutils
+SECTION: devel/python
+PKG_python3-argparse: python3-argparse
+FILES_python3-argparse: /usr/lib/python3.5/argparse.* /usr/lib/python3.5/__pycache__/argparse.* 
+FILES_INFO: {"/usr/lib/python3.5/argparse.py": 90127, "/usr/lib/python3.5/__pycache__/argparse.cpython-35.opt-1.pyc": 65346, "/usr/lib/python3.5/__pycache__/argparse.cpython-35.opt-2.pyc": 56079, "/usr/lib/python3.5/__pycache__/argparse.cpython-35.pyc": 65505}
+PKGSIZE_python3-argparse: 277057

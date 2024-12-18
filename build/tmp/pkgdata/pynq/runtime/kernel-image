@@ -1,0 +1,15 @@
+PN: linux-xlnx
+PV: 4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6
+PR: r0
+PKGV: 4.9-xilinx-v2017.3+git0+f1b1e077d6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Xilinx Kernel
+SUMMARY: Linux kernel
+RDEPENDS_kernel-image: kernel-image-uimage
+RPROVIDES_kernel-image:  kernel-image (=4.9-xilinx-v2017.3+git0+f1b1e077d6)
+SECTION: kernel
+PKG_kernel-image: kernel-image-4.9.0-xilinx-v2017.3
+ALLOW_EMPTY_kernel-image: 1
+FILES_INFO: {}
+PKGSIZE_kernel-image: 0

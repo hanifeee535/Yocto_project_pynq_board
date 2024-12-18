@@ -1,0 +1,23 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz for 9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz;downloadfilename=9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/9f/sstate%3Ashadow-sysroot%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.2.1%3Ar3%3Acortexa9hf-neon%3A3%3A9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz;downloadfilename=9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz
+DEBUG: Searching for 9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz.siginfo for 9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz.siginfo;downloadfilename=9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/9f/sstate%3Ashadow-sysroot%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.2.1%3Ar3%3Acortexa9hf-neon%3A3%3A9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz.siginfo;downloadfilename=9f/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:9fc62b4bf27e7bfe8deabd2b02fc899a_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/shlibs2/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/shadow-sysroot/4.2.1-r3/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

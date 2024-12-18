@@ -1,0 +1,39 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz for 57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz;downloadfilename=57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/57/sstate%3Axproto%3Acortexa9hf-neon-poky-linux-gnueabi%3A7.0.31%3Ar0%3Acortexa9hf-neon%3A3%3A579d86707e9e9b97e3624e32e7284e41_packagedata.tgz;downloadfilename=57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz
+DEBUG: Searching for 57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz.siginfo for 57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz.siginfo;downloadfilename=57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/57/sstate%3Axproto%3Acortexa9hf-neon-poky-linux-gnueabi%3A7.0.31%3Ar0%3Acortexa9hf-neon%3A3%3A579d86707e9e9b97e3624e32e7284e41_packagedata.tgz.siginfo;downloadfilename=57/sstate:xproto:cortexa9hf-neon-poky-linux-gnueabi:7.0.31:r0:cortexa9hf-neon:3:579d86707e9e9b97e3624e32e7284e41_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/xproto-locale
+pkgdata/runtime/xproto-dev
+pkgdata/runtime/xproto-dev.packaged
+pkgdata/runtime/xproto
+pkgdata/runtime/xproto-doc
+pkgdata/runtime/xproto-dbg.packaged
+pkgdata/runtime/xproto-dbg
+pkgdata/runtime/xproto-staticdev
+pkgdata/shlibs2/
+pkgdata/shlibs2/xproto-dev.pclist
+pkgdata/runtime-rprovides/
+pkgdata/xproto
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/xproto-dev
+pkgdata/runtime-reverse/xproto-dbg
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/xproto/1_7.0.31-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz for 8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz;downloadfilename=8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/8d/sstate%3Alinux-xlnx%3A%3A4.9-xilinx-v2017.3%2BgitAUTOINC%2Bf1b1e077d6%3Ar0%3A%3A3%3A8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz;downloadfilename=8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz
+DEBUG: Searching for 8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz.siginfo for 8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz.siginfo;downloadfilename=8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/8d/sstate%3Alinux-xlnx%3A%3A4.9-xilinx-v2017.3%2BgitAUTOINC%2Bf1b1e077d6%3Ar0%3A%3A3%3A8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz.siginfo;downloadfilename=8d/sstate:linux-xlnx::4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6:r0::3:8d063822e1da7a43f50f533ead5d2d57_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/linux-xlnx/
+license-destdir/linux-xlnx/COPYING
+license-destdir/linux-xlnx/recipeinfo
+license-destdir/linux-xlnx/generic_GPLv2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

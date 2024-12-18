@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546303.84 
+bc-native-1.06-r3: do_populate_sysroot_setscene
+Elapsed time: 0.07 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 567991
+IO wchar: 483062
+IO syscr: 240
+IO syscw: 104
+IO read_bytes: 61440
+IO write_bytes: 339968
+IO cancelled_write_bytes: 131072
+rusage ru_utime: 0.083947
+rusage ru_stime: 0.013431
+rusage ru_maxrss: 63044
+rusage ru_minflt: 7347
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 81
+Child rusage ru_utime: 0.018463
+Child rusage ru_stime: 0.002093
+Child rusage ru_maxrss: 60720
+Child rusage ru_minflt: 2073
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 120
+Child rusage ru_oublock: 536
+Child rusage ru_nvcsw: 32
+Child rusage ru_nivcsw: 36
+Status: PASSED 
+Ended: 1734546303.91 

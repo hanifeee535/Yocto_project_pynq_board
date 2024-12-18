@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546311.96 
+sysvinit-inittab-2.88dsf-r10: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 178460
+IO wchar: 77150
+IO syscr: 173
+IO syscw: 63
+IO read_bytes: 8192
+IO write_bytes: 69632
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.06686399999999999
+rusage ru_stime: 0.007429
+rusage ru_maxrss: 62588
+rusage ru_minflt: 5790
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 128
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 43
+Child rusage ru_utime: 0.010794
+Child rusage ru_stime: 0.0008709999999999999
+Child rusage ru_maxrss: 60304
+Child rusage ru_minflt: 1748
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1734546312.02 

@@ -1,0 +1,1 @@
+arch_compat: x86_64: all any noarch x86_64_nativesdk sdk_provides_dummy_nativesdk

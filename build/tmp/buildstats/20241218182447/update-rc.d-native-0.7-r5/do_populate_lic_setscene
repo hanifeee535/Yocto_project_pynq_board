@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546294.11 
+update-rc.d-native-0.7-r5: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 0
+cutime: 0
+cstime: 0
+IO rchar: 214652
+IO wchar: 121335
+IO syscr: 183
+IO syscw: 76
+IO read_bytes: 16384
+IO write_bytes: 86016
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.062582
+rusage ru_stime: 0.008343999999999999
+rusage ru_maxrss: 62668
+rusage ru_minflt: 5908
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 112
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 69
+Child rusage ru_utime: 0.008793
+Child rusage ru_stime: 0.002987
+Child rusage ru_maxrss: 60408
+Child rusage ru_minflt: 1758
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1734546294.16 

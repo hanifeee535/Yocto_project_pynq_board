@@ -1,0 +1,15 @@
+PN: u-boot-digilent
+PE: 1
+PV: 2016.07
+PR: r0
+PKGE: 1
+PKGV: 2016.07
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Universal Boot Loader for embedded devices.
+SUMMARY: Universal Boot Loader for embedded devices
+SECTION: bootloaders
+PKG_u-boot-digilent-locale: u-boot-digilent-locale
+FILES_u-boot-digilent-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_u-boot-digilent-locale: 0

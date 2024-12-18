@@ -1,0 +1,14 @@
+PN: device-tree
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT & GPLv2
+DESCRIPTION_device-tree-dbg: Device Tree generation and packaging for BSP Device Trees.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_device-tree-dbg: Device Trees for BSPs - Debugging files
+SECTION_device-tree-dbg: devel
+PKG_device-tree-dbg: device-tree-dbg
+ALLOW_EMPTY_device-tree-dbg: 1
+FILES_device-tree-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_device-tree-dbg: 0

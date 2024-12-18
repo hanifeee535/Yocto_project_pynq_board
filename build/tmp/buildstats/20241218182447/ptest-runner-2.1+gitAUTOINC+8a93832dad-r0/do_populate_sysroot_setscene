@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546305.64 
+ptest-runner-2.1+gitAUTOINC+8a93832dad-r0: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 5
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 180437
+IO wchar: 79994
+IO syscr: 177
+IO syscw: 65
+IO read_bytes: 12288
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.055779999999999996
+rusage ru_stime: 0.013944999999999999
+rusage ru_maxrss: 62580
+rusage ru_minflt: 5802
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 120
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 39
+Child rusage ru_utime: 0.011559
+Child rusage ru_stime: 0.0011459999999999999
+Child rusage ru_maxrss: 60292
+Child rusage ru_minflt: 1737
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1734546305.69 

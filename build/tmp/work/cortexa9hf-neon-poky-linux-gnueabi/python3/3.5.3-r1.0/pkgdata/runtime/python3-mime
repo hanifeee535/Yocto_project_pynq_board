@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-mime: Python MIME handling APIs
+RDEPENDS_python3-mime: python3-core python3-io
+SECTION: devel/python
+PKG_python3-mime: python3-mime
+FILES_python3-mime: /usr/lib/python3.5/mimetools.* /usr/lib/python3.5/__pycache__/mimetools.* /usr/lib/python3.5/uu.* /usr/lib/python3.5/__pycache__/uu.* /usr/lib/python3.5/quopri.* /usr/lib/python3.5/__pycache__/quopri.* /usr/lib/python3.5/rfc822.* /usr/lib/python3.5/__pycache__/rfc822.* /usr/lib/python3.5/MimeWriter.* /usr/lib/python3.5/__pycache__/MimeWriter.* 
+FILES_INFO: {"/usr/lib/python3.5/uu.py": 6755, "/usr/lib/python3.5/quopri.py": 7254, "/usr/lib/python3.5/__pycache__/uu.cpython-35.opt-1.pyc": 3940, "/usr/lib/python3.5/__pycache__/quopri.cpython-35.opt-2.pyc": 5138, "/usr/lib/python3.5/__pycache__/uu.cpython-35.opt-2.pyc": 3720, "/usr/lib/python3.5/__pycache__/quopri.cpython-35.pyc": 6386, "/usr/lib/python3.5/__pycache__/quopri.cpython-35.opt-1.pyc": 6176, "/usr/lib/python3.5/__pycache__/uu.cpython-35.pyc": 3940}
+FILERDEPENDSFLIST_python3-mime: /usr/lib/python3.5/quopri.py /usr/lib/python3.5/uu.py
+FILERDEPENDS_/usr/lib/python3.5/quopri.py_python3-mime: /usr/bin/env
+FILERDEPENDS_/usr/lib/python3.5/uu.py_python3-mime: /usr/bin/env
+PKGSIZE_python3-mime: 43309

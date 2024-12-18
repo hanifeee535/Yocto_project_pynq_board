@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546294.54 
+u-boot-pynq-uenv-1.0-r0: do_packagedata_setscene
+Elapsed time: 0.05 seconds
+utime: 5
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 184406
+IO wchar: 93473
+IO syscr: 176
+IO syscw: 85
+IO read_bytes: 4096
+IO write_bytes: 86016
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.059323
+rusage ru_stime: 0.010468
+rusage ru_maxrss: 62600
+rusage ru_minflt: 5796
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 75
+Child rusage ru_utime: 0.010105
+Child rusage ru_stime: 0.0023669999999999997
+Child rusage ru_maxrss: 60304
+Child rusage ru_minflt: 1770
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 23
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1734546294.59 

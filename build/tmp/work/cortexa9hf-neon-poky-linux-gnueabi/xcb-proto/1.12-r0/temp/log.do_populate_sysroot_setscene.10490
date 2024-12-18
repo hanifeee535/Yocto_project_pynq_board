@@ -1,0 +1,94 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz for f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz;downloadfilename=f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/f7/sstate%3Axcb-proto%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.12%3Ar0%3Acortexa9hf-neon%3A3%3Af73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz;downloadfilename=f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz
+DEBUG: Searching for f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz.siginfo for f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz.siginfo;downloadfilename=f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/f7/sstate%3Axcb-proto%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.12%3Ar0%3Acortexa9hf-neon%3A3%3Af73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz.siginfo;downloadfilename=f7/sstate:xcb-proto:cortexa9hf-neon-poky-linux-gnueabi:1.12:r0:cortexa9hf-neon:3:f73bacdd06899511eaaf96f68c1a1b26_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/xcb-proto
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/pkgconfig/
+sysroot-destdir/usr/lib/pkgconfig/xcb-proto.pc
+sysroot-destdir/usr/lib/xcb-proto/
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/expr.py
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/state.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/matcher.py
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/error.py
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/xtypes.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/align.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/error.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/matcher.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__init__.py
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__init__.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/state.py
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/xtypes.py
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/xtypes.cpython-36.opt-1.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/expr.cpython-36.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/error.cpython-36.opt-1.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/__init__.cpython-36.opt-1.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/matcher.cpython-36.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/__init__.cpython-36.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/align.cpython-36.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/matcher.cpython-36.opt-1.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/align.cpython-36.opt-1.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/state.cpython-36.opt-1.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/state.cpython-36.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/error.cpython-36.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/expr.cpython-36.opt-1.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/__pycache__/xtypes.cpython-36.pyc
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/align.py
+sysroot-destdir/usr/lib/xcb-proto/xcbgen/expr.pyc
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/xcb/
+sysroot-destdir/usr/share/xcb/xvmc.xml
+sysroot-destdir/usr/share/xcb/composite.xml
+sysroot-destdir/usr/share/xcb/randr.xml
+sysroot-destdir/usr/share/xcb/record.xml
+sysroot-destdir/usr/share/xcb/xinput.xml
+sysroot-destdir/usr/share/xcb/xfixes.xml
+sysroot-destdir/usr/share/xcb/xf86vidmode.xml
+sysroot-destdir/usr/share/xcb/dri2.xml
+sysroot-destdir/usr/share/xcb/xf86dri.xml
+sysroot-destdir/usr/share/xcb/shape.xml
+sysroot-destdir/usr/share/xcb/xv.xml
+sysroot-destdir/usr/share/xcb/xkb.xml
+sysroot-destdir/usr/share/xcb/damage.xml
+sysroot-destdir/usr/share/xcb/bigreq.xml
+sysroot-destdir/usr/share/xcb/present.xml
+sysroot-destdir/usr/share/xcb/xc_misc.xml
+sysroot-destdir/usr/share/xcb/dri3.xml
+sysroot-destdir/usr/share/xcb/xtest.xml
+sysroot-destdir/usr/share/xcb/xcb.xsd
+sysroot-destdir/usr/share/xcb/ge.xml
+sysroot-destdir/usr/share/xcb/xevie.xml
+sysroot-destdir/usr/share/xcb/xprint.xml
+sysroot-destdir/usr/share/xcb/glx.xml
+sysroot-destdir/usr/share/xcb/dpms.xml
+sysroot-destdir/usr/share/xcb/xproto.xml
+sysroot-destdir/usr/share/xcb/xselinux.xml
+sysroot-destdir/usr/share/xcb/res.xml
+sysroot-destdir/usr/share/xcb/sync.xml
+sysroot-destdir/usr/share/xcb/shm.xml
+sysroot-destdir/usr/share/xcb/render.xml
+sysroot-destdir/usr/share/xcb/screensaver.xml
+sysroot-destdir/usr/share/xcb/xinerama.xml
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/xcb-proto/1.12-r0/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/xcb-proto
+DEBUG: Python function do_populate_sysroot_setscene finished

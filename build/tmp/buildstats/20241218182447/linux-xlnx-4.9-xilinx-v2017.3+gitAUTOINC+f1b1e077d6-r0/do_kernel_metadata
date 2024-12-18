@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546359.33 
+linux-xlnx-4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0: do_kernel_metadata
+Elapsed time: 0.42 seconds
+utime: 11
+stime: 0
+cutime: 25
+cstime: 7
+IO rchar: 1174858
+IO wchar: 136316
+IO syscr: 2411
+IO syscw: 305
+IO read_bytes: 1937408
+IO write_bytes: 118784
+IO cancelled_write_bytes: 8192
+rusage ru_utime: 0.11721
+rusage ru_stime: 0.004340999999999999
+rusage ru_maxrss: 63816
+rusage ru_minflt: 4691
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 4
+rusage ru_nivcsw: 33
+Child rusage ru_utime: 0.25536
+Child rusage ru_stime: 0.077503
+Child rusage ru_maxrss: 61260
+Child rusage ru_minflt: 54988
+Child rusage ru_majflt: 10
+Child rusage ru_inblock: 3784
+Child rusage ru_oublock: 112
+Child rusage ru_nvcsw: 1132
+Child rusage ru_nivcsw: 572
+Status: PASSED 
+Ended: 1734546359.74 

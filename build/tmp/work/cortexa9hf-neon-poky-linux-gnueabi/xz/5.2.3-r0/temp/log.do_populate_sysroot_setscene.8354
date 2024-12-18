@@ -1,0 +1,50 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz for 89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz;downloadfilename=89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/89/sstate%3Axz%3Acortexa9hf-neon-poky-linux-gnueabi%3A5.2.3%3Ar0%3Acortexa9hf-neon%3A3%3A89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz;downloadfilename=89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz
+DEBUG: Searching for 89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz.siginfo for 89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz.siginfo;downloadfilename=89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/89/sstate%3Axz%3Acortexa9hf-neon-poky-linux-gnueabi%3A5.2.3%3Ar0%3Acortexa9hf-neon%3A3%3A89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz.siginfo;downloadfilename=89/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:89893e8c48f7cc44df898ff671eafbbf_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/xz
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/pkgconfig/
+sysroot-destdir/usr/lib/pkgconfig/liblzma.pc
+sysroot-destdir/usr/lib/liblzma.so
+sysroot-destdir/usr/lib/liblzma.so.5
+sysroot-destdir/usr/lib/liblzma.so.5.2.3
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/lzma.h
+sysroot-destdir/usr/include/lzma/
+sysroot-destdir/usr/include/lzma/container.h
+sysroot-destdir/usr/include/lzma/check.h
+sysroot-destdir/usr/include/lzma/block.h
+sysroot-destdir/usr/include/lzma/vli.h
+sysroot-destdir/usr/include/lzma/index.h
+sysroot-destdir/usr/include/lzma/filter.h
+sysroot-destdir/usr/include/lzma/base.h
+sysroot-destdir/usr/include/lzma/index_hash.h
+sysroot-destdir/usr/include/lzma/bcj.h
+sysroot-destdir/usr/include/lzma/stream_flags.h
+sysroot-destdir/usr/include/lzma/delta.h
+sysroot-destdir/usr/include/lzma/hardware.h
+sysroot-destdir/usr/include/lzma/lzma12.h
+sysroot-destdir/usr/include/lzma/version.h
+sysroot-destdir/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/xz/5.2.3-r0/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/xz
+DEBUG: Python function do_populate_sysroot_setscene finished

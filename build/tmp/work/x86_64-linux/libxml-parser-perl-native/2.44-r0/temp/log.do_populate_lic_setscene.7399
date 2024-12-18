@@ -1,0 +1,27 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz for 23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz;downloadfilename=23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/23/sstate%3Alibxml-parser-perl-native%3A%3A2.44%3Ar0%3A%3A3%3A23770e55f88d34df9f2cd79189ded819_populate_lic.tgz;downloadfilename=23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz
+DEBUG: Searching for 23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz.siginfo for 23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz.siginfo;downloadfilename=23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/23/sstate%3Alibxml-parser-perl-native%3A%3A2.44%3Ar0%3A%3A3%3A23770e55f88d34df9f2cd79189ded819_populate_lic.tgz.siginfo;downloadfilename=23/sstate:libxml-parser-perl-native::2.44:r0::3:23770e55f88d34df9f2cd79189ded819_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/libxml-parser-perl-native/
+license-destdir/libxml-parser-perl-native/README
+license-destdir/libxml-parser-perl-native/generic_GPL-1.0
+license-destdir/libxml-parser-perl-native/generic_Artistic-1.0
+license-destdir/libxml-parser-perl-native/recipeinfo
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libxml-parser-perl-native/2.44-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

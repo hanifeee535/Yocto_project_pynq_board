@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-om-ke: binary locale definition for om-ke
+SUMMARY_glibc-binary-localedata-om-ke: binary locale definition for om-ke
+SECTION: base
+PKG_glibc-binary-localedata-om-ke: glibc-binary-localedata-om-ke
+FILES_glibc-binary-localedata-om-ke: /usr/lib/locale/om_KE
+FILES_INFO: {"/usr/lib/locale/om_KE/LC_TELEPHONE": 57, "/usr/lib/locale/om_KE/LC_NAME": 68, "/usr/lib/locale/om_KE/LC_ADDRESS": 129, "/usr/lib/locale/om_KE/LC_MEASUREMENT": 23, "/usr/lib/locale/om_KE/LC_TIME": 2558, "/usr/lib/locale/om_KE/LC_IDENTIFICATION": 395, "/usr/lib/locale/om_KE/LC_COLLATE": 1245978, "/usr/lib/locale/om_KE/LC_NUMERIC": 54, "/usr/lib/locale/om_KE/LC_MONETARY": 294, "/usr/lib/locale/om_KE/LC_CTYPE": 330604, "/usr/lib/locale/om_KE/LC_PAPER": 34, "/usr/lib/locale/om_KE/LC_MESSAGES/SYS_LC_MESSAGES": 66}
+PKGSIZE_glibc-binary-localedata-om-ke: 1580260

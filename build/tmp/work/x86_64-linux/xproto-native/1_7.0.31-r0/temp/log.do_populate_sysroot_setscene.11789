@@ -1,0 +1,56 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz for universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz;downloadfilename=universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/09/sstate%3Axproto-native%3Ax86_64-linux%3A7.0.31%3Ar0%3Ax86_64%3A3%3A095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz;downloadfilename=universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz
+DEBUG: Searching for universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz.siginfo for universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz.siginfo;downloadfilename=universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/09/sstate%3Axproto-native%3Ax86_64-linux%3A7.0.31%3Ar0%3Ax86_64%3A3%3A095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz.siginfo;downloadfilename=universal/09/sstate:xproto-native:x86_64-linux:7.0.31:r0:x86_64:3:095f97a8130ea3ed1ebc9f4539ae99f6_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/xproto-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/usr/lib/pkgconfig/xproto.pc
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/X11/
+recipe-sysroot-native/usr/include/X11/Xproto.h
+recipe-sysroot-native/usr/include/X11/Xfuncproto.h
+recipe-sysroot-native/usr/include/X11/Xarch.h
+recipe-sysroot-native/usr/include/X11/Xfuncs.h
+recipe-sysroot-native/usr/include/X11/Xdefs.h
+recipe-sysroot-native/usr/include/X11/Xw32defs.h
+recipe-sysroot-native/usr/include/X11/Xmd.h
+recipe-sysroot-native/usr/include/X11/Xos.h
+recipe-sysroot-native/usr/include/X11/Xpoll.h
+recipe-sysroot-native/usr/include/X11/HPkeysym.h
+recipe-sysroot-native/usr/include/X11/X.h
+recipe-sysroot-native/usr/include/X11/Sunkeysym.h
+recipe-sysroot-native/usr/include/X11/Xalloca.h
+recipe-sysroot-native/usr/include/X11/Xwinsock.h
+recipe-sysroot-native/usr/include/X11/Xthreads.h
+recipe-sysroot-native/usr/include/X11/ap_keysym.h
+recipe-sysroot-native/usr/include/X11/DECkeysym.h
+recipe-sysroot-native/usr/include/X11/XF86keysym.h
+recipe-sysroot-native/usr/include/X11/keysymdef.h
+recipe-sysroot-native/usr/include/X11/Xwindows.h
+recipe-sysroot-native/usr/include/X11/Xprotostr.h
+recipe-sysroot-native/usr/include/X11/Xatom.h
+recipe-sysroot-native/usr/include/X11/keysym.h
+recipe-sysroot-native/usr/include/X11/Xosdefs.h
+recipe-sysroot-native/usr/include/X11/Xos_r.h
+recipe-sysroot-native/usr/include/X11/XWDFile.h
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/xproto-native/1_7.0.31-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/xproto-native/1_7.0.31-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/xproto-native
+DEBUG: Python function do_populate_sysroot_setscene finished

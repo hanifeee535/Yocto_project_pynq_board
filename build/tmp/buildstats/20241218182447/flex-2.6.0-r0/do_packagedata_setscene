@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546325.82 
+flex-2.6.0-r0: do_packagedata_setscene
+Elapsed time: 0.08 seconds
+utime: 6
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 448383
+IO wchar: 418097
+IO syscr: 218
+IO syscw: 285
+IO read_bytes: 16384
+IO write_bytes: 270336
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.066167
+rusage ru_stime: 0.012405999999999999
+rusage ru_maxrss: 62872
+rusage ru_minflt: 5972
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 160
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 92
+Child rusage ru_utime: 0.013809
+Child rusage ru_stime: 0.005953
+Child rusage ru_maxrss: 60580
+Child rusage ru_minflt: 1764
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 368
+Child rusage ru_nvcsw: 37
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1734546325.90 

@@ -1,0 +1,1 @@
+cmd_drivers/fpga/built-in.o :=  arm-poky-linux-gnueabi-ld.bfd      -r -o drivers/fpga/built-in.o drivers/fpga/fpga-mgr.o drivers/fpga/zynq-fpga.o drivers/fpga/fpga-bridge.o drivers/fpga/xilinx-pr-decoupler.o drivers/fpga/fpga-region.o 

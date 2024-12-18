@@ -1,0 +1,29 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz for universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz;downloadfilename=universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/92/sstate%3Abc-native%3Ax86_64-linux%3A1.06%3Ar3%3Ax86_64%3A3%3A922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz;downloadfilename=universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz
+DEBUG: Searching for universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz.siginfo for universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz.siginfo;downloadfilename=universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/92/sstate%3Abc-native%3Ax86_64-linux%3A1.06%3Ar3%3Ax86_64%3A3%3A922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz.siginfo;downloadfilename=universal/92/sstate:bc-native:x86_64-linux:1.06:r3:x86_64:3:922cb026aa659892b31a29f75c17df1b_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/bc-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/dc
+recipe-sysroot-native/usr/bin/bc
+recipe-sysroot-native/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/bc-native/1.06-r3/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/bc-native/1.06-r3/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/bc-native
+DEBUG: Python function do_populate_sysroot_setscene finished

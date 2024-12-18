@@ -1,0 +1,29 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz for 67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz;downloadfilename=67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/67/sstate%3Alibxml2-native%3A%3A2.9.5%3Ar0%3A%3A3%3A6766216b04fd501407751cf93d40613a_populate_lic.tgz;downloadfilename=67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz
+DEBUG: Searching for 67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz.siginfo for 67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz.siginfo;downloadfilename=67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/67/sstate%3Alibxml2-native%3A%3A2.9.5%3Ar0%3A%3A3%3A6766216b04fd501407751cf93d40613a_populate_lic.tgz.siginfo;downloadfilename=67/sstate:libxml2-native::2.9.5:r0::3:6766216b04fd501407751cf93d40613a_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/libxml2-native/
+license-destdir/libxml2-native/Copyright
+license-destdir/libxml2-native/generic_MIT
+license-destdir/libxml2-native/list.c
+license-destdir/libxml2-native/trio.c
+license-destdir/libxml2-native/hash.c
+license-destdir/libxml2-native/recipeinfo
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libxml2-native/2.9.5-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

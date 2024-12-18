@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546316.11 
+shared-mime-info-1.8-r0: do_packagedata_setscene
+Elapsed time: 0.08 seconds
+utime: 9
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 264121
+IO wchar: 187795
+IO syscr: 193
+IO syscw: 108
+IO read_bytes: 12288
+IO write_bytes: 135168
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.093072
+rusage ru_stime: 0.015479999999999999
+rusage ru_maxrss: 62796
+rusage ru_minflt: 5917
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 53
+Child rusage ru_utime: 0.011504
+Child rusage ru_stime: 0.008934
+Child rusage ru_maxrss: 60508
+Child rusage ru_minflt: 1777
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 144
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 9
+Status: PASSED 
+Ended: 1734546316.19 

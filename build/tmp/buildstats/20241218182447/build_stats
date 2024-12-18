@@ -1,0 +1,5 @@
+Host Info: Linux ubuntu 5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023 x86_64 x86_64 
+Build Started: 1734546289.23 
+Uncompressed Rootfs size: 6.8M	/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs
+Elapsed time: 324.26 seconds 
+CPU usage: 76.3% 

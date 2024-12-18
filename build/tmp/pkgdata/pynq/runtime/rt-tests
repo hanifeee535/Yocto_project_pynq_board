@@ -1,0 +1,28 @@
+PN: rt-tests
+PE: 1
+PV: 1.1
+PR: r0
+PKGE: 1
+PKGV: 1.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv2+
+DESCRIPTION: Real-Time preemption testcases.
+SUMMARY: Real-Time preemption testcases
+RDEPENDS_rt-tests: glibc (>= 2.26)
+SECTION: tests
+PKG_rt-tests: rt-tests
+FILES_rt-tests: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/rt-tests /usr/lib/rt-tests/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/src/backfire
+FILES_INFO: {"/usr/bin/hackbench": 14048, "/usr/bin/pi_stress": 30648, "/usr/bin/cyclictest": 43644, "/usr/bin/pip_stress": 13952, "/usr/bin/rt-migrate-test": 14088, "/usr/bin/ptsematest": 18220, "/usr/bin/svsematest": 22384, "/usr/bin/pmqtest": 18276, "/usr/bin/sigwaittest": 18256, "/usr/bin/signaltest": 18184, "/usr/bin/sendme": 14024, "/usr/src/backfire/Makefile": 427, "/usr/src/backfire/backfire.c": 3826}
+FILERDEPENDSFLIST_rt-tests: /usr/bin/cyclictest /usr/bin/hackbench /usr/bin/pi@underscore@stress /usr/bin/pip@underscore@stress /usr/bin/pmqtest /usr/bin/ptsematest /usr/bin/rt-migrate-test /usr/bin/sendme /usr/bin/signaltest /usr/bin/sigwaittest /usr/bin/svsematest
+FILERDEPENDS_/usr/bin/cyclictest_rt-tests: librt.so.1(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) librt.so.1 libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/hackbench_rt-tests: libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/pi@underscore@stress_rt-tests: librt.so.1(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) librt.so.1 libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/pip@underscore@stress_rt-tests: libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/pmqtest_rt-tests: librt.so.1(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) librt.so.1 libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ptsematest_rt-tests: libc.so.6(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/rt-migrate-test_rt-tests: libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sendme_rt-tests: libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/signaltest_rt-tests: librt.so.1(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) librt.so.1 libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sigwaittest_rt-tests: librt.so.1(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) librt.so.1 libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/svsematest_rt-tests: librt.so.1(GLIBC_2.4) libpthread.so.0(GLIBC_2.4) libc.so.6(GLIBC_2.4) librt.so.1 libpthread.so.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_rt-tests: 229977

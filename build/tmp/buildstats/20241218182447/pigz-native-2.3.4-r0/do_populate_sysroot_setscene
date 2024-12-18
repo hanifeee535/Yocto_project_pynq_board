@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546342.82 
+pigz-native-2.3.4-r0: do_populate_sysroot_setscene
+Elapsed time: 0.08 seconds
+utime: 9
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 535570
+IO wchar: 443807
+IO syscr: 216
+IO syscw: 95
+IO read_bytes: 73728
+IO write_bytes: 311296
+IO cancelled_write_bytes: 118784
+rusage ru_utime: 0.09007799999999999
+rusage ru_stime: 0.016377
+rusage ru_maxrss: 62912
+rusage ru_minflt: 6874
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 120
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 34
+Child rusage ru_utime: 0.015037
+Child rusage ru_stime: 0.006095
+Child rusage ru_maxrss: 60544
+Child rusage ru_minflt: 1926
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 120
+Child rusage ru_oublock: 488
+Child rusage ru_nvcsw: 35
+Child rusage ru_nivcsw: 15
+Status: PASSED 
+Ended: 1734546342.90 

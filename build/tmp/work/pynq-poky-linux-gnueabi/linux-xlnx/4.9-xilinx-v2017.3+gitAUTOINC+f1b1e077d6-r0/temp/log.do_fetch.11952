@@ -1,0 +1,12 @@
+DEBUG: Executing python function clean_recipe_sysroot
+DEBUG: Python function clean_recipe_sysroot finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are []
+NOTE: Installed into sysroot: []
+NOTE: Skipping as already exists in sysroot: []
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Running export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus,guid=ff33af1ea499ca79fbc761ad67630d5d"; export SSH_AGENT_PID="1890"; export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"; export PATH="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/scripts:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot/usr/bin/crossscripts:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/sbin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/sbin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/linux-xlnx/4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0/recipe-sysroot-native/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/bitbake/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools"; export HOME="/home/student"; git -c core.fsyncobjectfiles=0 log --pretty=oneline -n 1 f1b1e077d641fc83b54c1b8f168cbb58044fbd4e -- 2> /dev/null | wc -l
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

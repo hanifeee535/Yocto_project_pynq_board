@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546341.82 
+popt-native-1.16-r3: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 351539
+IO wchar: 244570
+IO syscr: 207
+IO syscw: 101
+IO read_bytes: 40960
+IO write_bytes: 147456
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.084746
+rusage ru_stime: 0.011053
+rusage ru_maxrss: 62932
+rusage ru_minflt: 6072
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 128
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 0.010912999999999999
+Child rusage ru_stime: 0.0027819999999999998
+Child rusage ru_maxrss: 60664
+Child rusage ru_minflt: 1796
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 64
+Child rusage ru_oublock: 160
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1734546341.87 

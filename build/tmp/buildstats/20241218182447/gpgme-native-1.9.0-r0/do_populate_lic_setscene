@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546308.44 
+gpgme-native-1.9.0-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 6
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 343369
+IO wchar: 275598
+IO syscr: 225
+IO syscw: 111
+IO read_bytes: 20480
+IO write_bytes: 167936
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.066787
+rusage ru_stime: 0.015714
+rusage ru_maxrss: 62988
+rusage ru_minflt: 6062
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 94
+Child rusage ru_utime: 0.012721
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 60704
+Child rusage ru_minflt: 1764
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 216
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 37
+Status: PASSED 
+Ended: 1734546308.49 

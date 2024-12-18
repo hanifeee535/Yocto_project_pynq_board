@@ -1,0 +1,39 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz for 0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz;downloadfilename=0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/0e/sstate%3Aptest-runner%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.1%2BgitAUTOINC%2B8a93832dad%3Ar0%3Acortexa9hf-neon%3A3%3A0e6bf7f4b24353172865477b01332fe5_packagedata.tgz;downloadfilename=0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz
+DEBUG: Searching for 0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz.siginfo for 0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz.siginfo;downloadfilename=0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/0e/sstate%3Aptest-runner%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.1%2BgitAUTOINC%2B8a93832dad%3Ar0%3Acortexa9hf-neon%3A3%3A0e6bf7f4b24353172865477b01332fe5_packagedata.tgz.siginfo;downloadfilename=0e/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:0e6bf7f4b24353172865477b01332fe5_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/ptest-runner-staticdev
+pkgdata/runtime/ptest-runner-dev
+pkgdata/runtime/ptest-runner.packaged
+pkgdata/runtime/ptest-runner-dev.packaged
+pkgdata/runtime/ptest-runner-dbg.packaged
+pkgdata/runtime/ptest-runner-doc
+pkgdata/runtime/ptest-runner-dbg
+pkgdata/runtime/ptest-runner
+pkgdata/runtime/ptest-runner-locale
+pkgdata/shlibs2/
+pkgdata/runtime-rprovides/
+pkgdata/ptest-runner
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/ptest-runner-dev
+pkgdata/runtime-reverse/ptest-runner-dbg
+pkgdata/runtime-reverse/ptest-runner
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/ptest-runner/2.1+gitAUTOINC+8a93832dad-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

@@ -1,0 +1,16 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-textutils: Python option parsing, text wrapping and CSV support
+RDEPENDS_python3-textutils: python3-core python3-io python3-re python3-stringold libpython3 (>= 3.5.3) glibc (>= 2.26)
+SECTION: devel/python
+PKG_python3-textutils: python3-textutils
+FILES_python3-textutils: /usr/lib/python3.5/lib-dynload/_csv.*.so /usr/lib/python3.5/lib-dynload/__pycache__/_csv.*.so /usr/lib/python3.5/csv.* /usr/lib/python3.5/__pycache__/csv.* /usr/lib/python3.5/optparse.* /usr/lib/python3.5/__pycache__/optparse.* /usr/lib/python3.5/textwrap.* /usr/lib/python3.5/__pycache__/textwrap.* 
+FILES_INFO: {"/usr/lib/python3.5/csv.py": 16128, "/usr/lib/python3.5/textwrap.py": 19558, "/usr/lib/python3.5/optparse.py": 60344, "/usr/lib/python3.5/lib-dynload/_csv.cpython-35m-arm-linux-gnueabihf.so": 27876, "/usr/lib/python3.5/__pycache__/csv.cpython-35.opt-1.pyc": 12908, "/usr/lib/python3.5/__pycache__/textwrap.cpython-35.opt-1.pyc": 14246, "/usr/lib/python3.5/__pycache__/optparse.cpython-35.opt-1.pyc": 51166, "/usr/lib/python3.5/__pycache__/textwrap.cpython-35.pyc": 14332, "/usr/lib/python3.5/__pycache__/csv.cpython-35.opt-2.pyc": 10857, "/usr/lib/python3.5/__pycache__/optparse.cpython-35.pyc": 51243, "/usr/lib/python3.5/__pycache__/optparse.cpython-35.opt-2.pyc": 38787, "/usr/lib/python3.5/__pycache__/csv.cpython-35.pyc": 12908, "/usr/lib/python3.5/__pycache__/textwrap.cpython-35.opt-2.pyc": 6945}
+FILERDEPENDSFLIST_python3-textutils: /usr/lib/python3.5/lib-dynload/@underscore@csv.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@csv.cpython-35m-arm-linux-gnueabihf.so_python3-textutils: libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_python3-textutils: 337298

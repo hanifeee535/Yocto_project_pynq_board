@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-compression: Python high-level compression support
+RDEPENDS_python3-compression: python3-codecs python3-core python3-importlib python3-shell python3-threading zlib (>= 1.2.11) libpython3 (>= 3.5.3) glibc (>= 2.26)
+SECTION: devel/python
+PKG_python3-compression: python3-compression
+FILES_python3-compression: /usr/lib/python3.5/gzip.* /usr/lib/python3.5/__pycache__/gzip.* /usr/lib/python3.5/zipfile.* /usr/lib/python3.5/__pycache__/zipfile.* /usr/lib/python3.5/tarfile.* /usr/lib/python3.5/__pycache__/tarfile.* /usr/lib/python3.5/lib-dynload/bz2.*.so /usr/lib/python3.5/lib-dynload/__pycache__/bz2.*.so /usr/lib/python3.5/lib-dynload/zlib.*.so /usr/lib/python3.5/lib-dynload/__pycache__/zlib.*.so /usr/lib/python3.5/bz2.py /usr/lib/python3.5/__pycache__/bz2.py /usr/lib/python3.5/lzma.py /usr/lib/python3.5/__pycache__/lzma.py /usr/lib/python3.5/_compression.py /usr/lib/python3.5/__pycache__/_compression.py 
+FILES_INFO: {"/usr/lib/python3.5/bz2.py": 12424, "/usr/lib/python3.5/_compression.py": 5340, "/usr/lib/python3.5/lzma.py": 12925, "/usr/lib/python3.5/tarfile.py": 93058, "/usr/lib/python3.5/gzip.py": 20260, "/usr/lib/python3.5/zipfile.py": 73852, "/usr/lib/python3.5/lib-dynload/zlib.cpython-35m-arm-linux-gnueabihf.so": 22996, "/usr/lib/python3.5/__pycache__/gzip.cpython-35.opt-1.pyc": 17565, "/usr/lib/python3.5/__pycache__/tarfile.cpython-35.opt-2.pyc": 55048, "/usr/lib/python3.5/__pycache__/tarfile.cpython-35.opt-1.pyc": 69067, "/usr/lib/python3.5/__pycache__/zipfile.cpython-35.opt-1.pyc": 49756, "/usr/lib/python3.5/__pycache__/gzip.cpython-35.opt-2.pyc": 13753, "/usr/lib/python3.5/__pycache__/tarfile.cpython-35.pyc": 69067, "/usr/lib/python3.5/__pycache__/gzip.cpython-35.pyc": 17565, "/usr/lib/python3.5/__pycache__/zipfile.cpython-35.pyc": 49838, "/usr/lib/python3.5/__pycache__/zipfile.cpython-35.opt-2.pyc": 44234}
+FILERDEPENDSFLIST_python3-compression: /usr/lib/python3.5/lib-dynload/zlib.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/tarfile.py
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/zlib.cpython-35m-arm-linux-gnueabihf.so_python3-compression: libz.so.1(ZLIB_1.2.0) libc.so.6(GLIBC_2.4) libz.so.1 libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/tarfile.py_python3-compression: /usr/bin/env
+PKGSIZE_python3-compression: 626748

@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz for 5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz;downloadfilename=5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/5e/sstate%3Aprelink-native%3A%3A1.0%2BgitAUTOINC%2Bef20628dd7%3Ar0%3A%3A3%3A5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz;downloadfilename=5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz
+DEBUG: Searching for 5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz.siginfo for 5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz.siginfo;downloadfilename=5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/5e/sstate%3Aprelink-native%3A%3A1.0%2BgitAUTOINC%2Bef20628dd7%3Ar0%3A%3A3%3A5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz.siginfo;downloadfilename=5e/sstate:prelink-native::1.0+gitAUTOINC+ef20628dd7:r0::3:5e35d3d86277966e57f6701a897c14e1_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/prelink-native/
+license-destdir/prelink-native/COPYING
+license-destdir/prelink-native/recipeinfo
+license-destdir/prelink-native/generic_GPLv2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/prelink-native/1.0+gitAUTOINC+ef20628dd7-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

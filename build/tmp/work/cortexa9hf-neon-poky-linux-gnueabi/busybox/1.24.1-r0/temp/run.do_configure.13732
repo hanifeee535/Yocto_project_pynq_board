@@ -1,0 +1,189 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "") echo "WARNING: exit code $ret from a shell command.";;
+        *)  echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from '$BASH_COMMAND'";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export AR="arm-poky-linux-gnueabi-ar"
+export AS="arm-poky-linux-gnueabi-as "
+export BUILD_AR="ar"
+export BUILD_AS="as "
+export BUILD_CC="gcc "
+export BUILD_CCLD="gcc "
+export BUILD_CFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_CPP="gcc  -E"
+export BUILD_CPPFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/include"
+export BUILD_CXX="g++ "
+export BUILD_CXXFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_FC="gfortran "
+export BUILD_LD="ld "
+export BUILD_LDFLAGS="-L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/lib -L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export BUILD_NM="nm"
+export BUILD_RANLIB="ranlib"
+export BUILD_STRIP="strip"
+export CC="arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot"
+export CCACHE_DIR="/home/student/.ccache"
+export CCLD="arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot"
+export CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0=/usr/src/debug/busybox/1.24.1-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot= "
+export CPP="arm-poky-linux-gnueabi-gcc -E --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9"
+export CPPFLAGS=""
+export CXX="arm-poky-linux-gnueabi-g++  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot"
+export CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0=/usr/src/debug/busybox/1.24.1-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot=  -fvisibility-inlines-hidden"
+unset DISTRO
+export EXTRA_CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0=/usr/src/debug/busybox/1.24.1-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot= "
+export EXTRA_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export FC="arm-poky-linux-gnueabi-gfortran  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot"
+export HOME="/home/student"
+export LC_ALL="en_US.UTF-8"
+export LD="arm-poky-linux-gnueabi-ld --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot "
+export LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export LOGNAME="student"
+unset MACHINE
+export MAKE="make"
+export NM="arm-poky-linux-gnueabi-nm"
+export OBJCOPY="arm-poky-linux-gnueabi-objcopy"
+export OBJDUMP="arm-poky-linux-gnueabi-objdump"
+export PATH="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/scripts:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/bin/arm-poky-linux-gnueabi:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot/usr/bin/crossscripts:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/sbin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/sbin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/bitbake/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools"
+export PKG_CONFIG_DIR="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot/usr/lib/pkgconfig"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export PKG_CONFIG_LIBDIR="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot/usr/lib/pkgconfig"
+export PKG_CONFIG_PATH="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot/usr/lib/pkgconfig:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot/usr/share/pkgconfig"
+export PKG_CONFIG_SYSROOT_DIR="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot"
+export PKG_CONFIG_SYSTEM_INCLUDE_PATH="/usr/include"
+export PKG_CONFIG_SYSTEM_LIBRARY_PATH="/lib:/usr/lib"
+export PSEUDO_DISABLED="1"
+export PSEUDO_UNLOAD="1"
+export RANLIB="arm-poky-linux-gnueabi-ranlib"
+export READELF="arm-poky-linux-gnueabi-readelf"
+unset SHELL
+export STRINGS="arm-poky-linux-gnueabi-strings"
+export STRIP="arm-poky-linux-gnueabi-strip"
+unset TARGET_ARCH
+export TARGET_CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0=/usr/src/debug/busybox/1.24.1-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot= "
+export TARGET_CPPFLAGS=""
+export TARGET_CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0=/usr/src/debug/busybox/1.24.1-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot= "
+export TARGET_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export TERM="xterm-256color"
+export TZ="UTC"
+export USER="student"
+export base_bindir="/bin"
+export base_libdir="/lib"
+export base_prefix=""
+export base_sbindir="/sbin"
+export bindir="/usr/bin"
+export datadir="/usr/share"
+export docdir="/usr/share/doc"
+export exec_prefix="/usr"
+export includedir="/usr/include"
+export infodir="/usr/share/info"
+export libdir="/usr/lib"
+export libexecdir="/usr/libexec"
+export localstatedir="/var"
+export mandir="/usr/share/man"
+export nonarch_base_libdir="/lib"
+export nonarch_libdir="/usr/lib"
+export oldincludedir="/usr/include"
+export prefix="/usr"
+export sbindir="/usr/sbin"
+export servicedir="/srv"
+export sharedstatedir="/com"
+export sysconfdir="/etc"
+export systemd_system_unitdir="/lib/systemd/system"
+export systemd_unitdir="/lib/systemd"
+export systemd_user_unitdir="/usr/lib/systemd/user"
+
+do_configure() {
+	do_prepare_config
+	merge_config.sh -m .config /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-core/busybox/busybox/login-utilities.cfg /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-core/busybox/busybox/mount-via-label.cfg /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-core/busybox/busybox/sha1sum.cfg /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-core/busybox/busybox/sha256sum.cfg /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-core/busybox/busybox/getopts.cfg /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-core/busybox/busybox/resize.cfg /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-core/busybox/busybox/syslog.cfg /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/meta-pynq/recipes-core/busybox/files/fragment.cfg
+	cml1_do_configure
+}
+
+cml1_do_configure() {
+	set -e
+	unset CFLAGS CPPFLAGS CXXFLAGS LDFLAGS
+	oe_runmake oldconfig
+}
+
+do_prepare_config() {
+	if [ "$BUILD_REPRODUCIBLE_BINARIES" = "1" ]; then
+		export KCONFIG_NOTIMESTAMP=1
+	fi
+	sed -e '/CONFIG_STATIC/d' \
+		< /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/defconfig > /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/busybox-1.24.1/.config
+	echo "# CONFIG_STATIC is not set" >> .config
+	for i in 'CROSS' 'DISTRO FEATURES'; do echo "### $i"; done >> \
+		/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/busybox-1.24.1/.config
+	sed -i -e '/CONFIG_EXTRA_CFLAGS/d; 		/^[# ]*CONFIG_FEATURE_IPV6[ =]/d
+/^[# ]*CONFIG_LFS[ =]/d
+/^[# ]*CONFIG_FDISK_SUPPORT_LARGE_DISKS[ =]/d
+/^[# ]*CONFIG_LOCALE_SUPPORT[ =]/d
+/^[# ]*CONFIG_FEATURE_IFUPDOWN_IPV4[ =]/d
+/^[# ]*CONFIG_FEATURE_IFUPDOWN_IPV6[ =]/d
+/^[# ]*CONFIG_RFKILL[ =]/d
+/^[# ]*CONFIG_RFKILL[ =]/d
+/^### DISTRO FEATURES$/a\
+CONFIG_FEATURE_IPV6=y\nCONFIG_LFS=y\nCONFIG_FDISK_SUPPORT_LARGE_DISKS=y\n# CONFIG_LOCALE_SUPPORT is not set\nCONFIG_FEATURE_IFUPDOWN_IPV4=y\nCONFIG_FEATURE_IFUPDOWN_IPV6=y\nCONFIG_RFKILL=y\nCONFIG_RFKILL=y
+
+/^### CROSS$/a\
+CONFIG_EXTRA_CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0=/usr/src/debug/busybox/1.24.1-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot=   -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9"
+' /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/busybox-1.24.1/.config
+	if test 1 -eq 0 && test 1 -eq 0; then
+	  # disable networking applets
+	  mv /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/busybox-1.24.1/.config /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/busybox-1.24.1/.config.oe-tmp
+	  awk 'BEGIN{net=0}
+	  /^# Networking Utilities/{net=1}
+	  /^#$/{if(net){net=net+1}}
+	  {if(net==2&&$0 !~ /^#/&&$1){print("# "$1" is not set")}else{print}}' \
+		  /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/busybox-1.24.1/.config.oe-tmp > /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/busybox-1.24.1/.config
+	fi
+	sed -i 's/CONFIG_IFUPDOWN_UDHCPC_CMD_OPTIONS="-R -n"/CONFIG_IFUPDOWN_UDHCPC_CMD_OPTIONS="-R -b"/' /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/busybox-1.24.1/.config
+	sed -i 's|-fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0=/usr/src/debug/busybox/1.24.1-r0 -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native= -fdebug-prefix-map=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot= ||g' /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/busybox-1.24.1/.config
+}
+
+oe_runmake() {
+	oe_runmake_call "$@" || die "oe_runmake failed"
+}
+
+die() {
+	bbfatal_log "$*"
+}
+
+oe_runmake_call() {
+	bbnote make CC='arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot' LD='arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot' V=1 ARCH=arm CROSS_COMPILE=arm-poky-linux-gnueabi- SKIP_STRIP=y HOSTCC='gcc ' HOSTCPP='gcc  -E' "$@"
+	make CC='arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot' LD='arm-poky-linux-gnueabi-gcc  -march=armv7-a -marm -mfpu=neon -mfloat-abi=hard -mcpu=cortex-a9 --sysroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot' V=1 ARCH=arm CROSS_COMPILE=arm-poky-linux-gnueabi- SKIP_STRIP=y HOSTCC='gcc ' HOSTCPP='gcc  -E' "$@"
+}
+
+bbnote() {
+	if [ -p /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/temp/fifo.13732 ] ; then
+		printf "%b\0" "bbnote $*" > /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/temp/fifo.13732
+	else
+		echo "NOTE: $*"
+	fi
+}
+
+bbfatal_log() {
+	if [ -p /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/temp/fifo.13732 ] ; then
+		printf "%b\0" "bbfatal_log $*" > /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/temp/fifo.13732
+	else
+		echo "ERROR: $*"
+	fi
+	exit 1
+}
+
+cd '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/busybox-1.24.1'
+do_configure
+
+# cleanup
+ret=$?
+trap '' 0
+exit $ret

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546303.70 
+u-boot-mkimage-native-1_2017.09-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 670124
+IO wchar: 645463
+IO syscr: 220
+IO syscw: 98
+IO read_bytes: 90112
+IO write_bytes: 450560
+IO cancelled_write_bytes: 188416
+rusage ru_utime: 0.076509
+rusage ru_stime: 0.010433
+rusage ru_maxrss: 62824
+rusage ru_minflt: 6816
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 47
+Child rusage ru_utime: 0.014247999999999999
+Child rusage ru_stime: 0.004464
+Child rusage ru_maxrss: 60460
+Child rusage ru_minflt: 1976
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 176
+Child rusage ru_oublock: 752
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 43
+Status: PASSED 
+Ended: 1734546303.76 

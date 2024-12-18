@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546298.92 
+glib-2.0-native-1_2.52.3-r0: do_populate_lic_setscene
+Elapsed time: 0.09 seconds
+utime: 10
+stime: 1
+cutime: 1
+cstime: 1
+IO rchar: 309550
+IO wchar: 219282
+IO syscr: 242
+IO syscw: 126
+IO read_bytes: 20480
+IO write_bytes: 151552
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.105907
+rusage ru_stime: 0.015129
+rusage ru_maxrss: 63160
+rusage ru_minflt: 6166
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 120
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 104
+Child rusage ru_utime: 0.012329999999999999
+Child rusage ru_stime: 0.010001999999999999
+Child rusage ru_maxrss: 60884
+Child rusage ru_minflt: 1774
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 176
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1734546299.01 

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546304.84 
+sysvinit-2.88dsf-r14: do_package_write_rpm_setscene
+Elapsed time: 0.06 seconds
+utime: 5
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 704197
+IO wchar: 636121
+IO syscr: 219
+IO syscw: 109
+IO read_bytes: 237568
+IO write_bytes: 348160
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.057283
+rusage ru_stime: 0.012275
+rusage ru_maxrss: 62728
+rusage ru_minflt: 5867
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.009601
+Child rusage ru_stime: 0.0038659999999999996
+Child rusage ru_maxrss: 60432
+Child rusage ru_minflt: 1722
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 464
+Child rusage ru_oublock: 568
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1734546304.90 

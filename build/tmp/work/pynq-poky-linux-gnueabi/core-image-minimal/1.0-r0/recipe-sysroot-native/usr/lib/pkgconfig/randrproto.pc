@@ -1,0 +1,9 @@
+prefix=${pcfiledir}/../../../usr
+exec_prefix=${pcfiledir}/../../../usr
+libdir=${pcfiledir}/../../../usr/lib
+includedir=${pcfiledir}/../../../usr/include
+ 
+Name: RandrProto
+Description: Randr extension headers
+Version: 1.5.0
+Cflags: -I${includedir}

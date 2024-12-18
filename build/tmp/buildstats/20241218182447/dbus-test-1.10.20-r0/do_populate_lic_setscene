@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546326.07 
+dbus-test-1.10.20-r0: do_populate_lic_setscene
+Elapsed time: 0.06 seconds
+utime: 6
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 297017
+IO wchar: 205385
+IO syscr: 196
+IO syscw: 88
+IO read_bytes: 16384
+IO write_bytes: 126976
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.064984
+rusage ru_stime: 0.019112
+rusage ru_maxrss: 62852
+rusage ru_minflt: 5961
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 101
+Child rusage ru_utime: 0.009245999999999999
+Child rusage ru_stime: 0.003355
+Child rusage ru_maxrss: 60544
+Child rusage ru_minflt: 1767
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 144
+Child rusage ru_nvcsw: 27
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1734546326.13 

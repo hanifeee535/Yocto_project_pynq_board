@@ -1,0 +1,52 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz for 49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz;downloadfilename=49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/49/sstate%3Asqlite3%3Acortexa9hf-neon-poky-linux-gnueabi%3A3.20.0%3Ar0%3Acortexa9hf-neon%3A3%3A49354449d2187769b2b3af24548edcb9_packagedata.tgz;downloadfilename=49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz
+DEBUG: Searching for 49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz.siginfo for 49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz.siginfo;downloadfilename=49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/49/sstate%3Asqlite3%3Acortexa9hf-neon-poky-linux-gnueabi%3A3.20.0%3Ar0%3Acortexa9hf-neon%3A3%3A49354449d2187769b2b3af24548edcb9_packagedata.tgz.siginfo;downloadfilename=49/sstate:sqlite3:cortexa9hf-neon-poky-linux-gnueabi:3.20.0:r0:cortexa9hf-neon:3:49354449d2187769b2b3af24548edcb9_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/libsqlite3-staticdev.packaged
+pkgdata/runtime/sqlite3-dbg
+pkgdata/runtime/libsqlite3-doc.packaged
+pkgdata/runtime/sqlite3-dbg.packaged
+pkgdata/runtime/libsqlite3-dev
+pkgdata/runtime/libsqlite3-dev.packaged
+pkgdata/runtime/libsqlite3
+pkgdata/runtime/libsqlite3-staticdev
+pkgdata/runtime/libsqlite3-doc
+pkgdata/runtime/sqlite3.packaged
+pkgdata/runtime/sqlite3
+pkgdata/runtime/libsqlite3.packaged
+pkgdata/shlibs2/
+pkgdata/shlibs2/libsqlite3-dev.pclist
+pkgdata/shlibs2/libsqlite3.list
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/(=3.20.0)/
+pkgdata/runtime-rprovides/(=3.20.0)/libsqlite3
+pkgdata/runtime-rprovides/libsqlite3/
+pkgdata/runtime-rprovides/libsqlite3/libsqlite3
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/libsqlite3-0
+pkgdata/runtime-reverse/sqlite3-dbg
+pkgdata/runtime-reverse/libsqlite3-dev
+pkgdata/runtime-reverse/libsqlite3-staticdev
+pkgdata/runtime-reverse/libsqlite3-doc
+pkgdata/runtime-reverse/sqlite3
+pkgdata/sqlite3
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/sqlite3/3_3.20.0-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

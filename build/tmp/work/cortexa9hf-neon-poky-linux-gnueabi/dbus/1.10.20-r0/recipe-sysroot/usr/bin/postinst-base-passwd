@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Install passwd.master and group.master to sysconfdir
+install -d -m 755 /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/recipe-sysroot/etc
+for i in passwd group; do
+	install -p -m 644 /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/recipe-sysroot/usr/share/base-passwd/$i.master 		/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/recipe-sysroot/etc/$i
+done
+
+# Run any useradd postinsts
+for script in /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dbus/1.10.20-r0/recipe-sysroot/usr/bin/postinst-useradd-*; do
+	if [ -f $script ]; then
+		$script
+	fi
+done
+

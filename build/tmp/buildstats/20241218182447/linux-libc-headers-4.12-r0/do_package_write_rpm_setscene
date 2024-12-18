@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546300.83 
+linux-libc-headers-4.12-r0: do_package_write_rpm_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 2082788
+IO wchar: 2048784
+IO syscr: 328
+IO syscw: 196
+IO read_bytes: 913408
+IO write_bytes: 1044480
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.077551
+rusage ru_stime: 0.0
+rusage ru_maxrss: 62648
+rusage ru_minflt: 5885
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.011824
+Child rusage ru_stime: 0.005993999999999999
+Child rusage ru_maxrss: 60416
+Child rusage ru_minflt: 1721
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1784
+Child rusage ru_oublock: 1928
+Child rusage ru_nvcsw: 55
+Child rusage ru_nivcsw: 41
+Status: PASSED 
+Ended: 1734546300.89 

@@ -1,0 +1,39 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz for 0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz;downloadfilename=0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/0b/sstate%3Au-boot-pynq-uenv%3Apynq-poky-linux-gnueabi%3A1.0%3Ar0%3Apynq%3A3%3A0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz;downloadfilename=0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz
+DEBUG: Searching for 0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz.siginfo for 0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz.siginfo;downloadfilename=0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/0b/sstate%3Au-boot-pynq-uenv%3Apynq-poky-linux-gnueabi%3A1.0%3Ar0%3Apynq%3A3%3A0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz.siginfo;downloadfilename=0b/sstate:u-boot-pynq-uenv:pynq-poky-linux-gnueabi:1.0:r0:pynq:3:0b4467be45a6d2a87763962bce6aabb4_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/u-boot-pynq-uenv-doc
+pkgdata/runtime/u-boot-pynq-uenv-staticdev
+pkgdata/runtime/u-boot-pynq-uenv-locale
+pkgdata/runtime/u-boot-pynq-uenv-dbg
+pkgdata/runtime/u-boot-pynq-uenv-dev.packaged
+pkgdata/runtime/u-boot-pynq-uenv
+pkgdata/runtime/u-boot-pynq-uenv-dbg.packaged
+pkgdata/runtime/u-boot-pynq-uenv-dev
+pkgdata/runtime/u-boot-pynq-uenv.packaged
+pkgdata/shlibs2/
+pkgdata/runtime-rprovides/
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/u-boot-pynq-uenv-dbg
+pkgdata/runtime-reverse/u-boot-pynq-uenv
+pkgdata/runtime-reverse/u-boot-pynq-uenv-dev
+pkgdata/u-boot-pynq-uenv
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/u-boot-pynq-uenv/1.0-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546344.97 
+binutils-cross-arm-2.29.1-r0: do_populate_sysroot_setscene
+Elapsed time: 0.41 seconds
+utime: 6
+stime: 3
+cutime: 13
+cstime: 11
+IO rchar: 59947343
+IO wchar: 75019814
+IO syscr: 3730
+IO syscw: 3363
+IO read_bytes: 9539584
+IO write_bytes: 50630656
+IO cancelled_write_bytes: 22274048
+rusage ru_utime: 0.064916
+rusage ru_stime: 0.030749
+rusage ru_maxrss: 62712
+rusage ru_minflt: 12579
+rusage ru_majflt: 0
+rusage ru_inblock: 72
+rusage ru_oublock: 160
+rusage ru_nvcsw: 90
+rusage ru_nivcsw: 89
+Child rusage ru_utime: 0.133853
+Child rusage ru_stime: 0.117062
+Child rusage ru_maxrss: 60392
+Child rusage ru_minflt: 10483
+Child rusage ru_majflt: 4
+Child rusage ru_inblock: 18560
+Child rusage ru_oublock: 98728
+Child rusage ru_nvcsw: 791
+Child rusage ru_nivcsw: 830
+Status: PASSED 
+Ended: 1734546345.38 

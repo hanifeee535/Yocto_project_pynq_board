@@ -1,0 +1,31 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz for c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', 'c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz;downloadfilename=c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/c5/sstate%3Aglibc-initial%3A%3A2.26%3Ar0%3A%3A3%3Ac56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz;downloadfilename=c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz
+DEBUG: Searching for c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz.siginfo for c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz.siginfo;downloadfilename=c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/c5/sstate%3Aglibc-initial%3A%3A2.26%3Ar0%3A%3A3%3Ac56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz.siginfo;downloadfilename=c5/sstate:glibc-initial::2.26:r0::3:c56d56eab5a7080f5694bc6f3e21dbe3_populate_lic.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/glibc-initial/
+license-destdir/glibc-initial/COPYING
+license-destdir/glibc-initial/LICENSES
+license-destdir/glibc-initial/generic_LGPLv2.1
+license-destdir/glibc-initial/COPYING.LIB
+license-destdir/glibc-initial/COPYRIGHT
+license-destdir/glibc-initial/recipeinfo
+license-destdir/glibc-initial/generic_GPLv2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/glibc-initial/2.26-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

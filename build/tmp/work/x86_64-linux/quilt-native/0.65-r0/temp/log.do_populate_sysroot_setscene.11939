@@ -1,0 +1,77 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz for universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz;downloadfilename=universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/27/sstate%3Aquilt-native%3Ax86_64-linux%3A0.65%3Ar0%3Ax86_64%3A3%3A27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz;downloadfilename=universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz
+DEBUG: Searching for universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz.siginfo for universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz.siginfo;downloadfilename=universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/27/sstate%3Aquilt-native%3Ax86_64-linux%3A0.65%3Ar0%3Ax86_64%3A3%3A27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz.siginfo;downloadfilename=universal/27/sstate:quilt-native:x86_64-linux:0.65:r0:x86_64:3:27e3dbf77de1ee57de43434aebb794eb_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/quilt-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/quilt
+recipe-sysroot-native/usr/bin/guards
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/share/quilt/
+recipe-sysroot-native/usr/share/quilt/top
+recipe-sysroot-native/usr/share/quilt/graph
+recipe-sysroot-native/usr/share/quilt/setup
+recipe-sysroot-native/usr/share/quilt/add
+recipe-sysroot-native/usr/share/quilt/snapshot
+recipe-sysroot-native/usr/share/quilt/files
+recipe-sysroot-native/usr/share/quilt/previous
+recipe-sysroot-native/usr/share/quilt/scripts/
+recipe-sysroot-native/usr/share/quilt/scripts/backup-files
+recipe-sysroot-native/usr/share/quilt/scripts/remove-trailing-ws
+recipe-sysroot-native/usr/share/quilt/scripts/inspect-wrapper
+recipe-sysroot-native/usr/share/quilt/scripts/edmail
+recipe-sysroot-native/usr/share/quilt/scripts/patchfns
+recipe-sysroot-native/usr/share/quilt/scripts/dependency-graph
+recipe-sysroot-native/usr/share/quilt/scripts/utilfns
+recipe-sysroot-native/usr/share/quilt/delete
+recipe-sysroot-native/usr/share/quilt/grep
+recipe-sysroot-native/usr/share/quilt/upgrade
+recipe-sysroot-native/usr/share/quilt/refresh
+recipe-sysroot-native/usr/share/quilt/diff
+recipe-sysroot-native/usr/share/quilt/annotate
+recipe-sysroot-native/usr/share/quilt/unapplied
+recipe-sysroot-native/usr/share/quilt/push
+recipe-sysroot-native/usr/share/quilt/series
+recipe-sysroot-native/usr/share/quilt/edit
+recipe-sysroot-native/usr/share/quilt/mail
+recipe-sysroot-native/usr/share/quilt/rename
+recipe-sysroot-native/usr/share/quilt/compat/
+recipe-sysroot-native/usr/share/quilt/compat/sendmail
+recipe-sysroot-native/usr/share/quilt/compat/column
+recipe-sysroot-native/usr/share/quilt/pop
+recipe-sysroot-native/usr/share/quilt/fork
+recipe-sysroot-native/usr/share/quilt/import
+recipe-sysroot-native/usr/share/quilt/remove
+recipe-sysroot-native/usr/share/quilt/revert
+recipe-sysroot-native/usr/share/quilt/new
+recipe-sysroot-native/usr/share/quilt/header
+recipe-sysroot-native/usr/share/quilt/applied
+recipe-sysroot-native/usr/share/quilt/next
+recipe-sysroot-native/usr/share/quilt/fold
+recipe-sysroot-native/usr/share/quilt/patches
+recipe-sysroot-native/etc/
+recipe-sysroot-native/etc/quilt.quiltrc
+recipe-sysroot-native/etc/quiltrc
+recipe-sysroot-native/etc/bash_completion.d/
+recipe-sysroot-native/etc/bash_completion.d/quilt
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/quilt-native/0.65-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/quilt-native/0.65-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/quilt-native
+DEBUG: Python function do_populate_sysroot_setscene finished

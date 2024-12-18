@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546302.94 
+libgcc-7.3.0-r0: do_package_write_rpm_setscene
+Elapsed time: 0.07 seconds
+utime: 9
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 1620605
+IO wchar: 1503100
+IO syscr: 307
+IO syscw: 175
+IO read_bytes: 688128
+IO write_bytes: 774144
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.092162
+rusage ru_stime: 0.025932999999999998
+rusage ru_maxrss: 62900
+rusage ru_minflt: 5967
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 48
+Child rusage ru_utime: 0.017903
+Child rusage ru_stime: 0.0035169999999999997
+Child rusage ru_maxrss: 60612
+Child rusage ru_minflt: 1738
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1344
+Child rusage ru_oublock: 1392
+Child rusage ru_nvcsw: 48
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1734546303.01 

@@ -1,0 +1,31 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/pseudo/pseudo_1.8.2.bb:do_populate_sysroot', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/binutils/binutils-cross_2.29.1.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['binutils-cross-arm', 'flex-native', 'bison-native']
+NOTE: Skipping as already exists in sysroot: ['pseudo-native', 'quilt-native', 'gnu-config-native', 'zlib-native', 'autoconf-native', 'texinfo-dummy-native', 'gettext-minimal-native', 'automake-native', 'libtool-native', 'xz-native', 'm4-native']
+DEBUG: sed -e 's:^[^/]*/:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot-native/:g' /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/bison-native/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIRTARGET:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot:g; s:FIXMESTAGINGDIRHOST:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot-native:g' -e 's:FIXME_COMPONENTS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components:g' -e 's:FIXME_HOSTTOOLS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools:g' -e 's:FIXME_PKGDATA_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq:g' -e 's:FIXME_PSEUDO_LOCALSTATEDIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/pseudo/:g' -e 's:FIXME_LOGFIFO:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/temp/fifo.66153:g'
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_package_qa
+NOTE: DO PACKAGE QA
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+NOTE: Checking Package: packagegroup-core-boot-dbg
+NOTE: Checking Package: packagegroup-core-boot-dev
+NOTE: Checking Package: packagegroup-core-boot
+NOTE: Checking Package: packagegroup-core-boot-ptest
+NOTE: DONE with PACKAGE QA
+DEBUG: Python function do_package_qa finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/sstate-build-package_qa/ \( -name "*.la" -o -name "*-config" -o -name "*_config" -o -name "postinst-*" \) -type f | xargs grep -l -e '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot' -e '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools' | tee /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/sstate-build-package_qa/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot:FIXMESTAGINGDIRTARGET:g' -e 's:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools:FIXME_HOSTTOOLS_DIR:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function sstate_task_postfunc finished

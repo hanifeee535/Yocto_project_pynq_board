@@ -1,0 +1,27 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz for 88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz;downloadfilename=88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/88/sstate%3Alibpthread-stubs%3A%3A0.4%3Ar0%3A%3A3%3A8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz;downloadfilename=88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz
+DEBUG: Searching for 88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz.siginfo for 88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz.siginfo;downloadfilename=88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/88/sstate%3Alibpthread-stubs%3A%3A0.4%3Ar0%3A%3A3%3A8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz.siginfo;downloadfilename=88/sstate:libpthread-stubs::0.4:r0::3:8825ed752a6cbcc19cfbef9200b8a465_populate_lic.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/libpthread-stubs/
+license-destdir/libpthread-stubs/COPYING
+license-destdir/libpthread-stubs/generic_MIT
+license-destdir/libpthread-stubs/recipeinfo
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/libpthread-stubs/0.4-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

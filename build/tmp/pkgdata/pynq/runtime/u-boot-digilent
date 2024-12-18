@@ -1,0 +1,15 @@
+PN: u-boot-digilent
+PE: 1
+PV: 2016.07
+PR: r0
+PKGE: 1
+PKGV: 2016.07
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Universal Boot Loader for embedded devices.
+SUMMARY: Universal Boot Loader for embedded devices
+SECTION: bootloaders
+PKG_u-boot-digilent: u-boot-digilent
+FILES_u-boot-digilent: /boot /etc
+FILES_INFO: {"/boot/boot.bin-pynq-2016.07-r0": 78596, "/boot/u-boot-pynq-2016.07-r0.elf": 3590856, "/boot/boot.bin": 24, "/boot/u-boot.elf": 26, "/boot/u-boot.img": 26, "/boot/u-boot-pynq-2016.07-r0.img": 458356}
+PKGSIZE_u-boot-digilent: 4127884

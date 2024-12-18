@@ -1,0 +1,20 @@
+PN: ncurses
+PV: 6.0+20171125
+PR: r0
+PKGV: 6.0+20171125
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_ncurses-libpanel: ncurses panel library
+SUMMARY_ncurses-libpanel: ncurses panel library
+RDEPENDS_ncurses-libpanel: glibc (>= 2.26) ncurses-libncurses (>= 6.0+20171125) ncurses-libtinfo (>= 6.0+20171125)
+RPROVIDES_ncurses-libpanel:  ncurses-libpanel (=6.0+20171125)
+SECTION: libs
+PKG_ncurses-libpanel: libpanel5
+FILES_ncurses-libpanel: /usr/lib/libpanel.so.5 /usr/lib/libpanel.so.5.9
+pkg_postinst_ncurses-libpanel: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_ncurses-libpanel: /usr/lib/libpanel.so.5.9
+FILES_INFO: {"/usr/lib/libpanel.so.5": 15, "/usr/lib/libpanel.so.5.9": 9484}
+FILERPROVIDES_/usr/lib/libpanel.so.5.9_ncurses-libpanel: libpanel.so.5
+FILERDEPENDSFLIST_ncurses-libpanel: /usr/lib/libpanel.so.5.9
+FILERDEPENDS_/usr/lib/libpanel.so.5.9_ncurses-libpanel: libc.so.6(GLIBC_2.4) libc.so.6 libncurses.so.5 libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_ncurses-libpanel: 9499

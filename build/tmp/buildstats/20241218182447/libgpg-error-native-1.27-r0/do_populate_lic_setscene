@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546317.84 
+libgpg-error-native-1.27-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 0
+cutime: 0
+cstime: 0
+IO rchar: 343440
+IO wchar: 274079
+IO syscr: 212
+IO syscw: 105
+IO read_bytes: 24576
+IO write_bytes: 172032
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07980999999999999
+rusage ru_stime: 0.008401
+rusage ru_maxrss: 62948
+rusage ru_minflt: 6022
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 120
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 74
+Child rusage ru_utime: 0.006625
+Child rusage ru_stime: 0.008721
+Child rusage ru_maxrss: 60676
+Child rusage ru_minflt: 1777
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 216
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1734546317.89 

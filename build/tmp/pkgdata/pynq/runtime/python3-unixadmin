@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-unixadmin: Python Unix administration support
+RDEPENDS_python3-unixadmin: python3-core libpython3 (>= 3.5.3) glibc (>= 2.26)
+SECTION: devel/python
+PKG_python3-unixadmin: python3-unixadmin
+FILES_python3-unixadmin: /usr/lib/python3.5/lib-dynload/nis.*.so /usr/lib/python3.5/lib-dynload/__pycache__/nis.*.so /usr/lib/python3.5/lib-dynload/grp.*.so /usr/lib/python3.5/lib-dynload/__pycache__/grp.*.so /usr/lib/python3.5/lib-dynload/pwd.*.so /usr/lib/python3.5/lib-dynload/__pycache__/pwd.*.so /usr/lib/python3.5/getpass.* /usr/lib/python3.5/__pycache__/getpass.* 
+FILES_INFO: {"/usr/lib/python3.5/getpass.py": 6052, "/usr/lib/python3.5/lib-dynload/grp.cpython-35m-arm-linux-gnueabihf.so": 11024, "/usr/lib/python3.5/lib-dynload/nis.cpython-35m-arm-linux-gnueabihf.so": 10576, "/usr/lib/python3.5/__pycache__/getpass.cpython-35.opt-1.pyc": 4544, "/usr/lib/python3.5/__pycache__/getpass.cpython-35.opt-2.pyc": 3299, "/usr/lib/python3.5/__pycache__/getpass.cpython-35.pyc": 4544}
+FILERDEPENDSFLIST_python3-unixadmin: /usr/lib/python3.5/lib-dynload/grp.cpython-35m-arm-linux-gnueabihf.so /usr/lib/python3.5/lib-dynload/nis.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/grp.cpython-35m-arm-linux-gnueabihf.so_python3-unixadmin: libc.so.6(GLIBC_2.4) libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/nis.cpython-35m-arm-linux-gnueabihf.so_python3-unixadmin: libnsl.so.1(GLIBC_2.4) libc.so.6(GLIBC_2.4) libnsl.so.1 libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_python3-unixadmin: 40039

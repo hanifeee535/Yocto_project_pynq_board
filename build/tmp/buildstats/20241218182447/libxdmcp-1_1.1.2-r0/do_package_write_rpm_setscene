@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546338.94 
+libxdmcp-1_1.1.2-r0: do_package_write_rpm_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 344246
+IO wchar: 233807
+IO syscr: 199
+IO syscw: 88
+IO read_bytes: 49152
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.073336
+rusage ru_stime: 0.007718999999999999
+rusage ru_maxrss: 62812
+rusage ru_minflt: 5914
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 25
+Child rusage ru_utime: 0.012397
+Child rusage ru_stime: 0.001179
+Child rusage ru_maxrss: 60524
+Child rusage ru_minflt: 1743
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 96
+Child rusage ru_oublock: 168
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 21
+Status: PASSED 
+Ended: 1734546338.99 

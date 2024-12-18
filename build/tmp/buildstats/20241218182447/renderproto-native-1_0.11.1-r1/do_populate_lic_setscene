@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546334.72 
+renderproto-native-1_0.11.1-r1: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 239817
+IO wchar: 93849
+IO syscr: 195
+IO syscw: 83
+IO read_bytes: 4096
+IO write_bytes: 73728
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.072375
+rusage ru_stime: 0.018092999999999998
+rusage ru_maxrss: 62904
+rusage ru_minflt: 6006
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 79
+Child rusage ru_utime: 0.00896
+Child rusage ru_stime: 0.002856
+Child rusage ru_maxrss: 60660
+Child rusage ru_minflt: 1752
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1734546334.77 

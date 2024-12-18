@@ -1,0 +1,35 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz for universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz;downloadfilename=universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/f0/sstate%3Apixman-native%3Ax86_64-linux%3A0.34.0%3Ar0%3Ax86_64%3A3%3Af03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz;downloadfilename=universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz
+DEBUG: Searching for universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz.siginfo for universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz.siginfo;downloadfilename=universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/f0/sstate%3Apixman-native%3Ax86_64-linux%3A0.34.0%3Ar0%3Ax86_64%3A3%3Af03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz.siginfo;downloadfilename=universal/f0/sstate:pixman-native:x86_64-linux:0.34.0:r0:x86_64:3:f03bcca5cedf93495a049fbba4c66abd_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/pixman-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/libpixman-1.so.0
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/usr/lib/pkgconfig/pixman-1.pc
+recipe-sysroot-native/usr/lib/libpixman-1.so
+recipe-sysroot-native/usr/lib/libpixman-1.so.0.34.0
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/pixman-1/
+recipe-sysroot-native/usr/include/pixman-1/pixman-version.h
+recipe-sysroot-native/usr/include/pixman-1/pixman.h
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/pixman-native/1_0.34.0-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/pixman-native/1_0.34.0-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/pixman-native
+DEBUG: Python function do_populate_sysroot_setscene finished

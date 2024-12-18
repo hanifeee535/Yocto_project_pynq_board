@@ -1,0 +1,28 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz for ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', 'ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz;downloadfilename=ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/ae/sstate%3Autil-macros%3A%3A1.19.1%3Ar0%3A%3A3%3Aae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz;downloadfilename=ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz
+DEBUG: Searching for ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz.siginfo for ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz.siginfo;downloadfilename=ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/ae/sstate%3Autil-macros%3A%3A1.19.1%3Ar0%3A%3A3%3Aae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz.siginfo;downloadfilename=ae/sstate:util-macros::1.19.1:r0::3:ae42686546af1ede6fd34c7037b4b79e_populate_lic.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/util-macros/
+license-destdir/util-macros/COPYING
+license-destdir/util-macros/generic_MIT
+license-destdir/util-macros/generic_MIT-style
+license-destdir/util-macros/recipeinfo
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/util-macros/1_1.19.1-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

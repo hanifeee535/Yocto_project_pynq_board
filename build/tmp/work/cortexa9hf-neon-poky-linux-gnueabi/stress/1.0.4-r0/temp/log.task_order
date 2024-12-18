@@ -1,0 +1,5 @@
+do_populate_sysroot_setscene (5478): log.do_populate_sysroot_setscene.5478
+do_package_qa_setscene (5494): log.do_package_qa_setscene.5494
+do_package_write_rpm_setscene (5504): log.do_package_write_rpm_setscene.5504
+do_populate_lic_setscene (5511): log.do_populate_lic_setscene.5511
+do_packagedata_setscene (5524): log.do_packagedata_setscene.5524

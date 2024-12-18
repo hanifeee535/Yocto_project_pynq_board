@@ -1,0 +1,12 @@
+recipe-sysroot-native/usr/lib/pkgconfig/randrproto.pc
+recipe-sysroot-native/usr/include/X11/extensions/randrproto.h
+recipe-sysroot-native/usr/include/X11/extensions/randr.h
+recipe-sysroot-native/sysroot-providers/randrproto-native
+recipe-sysroot-native/usr/include/X11/extensions/
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/usr/include/X11/
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/

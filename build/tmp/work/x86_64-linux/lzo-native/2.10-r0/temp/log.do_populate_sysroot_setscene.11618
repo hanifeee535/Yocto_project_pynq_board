@@ -1,0 +1,47 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz for universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz;downloadfilename=universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/ee/sstate%3Alzo-native%3Ax86_64-linux%3A2.10%3Ar0%3Ax86_64%3A3%3Aee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz;downloadfilename=universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz
+DEBUG: Searching for universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz.siginfo for universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz.siginfo;downloadfilename=universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/ee/sstate%3Alzo-native%3Ax86_64-linux%3A2.10%3Ar0%3Ax86_64%3A3%3Aee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz.siginfo;downloadfilename=universal/ee/sstate:lzo-native:x86_64-linux:2.10:r0:x86_64:3:ee1a034ef8a4b60e2a1570db41317002_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/lzo-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/liblzo2.so
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/usr/lib/pkgconfig/lzo2.pc
+recipe-sysroot-native/usr/lib/liblzo2.so.2.0.0
+recipe-sysroot-native/usr/lib/liblzo2.so.2
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/lzo/
+recipe-sysroot-native/usr/include/lzo/lzoconf.h
+recipe-sysroot-native/usr/include/lzo/lzo1.h
+recipe-sysroot-native/usr/include/lzo/lzo1x.h
+recipe-sysroot-native/usr/include/lzo/lzo1a.h
+recipe-sysroot-native/usr/include/lzo/lzo_asm.h
+recipe-sysroot-native/usr/include/lzo/lzo1f.h
+recipe-sysroot-native/usr/include/lzo/lzo1y.h
+recipe-sysroot-native/usr/include/lzo/lzoutil.h
+recipe-sysroot-native/usr/include/lzo/lzo1c.h
+recipe-sysroot-native/usr/include/lzo/lzo2a.h
+recipe-sysroot-native/usr/include/lzo/lzo1z.h
+recipe-sysroot-native/usr/include/lzo/lzodefs.h
+recipe-sysroot-native/usr/include/lzo/lzo1b.h
+recipe-sysroot-native/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/lzo-native/2.10-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/lzo-native/2.10-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/lzo-native
+DEBUG: Python function do_populate_sysroot_setscene finished

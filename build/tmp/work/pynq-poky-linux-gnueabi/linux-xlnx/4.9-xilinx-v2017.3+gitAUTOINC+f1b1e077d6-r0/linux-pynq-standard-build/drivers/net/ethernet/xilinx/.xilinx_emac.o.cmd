@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/xilinx/xilinx_emac.o := arm-poky-linux-gnueabi-ld.bfd      -r -o drivers/net/ethernet/xilinx/xilinx_emac.o drivers/net/ethernet/xilinx/xilinx_axienet_main.o drivers/net/ethernet/xilinx/xilinx_axienet_mdio.o 

@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.24.1
+PR: r0
+PKGV: 5.24.1
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-sdbm-file: perl module sdbm-file
+SUMMARY_perl-module-sdbm-file: perl module sdbm-file
+RDEPENDS_perl-module-sdbm-file: perl perl-module-exporter perl-module-strict perl-module-tie-hash perl-module-warnings perl-module-xsloader glibc (>= 2.26)
+SECTION: devel
+PKG_perl-module-sdbm-file: perl-module-sdbm-file
+FILES_perl-module-sdbm-file: /usr/lib/perl/5.24.1/auto/SDBM_File/SDBM_File.so /usr/lib/perl/5.24.1/SDBM_File.pm
+FILERPROVIDESFLIST_perl-module-sdbm-file: /usr/lib/perl/5.24.1/SDBM@underscore@File.pm
+FILES_INFO: {"/usr/lib/perl/5.24.1/SDBM_File.pm": 3541, "/usr/lib/perl/5.24.1/auto/SDBM_File/SDBM_File.so": 22048}
+FILERPROVIDES_/usr/lib/perl/5.24.1/SDBM@underscore@File.pm_perl-module-sdbm-file: perl(SDBM_File)
+FILERDEPENDSFLIST_perl-module-sdbm-file: /usr/lib/perl/5.24.1/auto/SDBM@underscore@File/SDBM@underscore@File.so
+FILERDEPENDS_/usr/lib/perl/5.24.1/auto/SDBM@underscore@File/SDBM@underscore@File.so_perl-module-sdbm-file: libc.so.6(GLIBC_2.4) libc.so.6 rtld(GNU_HASH)
+PKGSIZE_perl-module-sdbm-file: 25589

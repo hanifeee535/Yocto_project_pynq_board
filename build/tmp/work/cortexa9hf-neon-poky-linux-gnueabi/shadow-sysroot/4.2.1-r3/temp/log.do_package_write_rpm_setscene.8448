@@ -1,0 +1,22 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for 87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz for 87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', '87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz;downloadfilename=87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/87/sstate%3Ashadow-sysroot%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.2.1%3Ar3%3Acortexa9hf-neon%3A3%3A8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz;downloadfilename=87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz
+DEBUG: Searching for 87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz.siginfo for 87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz.siginfo;downloadfilename=87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/87/sstate%3Ashadow-sysroot%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.2.1%3Ar3%3Acortexa9hf-neon%3A3%3A8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz.siginfo;downloadfilename=87/sstate:shadow-sysroot:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r3:cortexa9hf-neon:3:8765130c4af9b9ef958d68742b1f7707_package_write_rpm.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/shadow-sysroot/4.2.1-r3/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

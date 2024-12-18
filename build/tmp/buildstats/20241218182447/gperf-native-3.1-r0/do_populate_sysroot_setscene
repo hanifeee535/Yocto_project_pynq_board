@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546344.22 
+gperf-native-3.1-r0: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 472319
+IO wchar: 368955
+IO syscr: 218
+IO syscw: 94
+IO read_bytes: 57344
+IO write_bytes: 262144
+IO cancelled_write_bytes: 94208
+rusage ru_utime: 0.08066899999999999
+rusage ru_stime: 0.016132999999999998
+rusage ru_maxrss: 62964
+rusage ru_minflt: 6936
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 128
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 39
+Child rusage ru_utime: 0.012426999999999999
+Child rusage ru_stime: 0.00292
+Child rusage ru_maxrss: 60648
+Child rusage ru_minflt: 1939
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 88
+Child rusage ru_oublock: 384
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 27
+Status: PASSED 
+Ended: 1734546344.27 

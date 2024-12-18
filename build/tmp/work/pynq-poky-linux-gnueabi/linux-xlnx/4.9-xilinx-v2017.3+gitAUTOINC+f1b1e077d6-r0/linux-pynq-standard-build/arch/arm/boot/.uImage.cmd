@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/uImage := /bin/bash /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/scripts/mkuboot.sh -A arm -O linux -C none  -T kernel -a 0x8000 -e 0x8000 -n 'Linux-4.9.0-xilinx-v2017.3' -d arch/arm/boot/zImage arch/arm/boot/uImage

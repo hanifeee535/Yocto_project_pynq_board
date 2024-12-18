@@ -1,0 +1,14 @@
+PN: shared-mime-info
+PV: 1.8
+PR: r0
+PKGV: 1.8
+PKGR: r0
+LICENSE: LGPLv2+
+DESCRIPTION_shared-mime-info-staticdev: Shared MIME type database and specification.  This package contains static libraries for software development.
+SUMMARY_shared-mime-info-staticdev: Shared MIME type database and specification - Development files (Static Libraries)
+RDEPENDS_shared-mime-info-staticdev: shared-mime-info-dev (= 1.8-r0)
+SECTION_shared-mime-info-staticdev: devel
+PKG_shared-mime-info-staticdev: shared-mime-info-staticdev
+FILES_shared-mime-info-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/shared-mime-info/*.a
+FILES_INFO: {}
+PKGSIZE_shared-mime-info-staticdev: 0

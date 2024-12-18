@@ -1,0 +1,15 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY: The Python Programming Language
+SECTION: devel/python
+PKG_python3-pyvenv: python3-pyvenv
+FILES_python3-pyvenv:  /usr/bin/pyvenv-3.5 /usr/bin/pyvenv
+FILES_INFO: {"/usr/bin/pyvenv": 10, "/usr/bin/pyvenv-3.5": 232}
+FILERDEPENDSFLIST_python3-pyvenv: /usr/bin/pyvenv-3.5
+FILERDEPENDS_/usr/bin/pyvenv-3.5_python3-pyvenv: /usr/bin/env
+PKGSIZE_python3-pyvenv: 242

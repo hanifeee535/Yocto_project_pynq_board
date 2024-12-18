@@ -1,0 +1,34 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz for universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz;downloadfilename=universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/d1/sstate%3Apopt-native%3Ax86_64-linux%3A1.16%3Ar3%3Ax86_64%3A3%3Ad107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz;downloadfilename=universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz
+DEBUG: Searching for universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz.siginfo for universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz.siginfo;downloadfilename=universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/d1/sstate%3Apopt-native%3Ax86_64-linux%3A1.16%3Ar3%3Ax86_64%3A3%3Ad107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz.siginfo;downloadfilename=universal/d1/sstate:popt-native:x86_64-linux:1.16:r3:x86_64:3:d107f5ca8b5455a77eff80b35b33049a_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/popt-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/usr/lib/pkgconfig/popt.pc
+recipe-sysroot-native/usr/lib/libpopt.so.0
+recipe-sysroot-native/usr/lib/libpopt.so
+recipe-sysroot-native/usr/lib/libpopt.so.0.0.0
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/popt.h
+recipe-sysroot-native/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/popt-native
+DEBUG: Python function do_populate_sysroot_setscene finished

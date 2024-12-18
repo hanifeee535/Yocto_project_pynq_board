@@ -1,0 +1,17 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-pydoc: Python interactive help support
+RDEPENDS_python3-pydoc: python3-core python3-lang python3-re python3-stringold
+SECTION: devel/python
+PKG_python3-pydoc: python3-pydoc
+FILES_python3-pydoc: /usr/bin/pydoc /usr/lib/python3.5/pydoc.* /usr/lib/python3.5/__pycache__/pydoc.* /usr/lib/python3.5/pydoc_data /usr/lib/python3.5/pydoc_data/__pycache__  /usr/bin/pydoc3.5 /usr/bin/pydoc3
+FILES_INFO: {"/usr/lib/python3.5/pydoc.py": 103295, "/usr/lib/python3.5/pydoc_data/__init__.py": 0, "/usr/lib/python3.5/pydoc_data/_pydoc.css": 96, "/usr/lib/python3.5/pydoc_data/topics.py": 398318, "/usr/lib/python3.5/pydoc_data/__pycache__/topics.cpython-35.pyc": 388065, "/usr/lib/python3.5/pydoc_data/__pycache__/__init__.cpython-35.opt-1.pyc": 113, "/usr/lib/python3.5/pydoc_data/__pycache__/topics.cpython-35.opt-1.pyc": 388065, "/usr/lib/python3.5/pydoc_data/__pycache__/__init__.cpython-35.opt-2.pyc": 113, "/usr/lib/python3.5/pydoc_data/__pycache__/__init__.cpython-35.pyc": 113, "/usr/lib/python3.5/pydoc_data/__pycache__/topics.cpython-35.opt-2.pyc": 388065, "/usr/lib/python3.5/__pycache__/pydoc.cpython-35.pyc": 90331, "/usr/lib/python3.5/__pycache__/pydoc.cpython-35.opt-2.pyc": 81079, "/usr/lib/python3.5/__pycache__/pydoc.cpython-35.opt-1.pyc": 90270, "/usr/bin/pydoc3.5": 80, "/usr/bin/pydoc3": 8}
+FILERDEPENDSFLIST_python3-pydoc: /usr/bin/pydoc3.5 /usr/lib/python3.5/pydoc.py
+FILERDEPENDS_/usr/bin/pydoc3.5_python3-pydoc: /usr/bin/env
+FILERDEPENDS_/usr/lib/python3.5/pydoc.py_python3-pydoc: /usr/bin/env
+PKGSIZE_python3-pydoc: 1928011

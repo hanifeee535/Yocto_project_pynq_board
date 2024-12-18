@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546345.61 
+flex-native-2.6.0-r0: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 1267602
+IO wchar: 1398173
+IO syscr: 270
+IO syscw: 157
+IO read_bytes: 159744
+IO write_bytes: 937984
+IO cancelled_write_bytes: 417792
+rusage ru_utime: 0.088417
+rusage ru_stime: 0.012055999999999999
+rusage ru_maxrss: 63076
+rusage ru_minflt: 7049
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 128
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 60
+Child rusage ru_utime: 0.01688
+Child rusage ru_stime: 0.0011409999999999999
+Child rusage ru_maxrss: 60732
+Child rusage ru_minflt: 2024
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 296
+Child rusage ru_oublock: 1704
+Child rusage ru_nvcsw: 42
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1734546345.66 

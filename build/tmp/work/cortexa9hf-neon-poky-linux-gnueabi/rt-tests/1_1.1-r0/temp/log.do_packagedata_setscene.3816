@@ -1,0 +1,44 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz for 1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz;downloadfilename=1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/1c/sstate%3Art-tests%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.1%3Ar0%3Acortexa9hf-neon%3A3%3A1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz;downloadfilename=1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz
+DEBUG: Searching for 1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz.siginfo for 1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz.siginfo;downloadfilename=1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/1c/sstate%3Art-tests%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.1%3Ar0%3Acortexa9hf-neon%3A3%3A1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz.siginfo;downloadfilename=1c/sstate:rt-tests:cortexa9hf-neon-poky-linux-gnueabi:1.1:r0:cortexa9hf-neon:3:1c5fa1ece2bdc8ba272800b7a6de5301_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/rt-tests-dev
+pkgdata/runtime/rt-tests-doc.packaged
+pkgdata/runtime/rt-tests
+pkgdata/runtime/rt-tests-dev.packaged
+pkgdata/runtime/rt-tests-ptest.packaged
+pkgdata/runtime/rt-tests.packaged
+pkgdata/runtime/rt-tests-dbg
+pkgdata/runtime/rt-tests-doc
+pkgdata/runtime/rt-tests-staticdev
+pkgdata/runtime/rt-tests-dbg.packaged
+pkgdata/runtime/rt-tests-ptest
+pkgdata/runtime/rt-tests-locale
+pkgdata/shlibs2/
+pkgdata/rt-tests
+pkgdata/runtime-rprovides/
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/rt-tests-dev
+pkgdata/runtime-reverse/rt-tests
+pkgdata/runtime-reverse/rt-tests-dbg
+pkgdata/runtime-reverse/rt-tests-doc
+pkgdata/runtime-reverse/rt-tests-ptest
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/rt-tests/1_1.1-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

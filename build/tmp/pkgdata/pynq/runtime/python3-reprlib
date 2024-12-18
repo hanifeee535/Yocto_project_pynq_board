@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-reprlib: Python alternate repr() implementation
+RDEPENDS_python3-reprlib: python3-core
+SECTION: devel/python
+PKG_python3-reprlib: python3-reprlib
+FILES_python3-reprlib: /usr/lib/python3.5/reprlib.py /usr/lib/python3.5/__pycache__/reprlib.py 
+FILES_INFO: {"/usr/lib/python3.5/reprlib.py": 5336}
+PKGSIZE_python3-reprlib: 5336

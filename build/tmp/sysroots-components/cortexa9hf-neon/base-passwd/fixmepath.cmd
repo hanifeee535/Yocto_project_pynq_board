@@ -1,0 +1,1 @@
+sed -e 's:^:FIXMEFINALSSTATEINST:g' /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/base-passwd/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIRTARGET:FIXMEFINALSSTATETARGET:g' -e 's:FIXME_HOSTTOOLS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools:g'

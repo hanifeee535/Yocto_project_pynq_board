@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546315.31 
+gnome-desktop-testing-2014.1-r1: do_populate_sysroot_setscene
+Elapsed time: 0.09 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 265389
+IO wchar: 169177
+IO syscr: 189
+IO syscw: 83
+IO read_bytes: 20480
+IO write_bytes: 110592
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.08922
+rusage ru_stime: 0.01487
+rusage ru_maxrss: 62752
+rusage ru_minflt: 5876
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 128
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 52
+Child rusage ru_utime: 0.012031
+Child rusage ru_stime: 0.007565
+Child rusage ru_maxrss: 60452
+Child rusage ru_minflt: 1765
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 20
+Status: PASSED 
+Ended: 1734546315.40 

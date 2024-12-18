@@ -1,0 +1,1 @@
+cmd_vmlinux := /bin/bash /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work-shared/pynq/kernel-source/scripts/link-vmlinux.sh arm-poky-linux-gnueabi-ld.bfd    -p --no-undefined -X --pic-veneer --build-id ;  true

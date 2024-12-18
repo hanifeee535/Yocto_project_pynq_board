@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546326.88 
+glib-2.0-1_2.52.3-r0: do_packagedata_setscene
+Elapsed time: 0.10 seconds
+utime: 9
+stime: 1
+cutime: 1
+cstime: 2
+IO rchar: 1448896
+IO wchar: 1731227
+IO syscr: 1486
+IO syscw: 1806
+IO read_bytes: 53248
+IO write_bytes: 880640
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.090276
+rusage ru_stime: 0.017195
+rusage ru_maxrss: 63128
+rusage ru_minflt: 6198
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 432
+rusage ru_nvcsw: 583
+rusage ru_nivcsw: 73
+Child rusage ru_utime: 0.012062
+Child rusage ru_stime: 0.028717
+Child rusage ru_maxrss: 60724
+Child rusage ru_minflt: 1864
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 104
+Child rusage ru_oublock: 1288
+Child rusage ru_nvcsw: 58
+Child rusage ru_nivcsw: 620
+Status: PASSED 
+Ended: 1734546326.98 

@@ -1,0 +1,35 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/quilt/quilt-native_0.65.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['quilt-native']
+NOTE: Skipping as already exists in sysroot: []
+DEBUG: sed -e 's:^[^/]*/:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/:g' /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/quilt-native/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIRTARGET:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot:g; s:FIXMESTAGINGDIRHOST:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native:g' -e 's:FIXME_COMPONENTS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components:g' -e 's:FIXME_HOSTTOOLS_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools:g' -e 's:FIXME_PKGDATA_DIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq:g' -e 's:FIXME_PSEUDO_LOCALSTATEDIR:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/pseudo/:g' -e 's:FIXME_LOGFIFO:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/temp/fifo.12099:g'
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+NOTE: Applying patch 'busybox-udhcpc-no_deconfig.patch' (../poky/meta/recipes-core/busybox/busybox/busybox-udhcpc-no_deconfig.patch)
+NOTE: Applying patch 'fail_on_no_media.patch' (../poky/meta/recipes-core/busybox/busybox/fail_on_no_media.patch)
+NOTE: Applying patch 'recognize_connmand.patch' (../poky/meta/recipes-core/busybox/busybox/recognize_connmand.patch)
+NOTE: Applying patch 'busybox-cross-menuconfig.patch' (../poky/meta/recipes-core/busybox/busybox/busybox-cross-menuconfig.patch)
+NOTE: Applying patch '0001-Use-CC-when-linking-instead-of-LD-and-use-CFLAGS-and.patch' (../poky/meta/recipes-core/busybox/busybox/0001-Use-CC-when-linking-instead-of-LD-and-use-CFLAGS-and.patch)
+NOTE: Applying patch 'busybox-1.24.1-unzip.patch' (../poky/meta/recipes-core/busybox/busybox/busybox-1.24.1-unzip.patch)
+NOTE: Applying patch 'busybox-1.24.1-unzip-regression.patch' (../poky/meta/recipes-core/busybox/busybox/busybox-1.24.1-unzip-regression.patch)
+NOTE: Applying patch 'busybox-1.24.1-truncate-open-mode.patch' (../poky/meta/recipes-core/busybox/busybox/busybox-1.24.1-truncate-open-mode.patch)
+NOTE: Applying patch '0001-flock-update-the-behaviour-of-c-parameter-to-match-u.patch' (../poky/meta/recipes-core/busybox/busybox/0001-flock-update-the-behaviour-of-c-parameter-to-match-u.patch)
+NOTE: Applying patch 'CVE-2016-2148.patch' (../poky/meta/recipes-core/busybox/busybox/CVE-2016-2148.patch)
+NOTE: Applying patch 'CVE-2016-2147.patch' (../poky/meta/recipes-core/busybox/busybox/CVE-2016-2147.patch)
+NOTE: Applying patch 'CVE-2016-2147_2.patch' (../poky/meta/recipes-core/busybox/busybox/CVE-2016-2147_2.patch)
+NOTE: Applying patch 'CVE-2016-6301.patch' (../poky/meta/recipes-core/busybox/busybox/CVE-2016-6301.patch)
+NOTE: Applying patch 'ip_fix_problem_on_mips64_n64_big_endian_musl_systems.patch' (../poky/meta/recipes-core/busybox/busybox/ip_fix_problem_on_mips64_n64_big_endian_musl_systems.patch)
+NOTE: Applying patch 'makefile-fix-backport.patch' (../poky/meta/recipes-core/busybox/busybox/makefile-fix-backport.patch)
+NOTE: Applying patch '0001-sed-fix-sed-n-flushes-pattern-space-terminates-early.patch' (../poky/meta/recipes-core/busybox/busybox/0001-sed-fix-sed-n-flushes-pattern-space-terminates-early.patch)
+NOTE: Applying patch 'busybox-kbuild-race-fix-commit-d8e61bb.patch' (../poky/meta/recipes-core/busybox/busybox/busybox-kbuild-race-fix-commit-d8e61bb.patch)
+NOTE: Applying patch 'commit-applet_tables-fix-commit-0dddbc1.patch' (../poky/meta/recipes-core/busybox/busybox/commit-applet_tables-fix-commit-0dddbc1.patch)
+NOTE: Applying patch 'makefile-libbb-race.patch' (../poky/meta/recipes-core/busybox/busybox/makefile-libbb-race.patch)
+NOTE: Applying patch '0001-libiproute-handle-table-ids-larger-than-255.patch' (../poky/meta/recipes-core/busybox/busybox/0001-libiproute-handle-table-ids-larger-than-255.patch)
+NOTE: Applying patch 'ifupdown-pass-interface-device-name-for-ipv6-route-c.patch' (../poky/meta/recipes-core/busybox/busybox-1.24.1/ifupdown-pass-interface-device-name-for-ipv6-route-c.patch)
+NOTE: Applying patch 'BUG9071_buffer_overflow_arp.patch' (../poky/meta/recipes-core/busybox/busybox/BUG9071_buffer_overflow_arp.patch)
+NOTE: Applying patch 'busybox-tar-add-IF_FEATURE_-checks.patch' (../poky/meta/recipes-core/busybox/busybox/busybox-tar-add-IF_FEATURE_-checks.patch)
+NOTE: Applying patch '0001-iproute-support-scope-.-Closes-8561.patch' (../poky/meta/recipes-core/busybox/busybox/0001-iproute-support-scope-.-Closes-8561.patch)
+NOTE: Applying patch '0001-ip-fix-an-improper-optimization-req.r.rtm_scope-may-.patch' (../poky/meta/recipes-core/busybox/busybox/0001-ip-fix-an-improper-optimization-req.r.rtm_scope-may-.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

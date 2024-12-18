@@ -1,0 +1,252 @@
+2024-12-18T18:29:59Z INFO --- logging initialized ---
+2024-12-18T18:29:59Z DDEBUG timer: config: 35 ms
+2024-12-18T18:29:59Z DEBUG DNF version: 2.6.3
+2024-12-18T18:29:59Z DDEBUG Command: dnf -y -c /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf --setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d --repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo --installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs --setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp makecache --refresh 
+2024-12-18T18:29:59Z DDEBUG Installroot: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs
+2024-12-18T18:29:59Z DDEBUG Releasever: rocko
+2024-12-18T18:29:59Z DEBUG cachedir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf
+2024-12-18T18:29:59Z DDEBUG Base command: makecache
+2024-12-18T18:29:59Z DDEBUG Extra commands: ['-y', '-c', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf', '--setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d', '--repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo', '--installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs', '--setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp', 'makecache', '--refresh']
+2024-12-18T18:29:59Z INFO Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+2024-12-18T18:29:59Z DEBUG Making cache files for all metadata files.
+2024-12-18T18:29:59Z DEBUG oe-repo: has expired and will be refreshed.
+2024-12-18T18:29:59Z DDEBUG repo: downloading from remote: oe-repo, _Handle: metalnk: None, mlist: None, urls ['file:///home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo'].
+2024-12-18T18:29:59Z DEBUG not found deltainfo for: oe-repo
+2024-12-18T18:29:59Z DEBUG not found updateinfo for: oe-repo
+2024-12-18T18:29:59Z DEBUG oe-repo: using metadata from Wed 18 Dec 2024 06:29:58 PM UTC.
+2024-12-18T18:29:59Z INFO Last metadata expiration check: 0:00:00 ago on Wed 18 Dec 2024 06:29:59 PM UTC.
+2024-12-18T18:29:59Z DDEBUG timer: sack setup: 152 ms
+2024-12-18T18:29:59Z INFO Metadata cache created.
+2024-12-18T18:29:59Z DDEBUG Cleaning up.
+2024-12-18T18:30:00Z INFO --- logging initialized ---
+2024-12-18T18:30:00Z DDEBUG timer: config: 12 ms
+2024-12-18T18:30:00Z DEBUG DNF version: 2.6.3
+2024-12-18T18:30:00Z DDEBUG Command: dnf -y -c /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf --setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d --repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo --installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs --setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp --nogpgcheck install dropbear packagegroup-core-boot rt-tests run-postinsts 
+2024-12-18T18:30:00Z DDEBUG Installroot: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs
+2024-12-18T18:30:00Z DDEBUG Releasever: rocko
+2024-12-18T18:30:00Z DEBUG cachedir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf
+2024-12-18T18:30:00Z DDEBUG Base command: install
+2024-12-18T18:30:00Z DDEBUG Extra commands: ['-y', '-c', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf', '--setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d', '--repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo', '--installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs', '--setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp', '--nogpgcheck', 'install', 'dropbear', 'packagegroup-core-boot', 'rt-tests', 'run-postinsts']
+2024-12-18T18:30:00Z INFO Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+2024-12-18T18:30:00Z DEBUG repo: using cache for: oe-repo
+2024-12-18T18:30:00Z DEBUG not found deltainfo for: oe-repo
+2024-12-18T18:30:00Z DEBUG not found updateinfo for: oe-repo
+2024-12-18T18:30:00Z DEBUG oe-repo: using metadata from Wed 18 Dec 2024 06:29:58 PM UTC.
+2024-12-18T18:30:00Z INFO Last metadata expiration check: 0:00:00 ago on Wed 18 Dec 2024 06:29:59 PM UTC.
+2024-12-18T18:30:00Z DDEBUG timer: sack setup: 5 ms
+2024-12-18T18:30:00Z DEBUG --> Starting dependency resolution
+2024-12-18T18:30:00Z DEBUG ---> Package dropbear.cortexa9hf_neon 2017.75-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package packagegroup-core-boot.pynq 1.0-r17 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package rt-tests.cortexa9hf_neon 1:1.1-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package run-postinsts.noarch 1.0-r9 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package libc6.cortexa9hf_neon 2.26-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package libz1.cortexa9hf_neon 1.2.11-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package update-alternatives-opkg.cortexa9hf_neon 0.3.5-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package base-files.pynq 3.0.14-r89 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package base-passwd.cortexa9hf_neon 3.5.29-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package busybox.cortexa9hf_neon 1.24.1-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package device-tree.pynq 1.0-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package eudev.cortexa9hf_neon 3.2.2-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package init-ifupdown.cortexa9hf_neon 1.0-r7 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package initscripts.cortexa9hf_neon 1.0-r155 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package modutils-initscripts.cortexa9hf_neon 1.0-r7 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package netbase.cortexa9hf_neon 1:5.4-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package sysvinit.cortexa9hf_neon 2.88dsf-r14 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package libblkid1.cortexa9hf_neon 2.30-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package libkmod2.cortexa9hf_neon 24+git0+ef4257b59c-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package initscripts-functions.cortexa9hf_neon 1.0-r155 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package sysvinit-inittab.pynq 2.88dsf-r10 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package sysvinit-pidof.cortexa9hf_neon 2.88dsf-r14 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package libuuid1.cortexa9hf_neon 2.30-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package update-rc.d.noarch 0.7-r5 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package busybox-syslog.cortexa9hf_neon 1.24.1-r0 will be installed
+2024-12-18T18:30:00Z DEBUG ---> Package busybox-udhcpc.cortexa9hf_neon 1.24.1-r0 will be installed
+2024-12-18T18:30:00Z DEBUG --> Finished dependency resolution
+2024-12-18T18:30:00Z DDEBUG timer: depsolve: 1 ms
+2024-12-18T18:30:00Z INFO Dependencies resolved.
+2024-12-18T18:30:00Z INFO ================================================================================
+ Package                  Arch            Version                 Repository
+                                                                           Size
+================================================================================
+Installing:
+ dropbear                 cortexa9hf_neon 2017.75-r0              oe-repo 101 k
+ packagegroup-core-boot   pynq            1.0-r17                 oe-repo 5.5 k
+ rt-tests                 cortexa9hf_neon 1:1.1-r0                oe-repo  63 k
+ run-postinsts            noarch          1.0-r9                  oe-repo 8.3 k
+Installing dependencies:
+ base-files               pynq            3.0.14-r89              oe-repo  12 k
+ base-passwd              cortexa9hf_neon 3.5.29-r0               oe-repo 6.9 k
+ busybox                  cortexa9hf_neon 1.24.1-r0               oe-repo 285 k
+ device-tree              pynq            1.0-r0                  oe-repo 8.3 k
+ eudev                    cortexa9hf_neon 3.2.2-r0                oe-repo 179 k
+ init-ifupdown            cortexa9hf_neon 1.0-r7                  oe-repo 9.4 k
+ initscripts              cortexa9hf_neon 1.0-r155                oe-repo  21 k
+ initscripts-functions    cortexa9hf_neon 1.0-r155                oe-repo 7.3 k
+ libblkid1                cortexa9hf_neon 2.30-r0                 oe-repo  98 k
+ libc6                    cortexa9hf_neon 2.26-r0                 oe-repo 930 k
+ libkmod2                 cortexa9hf_neon 24+git0+ef4257b59c-r0   oe-repo  30 k
+ libuuid1                 cortexa9hf_neon 2.30-r0                 oe-repo  12 k
+ libz1                    cortexa9hf_neon 1.2.11-r0               oe-repo  43 k
+ modutils-initscripts     cortexa9hf_neon 1.0-r7                  oe-repo 7.9 k
+ netbase                  cortexa9hf_neon 1:5.4-r0                oe-repo  15 k
+ sysvinit                 cortexa9hf_neon 2.88dsf-r14             oe-repo  53 k
+ sysvinit-inittab         pynq            2.88dsf-r10             oe-repo 8.0 k
+ sysvinit-pidof           cortexa9hf_neon 2.88dsf-r14             oe-repo  13 k
+ update-alternatives-opkg cortexa9hf_neon 0.3.5-r0                oe-repo 8.2 k
+Installing weak dependencies:
+ busybox-syslog           cortexa9hf_neon 1.24.1-r0               oe-repo 9.2 k
+ busybox-udhcpc           cortexa9hf_neon 1.24.1-r0               oe-repo 7.7 k
+ update-rc.d              noarch          0.7-r5                  oe-repo 8.0 k
+
+Transaction Summary
+================================================================================
+Install  26 Packages
+
+2024-12-18T18:30:00Z INFO Total size: 1.9 M
+2024-12-18T18:30:00Z INFO Installed size: 5.1 M
+2024-12-18T18:30:00Z INFO Downloading Packages:
+2024-12-18T18:30:00Z INFO Running transaction check
+2024-12-18T18:30:00Z INFO Transaction check succeeded.
+2024-12-18T18:30:00Z INFO Running transaction test
+2024-12-18T18:30:00Z INFO Transaction test succeeded.
+2024-12-18T18:30:00Z DDEBUG timer: transaction test: 29 ms
+2024-12-18T18:30:00Z INFO Running transaction
+2024-12-18T18:30:00Z DEBUG RPMDB altered outside of DNF.
+2024-12-18T18:30:00Z DDEBUG RPM transaction start.
+2024-12-18T18:30:05Z DDEBUG RPM transaction over.
+2024-12-18T18:30:06Z DDEBUG timer: verify transaction: 410 ms
+2024-12-18T18:30:06Z DDEBUG timer: transaction: 6148 ms
+2024-12-18T18:30:06Z INFO 
+Installed:
+  dropbear.cortexa9hf_neon 2017.75-r0                                           
+  packagegroup-core-boot.pynq 1.0-r17                                           
+  rt-tests.cortexa9hf_neon 1:1.1-r0                                             
+  run-postinsts.noarch 1.0-r9                                                   
+  busybox-syslog.cortexa9hf_neon 1.24.1-r0                                      
+  busybox-udhcpc.cortexa9hf_neon 1.24.1-r0                                      
+  update-rc.d.noarch 0.7-r5                                                     
+  base-files.pynq 3.0.14-r89                                                    
+  base-passwd.cortexa9hf_neon 3.5.29-r0                                         
+  busybox.cortexa9hf_neon 1.24.1-r0                                             
+  device-tree.pynq 1.0-r0                                                       
+  eudev.cortexa9hf_neon 3.2.2-r0                                                
+  init-ifupdown.cortexa9hf_neon 1.0-r7                                          
+  initscripts.cortexa9hf_neon 1.0-r155                                          
+  initscripts-functions.cortexa9hf_neon 1.0-r155                                
+  libblkid1.cortexa9hf_neon 2.30-r0                                             
+  libc6.cortexa9hf_neon 2.26-r0                                                 
+  libkmod2.cortexa9hf_neon 24+git0+ef4257b59c-r0                                
+  libuuid1.cortexa9hf_neon 2.30-r0                                              
+  libz1.cortexa9hf_neon 1.2.11-r0                                               
+  modutils-initscripts.cortexa9hf_neon 1.0-r7                                   
+  netbase.cortexa9hf_neon 1:5.4-r0                                              
+  sysvinit.cortexa9hf_neon 2.88dsf-r14                                          
+  sysvinit-inittab.pynq 2.88dsf-r10                                             
+  sysvinit-pidof.cortexa9hf_neon 2.88dsf-r14                                    
+  update-alternatives-opkg.cortexa9hf_neon 0.3.5-r0                             
+
+2024-12-18T18:30:06Z INFO Complete!
+2024-12-18T18:30:06Z DDEBUG Cleaning up.
+2024-12-18T18:30:06Z INFO --- logging initialized ---
+2024-12-18T18:30:06Z DDEBUG timer: config: 11 ms
+2024-12-18T18:30:06Z DEBUG DNF version: 2.6.3
+2024-12-18T18:30:06Z DDEBUG Command: dnf -y -c /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf --setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d --repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo --installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs --setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp repoquery --installed --queryformat Package: %{name} %{arch} %{version} %{name}-%{version}-%{release}.%{arch}.rpm
+Dependencies:
+%{requires}
+Recommendations:
+%{recommends}
+DependenciesEndHere:
+ 
+2024-12-18T18:30:06Z DDEBUG Installroot: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs
+2024-12-18T18:30:06Z DDEBUG Releasever: rocko
+2024-12-18T18:30:06Z DEBUG cachedir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf
+2024-12-18T18:30:06Z DDEBUG Base command: repoquery
+2024-12-18T18:30:06Z DDEBUG Extra commands: ['-y', '-c', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf', '--setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d', '--repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo', '--installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs', '--setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp', 'repoquery', '--installed', '--queryformat', 'Package: %{name} %{arch} %{version} %{name}-%{version}-%{release}.%{arch}.rpm\nDependencies:\n%{requires}\nRecommendations:\n%{recommends}\nDependenciesEndHere:\n']
+2024-12-18T18:30:06Z INFO Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+2024-12-18T18:30:06Z DDEBUG timer: sack setup: 2 ms
+2024-12-18T18:30:06Z DDEBUG Cleaning up.
+2024-12-18T18:30:07Z INFO --- logging initialized ---
+2024-12-18T18:30:07Z DDEBUG timer: config: 14 ms
+2024-12-18T18:30:07Z DEBUG DNF version: 2.6.3
+2024-12-18T18:30:07Z DDEBUG Command: dnf -y -c /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf --setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d --repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo --installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs --setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp repoquery --installed --queryformat Package: %{name} %{arch} %{version} %{name}-%{version}-%{release}.%{arch}.rpm
+Dependencies:
+%{requires}
+Recommendations:
+%{recommends}
+DependenciesEndHere:
+ 
+2024-12-18T18:30:07Z DDEBUG Installroot: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs
+2024-12-18T18:30:07Z DDEBUG Releasever: rocko
+2024-12-18T18:30:07Z DEBUG cachedir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf
+2024-12-18T18:30:07Z DDEBUG Base command: repoquery
+2024-12-18T18:30:07Z DDEBUG Extra commands: ['-y', '-c', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf', '--setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d', '--repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo', '--installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs', '--setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp', 'repoquery', '--installed', '--queryformat', 'Package: %{name} %{arch} %{version} %{name}-%{version}-%{release}.%{arch}.rpm\nDependencies:\n%{requires}\nRecommendations:\n%{recommends}\nDependenciesEndHere:\n']
+2024-12-18T18:30:07Z INFO Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+2024-12-18T18:30:07Z DDEBUG timer: sack setup: 3 ms
+2024-12-18T18:30:07Z DDEBUG Cleaning up.
+2024-12-18T18:30:07Z INFO --- logging initialized ---
+2024-12-18T18:30:07Z DDEBUG timer: config: 17 ms
+2024-12-18T18:30:07Z DEBUG DNF version: 2.6.3
+2024-12-18T18:30:07Z DDEBUG Command: dnf -y -c /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf --setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d --repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo --installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs --setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp repoquery --installed --queryformat Package: %{name} %{arch} %{version} %{name}-%{version}-%{release}.%{arch}.rpm
+Dependencies:
+%{requires}
+Recommendations:
+%{recommends}
+DependenciesEndHere:
+ 
+2024-12-18T18:30:07Z DDEBUG Installroot: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs
+2024-12-18T18:30:07Z DDEBUG Releasever: rocko
+2024-12-18T18:30:07Z DEBUG cachedir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf
+2024-12-18T18:30:07Z DDEBUG Base command: repoquery
+2024-12-18T18:30:07Z DDEBUG Extra commands: ['-y', '-c', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf', '--setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d', '--repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo', '--installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs', '--setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp', 'repoquery', '--installed', '--queryformat', 'Package: %{name} %{arch} %{version} %{name}-%{version}-%{release}.%{arch}.rpm\nDependencies:\n%{requires}\nRecommendations:\n%{recommends}\nDependenciesEndHere:\n']
+2024-12-18T18:30:07Z INFO Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+2024-12-18T18:30:07Z DDEBUG timer: sack setup: 2 ms
+2024-12-18T18:30:07Z DDEBUG Cleaning up.
+2024-12-18T18:30:08Z INFO --- logging initialized ---
+2024-12-18T18:30:08Z DDEBUG timer: config: 12 ms
+2024-12-18T18:30:08Z DEBUG DNF version: 2.6.3
+2024-12-18T18:30:08Z DDEBUG Command: dnf -y -c /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf --setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d --repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo --installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs --setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp repoquery --installed --queryformat Package: %{name} %{arch} %{version} %{name}-%{version}-%{release}.%{arch}.rpm
+Dependencies:
+%{requires}
+Recommendations:
+%{recommends}
+DependenciesEndHere:
+ 
+2024-12-18T18:30:08Z DDEBUG Installroot: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs
+2024-12-18T18:30:08Z DDEBUG Releasever: rocko
+2024-12-18T18:30:08Z DEBUG cachedir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf
+2024-12-18T18:30:08Z DDEBUG Base command: repoquery
+2024-12-18T18:30:08Z DDEBUG Extra commands: ['-y', '-c', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf', '--setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d', '--repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo', '--installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs', '--setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp', 'repoquery', '--installed', '--queryformat', 'Package: %{name} %{arch} %{version} %{name}-%{version}-%{release}.%{arch}.rpm\nDependencies:\n%{requires}\nRecommendations:\n%{recommends}\nDependenciesEndHere:\n']
+2024-12-18T18:30:08Z INFO Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+2024-12-18T18:30:08Z DDEBUG timer: sack setup: 2 ms
+2024-12-18T18:30:08Z DDEBUG Cleaning up.
+2024-12-18T18:30:08Z INFO --- logging initialized ---
+2024-12-18T18:30:08Z DDEBUG timer: config: 11 ms
+2024-12-18T18:30:08Z DEBUG DNF version: 2.6.3
+2024-12-18T18:30:08Z DDEBUG Command: dnf -y -c /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf --setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d --repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo --installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs --setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp clean all 
+2024-12-18T18:30:08Z DDEBUG Installroot: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs
+2024-12-18T18:30:08Z DDEBUG Releasever: rocko
+2024-12-18T18:30:08Z DEBUG cachedir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf
+2024-12-18T18:30:08Z DDEBUG Base command: clean
+2024-12-18T18:30:08Z DDEBUG Extra commands: ['-y', '-c', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf', '--setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d', '--repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo', '--installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs', '--setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp', 'clean', 'all']
+2024-12-18T18:30:08Z INFO Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+2024-12-18T18:30:08Z DEBUG Cleaning data: packages metadata dbcache
+2024-12-18T18:30:08Z DDEBUG Removing file /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo.solv
+2024-12-18T18:30:08Z DDEBUG Removing file /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-filenames.solvx
+2024-12-18T18:30:08Z DDEBUG Removing file /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/6b3495a2319a6a890a63275f1e9d178c9ddbba8b1976855a5242b4cc823d9ab6-primary.xml.gz
+2024-12-18T18:30:08Z DDEBUG Removing file /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/repomd.xml
+2024-12-18T18:30:08Z DDEBUG Removing file /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz
+2024-12-18T18:30:08Z INFO 5 files removed
+2024-12-18T18:30:08Z DDEBUG Cleaning up.
+2024-12-18T18:30:09Z INFO --- logging initialized ---
+2024-12-18T18:30:09Z DDEBUG timer: config: 33 ms
+2024-12-18T18:30:09Z DEBUG DNF version: 2.6.3
+2024-12-18T18:30:09Z DDEBUG Command: dnf -y -c /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf --setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d --repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo --installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs --setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp clean all 
+2024-12-18T18:30:09Z DDEBUG Installroot: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs
+2024-12-18T18:30:09Z DDEBUG Releasever: rocko
+2024-12-18T18:30:09Z DEBUG cachedir: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf
+2024-12-18T18:30:09Z DDEBUG Base command: clean
+2024-12-18T18:30:09Z DDEBUG Extra commands: ['-y', '-c', '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/dnf/dnf.conf', '--setopt=reposdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/etc/yum.repos.d', '--repofrompath=oe-repo,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo', '--installroot=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs', '--setopt=logdir=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/temp', 'clean', 'all']
+2024-12-18T18:30:09Z INFO Added oe-repo repo from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/oe-rootfs-repo
+2024-12-18T18:30:09Z DEBUG Cleaning data: metadata dbcache packages
+2024-12-18T18:30:09Z INFO 0 files removed
+2024-12-18T18:30:09Z DDEBUG Cleaning up.

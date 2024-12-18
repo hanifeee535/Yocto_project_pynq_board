@@ -1,0 +1,3 @@
+recipe-sysroot-native/usr/lib/python3.5/site-packages/gpg/install_files.txt
+recipe-sysroot-native/usr/bin/crossscripts/gpgme-config
+recipe-sysroot-native/usr/bin/gpgme-config

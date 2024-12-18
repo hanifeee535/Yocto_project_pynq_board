@@ -1,0 +1,18 @@
+PN: glibc
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_tzcode: tzcode, timezone zoneinfo utils -- zic, zdump, tzselect
+SUMMARY: GLIBC (GNU C Library)
+RDEPENDS_tzcode: glibc (>= 2.26)
+SECTION: libs
+PKG_tzcode: tzcode
+FILES_tzcode: /usr/bin/tzselect /usr/sbin/zic /usr/sbin/zdump
+FILES_INFO: {"/usr/sbin/zic": 42548, "/usr/sbin/zdump": 13840, "/usr/bin/tzselect": 15364}
+FILERDEPENDSFLIST_tzcode: /usr/bin/tzselect /usr/sbin/zdump /usr/sbin/zic
+FILERDEPENDS_/usr/bin/tzselect_tzcode: /bin/sh
+FILERDEPENDS_/usr/sbin/zdump_tzcode: libc.so.6(GLIBC_2.4) libc.so.6
+FILERDEPENDS_/usr/sbin/zic_tzcode: libc.so.6(GLIBC_2.4) libc.so.6
+PKGSIZE_tzcode: 71752

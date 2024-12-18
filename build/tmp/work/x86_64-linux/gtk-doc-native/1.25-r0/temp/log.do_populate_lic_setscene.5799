@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz for 96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz;downloadfilename=96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/96/sstate%3Agtk-doc-native%3A%3A1.25%3Ar0%3A%3A3%3A964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz;downloadfilename=96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz
+DEBUG: Searching for 96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz.siginfo for 96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz.siginfo;downloadfilename=96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/96/sstate%3Agtk-doc-native%3A%3A1.25%3Ar0%3A%3A3%3A964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz.siginfo;downloadfilename=96/sstate:gtk-doc-native::1.25:r0::3:964afc0c97ce79a2b09c7d17198f25d6_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/gtk-doc-native/
+license-destdir/gtk-doc-native/COPYING
+license-destdir/gtk-doc-native/recipeinfo
+license-destdir/gtk-doc-native/generic_GPLv2
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/gtk-doc-native/1.25-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

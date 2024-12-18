@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp
+SSTATE_DIR /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+NATIVELSBSTRING ubuntu-18.04

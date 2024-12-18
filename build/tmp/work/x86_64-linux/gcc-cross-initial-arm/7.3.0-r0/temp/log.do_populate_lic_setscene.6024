@@ -1,0 +1,32 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz for 26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz;downloadfilename=26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/26/sstate%3Agcc-cross-initial-arm%3A%3A7.3.0%3Ar0%3A%3A3%3A26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz;downloadfilename=26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz
+DEBUG: Searching for 26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz.siginfo for 26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz.siginfo;downloadfilename=26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/26/sstate%3Agcc-cross-initial-arm%3A%3A7.3.0%3Ar0%3A%3A3%3A26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz.siginfo;downloadfilename=26/sstate:gcc-cross-initial-arm::7.3.0:r0::3:26275dac8f4e9b3b7ce70f3ff1049ac9_populate_lic.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'common-linux', 'common-glibc', 'bit-64', 'x86_64-linux', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/gcc-cross-initial-arm/
+license-destdir/gcc-cross-initial-arm/COPYING
+license-destdir/gcc-cross-initial-arm/generic_GPL-3.0-with-GCC-exception
+license-destdir/gcc-cross-initial-arm/COPYING3
+license-destdir/gcc-cross-initial-arm/COPYING.RUNTIME
+license-destdir/gcc-cross-initial-arm/COPYING.LIB
+license-destdir/gcc-cross-initial-arm/generic_GPLv3
+license-destdir/gcc-cross-initial-arm/COPYING3.LIB
+license-destdir/gcc-cross-initial-arm/recipeinfo
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/gcc-cross-initial-arm/7.3.0-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

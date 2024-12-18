@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'ERROR: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/bin/ncurses6-config should not be used, use an alternative such as pkg-config' >&2
+echo '--should-not-have-used-/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/busybox/1.24.1-r0/recipe-sysroot-native/usr/bin/ncurses6-config'
+exit 1

@@ -1,0 +1,25 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for 86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz for 86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', '86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz;downloadfilename=86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/86/sstate%3Alinux-libc-headers%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.12%3Ar0%3Acortexa9hf-neon%3A3%3A868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz;downloadfilename=86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz
+DEBUG: Searching for 86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz.siginfo for 86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz.siginfo;downloadfilename=86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/86/sstate%3Alinux-libc-headers%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.12%3Ar0%3Acortexa9hf-neon%3A3%3A868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz.siginfo;downloadfilename=86/sstate:linux-libc-headers:cortexa9hf-neon-poky-linux-gnueabi:4.12:r0:cortexa9hf-neon:3:868a20dcbcc3018dec4613480feda954_package_write_rpm.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/cortexa9hf_neon/
+deploy-rpms/cortexa9hf_neon/linux-libc-headers-dbg-4.12-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/linux-libc-headers-dev-4.12-r0.cortexa9hf_neon.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/linux-libc-headers/4.12-r0/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

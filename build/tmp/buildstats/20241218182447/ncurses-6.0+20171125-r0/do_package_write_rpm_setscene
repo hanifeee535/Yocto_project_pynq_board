@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546301.82 
+ncurses-6.0+20171125-r0: do_package_write_rpm_setscene
+Elapsed time: 0.07 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 4579146
+IO wchar: 4852037
+IO syscr: 571
+IO syscw: 430
+IO read_bytes: 1974272
+IO write_bytes: 2465792
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.072701
+rusage ru_stime: 0.008076999999999999
+rusage ru_maxrss: 62904
+rusage ru_minflt: 6014
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 62
+Child rusage ru_utime: 0.019426
+Child rusage ru_stime: 0.007003
+Child rusage ru_maxrss: 60644
+Child rusage ru_minflt: 1750
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 3856
+Child rusage ru_oublock: 4696
+Child rusage ru_nvcsw: 97
+Child rusage ru_nivcsw: 96
+Status: PASSED 
+Ended: 1734546301.89 

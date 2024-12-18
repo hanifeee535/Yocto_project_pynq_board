@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546406.30 
+device-tree-1.0-r0: do_patch
+Elapsed time: 0.05 seconds
+utime: 5
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 166525
+IO wchar: 121247
+IO syscr: 95
+IO syscw: 2810
+IO read_bytes: 258048
+IO write_bytes: 122880
+IO cancelled_write_bytes: 4096
+rusage ru_utime: 0.05277
+rusage ru_stime: 0.010554
+rusage ru_maxrss: 63044
+rusage ru_minflt: 5267
+rusage ru_majflt: 0
+rusage ru_inblock: 368
+rusage ru_oublock: 112
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 31
+Child rusage ru_utime: 0.005516999999999999
+Child rusage ru_stime: 0.0058
+Child rusage ru_maxrss: 58340
+Child rusage ru_minflt: 629
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 136
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 17
+Child rusage ru_nivcsw: 8
+Status: PASSED 
+Ended: 1734546406.34 

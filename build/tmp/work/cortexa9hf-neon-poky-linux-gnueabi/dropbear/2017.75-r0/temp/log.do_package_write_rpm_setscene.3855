@@ -1,0 +1,27 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz for d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'd2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', 'd2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz;downloadfilename=d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/d2/sstate%3Adropbear%3Acortexa9hf-neon-poky-linux-gnueabi%3A2017.75%3Ar0%3Acortexa9hf-neon%3A3%3Ad2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz;downloadfilename=d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz
+DEBUG: Searching for d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz.siginfo for d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'd2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'd2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz.siginfo;downloadfilename=d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/d2/sstate%3Adropbear%3Acortexa9hf-neon-poky-linux-gnueabi%3A2017.75%3Ar0%3Acortexa9hf-neon%3A3%3Ad2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz.siginfo;downloadfilename=d2/sstate:dropbear:cortexa9hf-neon-poky-linux-gnueabi:2017.75:r0:cortexa9hf-neon:3:d2c12f4e62fa1dc8d2e8433fbd7c320d_package_write_rpm.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/cortexa9hf_neon/
+deploy-rpms/cortexa9hf_neon/dropbear-dbg-2017.75-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/dropbear-dev-2017.75-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/dropbear-2017.75-r0.cortexa9hf_neon.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/dropbear/2017.75-r0/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

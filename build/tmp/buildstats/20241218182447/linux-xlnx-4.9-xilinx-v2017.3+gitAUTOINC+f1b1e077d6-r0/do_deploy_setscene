@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546292.77 
+linux-xlnx-4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0: do_deploy_setscene
+Elapsed time: 0.09 seconds
+utime: 10
+stime: 1
+cutime: 2
+cstime: 1
+IO rchar: 8116766
+IO wchar: 7967058
+IO syscr: 809
+IO syscw: 586
+IO read_bytes: 3928064
+IO write_bytes: 3997696
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.100366
+rusage ru_stime: 0.015439999999999999
+rusage ru_maxrss: 63464
+rusage ru_minflt: 6628
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 76
+Child rusage ru_utime: 0.02472
+Child rusage ru_stime: 0.013770999999999999
+Child rusage ru_maxrss: 61180
+Child rusage ru_minflt: 1761
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 7672
+Child rusage ru_oublock: 7696
+Child rusage ru_nvcsw: 145
+Child rusage ru_nivcsw: 146
+Status: PASSED 
+Ended: 1734546292.86 

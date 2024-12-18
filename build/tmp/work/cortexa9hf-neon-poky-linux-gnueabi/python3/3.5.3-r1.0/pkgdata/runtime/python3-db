@@ -1,0 +1,16 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-db: Python file-based database support
+RDEPENDS_python3-db: python3-core gdbm-compat (>= 1.13) libpython3 (>= 3.5.3) glibc (>= 2.26)
+SECTION: devel/python
+PKG_python3-db: python3-db
+FILES_python3-db: /usr/lib/python3.5/anydbm.* /usr/lib/python3.5/__pycache__/anydbm.* /usr/lib/python3.5/dumbdbm.* /usr/lib/python3.5/__pycache__/dumbdbm.* /usr/lib/python3.5/whichdb.* /usr/lib/python3.5/__pycache__/whichdb.* /usr/lib/python3.5/dbm /usr/lib/python3.5/dbm/__pycache__ /usr/lib/python3.5/lib-dynload/_dbm.*.so /usr/lib/python3.5/lib-dynload/__pycache__/_dbm.*.so 
+FILES_INFO: {"/usr/lib/python3.5/lib-dynload/_dbm.cpython-35m-arm-linux-gnueabihf.so": 10768, "/usr/lib/python3.5/dbm/gnu.py": 72, "/usr/lib/python3.5/dbm/__init__.py": 5783, "/usr/lib/python3.5/dbm/dumb.py": 11158, "/usr/lib/python3.5/dbm/ndbm.py": 70, "/usr/lib/python3.5/dbm/__pycache__/dumb.cpython-35.opt-1.pyc": 8189, "/usr/lib/python3.5/dbm/__pycache__/ndbm.cpython-35.opt-1.pyc": 194, "/usr/lib/python3.5/dbm/__pycache__/gnu.cpython-35.opt-1.pyc": 195, "/usr/lib/python3.5/dbm/__pycache__/ndbm.cpython-35.pyc": 194, "/usr/lib/python3.5/dbm/__pycache__/gnu.cpython-35.pyc": 195, "/usr/lib/python3.5/dbm/__pycache__/dumb.cpython-35.opt-2.pyc": 6897, "/usr/lib/python3.5/dbm/__pycache__/gnu.cpython-35.opt-2.pyc": 132, "/usr/lib/python3.5/dbm/__pycache__/__init__.cpython-35.opt-1.pyc": 4417, "/usr/lib/python3.5/dbm/__pycache__/ndbm.cpython-35.opt-2.pyc": 132, "/usr/lib/python3.5/dbm/__pycache__/__init__.cpython-35.opt-2.pyc": 2472, "/usr/lib/python3.5/dbm/__pycache__/__init__.cpython-35.pyc": 4417, "/usr/lib/python3.5/dbm/__pycache__/dumb.cpython-35.pyc": 8189}
+FILERDEPENDSFLIST_python3-db: /usr/lib/python3.5/lib-dynload/@underscore@dbm.cpython-35m-arm-linux-gnueabihf.so
+FILERDEPENDS_/usr/lib/python3.5/lib-dynload/@underscore@dbm.cpython-35m-arm-linux-gnueabihf.so_python3-db: libc.so.6(GLIBC_2.4) libgdbm_compat.so.4 libpython3.5m.so.1.0 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_python3-db: 63474

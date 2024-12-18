@@ -1,0 +1,13 @@
+PN: xcb-proto
+PV: 1.12
+PR: r0
+PKGV: 1.12
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Function prototypes for the X protocol C-language Binding (XCB).  XCB is a replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility.
+SUMMARY: XCB: The X protocol C binding headers
+SECTION: x11/libs
+PKG_python-xcbgen: python-xcbgen
+FILES_python-xcbgen: /usr/lib/xcb-proto
+FILES_INFO: {"/usr/lib/xcb-proto/xcbgen/expr.py": 6435, "/usr/lib/xcb-proto/xcbgen/state.pyc": 8508, "/usr/lib/xcb-proto/xcbgen/matcher.py": 3694, "/usr/lib/xcb-proto/xcbgen/error.py": 116, "/usr/lib/xcb-proto/xcbgen/xtypes.pyc": 46187, "/usr/lib/xcb-proto/xcbgen/align.pyc": 7149, "/usr/lib/xcb-proto/xcbgen/error.pyc": 585, "/usr/lib/xcb-proto/xcbgen/matcher.pyc": 6251, "/usr/lib/xcb-proto/xcbgen/__init__.py": 1, "/usr/lib/xcb-proto/xcbgen/__init__.pyc": 213, "/usr/lib/xcb-proto/xcbgen/state.py": 5473, "/usr/lib/xcb-proto/xcbgen/xtypes.py": 48259, "/usr/lib/xcb-proto/xcbgen/align.py": 6377, "/usr/lib/xcb-proto/xcbgen/expr.pyc": 6235, "/usr/lib/xcb-proto/xcbgen/__pycache__/xtypes.cpython-36.opt-1.pyc": 32603, "/usr/lib/xcb-proto/xcbgen/__pycache__/expr.cpython-36.pyc": 4489, "/usr/lib/xcb-proto/xcbgen/__pycache__/error.cpython-36.opt-1.pyc": 362, "/usr/lib/xcb-proto/xcbgen/__pycache__/__init__.cpython-36.opt-1.pyc": 120, "/usr/lib/xcb-proto/xcbgen/__pycache__/matcher.cpython-36.pyc": 3886, "/usr/lib/xcb-proto/xcbgen/__pycache__/__init__.cpython-36.pyc": 120, "/usr/lib/xcb-proto/xcbgen/__pycache__/align.cpython-36.pyc": 4786, "/usr/lib/xcb-proto/xcbgen/__pycache__/matcher.cpython-36.opt-1.pyc": 3886, "/usr/lib/xcb-proto/xcbgen/__pycache__/align.cpython-36.opt-1.pyc": 4756, "/usr/lib/xcb-proto/xcbgen/__pycache__/state.cpython-36.opt-1.pyc": 5610, "/usr/lib/xcb-proto/xcbgen/__pycache__/state.cpython-36.pyc": 5610, "/usr/lib/xcb-proto/xcbgen/__pycache__/error.cpython-36.pyc": 362, "/usr/lib/xcb-proto/xcbgen/__pycache__/expr.cpython-36.opt-1.pyc": 4489, "/usr/lib/xcb-proto/xcbgen/__pycache__/xtypes.cpython-36.pyc": 32693}
+PKGSIZE_python-xcbgen: 249255

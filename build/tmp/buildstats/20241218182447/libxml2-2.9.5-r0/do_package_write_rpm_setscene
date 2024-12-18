@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546322.61 
+libxml2-2.9.5-r0: do_package_write_rpm_setscene
+Elapsed time: 0.10 seconds
+utime: 8
+stime: 2
+cutime: 1
+cstime: 3
+IO rchar: 15009787
+IO wchar: 15528770
+IO syscr: 1352
+IO syscw: 1079
+IO read_bytes: 7069696
+IO write_bytes: 7794688
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.082536
+rusage ru_stime: 0.020634
+rusage ru_maxrss: 62900
+rusage ru_minflt: 5987
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 88
+Child rusage ru_utime: 0.014646999999999999
+Child rusage ru_stime: 0.038978
+Child rusage ru_maxrss: 60620
+Child rusage ru_minflt: 1754
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 13808
+Child rusage ru_oublock: 15104
+Child rusage ru_nvcsw: 253
+Child rusage ru_nivcsw: 243
+Status: PASSED 
+Ended: 1734546322.71 

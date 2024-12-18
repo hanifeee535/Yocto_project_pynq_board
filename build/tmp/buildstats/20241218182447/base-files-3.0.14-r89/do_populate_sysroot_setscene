@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546329.11 
+base-files-3.0.14-r89: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 228234
+IO wchar: 109838
+IO syscr: 178
+IO syscw: 79
+IO read_bytes: 16384
+IO write_bytes: 73728
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.070625
+rusage ru_stime: 0.007062
+rusage ru_maxrss: 62584
+rusage ru_minflt: 5816
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 120
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 58
+Child rusage ru_utime: 0.01253
+Child rusage ru_stime: 0.0029189999999999997
+Child rusage ru_maxrss: 60304
+Child rusage ru_minflt: 1757
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1734546329.17 

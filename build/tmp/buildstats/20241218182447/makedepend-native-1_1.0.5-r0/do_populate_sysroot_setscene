@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546344.51 
+makedepend-native-1_1.0.5-r0: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 8
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 327025
+IO wchar: 194914
+IO syscr: 210
+IO syscw: 87
+IO read_bytes: 24576
+IO write_bytes: 147456
+IO cancelled_write_bytes: 36864
+rusage ru_utime: 0.084408
+rusage ru_stime: 0.025321999999999997
+rusage ru_maxrss: 62940
+rusage ru_minflt: 6931
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 128
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 65
+Child rusage ru_utime: 0.014698
+Child rusage ru_stime: 0.001075
+Child rusage ru_maxrss: 60640
+Child rusage ru_minflt: 1920
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 160
+Child rusage ru_nvcsw: 27
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1734546344.57 

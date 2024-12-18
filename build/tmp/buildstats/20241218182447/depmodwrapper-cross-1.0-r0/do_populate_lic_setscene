@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546294.68 
+depmodwrapper-cross-1.0-r0: do_populate_lic_setscene
+Elapsed time: 0.07 seconds
+utime: 5
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 174393
+IO wchar: 76876
+IO syscr: 175
+IO syscw: 65
+IO read_bytes: 4096
+IO write_bytes: 61440
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.053528
+rusage ru_stime: 0.014273999999999998
+rusage ru_maxrss: 62408
+rusage ru_minflt: 5903
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 70
+Child rusage ru_utime: 0.009443
+Child rusage ru_stime: 0.004124
+Child rusage ru_maxrss: 60104
+Child rusage ru_minflt: 1750
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 17
+Status: PASSED 
+Ended: 1734546294.75 

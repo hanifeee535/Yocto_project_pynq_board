@@ -1,0 +1,15 @@
+PN: rt-tests
+PE: 1
+PV: 1.1
+PR: r0
+PKGE: 1
+PKGV: 1.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv2+
+DESCRIPTION: Real-Time preemption testcases.
+SUMMARY: Real-Time preemption testcases
+SECTION: tests
+PKG_rt-tests-locale: rt-tests-locale
+FILES_rt-tests-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_rt-tests-locale: 0

@@ -1,0 +1,80 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz for 09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz;downloadfilename=09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/09/sstate%3Aprocps%3Acortexa9hf-neon-poky-linux-gnueabi%3A3.3.12%3Ar0%3Acortexa9hf-neon%3A3%3A09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz;downloadfilename=09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz
+DEBUG: Searching for 09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz.siginfo for 09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz.siginfo;downloadfilename=09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/09/sstate%3Aprocps%3Acortexa9hf-neon-poky-linux-gnueabi%3A3.3.12%3Ar0%3Acortexa9hf-neon%3A3%3A09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz.siginfo;downloadfilename=09/sstate:procps:cortexa9hf-neon-poky-linux-gnueabi:3.3.12:r0:cortexa9hf-neon:3:09c42dcc4e3bebbaf0edd59364065e5e_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/procps-locale-de.packaged
+pkgdata/runtime/procps-locale-fr.packaged
+pkgdata/runtime/procps-locale-uk
+pkgdata/runtime/procps-locale-vi
+pkgdata/runtime/procps-locale-pl
+pkgdata/runtime/procps-locale-zh-cn
+pkgdata/runtime/procps-dbg.packaged
+pkgdata/runtime/procps-locale-pl.packaged
+pkgdata/runtime/procps-staticdev
+pkgdata/runtime/procps-dev
+pkgdata/runtime/procps-locale-de
+pkgdata/runtime/procps-locale-fr
+pkgdata/runtime/procps-doc.packaged
+pkgdata/runtime/procps-dbg
+pkgdata/runtime/procps-doc
+pkgdata/runtime/procps-dev.packaged
+pkgdata/runtime/procps.packaged
+pkgdata/runtime/procps-locale-uk.packaged
+pkgdata/runtime/procps
+pkgdata/runtime/procps-locale-vi.packaged
+pkgdata/runtime/procps-locale-zh-cn.packaged
+pkgdata/shlibs2/
+pkgdata/shlibs2/procps.list
+pkgdata/shlibs2/procps-dev.pclist
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/zh-cn-translation/
+pkgdata/runtime-rprovides/zh-cn-translation/procps-locale-zh-cn
+pkgdata/runtime-rprovides/pl-translation/
+pkgdata/runtime-rprovides/pl-translation/procps-locale-pl
+pkgdata/runtime-rprovides/vi-translation/
+pkgdata/runtime-rprovides/vi-translation/procps-locale-vi
+pkgdata/runtime-rprovides/fr-translation/
+pkgdata/runtime-rprovides/fr-translation/procps-locale-fr
+pkgdata/runtime-rprovides/procps-locale/
+pkgdata/runtime-rprovides/procps-locale/procps-locale-uk
+pkgdata/runtime-rprovides/procps-locale/procps-locale-vi
+pkgdata/runtime-rprovides/procps-locale/procps-locale-pl
+pkgdata/runtime-rprovides/procps-locale/procps-locale-zh-cn
+pkgdata/runtime-rprovides/procps-locale/procps-locale-de
+pkgdata/runtime-rprovides/procps-locale/procps-locale-fr
+pkgdata/runtime-rprovides/de-translation/
+pkgdata/runtime-rprovides/de-translation/procps-locale-de
+pkgdata/runtime-rprovides/uk-translation/
+pkgdata/runtime-rprovides/uk-translation/procps-locale-uk
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/procps-locale-uk
+pkgdata/runtime-reverse/procps-locale-vi
+pkgdata/runtime-reverse/procps-locale-pl
+pkgdata/runtime-reverse/procps-locale-zh-cn
+pkgdata/runtime-reverse/procps-dev
+pkgdata/runtime-reverse/procps-locale-de
+pkgdata/runtime-reverse/procps-locale-fr
+pkgdata/runtime-reverse/procps-dbg
+pkgdata/runtime-reverse/procps-doc
+pkgdata/runtime-reverse/procps
+pkgdata/procps
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/procps/3.3.12-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

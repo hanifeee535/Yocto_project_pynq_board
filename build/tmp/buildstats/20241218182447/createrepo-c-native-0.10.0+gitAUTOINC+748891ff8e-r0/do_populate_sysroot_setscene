@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546293.24 
+createrepo-c-native-0.10.0+gitAUTOINC+748891ff8e-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 8
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 1101282
+IO wchar: 1368534
+IO syscr: 334
+IO syscw: 234
+IO read_bytes: 184320
+IO write_bytes: 839680
+IO cancelled_write_bytes: 131072
+rusage ru_utime: 0.086201
+rusage ru_stime: 0.0
+rusage ru_maxrss: 62912
+rusage ru_minflt: 7912
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 136
+rusage ru_nvcsw: 29
+rusage ru_nivcsw: 48
+Child rusage ru_utime: 0.01521
+Child rusage ru_stime: 0.007899
+Child rusage ru_maxrss: 60580
+Child rusage ru_minflt: 2358
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 352
+Child rusage ru_oublock: 1504
+Child rusage ru_nvcsw: 49
+Child rusage ru_nivcsw: 49
+Status: PASSED 
+Ended: 1734546293.31 

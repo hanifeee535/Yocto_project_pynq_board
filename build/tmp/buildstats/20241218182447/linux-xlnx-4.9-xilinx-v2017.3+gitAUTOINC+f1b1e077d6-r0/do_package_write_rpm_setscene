@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546292.56 
+linux-xlnx-4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0: do_package_write_rpm_setscene
+Elapsed time: 0.11 seconds
+utime: 9
+stime: 1
+cutime: 3
+cstime: 1
+IO rchar: 16379280
+IO wchar: 16407032
+IO syscr: 1472
+IO syscw: 1186
+IO read_bytes: 7950336
+IO write_bytes: 8249344
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.09844399999999999
+rusage ru_stime: 0.015750999999999998
+rusage ru_maxrss: 63444
+rusage ru_minflt: 6640
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 21
+rusage ru_nivcsw: 63
+Child rusage ru_utime: 0.037281999999999996
+Child rusage ru_stime: 0.014658
+Child rusage ru_maxrss: 61168
+Child rusage ru_minflt: 1741
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 15528
+Child rusage ru_oublock: 15984
+Child rusage ru_nvcsw: 273
+Child rusage ru_nivcsw: 285
+Status: PASSED 
+Ended: 1734546292.67 

@@ -1,0 +1,14 @@
+PN: linux-xlnx
+PV: 4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6
+PR: r0
+PKGV: 4.9-xilinx-v2017.3+git0+f1b1e077d6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_kernel-modules: Kernel modules meta package
+SUMMARY: Linux kernel
+RDEPENDS_kernel-modules: kernel-module-8021q-4.9.0-xilinx-v2017.3 kernel-module-bridge-4.9.0-xilinx-v2017.3 kernel-module-drbg-4.9.0-xilinx-v2017.3 kernel-module-echainiv-4.9.0-xilinx-v2017.3 kernel-module-g-zero-4.9.0-xilinx-v2017.3 kernel-module-hmac-4.9.0-xilinx-v2017.3 kernel-module-ipip-4.9.0-xilinx-v2017.3 kernel-module-jitterentropy-rng-4.9.0-xilinx-v2017.3 kernel-module-libcomposite-4.9.0-xilinx-v2017.3 kernel-module-llc-4.9.0-xilinx-v2017.3 kernel-module-p8022-4.9.0-xilinx-v2017.3 kernel-module-psnap-4.9.0-xilinx-v2017.3 kernel-module-remoteproc-4.9.0-xilinx-v2017.3 kernel-module-rpmsg-core-4.9.0-xilinx-v2017.3 kernel-module-sha256-generic-4.9.0-xilinx-v2017.3 kernel-module-stp-4.9.0-xilinx-v2017.3 kernel-module-usb-f-mass-storage-4.9.0-xilinx-v2017.3 kernel-module-usb-f-ss-lb-4.9.0-xilinx-v2017.3 kernel-module-virtio-4.9.0-xilinx-v2017.3 kernel-module-virtio-ring-4.9.0-xilinx-v2017.3 kernel-module-virtio-rpmsg-bus-4.9.0-xilinx-v2017.3 kernel-module-zynq-remoteproc-4.9.0-xilinx-v2017.3
+SECTION: kernel
+PKG_kernel-modules: kernel-modules
+ALLOW_EMPTY_kernel-modules: 1
+FILES_INFO: {}
+PKGSIZE_kernel-modules: 0

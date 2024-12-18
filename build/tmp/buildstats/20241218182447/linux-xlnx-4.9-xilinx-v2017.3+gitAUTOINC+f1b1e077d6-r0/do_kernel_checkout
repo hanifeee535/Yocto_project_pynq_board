@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546357.99 
+linux-xlnx-4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0: do_kernel_checkout
+Elapsed time: 0.86 seconds
+utime: 10
+stime: 0
+cutime: 23
+cstime: 48
+IO rchar: 12620906
+IO wchar: 5866090
+IO syscr: 5432
+IO syscw: 972
+IO read_bytes: 20824064
+IO write_bytes: 6119424
+IO cancelled_write_bytes: 5779456
+rusage ru_utime: 0.10162099999999999
+rusage ru_stime: 0.004234
+rusage ru_maxrss: 63412
+rusage ru_minflt: 4602
+rusage ru_majflt: 1
+rusage ru_inblock: 528
+rusage ru_oublock: 56
+rusage ru_nvcsw: 25
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 0.230618
+Child rusage ru_stime: 0.48596
+Child rusage ru_maxrss: 246040
+Child rusage ru_minflt: 24000
+Child rusage ru_majflt: 19
+Child rusage ru_inblock: 40144
+Child rusage ru_oublock: 11896
+Child rusage ru_nvcsw: 436
+Child rusage ru_nivcsw: 2794
+Status: PASSED 
+Ended: 1734546358.84 

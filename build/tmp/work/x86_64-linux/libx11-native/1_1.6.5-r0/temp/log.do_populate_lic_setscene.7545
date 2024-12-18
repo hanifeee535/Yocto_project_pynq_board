@@ -1,0 +1,28 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz for 41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz;downloadfilename=41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/41/sstate%3Alibx11-native%3A%3A1.6.5%3Ar0%3A%3A3%3A415baccad643544c7bc15db655b2e754_populate_lic.tgz;downloadfilename=41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz
+DEBUG: Searching for 41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz.siginfo for 41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz.siginfo;downloadfilename=41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/41/sstate%3Alibx11-native%3A%3A1.6.5%3Ar0%3A%3A3%3A415baccad643544c7bc15db655b2e754_populate_lic.tgz.siginfo;downloadfilename=41/sstate:libx11-native::1.6.5:r0::3:415baccad643544c7bc15db655b2e754_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/libx11-native/
+license-destdir/libx11-native/COPYING
+license-destdir/libx11-native/generic_MIT
+license-destdir/libx11-native/generic_MIT-style
+license-destdir/libx11-native/recipeinfo
+license-destdir/libx11-native/generic_BSD
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libx11-native/1_1.6.5-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

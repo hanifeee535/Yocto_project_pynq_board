@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546329.58 
+libpcre-native-8.41-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 9
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 1106619
+IO wchar: 1290849
+IO syscr: 310
+IO syscw: 204
+IO read_bytes: 200704
+IO write_bytes: 774144
+IO cancelled_write_bytes: 114688
+rusage ru_utime: 0.095814
+rusage ru_stime: 0.019162
+rusage ru_maxrss: 63160
+rusage ru_minflt: 7415
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 152
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 77
+Child rusage ru_utime: 0.018421
+Child rusage ru_stime: 0.0008979999999999999
+Child rusage ru_maxrss: 60800
+Child rusage ru_minflt: 2075
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 368
+Child rusage ru_oublock: 1360
+Child rusage ru_nvcsw: 45
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1734546329.64 

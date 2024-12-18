@@ -1,0 +1,106 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz for dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz', '', '', OrderedDict([('downloadfilename', 'dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz;downloadfilename=dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/dc/sstate%3Agcc-runtime%3Acortexa9hf-neon-poky-linux-gnueabi%3A7.3.0%3Ar0%3Acortexa9hf-neon%3A3%3Adcb87755050771ee51a1faa81db09fbe_packagedata.tgz;downloadfilename=dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz
+DEBUG: Searching for dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz.siginfo for dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz.siginfo;downloadfilename=dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/dc/sstate%3Agcc-runtime%3Acortexa9hf-neon-poky-linux-gnueabi%3A7.3.0%3Ar0%3Acortexa9hf-neon%3A3%3Adcb87755050771ee51a1faa81db09fbe_packagedata.tgz.siginfo;downloadfilename=dc/sstate:gcc-runtime:cortexa9hf-neon-poky-linux-gnueabi:7.3.0:r0:cortexa9hf-neon:3:dcb87755050771ee51a1faa81db09fbe_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/libstdc++-dev.packaged
+pkgdata/runtime/libssp
+pkgdata/runtime/libatomic-staticdev
+pkgdata/runtime/libquadmath-staticdev
+pkgdata/runtime/libstdc++-precompile-dev
+pkgdata/runtime/libitm.packaged
+pkgdata/runtime/libgomp-staticdev.packaged
+pkgdata/runtime/libgomp-dev.packaged
+pkgdata/runtime/libstdc++-dev
+pkgdata/runtime/gcc-runtime-dbg.packaged
+pkgdata/runtime/libgomp
+pkgdata/runtime/libatomic.packaged
+pkgdata/runtime/gcc-runtime-dbg
+pkgdata/runtime/libssp-staticdev
+pkgdata/runtime/libssp-staticdev.packaged
+pkgdata/runtime/libstdc++.packaged
+pkgdata/runtime/libmudflap-staticdev
+pkgdata/runtime/libssp-dev.packaged
+pkgdata/runtime/libatomic-dev
+pkgdata/runtime/libgomp-staticdev
+pkgdata/runtime/libitm
+pkgdata/runtime/libitm-dev.packaged
+pkgdata/runtime/libg2c-dev
+pkgdata/runtime/libatomic
+pkgdata/runtime/libstdc++-staticdev
+pkgdata/runtime/libatomic-dev.packaged
+pkgdata/runtime/libmudflap-dev
+pkgdata/runtime/libgomp.packaged
+pkgdata/runtime/libquadmath-dev
+pkgdata/runtime/libstdc++-staticdev.packaged
+pkgdata/runtime/libatomic-staticdev.packaged
+pkgdata/runtime/libitm-staticdev.packaged
+pkgdata/runtime/libitm-dev
+pkgdata/runtime/libg2c
+pkgdata/runtime/libmudflap
+pkgdata/runtime/libquadmath
+pkgdata/runtime/libssp-dev
+pkgdata/runtime/libstdc++
+pkgdata/runtime/libgomp-dev
+pkgdata/runtime/libitm-staticdev
+pkgdata/runtime/libssp.packaged
+pkgdata/shlibs2/
+pkgdata/shlibs2/libgomp.list
+pkgdata/shlibs2/libstdc++.list
+pkgdata/shlibs2/libitm.list
+pkgdata/shlibs2/libatomic.list
+pkgdata/shlibs2/libssp.list
+pkgdata/gcc-runtime
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/libssp/
+pkgdata/runtime-rprovides/libssp/libssp
+pkgdata/runtime-rprovides/libgomp/
+pkgdata/runtime-rprovides/libgomp/libgomp
+pkgdata/runtime-rprovides/(=7.3.0)/
+pkgdata/runtime-rprovides/(=7.3.0)/libssp
+pkgdata/runtime-rprovides/(=7.3.0)/libgomp
+pkgdata/runtime-rprovides/(=7.3.0)/libitm
+pkgdata/runtime-rprovides/(=7.3.0)/libatomic
+pkgdata/runtime-rprovides/(=7.3.0)/libstdc++
+pkgdata/runtime-rprovides/libitm/
+pkgdata/runtime-rprovides/libitm/libitm
+pkgdata/runtime-rprovides/libatomic/
+pkgdata/runtime-rprovides/libatomic/libatomic
+pkgdata/runtime-rprovides/libstdc++/
+pkgdata/runtime-rprovides/libstdc++/libstdc++
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/libitm1
+pkgdata/runtime-reverse/libatomic-staticdev
+pkgdata/runtime-reverse/libstdc++-dev
+pkgdata/runtime-reverse/libatomic1
+pkgdata/runtime-reverse/gcc-runtime-dbg
+pkgdata/runtime-reverse/libssp0
+pkgdata/runtime-reverse/libssp-staticdev
+pkgdata/runtime-reverse/libatomic-dev
+pkgdata/runtime-reverse/libgomp-staticdev
+pkgdata/runtime-reverse/libstdc++-staticdev
+pkgdata/runtime-reverse/libitm-dev
+pkgdata/runtime-reverse/libstdc++6
+pkgdata/runtime-reverse/libgomp1
+pkgdata/runtime-reverse/libssp-dev
+pkgdata/runtime-reverse/libgomp-dev
+pkgdata/runtime-reverse/libitm-staticdev
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/gcc-runtime/7.3.0-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished

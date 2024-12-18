@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/packagegroup-core-boot/1.0-r17/recipe-sysroot-native/usr/bin/bison' -y "$@"

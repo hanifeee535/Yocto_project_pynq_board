@@ -1,0 +1,28 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz for af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', 'af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz;downloadfilename=af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/af/sstate%3Aperl-native%3A%3A5.24.1%3Ar0%3A%3A3%3Aaf19073da2952ae710d980833ecfa401_populate_lic.tgz;downloadfilename=af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz
+DEBUG: Searching for af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz.siginfo for af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz.siginfo;downloadfilename=af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/af/sstate%3Aperl-native%3A%3A5.24.1%3Ar0%3A%3A3%3Aaf19073da2952ae710d980833ecfa401_populate_lic.tgz.siginfo;downloadfilename=af/sstate:perl-native::5.24.1:r0::3:af19073da2952ae710d980833ecfa401_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/perl-native/
+license-destdir/perl-native/generic_GPL-1.0
+license-destdir/perl-native/generic_Artistic-1.0
+license-destdir/perl-native/Artistic
+license-destdir/perl-native/recipeinfo
+license-destdir/perl-native/Copying
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/perl-native/5.24.1-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

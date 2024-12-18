@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-yi-us: binary locale definition for yi-us
+SUMMARY_glibc-binary-localedata-yi-us: binary locale definition for yi-us
+SECTION: base
+PKG_glibc-binary-localedata-yi-us: glibc-binary-localedata-yi-us
+FILES_glibc-binary-localedata-yi-us: /usr/lib/locale/yi_US
+FILES_INFO: {"/usr/lib/locale/yi_US/LC_TELEPHONE": 59, "/usr/lib/locale/yi_US/LC_NAME": 77, "/usr/lib/locale/yi_US/LC_ADDRESS": 196, "/usr/lib/locale/yi_US/LC_MEASUREMENT": 23, "/usr/lib/locale/yi_US/LC_TIME": 2826, "/usr/lib/locale/yi_US/LC_IDENTIFICATION": 328, "/usr/lib/locale/yi_US/LC_COLLATE": 1244794, "/usr/lib/locale/yi_US/LC_NUMERIC": 54, "/usr/lib/locale/yi_US/LC_MONETARY": 286, "/usr/lib/locale/yi_US/LC_CTYPE": 330640, "/usr/lib/locale/yi_US/LC_PAPER": 34, "/usr/lib/locale/yi_US/LC_MESSAGES/SYS_LC_MESSAGES": 70}
+PKGSIZE_glibc-binary-localedata-yi-us: 1579387

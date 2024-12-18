@@ -1,0 +1,5 @@
+libglib-2.0.so.0:/usr/lib:2.52.3
+libgio-2.0.so.0:/usr/lib:2.52.3
+libgmodule-2.0.so.0:/usr/lib:2.52.3
+libgthread-2.0.so.0:/usr/lib:2.52.3
+libgobject-2.0.so.0:/usr/lib:2.52.3

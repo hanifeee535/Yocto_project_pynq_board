@@ -1,0 +1,49 @@
+DEBUG: Executing python function extend_recipe_sysroot
+NOTE: Direct dependencies are ['virtual:native:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/recipes-devtools/pseudo/pseudo_1.8.2.bb:do_populate_sysroot']
+NOTE: Installed into sysroot: ['pseudo-native']
+NOTE: Skipping as already exists in sysroot: []
+DEBUG: Python function extend_recipe_sysroot finished
+DEBUG: Executing python function do_package_setscene
+DEBUG: Searching for 0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz for 0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz', '', '', OrderedDict([('downloadfilename', '0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz;downloadfilename=0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz returning file:///home/student/poky_cache/sstate-cache/0d/sstate%3Apackagegroup-core-boot%3Apynq-poky-linux-gnueabi%3A1.0%3Ar17%3Apynq%3A3%3A0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz;downloadfilename=0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz
+DEBUG: Searching for 0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz.siginfo for 0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz.siginfo;downloadfilename=0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/0d/sstate%3Apackagegroup-core-boot%3Apynq-poky-linux-gnueabi%3A1.0%3Ar17%3Apynq%3A3%3A0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz.siginfo;downloadfilename=0d/sstate:packagegroup-core-boot:pynq-poky-linux-gnueabi:1.0:r17:pynq:3:0d33d21f3f397ec6ff8602fadc9b27f1_package.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+package/
+packages-split/
+packages-split/packagegroup-core-boot-ptest/
+packages-split/packagegroup-core-boot/
+packages-split/packagegroup-core-boot-dbg/
+packages-split/packagegroup-core-boot-dev/
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/packagegroup-core-boot-ptest.packaged
+pkgdata/runtime/packagegroup-core-boot-ptest
+pkgdata/runtime/packagegroup-core-boot-dev.packaged
+pkgdata/runtime/packagegroup-core-boot.packaged
+pkgdata/runtime/packagegroup-core-boot
+pkgdata/runtime/packagegroup-core-boot-dbg
+pkgdata/runtime/packagegroup-core-boot-dev
+pkgdata/runtime/packagegroup-core-boot-dbg.packaged
+pkgdata/shlibs2/
+pkgdata/runtime-rprovides/
+pkgdata/packagegroup-core-boot
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/packagegroup-core-boot-ptest
+pkgdata/runtime-reverse/packagegroup-core-boot
+pkgdata/runtime-reverse/packagegroup-core-boot-dbg
+pkgdata/runtime-reverse/packagegroup-core-boot-dev
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Python function do_package_setscene finished

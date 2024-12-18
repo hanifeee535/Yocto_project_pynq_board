@@ -1,0 +1,33 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz for 80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', '80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz;downloadfilename=80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/80/sstate%3Autil-macros%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.19.1%3Ar0%3Acortexa9hf-neon%3A3%3A80292d41bca7e240e78914410094355e_populate_sysroot.tgz;downloadfilename=80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz
+DEBUG: Searching for 80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz.siginfo for 80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz.siginfo;downloadfilename=80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/80/sstate%3Autil-macros%3Acortexa9hf-neon-poky-linux-gnueabi%3A1.19.1%3Ar0%3Acortexa9hf-neon%3A3%3A80292d41bca7e240e78914410094355e_populate_sysroot.tgz.siginfo;downloadfilename=80/sstate:util-macros:cortexa9hf-neon-poky-linux-gnueabi:1.19.1:r0:cortexa9hf-neon:3:80292d41bca7e240e78914410094355e_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/util-macros
+sysroot-destdir/usr/
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/util-macros/
+sysroot-destdir/usr/share/util-macros/INSTALL
+sysroot-destdir/usr/share/pkgconfig/
+sysroot-destdir/usr/share/pkgconfig/xorg-macros.pc
+sysroot-destdir/usr/share/aclocal/
+sysroot-destdir/usr/share/aclocal/xorg-macros.m4
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/util-macros/1_1.19.1-r0/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/cortexa9hf-neon/util-macros
+DEBUG: Python function do_populate_sysroot_setscene finished

@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546298.59 
+libcomps-native-0.1.8+gitAUTOINC+01a4759894-r0: do_populate_lic_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 244961
+IO wchar: 155459
+IO syscr: 194
+IO syscw: 81
+IO read_bytes: 12288
+IO write_bytes: 106496
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07518899999999999
+rusage ru_stime: 0.027701
+rusage ru_maxrss: 62860
+rusage ru_minflt: 6042
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 71
+Child rusage ru_utime: 0.011250999999999999
+Child rusage ru_stime: 0.003175
+Child rusage ru_maxrss: 60548
+Child rusage ru_minflt: 1775
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 24
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1734546298.64 

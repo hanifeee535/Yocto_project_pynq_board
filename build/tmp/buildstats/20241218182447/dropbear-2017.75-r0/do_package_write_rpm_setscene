@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546295.95 
+dropbear-2017.75-r0: do_package_write_rpm_setscene
+Elapsed time: 0.06 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 1576090
+IO wchar: 1481728
+IO syscr: 295
+IO syscw: 168
+IO read_bytes: 659456
+IO write_bytes: 761856
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.074115
+rusage ru_stime: 0.007801
+rusage ru_maxrss: 63004
+rusage ru_minflt: 6039
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 27
+Child rusage ru_utime: 0.014620999999999999
+Child rusage ru_stime: 0.002131
+Child rusage ru_maxrss: 60708
+Child rusage ru_minflt: 1735
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1288
+Child rusage ru_oublock: 1376
+Child rusage ru_nvcsw: 47
+Child rusage ru_nivcsw: 30
+Status: PASSED 
+Ended: 1734546296.00 

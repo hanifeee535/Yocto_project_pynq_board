@@ -1,0 +1,14 @@
+PN: u-boot-pynq-uenv
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_u-boot-pynq-uenv-dbg: U-Boot uEnv.txt SD boot environment generation for Zynq targets.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_u-boot-pynq-uenv-dbg: U-Boot uEnv.txt SD boot environment generation for Zynq targets - Debugging files
+SECTION_u-boot-pynq-uenv-dbg: devel
+PKG_u-boot-pynq-uenv-dbg: u-boot-pynq-uenv-dbg
+ALLOW_EMPTY_u-boot-pynq-uenv-dbg: 1
+FILES_u-boot-pynq-uenv-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_u-boot-pynq-uenv-dbg: 0

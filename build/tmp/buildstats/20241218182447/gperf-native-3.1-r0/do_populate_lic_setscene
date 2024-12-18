@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546302.15 
+gperf-native-3.1-r0: do_populate_lic_setscene
+Elapsed time: 0.06 seconds
+utime: 8
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 314701
+IO wchar: 230555
+IO syscr: 200
+IO syscw: 93
+IO read_bytes: 36864
+IO write_bytes: 143360
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.08377599999999999
+rusage ru_stime: 0.016755
+rusage ru_maxrss: 62892
+rusage ru_minflt: 5990
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 120
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 74
+Child rusage ru_utime: 0.011469
+Child rusage ru_stime: 0.004092
+Child rusage ru_maxrss: 60628
+Child rusage ru_minflt: 1770
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 160
+Child rusage ru_nvcsw: 31
+Child rusage ru_nivcsw: 19
+Status: PASSED 
+Ended: 1734546302.21 

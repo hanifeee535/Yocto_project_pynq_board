@@ -1,0 +1,17 @@
+PN: openssl
+PV: 1.0.2o
+PR: r0
+PKGV: 1.0.2o
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+RDEPENDS_openssl: openssl-conf libssl (>= 1.0.2o) libcrypto (>= 1.0.2o) glibc (>= 2.26)
+SECTION: libs/network
+PKG_openssl: openssl
+FILES_openssl:  /usr/lib/ssl/* /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev /usr/lib/udev /lib/udev /usr/lib/udev /usr/share/openssl /usr/lib/openssl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/lib/ssl/openssl.cnf": 28, "/usr/bin/openssl": 519136, "/usr/bin/c_rehash": 4522}
+FILERDEPENDSFLIST_openssl: /usr/bin/c@underscore@rehash /usr/bin/openssl
+FILERDEPENDS_/usr/bin/c@underscore@rehash_openssl: /bin/sh
+FILERDEPENDS_/usr/bin/openssl_openssl: libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.4) libssl.so.1.0.2(OPENSSL_1.0.2d) libcrypto.so.1.0.2(OPENSSL_1.0.2g) libcrypto.so.1.0.2(OPENSSL_1.0.2d) libssl.so.1.0.2 libcrypto.so.1.0.2 libc.so.6 rtld(GNU_HASH)
+PKGSIZE_openssl: 523686

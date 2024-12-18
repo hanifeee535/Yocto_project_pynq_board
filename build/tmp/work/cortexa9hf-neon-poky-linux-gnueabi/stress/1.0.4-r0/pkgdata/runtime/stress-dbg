@@ -1,0 +1,15 @@
+PN: stress
+PV: 1.0.4
+PR: r0
+PKGV: 1.0.4
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_stress-dbg: Deliberately simple workload generator for POSIX systems. It imposes a configurable amount of CPU, memory, I/O, and disk stress on the system.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_stress-dbg: System load testing utility - Debugging files
+RRECOMMENDS_stress-dbg: glibc-dbg
+SECTION_stress-dbg: devel
+PKG_stress-dbg: stress-dbg
+ALLOW_EMPTY_stress-dbg: 1
+FILES_stress-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/stress": 44124, "/usr/src/debug/stress/1.0.4-r0/stress-1.0.4/src/stress.c": 20854}
+PKGSIZE_stress-dbg: 64978

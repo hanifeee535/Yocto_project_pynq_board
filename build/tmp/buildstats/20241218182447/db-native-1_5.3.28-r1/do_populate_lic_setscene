@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546297.29 
+db-native-1_5.3.28-r1: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 225682
+IO wchar: 110087
+IO syscr: 191
+IO syscw: 81
+IO read_bytes: 16384
+IO write_bytes: 81920
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.076402
+rusage ru_stime: 0.009965
+rusage ru_maxrss: 62972
+rusage ru_minflt: 6042
+rusage ru_majflt: 0
+rusage ru_inblock: 24
+rusage ru_oublock: 120
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 85
+Child rusage ru_utime: 0.013309999999999999
+Child rusage ru_stime: 0.0013269999999999998
+Child rusage ru_maxrss: 60680
+Child rusage ru_minflt: 1755
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1734546297.34 

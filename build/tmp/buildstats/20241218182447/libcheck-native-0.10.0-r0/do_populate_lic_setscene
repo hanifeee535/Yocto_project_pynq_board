@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546308.32 
+libcheck-native-0.10.0-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 289276
+IO wchar: 193827
+IO syscr: 201
+IO syscw: 89
+IO read_bytes: 12288
+IO write_bytes: 118784
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.074173
+rusage ru_stime: 0.008241
+rusage ru_maxrss: 62904
+rusage ru_minflt: 6021
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 64
+Child rusage ru_utime: 0.010834
+Child rusage ru_stime: 0.001766
+Child rusage ru_maxrss: 60652
+Child rusage ru_minflt: 1753
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 120
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1734546308.36 

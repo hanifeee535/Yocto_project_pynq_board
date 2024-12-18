@@ -1,0 +1,24 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz for b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz;downloadfilename=b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/b7/sstate%3Ashadow-securetty%3Apynq-poky-linux-gnueabi%3A4.2.1%3Ar3%3Apynq%3A3%3Ab719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz;downloadfilename=b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz
+DEBUG: Searching for b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz.siginfo for b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz.siginfo;downloadfilename=b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/b7/sstate%3Ashadow-securetty%3Apynq-poky-linux-gnueabi%3A4.2.1%3Ar3%3Apynq%3A3%3Ab719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz.siginfo;downloadfilename=b7/sstate:shadow-securetty:pynq-poky-linux-gnueabi:4.2.1:r3:pynq:3:b719f71e1bc089f9bbc648bcf4ebc8a7_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/shadow-securetty
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/shadow-securetty/4.2.1-r3/sysroot-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/pynq/shadow-securetty
+DEBUG: Python function do_populate_sysroot_setscene finished

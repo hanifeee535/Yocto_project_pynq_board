@@ -1,0 +1,27 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz for a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', 'a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz;downloadfilename=a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/a8/sstate%3Arenderproto-native%3A%3A0.11.1%3Ar1%3A%3A3%3Aa8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz;downloadfilename=a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz
+DEBUG: Searching for a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz.siginfo for a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz.siginfo;downloadfilename=a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/a8/sstate%3Arenderproto-native%3A%3A0.11.1%3Ar1%3A%3A3%3Aa8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz.siginfo;downloadfilename=a8/sstate:renderproto-native::0.11.1:r1::3:a8f0cd20eb95a03e0c5bb9d9e5dd1e64_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/renderproto-native/
+license-destdir/renderproto-native/COPYING
+license-destdir/renderproto-native/generic_MIT-style
+license-destdir/renderproto-native/recipeinfo
+license-destdir/renderproto-native/renderproto.h
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/renderproto-native/1_0.11.1-r1/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

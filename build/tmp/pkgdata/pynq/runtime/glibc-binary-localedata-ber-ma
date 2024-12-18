@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-ber-ma: binary locale definition for ber-ma
+SUMMARY_glibc-binary-localedata-ber-ma: binary locale definition for ber-ma
+SECTION: base
+PKG_glibc-binary-localedata-ber-ma: glibc-binary-localedata-ber-ma
+FILES_glibc-binary-localedata-ber-ma: /usr/lib/locale/ber_MA
+FILES_INFO: {"/usr/lib/locale/ber_MA/LC_TELEPHONE": 54, "/usr/lib/locale/ber_MA/LC_NAME": 77, "/usr/lib/locale/ber_MA/LC_ADDRESS": 130, "/usr/lib/locale/ber_MA/LC_MEASUREMENT": 23, "/usr/lib/locale/ber_MA/LC_TIME": 2474, "/usr/lib/locale/ber_MA/LC_IDENTIFICATION": 313, "/usr/lib/locale/ber_MA/LC_COLLATE": 1244302, "/usr/lib/locale/ber_MA/LC_NUMERIC": 54, "/usr/lib/locale/ber_MA/LC_MONETARY": 306, "/usr/lib/locale/ber_MA/LC_CTYPE": 330604, "/usr/lib/locale/ber_MA/LC_PAPER": 34, "/usr/lib/locale/ber_MA/LC_MESSAGES/SYS_LC_MESSAGES": 62}
+PKGSIZE_glibc-binary-localedata-ber-ma: 1578433

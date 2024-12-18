@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546314.38 
+btrfs-tools-4.12-r0: do_populate_lic_setscene
+Elapsed time: 0.09 seconds
+utime: 8
+stime: 1
+cutime: 0
+cstime: 0
+IO rchar: 248169
+IO wchar: 152222
+IO syscr: 191
+IO syscw: 80
+IO read_bytes: 12288
+IO write_bytes: 98304
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.082357
+rusage ru_stime: 0.014322999999999999
+rusage ru_maxrss: 62732
+rusage ru_minflt: 5887
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 66
+Child rusage ru_utime: 0.008848
+Child rusage ru_stime: 0.005366999999999999
+Child rusage ru_maxrss: 60440
+Child rusage ru_minflt: 1740
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 26
+Child rusage ru_nivcsw: 14
+Status: PASSED 
+Ended: 1734546314.47 

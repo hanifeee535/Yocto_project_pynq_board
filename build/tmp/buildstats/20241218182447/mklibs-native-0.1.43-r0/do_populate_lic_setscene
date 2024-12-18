@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546293.59 
+mklibs-native-0.1.43-r0: do_populate_lic_setscene
+Elapsed time: 0.05 seconds
+utime: 5
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 231537
+IO wchar: 124737
+IO syscr: 191
+IO syscw: 77
+IO read_bytes: 8192
+IO write_bytes: 86016
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.052208
+rusage ru_stime: 0.008032
+rusage ru_maxrss: 62588
+rusage ru_minflt: 5691
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 44
+Child rusage ru_utime: 0.010636999999999999
+Child rusage ru_stime: 0.003658
+Child rusage ru_maxrss: 60308
+Child rusage ru_minflt: 1772
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 25
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1734546293.65 

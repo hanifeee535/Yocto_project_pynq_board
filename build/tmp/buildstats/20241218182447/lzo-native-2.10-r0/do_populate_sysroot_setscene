@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546344.68 
+lzo-native-2.10-r0: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 2
+cutime: 1
+cstime: 0
+IO rchar: 666172
+IO wchar: 767064
+IO syscr: 255
+IO syscw: 167
+IO read_bytes: 86016
+IO write_bytes: 425984
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.07017999999999999
+rusage ru_stime: 0.027292
+rusage ru_maxrss: 62980
+rusage ru_minflt: 6101
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 128
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 106
+Child rusage ru_utime: 0.010321
+Child rusage ru_stime: 0.003096
+Child rusage ru_maxrss: 60700
+Child rusage ru_minflt: 1795
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 152
+Child rusage ru_oublock: 704
+Child rusage ru_nvcsw: 38
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1734546344.73 

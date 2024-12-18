@@ -1,0 +1,26 @@
+INFO Dec-18 18:29:59 === Started libdnf-0.9.3 ===
+DEBUG Dec-18 18:29:59 fetching oe-repo
+DEBUG Dec-18 18:29:59 caching repo: oe-repo (0xd380add72ed673743dc35f973236657124188d59778e29f80324be357a5cacd8)
+DEBUG Dec-18 18:29:59 load_ext: loading: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-e6ad8bea675e183d/repodata/fe1db536e0a763a31613ffa758af2e00fc39e8b8bb8a23929bf35e67b73c91f8-filelists.xml.gz
+DEBUG Dec-18 18:29:59 write_ext: storing oe-repo to: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-filenames.solvx.qIgcz1
+DEBUG Dec-18 18:29:59 no presto metadata available for oe-repo
+DEBUG Dec-18 18:29:59 no updateinfo available for oe-repo
+INFO Dec-18 18:30:00 === Started libdnf-0.9.3 ===
+DEBUG Dec-18 18:30:00 fetching rpmdb
+DEBUG Dec-18 18:30:00 using cached oe-repo (0xd380add72ed673743dc35f973236657124188d59778e29f80324be357a5cacd8)
+DEBUG Dec-18 18:30:00 load_ext: using cache file: /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/pynq-poky-linux-gnueabi/core-image-minimal/1.0-r0/rootfs/var/cache/dnf/oe-repo-filenames.solvx
+DEBUG Dec-18 18:30:00 no presto metadata available for oe-repo
+DEBUG Dec-18 18:30:00 no updateinfo available for oe-repo
+DEBUG Dec-18 18:30:00 rewriting repo: oe-repo
+DEBUG Dec-18 18:30:00 caching repo: oe-repo (0xd380add72ed673743dc35f973236657124188d59778e29f80324be357a5cacd8)
+DEBUG Dec-18 18:30:05 Architecture is: pynq:cortexa9t2hf_neon:cortexa9t2hf_vfp:cortexa9hf_neon:cortexa9hf_vfp:armv7at2hf_neon:armv7ahf_neon:armv7at2hf_vfp:armv7ahf_vfp:armv6thf_vfp:armv6hf_vfp:armv5tehf_vfp:armv5ehf_vfp:armv5thf_vfp:armv5hf_vfp
+INFO Dec-18 18:30:05 === Started libdnf-0.9.3 ===
+DEBUG Dec-18 18:30:05 fetching rpmdb
+INFO Dec-18 18:30:06 === Started libdnf-0.9.3 ===
+DEBUG Dec-18 18:30:06 fetching rpmdb
+INFO Dec-18 18:30:07 === Started libdnf-0.9.3 ===
+DEBUG Dec-18 18:30:07 fetching rpmdb
+INFO Dec-18 18:30:07 === Started libdnf-0.9.3 ===
+DEBUG Dec-18 18:30:07 fetching rpmdb
+INFO Dec-18 18:30:08 === Started libdnf-0.9.3 ===
+DEBUG Dec-18 18:30:08 fetching rpmdb

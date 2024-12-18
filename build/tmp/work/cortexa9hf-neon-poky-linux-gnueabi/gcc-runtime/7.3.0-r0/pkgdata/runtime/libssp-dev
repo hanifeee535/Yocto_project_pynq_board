@@ -1,0 +1,15 @@
+PN: gcc-runtime
+PV: 7.3.0
+PR: r0
+PKGV: 7.3.0
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception
+DESCRIPTION: Runtime libraries from GCC.
+SUMMARY_libssp-dev: GNU stack smashing protection library - development files
+RDEPENDS_libssp-dev: libssp
+RRECOMMENDS_libssp-dev: libgcc-dev glibc-dev
+SECTION: devel
+PKG_libssp-dev: libssp-dev
+FILES_libssp-dev:     /usr/lib/libssp*.so     /usr/lib/libssp*_nonshared.a     /usr/lib/libssp*.la     /usr/lib/gcc/arm-poky-linux-gnueabi/7.3.0/include/ssp 
+FILES_INFO: {"/usr/lib/libssp_nonshared.a": 2634, "/usr/lib/libssp.so": 15, "/usr/lib/gcc/arm-poky-linux-gnueabi/7.3.0/include/ssp/unistd.h": 2815, "/usr/lib/gcc/arm-poky-linux-gnueabi/7.3.0/include/ssp/stdio.h": 3466, "/usr/lib/gcc/arm-poky-linux-gnueabi/7.3.0/include/ssp/ssp.h": 2394, "/usr/lib/gcc/arm-poky-linux-gnueabi/7.3.0/include/ssp/string.h": 5713}
+PKGSIZE_libssp-dev: 17037

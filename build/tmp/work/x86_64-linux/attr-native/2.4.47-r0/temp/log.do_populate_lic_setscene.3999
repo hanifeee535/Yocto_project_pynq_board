@@ -1,0 +1,29 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz for ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', 'ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz;downloadfilename=ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/ef/sstate%3Aattr-native%3A%3A2.4.47%3Ar0%3A%3A3%3Aef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz;downloadfilename=ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz
+DEBUG: Searching for ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz.siginfo for ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz.siginfo;downloadfilename=ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/ef/sstate%3Aattr-native%3A%3A2.4.47%3Ar0%3A%3A3%3Aef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz.siginfo;downloadfilename=ef/sstate:attr-native::2.4.47:r0::3:ef01e48ac2810bdf09436c47d62f5a8d_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/attr-native/
+license-destdir/attr-native/COPYING
+license-destdir/attr-native/generic_LGPLv2.1
+license-destdir/attr-native/recipeinfo
+license-destdir/attr-native/attr.c
+license-destdir/attr-native/generic_GPLv2
+license-destdir/attr-native/libattr.c
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/attr-native/2.4.47-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

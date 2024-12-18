@@ -1,0 +1,50 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz for universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz', '', '', OrderedDict([('downloadfilename', 'universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz;downloadfilename=universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz returning file:///home/student/poky_cache/sstate-cache/universal/aa/sstate%3Acurl-native%3Ax86_64-linux%3A7.58.0%3Ar0%3Ax86_64%3A3%3Aaa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz;downloadfilename=universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz
+DEBUG: Searching for universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz.siginfo for universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz.siginfo;downloadfilename=universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/universal/aa/sstate%3Acurl-native%3Ax86_64-linux%3A7.58.0%3Ar0%3Ax86_64%3A3%3Aaa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz.siginfo;downloadfilename=universal/aa/sstate:curl-native:x86_64-linux:7.58.0:r0:x86_64:3:aa9683d2f7438c437547629573ba37f5_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+recipe-sysroot-native/
+recipe-sysroot-native/sysroot-providers/
+recipe-sysroot-native/sysroot-providers/curl-native
+recipe-sysroot-native/usr/
+recipe-sysroot-native/usr/lib/
+recipe-sysroot-native/usr/lib/libcurl.so
+recipe-sysroot-native/usr/lib/pkgconfig/
+recipe-sysroot-native/usr/lib/pkgconfig/libcurl.pc
+recipe-sysroot-native/usr/lib/libcurl.so.4.5.0
+recipe-sysroot-native/usr/lib/libcurl.so.4
+recipe-sysroot-native/usr/include/
+recipe-sysroot-native/usr/include/curl/
+recipe-sysroot-native/usr/include/curl/multi.h
+recipe-sysroot-native/usr/include/curl/mprintf.h
+recipe-sysroot-native/usr/include/curl/easy.h
+recipe-sysroot-native/usr/include/curl/system.h
+recipe-sysroot-native/usr/include/curl/curlver.h
+recipe-sysroot-native/usr/include/curl/curl.h
+recipe-sysroot-native/usr/include/curl/stdcheaders.h
+recipe-sysroot-native/usr/include/curl/typecheck-gcc.h
+recipe-sysroot-native/usr/bin/
+recipe-sysroot-native/usr/bin/curl
+recipe-sysroot-native/usr/bin/crossscripts/
+recipe-sysroot-native/usr/bin/crossscripts/curl-config
+recipe-sysroot-native/usr/bin/curl-config
+recipe-sysroot-native/usr/share/
+recipe-sysroot-native/usr/share/aclocal/
+recipe-sysroot-native/usr/share/aclocal/libcurl.m4
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/curl-native/7.58.0-r0/sysroot-destdir/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/curl-native/7.58.0-r0/recipe-sysroot-native to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-components/x86_64/curl-native
+DEBUG: Python function do_populate_sysroot_setscene finished

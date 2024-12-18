@@ -1,0 +1,15 @@
+PN: rt-tests
+PE: 1
+PV: 1.1
+PR: r0
+PKGE: 1
+PKGV: 1.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv2+
+DESCRIPTION_rt-tests-doc: Real-Time preemption testcases.  This package contains documentation.
+SUMMARY_rt-tests-doc: Real-Time preemption testcases - Documentation files
+SECTION_rt-tests-doc: doc
+PKG_rt-tests-doc: rt-tests-doc
+FILES_rt-tests-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/ptsematest.8.gz": 1208, "/usr/share/man/man8/pmqtest.8.gz": 1447, "/usr/share/man/man8/pi_stress.8.gz": 1226, "/usr/share/man/man8/sigwaittest.8.gz": 1251, "/usr/share/man/man8/cyclictest.8.gz": 3620, "/usr/share/man/man8/sendme.8.gz": 766, "/usr/share/man/man8/rt-migrate-test.8.gz": 770, "/usr/share/man/man8/hackbench.8.gz": 1652, "/usr/share/man/man8/signaltest.8.gz": 784, "/usr/share/man/man8/svsematest.8.gz": 1245, "/usr/share/man/man4/backfire.4.gz": 581}
+PKGSIZE_rt-tests-doc: 14550

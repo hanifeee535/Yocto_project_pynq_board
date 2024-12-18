@@ -1,0 +1,15 @@
+PN: device-tree
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT & GPLv2
+DESCRIPTION_device-tree-dev: Device Tree generation and packaging for BSP Device Trees.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_device-tree-dev: Device Trees for BSPs - Development files
+RDEPENDS_device-tree-dev: device-tree (= 1.0-r0)
+SECTION_device-tree-dev: devel
+PKG_device-tree-dev: device-tree-dev
+ALLOW_EMPTY_device-tree-dev: 1
+FILES_device-tree-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/device-tree/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_device-tree-dev: 0

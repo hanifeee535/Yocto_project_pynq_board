@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546322.19 
+tzcode-native-2018c-r0: do_populate_sysroot_setscene
+Elapsed time: 0.09 seconds
+utime: 5
+stime: 2
+cutime: 2
+cstime: 0
+IO rchar: 503939
+IO wchar: 438305
+IO syscr: 224
+IO syscw: 93
+IO read_bytes: 57344
+IO write_bytes: 315392
+IO cancelled_write_bytes: 110592
+rusage ru_utime: 0.056745
+rusage ru_stime: 0.024319
+rusage ru_maxrss: 62544
+rusage ru_minflt: 6853
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 128
+rusage ru_nvcsw: 16
+rusage ru_nivcsw: 72
+Child rusage ru_utime: 0.023024
+Child rusage ru_stime: 0.002253
+Child rusage ru_maxrss: 60176
+Child rusage ru_minflt: 2051
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 96
+Child rusage ru_oublock: 488
+Child rusage ru_nvcsw: 37
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1734546322.28 

@@ -1,0 +1,16 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-smtpd: Python Simple Mail Transport Daemon
+RDEPENDS_python3-smtpd: python3-core python3-email python3-mime python3-netserver
+SECTION: devel/python
+PKG_python3-smtpd: python3-smtpd
+FILES_python3-smtpd: /usr/bin/smtpd.* /usr/lib/python3.5/smtpd.* /usr/lib/python3.5/__pycache__/smtpd.* 
+FILES_INFO: {"/usr/lib/python3.5/smtpd.py": 35362, "/usr/lib/python3.5/__pycache__/smtpd.cpython-35.pyc": 29286, "/usr/lib/python3.5/__pycache__/smtpd.cpython-35.opt-2.pyc": 26633, "/usr/lib/python3.5/__pycache__/smtpd.cpython-35.opt-1.pyc": 29286}
+FILERDEPENDSFLIST_python3-smtpd: /usr/lib/python3.5/smtpd.py
+FILERDEPENDS_/usr/lib/python3.5/smtpd.py_python3-smtpd: /usr/bin/env
+PKGSIZE_python3-smtpd: 120567

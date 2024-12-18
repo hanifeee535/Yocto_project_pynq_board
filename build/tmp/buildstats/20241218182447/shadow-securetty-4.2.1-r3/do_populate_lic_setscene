@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546332.19 
+shadow-securetty-4.2.1-r3: do_populate_lic_setscene
+Elapsed time: 0.07 seconds
+utime: 7
+stime: 2
+cutime: 0
+cstime: 0
+IO rchar: 196090
+IO wchar: 77360
+IO syscr: 175
+IO syscw: 66
+IO read_bytes: 4096
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.070508
+rusage ru_stime: 0.020737
+rusage ru_maxrss: 62596
+rusage ru_minflt: 6064
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 89
+Child rusage ru_utime: 0.008763
+Child rusage ru_stime: 0.0070209999999999995
+Child rusage ru_maxrss: 60280
+Child rusage ru_minflt: 1747
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 29
+Child rusage ru_nivcsw: 23
+Status: PASSED 
+Ended: 1734546332.26 

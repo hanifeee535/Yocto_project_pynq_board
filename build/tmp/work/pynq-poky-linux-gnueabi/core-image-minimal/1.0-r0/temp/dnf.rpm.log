@@ -1,0 +1,34 @@
+2024-12-18T18:29:59Z INFO --- logging initialized ---
+2024-12-18T18:30:00Z INFO --- logging initialized ---
+2024-12-18T18:30:00Z INFO Installed: update-alternatives-opkg-0.3.5-r0.cortexa9hf_neon
+2024-12-18T18:30:04Z INFO Installed: busybox-1.24.1-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: libc6-2.26-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: libz1-1.2.11-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: initscripts-functions-1.0-r155.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: netbase-1:5.4-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: init-ifupdown-1.0-r7.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: initscripts-1.0-r155.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: libkmod2-24+git0+ef4257b59c-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: sysvinit-pidof-2.88dsf-r14.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: libuuid1-2.30-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: libblkid1-2.30-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: eudev-3.2.2-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: base-files-3.0.14-r89.pynq
+2024-12-18T18:30:05Z INFO Installed: base-passwd-3.5.29-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: modutils-initscripts-1.0-r7.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: sysvinit-inittab-2.88dsf-r10.pynq
+2024-12-18T18:30:05Z INFO Installed: sysvinit-2.88dsf-r14.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: device-tree-1.0-r0.pynq
+2024-12-18T18:30:05Z INFO Installed: packagegroup-core-boot-1.0-r17.pynq
+2024-12-18T18:30:05Z INFO Installed: dropbear-2017.75-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: rt-tests-1:1.1-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: run-postinsts-1.0-r9.noarch
+2024-12-18T18:30:05Z INFO Installed: update-rc.d-0.7-r5.noarch
+2024-12-18T18:30:05Z INFO Installed: busybox-syslog-1.24.1-r0.cortexa9hf_neon
+2024-12-18T18:30:05Z INFO Installed: busybox-udhcpc-1.24.1-r0.cortexa9hf_neon
+2024-12-18T18:30:06Z INFO --- logging initialized ---
+2024-12-18T18:30:07Z INFO --- logging initialized ---
+2024-12-18T18:30:07Z INFO --- logging initialized ---
+2024-12-18T18:30:08Z INFO --- logging initialized ---
+2024-12-18T18:30:08Z INFO --- logging initialized ---
+2024-12-18T18:30:09Z INFO --- logging initialized ---

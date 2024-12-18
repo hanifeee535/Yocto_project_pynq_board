@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-yo-ng: binary locale definition for yo-ng
+SUMMARY_glibc-binary-localedata-yo-ng: binary locale definition for yo-ng
+SECTION: base
+PKG_glibc-binary-localedata-yo-ng: glibc-binary-localedata-yo-ng
+FILES_glibc-binary-localedata-yo-ng: /usr/lib/locale/yo_NG
+FILES_INFO: {"/usr/lib/locale/yo_NG/LC_TELEPHONE": 60, "/usr/lib/locale/yo_NG/LC_NAME": 62, "/usr/lib/locale/yo_NG/LC_ADDRESS": 184, "/usr/lib/locale/yo_NG/LC_MEASUREMENT": 23, "/usr/lib/locale/yo_NG/LC_TIME": 3186, "/usr/lib/locale/yo_NG/LC_IDENTIFICATION": 281, "/usr/lib/locale/yo_NG/LC_COLLATE": 1253402, "/usr/lib/locale/yo_NG/LC_NUMERIC": 54, "/usr/lib/locale/yo_NG/LC_MONETARY": 294, "/usr/lib/locale/yo_NG/LC_CTYPE": 330604, "/usr/lib/locale/yo_NG/LC_PAPER": 34, "/usr/lib/locale/yo_NG/LC_MESSAGES/SYS_LC_MESSAGES": 90}
+PKGSIZE_glibc-binary-localedata-yo-ng: 1588274

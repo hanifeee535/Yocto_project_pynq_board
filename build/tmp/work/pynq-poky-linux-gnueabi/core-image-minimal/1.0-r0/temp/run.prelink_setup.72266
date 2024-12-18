@@ -1,0 +1,5 @@
+def prelink_setup(d):
+    oe.utils.write_ld_so_conf(d)
+
+prelink_setup(d)
+

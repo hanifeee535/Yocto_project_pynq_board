@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546328.93 
+update-rc.d-0.7-r5: do_packagedata_setscene
+Elapsed time: 0.05 seconds
+utime: 4
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 200767
+IO wchar: 89726
+IO syscr: 178
+IO syscw: 85
+IO read_bytes: 4096
+IO write_bytes: 81920
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.048261
+rusage ru_stime: 0.016087
+rusage ru_maxrss: 62560
+rusage ru_minflt: 5659
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.012123
+Child rusage ru_stime: 0.0034879999999999998
+Child rusage ru_maxrss: 60248
+Child rusage ru_minflt: 1738
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 28
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1734546328.98 

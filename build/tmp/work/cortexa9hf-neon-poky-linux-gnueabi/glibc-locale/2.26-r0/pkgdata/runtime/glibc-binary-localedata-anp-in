@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.26
+PR: r0
+PKGV: 2.26
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-binary-localedata-anp-in: binary locale definition for anp-in
+SUMMARY_glibc-binary-localedata-anp-in: binary locale definition for anp-in
+SECTION: base
+PKG_glibc-binary-localedata-anp-in: glibc-binary-localedata-anp-in
+FILES_glibc-binary-localedata-anp-in: /usr/lib/locale/anp_IN
+FILES_INFO: {"/usr/lib/locale/anp_IN/LC_TELEPHONE": 53, "/usr/lib/locale/anp_IN/LC_NAME": 124, "/usr/lib/locale/anp_IN/LC_ADDRESS": 139, "/usr/lib/locale/anp_IN/LC_MEASUREMENT": 23, "/usr/lib/locale/anp_IN/LC_TIME": 3158, "/usr/lib/locale/anp_IN/LC_IDENTIFICATION": 295, "/usr/lib/locale/anp_IN/LC_COLLATE": 1244054, "/usr/lib/locale/anp_IN/LC_NUMERIC": 54, "/usr/lib/locale/anp_IN/LC_MONETARY": 290, "/usr/lib/locale/anp_IN/LC_CTYPE": 333220, "/usr/lib/locale/anp_IN/LC_PAPER": 34, "/usr/lib/locale/anp_IN/LC_MESSAGES/SYS_LC_MESSAGES": 85}
+PKGSIZE_glibc-binary-localedata-anp-in: 1581529

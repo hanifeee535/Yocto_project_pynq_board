@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz for f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', 'f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz;downloadfilename=f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/f8/sstate%3Aptest-runner%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.1%2BgitAUTOINC%2B8a93832dad%3Ar0%3Acortexa9hf-neon%3A3%3Af8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz;downloadfilename=f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz
+DEBUG: Searching for f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz.siginfo for f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', 'f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz.siginfo;downloadfilename=f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/f8/sstate%3Aptest-runner%3Acortexa9hf-neon-poky-linux-gnueabi%3A2.1%2BgitAUTOINC%2B8a93832dad%3Ar0%3Acortexa9hf-neon%3A3%3Af8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz.siginfo;downloadfilename=f8/sstate:ptest-runner:cortexa9hf-neon-poky-linux-gnueabi:2.1+gitAUTOINC+8a93832dad:r0:cortexa9hf-neon:3:f8e6bde0dad87258ec8afa94fa188f37_package_write_rpm.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/cortexa9hf_neon/
+deploy-rpms/cortexa9hf_neon/ptest-runner-dev-2.1+git0+8a93832dad-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/ptest-runner-dbg-2.1+git0+8a93832dad-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/ptest-runner-2.1+git0+8a93832dad-r0.cortexa9hf_neon.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/ptest-runner/2.1+gitAUTOINC+8a93832dad-r0/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

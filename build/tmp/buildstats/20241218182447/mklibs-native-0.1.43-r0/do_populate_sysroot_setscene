@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546293.54 
+mklibs-native-0.1.43-r0: do_populate_sysroot_setscene
+Elapsed time: 0.06 seconds
+utime: 4
+stime: 1
+cutime: 1
+cstime: 0
+IO rchar: 619639
+IO wchar: 644107
+IO syscr: 232
+IO syscw: 121
+IO read_bytes: 57344
+IO write_bytes: 434176
+IO cancelled_write_bytes: 155648
+rusage ru_utime: 0.049883
+rusage ru_stime: 0.010688999999999999
+rusage ru_maxrss: 62664
+rusage ru_minflt: 6607
+rusage ru_majflt: 0
+rusage ru_inblock: 8
+rusage ru_oublock: 128
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 70
+Child rusage ru_utime: 0.012346
+Child rusage ru_stime: 0.003707
+Child rusage ru_maxrss: 60332
+Child rusage ru_minflt: 1955
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 104
+Child rusage ru_oublock: 720
+Child rusage ru_nvcsw: 32
+Child rusage ru_nivcsw: 36
+Status: PASSED 
+Ended: 1734546293.60 

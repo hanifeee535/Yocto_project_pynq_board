@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546292.97 
+linux-xlnx-4.9-xilinx-v2017.3+gitAUTOINC+f1b1e077d6-r0: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 10
+stime: 0
+cutime: 0
+cstime: 0
+IO rchar: 259408
+IO wchar: 97210
+IO syscr: 208
+IO syscw: 79
+IO read_bytes: 4096
+IO write_bytes: 65536
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.106434
+rusage ru_stime: 0.007884
+rusage ru_maxrss: 63456
+rusage ru_minflt: 6621
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 112
+rusage ru_nvcsw: 7
+rusage ru_nivcsw: 74
+Child rusage ru_utime: 0.009465999999999999
+Child rusage ru_stime: 0.004099
+Child rusage ru_maxrss: 61180
+Child rusage ru_minflt: 1746
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 27
+Child rusage ru_nivcsw: 26
+Status: PASSED 
+Ended: 1734546293.02 

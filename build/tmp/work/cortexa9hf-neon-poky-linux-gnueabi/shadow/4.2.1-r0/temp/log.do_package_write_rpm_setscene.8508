@@ -1,0 +1,67 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for 04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz for 04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz', '', '', OrderedDict([('downloadfilename', '04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz;downloadfilename=04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz returning file:///home/student/poky_cache/sstate-cache/04/sstate%3Ashadow%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.2.1%3Ar0%3Acortexa9hf-neon%3A3%3A0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz;downloadfilename=04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz
+DEBUG: Searching for 04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz.siginfo for 04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz.siginfo;downloadfilename=04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/04/sstate%3Ashadow%3Acortexa9hf-neon-poky-linux-gnueabi%3A4.2.1%3Ar0%3Acortexa9hf-neon%3A3%3A0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz.siginfo;downloadfilename=04/sstate:shadow:cortexa9hf-neon-poky-linux-gnueabi:4.2.1:r0:cortexa9hf-neon:3:0485b648870ccc8e9c636e3aa11483cf_package_write_rpm.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/cortexa9hf_neon/
+deploy-rpms/cortexa9hf_neon/shadow-locale-ne-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-nn-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-da-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-dz-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-base-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-id-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-he-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-hu-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-fr-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-vi-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-sk-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-ro-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-ja-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-zh-cn-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-uk-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-eu-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-it-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-pt-br-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-ko-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-ca-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-sv-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-tl-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-doc-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-km-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-kk-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-dbg-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-gl-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-fi-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-pt-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-pl-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-zh-tw-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-tr-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-cs-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-nl-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-el-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-sq-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-es-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-bs-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-ru-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-nb-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-locale-de-4.2.1-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/shadow-dev-4.2.1-r0.cortexa9hf_neon.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/shadow/4.2.1-r0/deploy-rpms to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

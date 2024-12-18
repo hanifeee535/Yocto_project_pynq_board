@@ -1,0 +1,26 @@
+DEBUG: Executing python function do_populate_lic_setscene
+DEBUG: Searching for 8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz for 8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz', '', '', OrderedDict([('downloadfilename', '8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz;downloadfilename=8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz returning file:///home/student/poky_cache/sstate-cache/8e/sstate%3Alibarchive-native%3A%3A3.3.2%3Ar0%3A%3A3%3A8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz;downloadfilename=8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz
+DEBUG: Searching for 8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz.siginfo for 8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz.siginfo;downloadfilename=8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/8e/sstate%3Alibarchive-native%3A%3A3.3.2%3Ar0%3A%3A3%3A8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz.siginfo;downloadfilename=8e/sstate:libarchive-native::3.3.2:r0::3:8ec6876277e0e94990cd26a3f8891259_populate_lic.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+license-destdir/
+license-destdir/libarchive-native/
+license-destdir/libarchive-native/COPYING
+license-destdir/libarchive-native/recipeinfo
+license-destdir/libarchive-native/generic_BSD
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/libarchive-native/3.3.2-r0/license-destdir to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/deploy/licenses
+DEBUG: Python function do_populate_lic_setscene finished

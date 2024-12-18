@@ -1,0 +1,14 @@
+PN: python3
+PV: 3.5.3
+PR: r1.0
+PKGV: 3.5.3
+PKGR: r1.0
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python3-mailbox: Python mailbox format support
+RDEPENDS_python3-mailbox: python3-core python3-mime
+SECTION: devel/python
+PKG_python3-mailbox: python3-mailbox
+FILES_python3-mailbox: /usr/lib/python3.5/mailbox.* /usr/lib/python3.5/__pycache__/mailbox.* 
+FILES_INFO: {"/usr/lib/python3.5/mailbox.py": 78418, "/usr/lib/python3.5/__pycache__/mailbox.cpython-35.opt-2.pyc": 60490, "/usr/lib/python3.5/__pycache__/mailbox.cpython-35.opt-1.pyc": 69683, "/usr/lib/python3.5/__pycache__/mailbox.cpython-35.pyc": 69782}
+PKGSIZE_python3-mailbox: 278373

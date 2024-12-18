@@ -1,0 +1,130 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "") echo "WARNING: exit code $ret from a shell command.";;
+        *)  echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from '$BASH_COMMAND'";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export AR="ar"
+export AS="as "
+export BUILD_AR="ar"
+export BUILD_AS="as "
+export BUILD_CC="gcc "
+export BUILD_CCLD="gcc "
+export BUILD_CFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_CPP="gcc  -E"
+export BUILD_CPPFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include"
+export BUILD_CXX="g++ "
+export BUILD_CXXFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include -O2 -pipe"
+export BUILD_FC="gfortran "
+export BUILD_LD="ld "
+export BUILD_LDFLAGS="-L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export BUILD_NM="nm"
+export BUILD_RANLIB="ranlib"
+export BUILD_STRIP="strip"
+export CC="gcc "
+export CCACHE_DIR="/home/student/.ccache"
+export CCLD="gcc "
+export CC_FOR_BUILD="gcc "
+export CFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include -O2 -pipe"
+export CFLAGS_FOR_BUILD="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include -O2 -pipe"
+export CONFIG_SITE="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/meta/site/native"
+export CPP="gcc  -E"
+export CPPFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include"
+export CPPFLAGS_FOR_BUILD="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include"
+export CPP_FOR_BUILD="gcc  -E"
+export CXX="g++ "
+export CXXFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include -O2 -pipe"
+export CXXFLAGS_FOR_BUILD="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include -O2 -pipe"
+export CXX_FOR_BUILD="g++ "
+unset DISTRO
+export FC="gfortran "
+export GETTEXTDATADIRS=""
+export HOME="/home/student"
+export LC_ALL="en_US.UTF-8"
+export LD="ld "
+export LDFLAGS="-L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export LDFLAGS_FOR_BUILD="-L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export LD_FOR_BUILD="ld "
+export LOGNAME="student"
+unset MACHINE
+export MAKE="make"
+export NM="nm"
+export OBJCOPY="objcopy"
+export OBJDUMP="objdump"
+export PATH="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/scripts/native-intercept:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/scripts:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/bin/x86_64-linux:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/sbin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/sbin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/poky/bitbake/bin:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/hosttools"
+export PKG_CONFIG_DIR="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib/pkgconfig"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export PKG_CONFIG_LIBDIR="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib/pkgconfig"
+export PKG_CONFIG_PATH="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib/pkgconfig:/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/share/pkgconfig"
+export PKG_CONFIG_SYSROOT_DIR=""
+unset PKG_CONFIG_SYSTEM_INCLUDE_PATH
+unset PKG_CONFIG_SYSTEM_LIBRARY_PATH
+export PSEUDO_DISABLED="1"
+export PSEUDO_UNLOAD="1"
+export RANLIB="ranlib"
+export READELF="readelf"
+unset SHELL
+export STRINGS="strings"
+export STRIP="strip"
+unset TARGET_ARCH
+export TARGET_CFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include -O2 -pipe"
+export TARGET_CPPFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include"
+export TARGET_CXXFLAGS="-isystem/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include -O2 -pipe"
+export TARGET_LDFLAGS="-L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -L/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -Wl,-rpath-link,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib -Wl,-rpath,/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib -Wl,-O1 -Wl,--allow-shlib-undefined -Wl,--dynamic-linker=/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/sysroots-uninative/x86_64-linux/lib/ld-linux-x86-64.so.2"
+export TERM="xterm-256color"
+export TZ="UTC"
+export USER="student"
+export base_bindir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/bin"
+export base_libdir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib"
+export base_prefix="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native"
+export base_sbindir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/sbin"
+export bindir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/bin"
+export datadir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/share"
+export docdir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/share/doc"
+export exec_prefix="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr"
+export includedir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include"
+export infodir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/share/info"
+export libdir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib"
+export libexecdir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/libexec"
+export localstatedir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/var"
+export lt_cv_sys_lib_dlsearch_path_spec="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib /lib /lib64 /usr/lib /usr/lib64"
+export mandir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/share/man"
+export nonarch_base_libdir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib"
+export nonarch_libdir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib"
+export oldincludedir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/include"
+export prefix="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr"
+export sbindir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/sbin"
+export servicedir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/srv"
+export sharedstatedir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/com"
+export sysconfdir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/etc"
+export systemd_system_unitdir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib/systemd/system"
+export systemd_unitdir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/lib/systemd"
+export systemd_user_unitdir="/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/recipe-sysroot-native/usr/lib/systemd/user"
+
+sstate_unpack_package() {
+	tar -xvzf /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz
+	# update .siginfo atime on local/NFS mirror
+	[ -w /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz.siginfo ] && [ -h /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz.siginfo ] && touch -a /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz.siginfo
+	# Use "! -w ||" to return true for read only files
+	[ ! -w /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz ] || touch --no-dereference /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz
+	[ ! -w /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz.sig ] || [ ! -e /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz.sig ] || touch --no-dereference /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz.sig
+	[ ! -w /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz.siginfo ] || [ ! -e /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz.siginfo ] || touch --no-dereference /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/46/sstate:popt-native::1.16:r3::3:464a939f80464b7b89c201669277dffe_populate_lic.tgz.siginfo
+}
+
+cd '/home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/x86_64-linux/popt-native/1.16-r3/sstate-install-populate_lic/'
+sstate_unpack_package
+
+# cleanup
+ret=$?
+trap '' 0
+exit $ret

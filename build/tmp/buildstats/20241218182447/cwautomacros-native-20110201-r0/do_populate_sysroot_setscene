@@ -1,0 +1,35 @@
+Event: TaskStarted 
+Started: 1734546319.31 
+cwautomacros-native-20110201-r0: do_populate_sysroot_setscene
+Elapsed time: 0.05 seconds
+utime: 7
+stime: 0
+cutime: 1
+cstime: 0
+IO rchar: 429185
+IO wchar: 419191
+IO syscr: 222
+IO syscw: 205
+IO read_bytes: 36864
+IO write_bytes: 323584
+IO cancelled_write_bytes: 0
+rusage ru_utime: 0.071634
+rusage ru_stime: 0.008954
+rusage ru_maxrss: 62752
+rusage ru_minflt: 5959
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 160
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 52
+Child rusage ru_utime: 0.014501
+Child rusage ru_stime: 0.0
+Child rusage ru_maxrss: 60456
+Child rusage ru_minflt: 1788
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 56
+Child rusage ru_oublock: 472
+Child rusage ru_nvcsw: 38
+Child rusage ru_nivcsw: 24
+Status: PASSED 
+Ended: 1734546319.36 

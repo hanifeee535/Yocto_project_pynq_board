@@ -1,0 +1,87 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz for 13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz', '', '', OrderedDict([('downloadfilename', '13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz;downloadfilename=13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz returning file:///home/student/poky_cache/sstate-cache/13/sstate%3Axz%3Acortexa9hf-neon-poky-linux-gnueabi%3A5.2.3%3Ar0%3Acortexa9hf-neon%3A3%3A13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz;downloadfilename=13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz
+DEBUG: Searching for 13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz.siginfo in paths:
+    /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache
+DEBUG: Defaulting to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/sstate-cache/13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz.siginfo for 13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz.siginfo', '', '', OrderedDict([('downloadfilename', '13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz.siginfo')])] comparing ['file', '', '.*', '', '', OrderedDict()] to ['file', '', '//home/student/poky_cache/sstate-cache/PATH', '', '', OrderedDict()]
+DEBUG: For url file://13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz.siginfo;downloadfilename=13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz.siginfo returning file:///home/student/poky_cache/sstate-cache/13/sstate%3Axz%3Acortexa9hf-neon-poky-linux-gnueabi%3A5.2.3%3Ar0%3Acortexa9hf-neon%3A3%3A13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz.siginfo;downloadfilename=13/sstate:xz:cortexa9hf-neon-poky-linux-gnueabi:5.2.3:r0:cortexa9hf-neon:3:13f388c00ffc7fdcf7bcec9c249375ff_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime/
+pkgdata/runtime/xz-locale-de
+pkgdata/runtime/xz-locale-vi.packaged
+pkgdata/runtime/xz-locale-vi
+pkgdata/runtime/xz-locale-it
+pkgdata/runtime/xz-locale-fr.packaged
+pkgdata/runtime/xz-locale-it.packaged
+pkgdata/runtime/xz-locale-de.packaged
+pkgdata/runtime/xz-dbg
+pkgdata/runtime/xz-dev.packaged
+pkgdata/runtime/xz-locale-fr
+pkgdata/runtime/liblzma
+pkgdata/runtime/xz-doc
+pkgdata/runtime/xz-locale-cs
+pkgdata/runtime/xz.packaged
+pkgdata/runtime/xz-locale-pl
+pkgdata/runtime/xz-dbg.packaged
+pkgdata/runtime/xz-locale-cs.packaged
+pkgdata/runtime/xz
+pkgdata/runtime/xz-locale-pl.packaged
+pkgdata/runtime/xz-doc.packaged
+pkgdata/runtime/xz-staticdev
+pkgdata/runtime/liblzma.packaged
+pkgdata/runtime/xz-dev
+pkgdata/shlibs2/
+pkgdata/shlibs2/xz-dev.pclist
+pkgdata/shlibs2/liblzma.list
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/xz-locale/
+pkgdata/runtime-rprovides/xz-locale/xz-locale-de
+pkgdata/runtime-rprovides/xz-locale/xz-locale-vi
+pkgdata/runtime-rprovides/xz-locale/xz-locale-it
+pkgdata/runtime-rprovides/xz-locale/xz-locale-fr
+pkgdata/runtime-rprovides/xz-locale/xz-locale-cs
+pkgdata/runtime-rprovides/xz-locale/xz-locale-pl
+pkgdata/runtime-rprovides/pl-translation/
+pkgdata/runtime-rprovides/pl-translation/xz-locale-pl
+pkgdata/runtime-rprovides/vi-translation/
+pkgdata/runtime-rprovides/vi-translation/xz-locale-vi
+pkgdata/runtime-rprovides/fr-translation/
+pkgdata/runtime-rprovides/fr-translation/xz-locale-fr
+pkgdata/runtime-rprovides/(=5.2.3)/
+pkgdata/runtime-rprovides/(=5.2.3)/liblzma
+pkgdata/runtime-rprovides/liblzma/
+pkgdata/runtime-rprovides/liblzma/liblzma
+pkgdata/runtime-rprovides/cs-translation/
+pkgdata/runtime-rprovides/cs-translation/xz-locale-cs
+pkgdata/runtime-rprovides/de-translation/
+pkgdata/runtime-rprovides/de-translation/xz-locale-de
+pkgdata/runtime-rprovides/it-translation/
+pkgdata/runtime-rprovides/it-translation/xz-locale-it
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/xz-locale-de
+pkgdata/runtime-reverse/xz-locale-vi
+pkgdata/runtime-reverse/xz-locale-it
+pkgdata/runtime-reverse/liblzma5
+pkgdata/runtime-reverse/xz-dbg
+pkgdata/runtime-reverse/xz-locale-fr
+pkgdata/runtime-reverse/xz-doc
+pkgdata/runtime-reverse/xz-locale-cs
+pkgdata/runtime-reverse/xz-locale-pl
+pkgdata/runtime-reverse/xz
+pkgdata/runtime-reverse/xz-dev
+pkgdata/xz
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/work/cortexa9hf-neon-poky-linux-gnueabi/xz/5.2.3-r0/pkgdata to /home/student/Desktop/yocto_pynq/Yocto_project_pynq_board/build/tmp/pkgdata/pynq
+DEBUG: Python function do_packagedata_setscene finished
